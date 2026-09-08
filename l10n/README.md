@@ -3,12 +3,22 @@
 這個目錄放的是翻譯工具與翻譯檔，不是文件內容本身。譯文本體在 `contents/zh-TW/`。
 文體規範與術語表見 [`../docs/chinese-style-guide.md`](../docs/chinese-style-guide.md)。
 
-翻譯以 `contents/ja/` 為原文（msgid），`contents/en/` 為參考語言，兩種校對介面二選一：
+語言角色：
+
+| 角色 | 語言 | 來源 |
+|------|------|------|
+| 原始語言（msgid） | 英文 `en` | `contents/en/` + `README.en.md` |
+| 第二語言（對照） | 日文 `ja` | `contents/ja/` + `README.md`——IPA 的權威原文，語意有疑慮時以它為準 |
+| 要翻譯的語言 | 正體中文 `zh_Hant` | `contents/zh-TW/` + `README.zh-TW.md`，唯一會被寫回的語言 |
+
+**區塊骨架仍然是日文原檔**：每個檔案切成幾個區塊、區塊序號、以及寫回 Markdown 時的空行與
+縮排，都以 `contents/ja/` 為準。英文版是翻譯，少數地方把幾段併成一段，所以它不適合當骨架。
 
 | 路徑 | 用途 |
 |------|------|
 | `po/` | gettext PO / POT，可直接匯入 Weblate。7 個組件、698 筆去重後字串。 |
-| `build-translation-xlsx.py` 產生的 xlsx | 試算表校對表（不進版控，需要時再產）。815 列（未去重），日文／英文／中文三欄並列。 |
+| `frozen-zh-TW.json` | 保險機制：英文版若有沒對應到的區塊，中文譯文存在這裡。目前全部對齊，所以沒有這個檔案。 |
+| `build-translation-xlsx.py` 產生的 xlsx | 試算表校對表（不進版控，需要時再產）。815 列（未去重），英文／日文／中文三欄並列。 |
 
 兩者由同一套區塊切法產生，PO 的 `#: 檔名:序號` 與 xlsx 的「頁面 + 區塊」欄位對得起來，
 可以混用：一批人用 Weblate，一批人用 Google 試算表。
@@ -23,13 +33,29 @@ component（SBOM 的軟體元件）依術語表仍譯「元件」，兩者是不
 | `mdblocks.py` | 共用的 Markdown 區塊切法（標題／段落／清單／表格／引用／註解／程式碼／分隔線）。 |
 | `l10n_files.py` | 組件與檔案的對應表。要增減檔案或組件改這裡。 |
 | `po_io.py` | 極簡 PO 讀寫。 |
-| `markdown-to-po.py` | `contents/` → `po/`。改完 Markdown 後重跑，更新 POT 與各語言 PO。 |
+| `markdown-to-po.py` | `contents/` → `po/`（含 `frozen-zh-TW.json`）。改完 Markdown 後重跑。 |
 | `po-to-markdown.py` | `po/zh_Hant/` → `contents/zh-TW/`。Weblate 交回譯文後跑這個。`--check` 只比對不寫檔。 |
 | `build-translation-xlsx.py` | 重新產生 xlsx 校對表（需要 `openpyxl`）。 |
 
-寫回時以 `contents/ja/` 的原檔為骨架，逐區塊換上譯文，所以空行、縮排、區塊順序一定與
-日文原檔一致；PO 裡未翻譯的區塊會保留日文原文，缺漏看得見。目前 `po-to-markdown.py --check`
-的結果與 `contents/zh-TW/` 逐位元組相同。
+寫回時以 `contents/ja/` 的原檔為骨架，用英文原文當鍵去查 PO 換上中文，所以空行、縮排、
+區塊順序一定與日文原檔一致；PO 裡未翻譯的區塊會保留日文原文，缺漏看得見。`contents/ja/`
+與 `contents/en/` 是上游內容，寫回腳本有 assert 保護，永不寫入。目前
+`po-to-markdown.py --check` 的結果與 `contents/zh-TW/` 逐位元組相同。
+
+### 為了讓英文能當原始語言，`contents/en/` 補過三處
+
+英文版原本漏了日文原文的一些內容，那些區塊會沒有 msgid、無法在 Weblate 校對，所以依日文
+原文補回英文版。這幾處與上游的 `contents/en/` 不同，值得整理成 PR 回饋給上游：
+
+| 檔案 | 補了什麼 |
+|------|----------|
+| `compliance/source-disclosure-licenses.md` | 「以下列出幾個具體情境：」這句引導句整段漏掉 |
+| `using/evaluation.md` | 日文的 3 段被併成 1 段（授權評估）、另外 3 段被併成 1 段（評估結果的運用）；已拆回 |
+| `using/evaluation.md` | 交互參照連結 `[Finding Open Source Software]` 漏掉 |
+| `using/usage-faq.md` | 客製化檢核清單的第 4 項漏掉 |
+
+另外新增了 `README.en.md`（依 `README.md` 逐區塊翻譯），`readme` 組件才有原始語言。
+三份 README 都是 46 個區塊、類型序列一致。
 
 ## 匯入 Weblate（translate.codeberg.org）
 
@@ -55,6 +81,7 @@ project**：
 | URL slug（URL 代稱） | `ospo-starter-kit` |
 | Project website（專案網站） | Codeberg 儲存庫網址 |
 | Translation instructions（翻譯說明） | `docs/chinese-style-guide.md` 的網址 |
+| Secondary language（第二語言；專案設定或個人偏好設定） | Japanese |
 
 ### 2. 建第一個組件
 
@@ -72,12 +99,12 @@ project**：
 | Monolingual base language file（單語言基底語言檔案） | 留空（這是雙語 PO） |
 | Template for new translations（新翻譯的範本） | `l10n/po/policy-articles.pot` |
 | Edit base file（編輯基底檔案） | 不勾 |
-| Source language（來源語言） | Japanese (`ja`) |
+| Source language（來源語言） | **English (`en`)** |
 | Translation license（翻譯授權條款） | CC0-1.0 |
 
 ### 3. 其餘 6 個組件
 
-介面的表單一次只能建一個，但不必手動建 7 次：掛 **Component discovery**（介面中譯
+介面的表單一次只能建一個，但不必一個個手動建：掛 **Component discovery**（介面中譯
 「組件探索」）附加元件，安裝當下就會把其餘的建出來，不用等下一次 push。
 
 安裝位置要注意：**它只出現在「組件」的附加元件頁面，不在「專案」的附加元件頁面**
@@ -111,12 +138,12 @@ base，只有單語言格式才要填）留空，**定義新翻譯的基礎檔�
 如果檔案格式誤選成「gettext PO 檔案（單語言）」，留空就會被擋下來，錯誤訊息是
 「您不用基底檔案就不能作單語言翻譯。」——改回「gettext PO 檔案」即可。
 
-安裝時會先列出比對到的檔案讓你確認，應該是 7 個組件 × 2 個語言（`en`、`zh_Hant`），
+安裝時會先列出比對到的檔案讓你確認，應該是 7 個組件 × 2 個語言（`ja`、`zh_Hant`），
 其中主組件已存在不會重複建。discovery 產生的組件用 `weblate://` 內部網址串在主組件上，
-所以 7 個組件共用同一份 git checkout。建完檢查一下各組件的 Source language 是不是 `ja`。
+所以 7 個組件共用同一份 git checkout。**建完逐一確認各組件的 Source language 是 `en`**。
 
 若在組件頁面也找不到組件探索，那就是站方沒啟用這個附加元件（`WEBLATE_ADDONS` 設定），
-只能手動建 6 個。手動建時 **Source code repository 要填
+只能手動建。手動建時 **Source code repository 要填
 `weblate://ospo-starter-kit/policy-articles`**，否則會 clone 7 份。
 
 組件 id 與檔案的對應見 `l10n_files.py`：`policy-articles`、`policy-intro`、`operation-root`、
@@ -135,10 +162,15 @@ base，只有單語言格式才要填）留空，**定義新翻譯的基礎檔�
 
 ### 5. 幾個會踩到的點
 
-- `en/` 會被自動辨識成一個翻譯語言（因為遮罩是 `l10n/po/*/`），這是刻意的——它是對照用的
-  參考語言，顯示 93% 是正常的（英文版有 4 個區塊結構對不上、README 沒有英文版）。翻譯者請到
-  個人 **Preferences → Languages**（偏好設定 → 語言）把 English 設成 secondary language（第二語言），校對時就會並排顯示。
-  若用組件的 Language filter 排掉 `en`，英文對照也會跟著消失。
+- `ja/` 會被自動辨識成一個翻譯語言（因為遮罩是 `l10n/po/*/`），這是刻意的——它是對照用的
+  第二語言，100%「已翻譯」。翻譯者請到個人 **Preferences → Languages**（偏好設定 → 語言）
+  把 Japanese 設成 secondary language（第二語言），校對時就會與英文並排顯示。
+- **不要在 Weblate 上編輯日文**。`contents/ja/` 是 IPA 的權威原文，寫回腳本永遠不會把
+  Weblate 上的日文寫回去，在那裡改只會在下次重新產生 PO 時被蓋掉。要更嚴格的話，用專案的
+  Access control 開一個只含 `zh_Hant` 的翻譯群組。
+- 原始語言換掉時（例如從日文換成英文），**msgid 全部都會變**：Weblate 會把舊字串當成消失、
+  新字串當成新增。換之前先在 Weblate 按「提交」把待處理的變更寫進 git，否則那些改動會遺失。
+  重新產生的 PO 會帶著全部中文譯文，Weblate 拉到之後 `zh_Hant` 仍是 100%。
 - Weblate 會改寫 PO 表頭（加上自己的 `X-Generator`、`PO-Revision-Date`），首次提交會有一段
   表頭 diff，正常。
 - **腳本的執行順序**：Weblate 交回譯文後先跑 `po-to-markdown.py` 把譯文寫進
@@ -150,11 +182,12 @@ base，只有單語言格式才要填）留空，**定義新翻譯的基礎檔�
 ## 校對規則
 
 1. 只改譯文，不要增刪區塊——`contents/zh-TW/` 的檔案集合與區塊數必須與 `contents/ja/`
-   完全相同，PO 以 `檔名:序號` 對位，增刪區塊會讓整份對照錯行。
+   完全相同，PO 以 `檔名:序號`（序號以日文原檔為準）對位，增刪區塊會讓整份對照錯行。
 2. 標成 `no-wrap` 的區塊（程式碼、分隔線）多數照抄原文即可；但目錄樹裡的中文註解要翻。
 3. `[公司名稱]`、`［公司名稱］` 這類佔位符整份文件要一致，否則使用者做全域取代時會漏掉。
 4. 條號與 `a. b. c.` 項次代號不可調換，條文之間會互相引用。選用條文的全形 `【】` 沿用日文。
 5. 有新增或修訂的術語，一併更新 `docs/chinese-style-guide.md` 的術語表。
 
-同一句日文在不同檔案出現時，PO 會去重成一筆（例如各範本開頭那段給 OSPO 承辦人的註解，
-20 幾個檔案共用一筆）。`markdown-to-po.py` 若發現同一句原文有兩種中文譯法會報錯，請先統一。
+同一句英文在不同檔案出現時，PO 會去重成一筆（例如各範本開頭那段給 OSPO 承辦人的註解，
+20 幾個檔案共用一筆）。`markdown-to-po.py` 若發現同一句原文有兩種中文譯法會報錯，請先統一
+——英文版偶爾會把日文原本略有差異的兩句併成同一句，那時中文只能跟著併。

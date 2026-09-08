@@ -8,8 +8,11 @@
 import os
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LANGS = {"en": "en", "zh_Hant": "zh-TW"}          # PO 語言碼 → contents/ 目錄名
-SOURCE = "ja"                                      # msgid 的來源語言
+MSGID = "en"                                       # msgid（原始語言）取自 contents/en/
+SPINE = "ja"                                       # 區塊骨架：日文原檔決定區塊順序與排版
+LANGS = {"ja": "ja", "zh_Hant": "zh-TW"}           # 要產生 PO 的語言 → contents/ 目錄名
+TARGET = "zh_Hant"                                 # 唯一會被寫回 Markdown 的語言
+SOURCE = SPINE                                     # 相容舊用法：path_for(rel, "ja")
 
 # (組件 id, xlsx 分頁名, 來源目錄或檔案)
 COMPONENTS = [
@@ -23,7 +26,7 @@ COMPONENTS = [
     ("readme", "README", None),                    # 特例：倉庫根目錄的 README
 ]
 
-README = {"ja": "README.md", "en": None, "zh_Hant": "README.zh-TW.md"}
+README = {"ja": "README.md", "en": "README.en.md", "zh_Hant": "README.zh-TW.md"}
 
 
 def component_files(spec):
@@ -41,7 +44,7 @@ def path_for(rel, lang):
     if rel is None:
         name = README[lang]
         return os.path.join(BASE, name) if name else None
-    sub = SOURCE if lang == "ja" else LANGS[lang]
+    sub = "ja" if lang == "ja" else ("en" if lang == "en" else LANGS[lang])
     return os.path.join(BASE, "contents", sub, rel)
 
 

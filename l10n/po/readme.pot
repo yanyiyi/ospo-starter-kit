@@ -10,306 +10,306 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Source-Language: ja\n"
+"X-Source-Language: en\n"
 "X-Generator: ospo-starter-kit l10n/markdown-to-po.py\n"
 
 #. type: 標題
 #: README.md:1
-msgid "# OSPOスターターキット　ドラフト版"
+msgid "# OSPO Starter Kit　Draft"
 msgstr ""
 
 #. type: 段落
 #: README.md:2
-msgid "本キットは、組織においてオープンソースプログラムオフィス（OSPO）を設立し、オープンソースの戦略的な活用と適切なガバナンス体制を構築するためのテンプレート集です。"
+msgid "This kit is a collection of templates for establishing an Open Source Program Office (OSPO) in an organization and for building the strategic use of open source together with an appropriate governance structure."
 msgstr ""
 
 #. type: 標題
 #: README.md:3
-msgid "## ⚠️ 開発ステータスと今後の予定"
+msgid "## ⚠️ Development Status and Roadmap"
 msgstr ""
 
 #. type: 段落
 #: README.md:4
 msgid ""
-"本キットは現在 **「ドラフト版（未完成）」** です。一部の内容は検討中または作成途中であり、今後大幅に更新される可能性があります。アップデートの状況については、[Releases\n"
-"](https://github.com/japan-opensource-hub/ospo-starter-kit/releases)を参照してください。"
+"This kit is currently a **\"draft (incomplete)\"**. Some content is still under consideration or in progress and may change substantially. For the status of updates, see [Releases\n"
+"](https://github.com/japan-opensource-hub/ospo-starter-kit/releases)."
 msgstr ""
 
 #. type: 標題
 #: README.md:5
-msgid "## 同梱ファイル一覧と概要"
+msgid "## Included Files and Overview"
 msgstr ""
 
 #. type: 段落
 #: README.md:6
-msgid "本キットには以下のドキュメントが含まれています。"
+msgid "This kit contains the following documents."
 msgstr ""
 
 #. type: 標題
 #: README.md:7
-msgid "### A. OSSポリシー（全社規定）テンプレート（`oss-policy-templates/`）"
+msgid "### A. OSS Policy (Company-Wide Rules) Templates (`oss-policy-templates/`)"
 msgstr ""
 
 #. type: 段落
 #: README.md:8
-msgid "社内OSSポリシー（全社規定）を策定する際に参考となる条文サンプルと、その背景・カスタマイズ指針をまとめたテンプレートです。各条文は「条文サンプル」「解説」「カスタマイズの観点と運用上の留意事項」の3セクションで構成されています。"
+msgid "Templates that collect sample articles to refer to when drafting an internal OSS policy (company-wide rules), together with their background and customization guidance. Each article consists of three sections: \"Sample Article\", \"Commentary\", and \"Customization Perspectives and Operational Notes\"."
 msgstr ""
 
 #. type: 清單
 #: README.md:9
 msgid ""
-"- `introduction.md`：はじめに ─ この文書の使い方\n"
-"- `articles/00_preamble.md`：第0条前文\n"
-"- `articles/01_purpose.md`：第1条目的\n"
-"- `articles/02_definitions.md`：第2条用語の定義\n"
-"- `articles/03_scope.md`：第3条適用範囲\n"
-"- `articles/04_ospo.md`：第4条OSPO\n"
-"- `articles/05_oss_usage.md`：第5条OSSの利用\n"
-"- `articles/06_contribution.md`：第6条OSSプロジェクトへのコントリビューション\n"
-"- `articles/07_oss_release.md`：第7条当社著作物のOSSとしての公開\n"
-"- `articles/08_personal_oss_activity.md`：第8条従業員の私的OSS活動\n"
-"- `articles/09_trademark_and_brand.md`：第9条商標およびブランドの取扱い\n"
-"- `articles/10_license_violation_incident.md`：第10条ライセンス違反およびインシデントへの対応\n"
-"- `articles/11_security_and_vulnerability.md`：第11条セキュリティおよび脆弱性対応\n"
-"- `articles/12_records_and_reporting.md`：第12条記録および報告\n"
-"- `articles/13_education_and_awareness.md`：第13条教育および啓発\n"
-"- `articles/14_employment_rules_relation.md`：第14条就業規則等との関係\n"
-"- `articles/15_revision_and_enforcement.md`：第15条改定および施行"
+"- `introduction.md`: Introduction ─ How to Use This Document\n"
+"- `articles/00_preamble.md`: Article 0. Preamble\n"
+"- `articles/01_purpose.md`: Article 1. Purpose\n"
+"- `articles/02_definitions.md`: Article 2. Definitions\n"
+"- `articles/03_scope.md`: Article 3. Scope of Application\n"
+"- `articles/04_ospo.md`: Article 4. OSPO\n"
+"- `articles/05_oss_usage.md`: Article 5. OSS Usage\n"
+"- `articles/06_contribution.md`: Article 6. Contribution to OSS Projects\n"
+"- `articles/07_oss_release.md`: Article 7. Releasing Company Works as OSS\n"
+"- `articles/08_personal_oss_activity.md`: Article 8. Employees' Personal OSS Activities\n"
+"- `articles/09_trademark_and_brand.md`: Article 9. Handling of Trademarks and Branding\n"
+"- `articles/10_license_violation_incident.md`: Article 10. Response to License Violations and Incidents\n"
+"- `articles/11_security_and_vulnerability.md`: Article 11. Security and Vulnerability Management\n"
+"- `articles/12_records_and_reporting.md`: Article 12. Records and Reporting\n"
+"- `articles/13_education_and_awareness.md`: Article 13. Education and Awareness\n"
+"- `articles/14_employment_rules_relation.md`: Article 14. Relation to Employment Regulations\n"
+"- `articles/15_revision_and_enforcement.md`: Article 15. Revision and Enforcement"
 msgstr ""
 
 #. type: 標題
 #: README.md:10
-msgid "### B. 運用テンプレート（`operation-templates/`）"
+msgid "### B. Operation Templates (`operation-templates/`)"
 msgstr ""
 
 #. type: 段落
 #: README.md:11
-msgid "社内ポータルサイト（WikiやSharePoint等）に掲載し、担当者に周知するためのドキュメントテンプレートです。各テンプレートに「カスタマイズチェックリスト」「カスタマイズガイド（コメント内）」を記載しています。"
+msgid "Document templates to publish on an internal portal (Wiki, SharePoint, and the like) and communicate to the people concerned. Each template carries a \"Customization Checklist\" and a \"Customization Guide\" (inside comments)."
 msgstr ""
 
 #. type: 段落
 #: README.md:12
-msgid "テンプレートの導入・カスタマイズ手順については、`how-to-use-templates-for-ospo.md`（OSPO担当者向け）および `how-to-use-guide-for-users.md`（利用者向け）を参照してください。"
+msgid "For how to introduce and customize the templates, see `how-to-use-templates-for-ospo.md` (for OSPO staff) and `how-to-use-guide-for-users.md` (for end users)."
 msgstr ""
 
 #. type: 清單
 #: README.md:13
 msgid ""
-"- **基礎・組織**（`about/`）\n"
-"  - `opensource-guide.md`：オープンソースガイド（入り口）\n"
-"  - `about-opensource.md`：オープンソースについて\n"
-"  - `benefits.md`：オープンソースの利点\n"
-"  - `ospo.md`：OSPOとは\n"
-"  - `innersource.md`：インナーソースとは\n"
-"  - `glossary.md`：用語集"
+"- **Fundamentals and Organization** (`about/`)\n"
+"  - `opensource-guide.md`: [Company Name] Open Source Guide (entry point)\n"
+"  - `about-opensource.md`: About Open Source\n"
+"  - `benefits.md`: Benefits of Open Source\n"
+"  - `ospo.md`: What Is an OSPO?\n"
+"  - `innersource.md`: What Is InnerSource?\n"
+"  - `glossary.md`: Glossary"
 msgstr ""
 
 #. type: 清單
 #: README.md:14
 msgid ""
-"- **ライセンスコンプライアンス**（`compliance/`）\n"
-"  - `license-compliance.md`：オープンソースライセンスコンプライアンス\n"
-"  - `what-is-a-license.md`：ライセンスとは\n"
-"  - `license-types.md`：ライセンスの種類\n"
-"  - `source-disclosure-licenses.md`：ソースコード提供義務のあるライセンス\n"
-"  - `oss-with-commercial-license-options.md`：商用ライセンスが選択できるOSS\n"
-"  - `license-faq.md`：ライセンスFAQ"
+"- **License Compliance** (`compliance/`)\n"
+"  - `license-compliance.md`: Open Source License Compliance\n"
+"  - `what-is-a-license.md`: What Is a License?\n"
+"  - `license-types.md`: Types of Licenses\n"
+"  - `source-disclosure-licenses.md`: Licenses with Source Code Disclosure Obligations\n"
+"  - `oss-with-commercial-license-options.md`: OSS with Commercial License Options\n"
+"  - `license-faq.md`: License FAQ"
 msgstr ""
 
 #. type: 清單
 #: README.md:15
 msgid ""
-"- **実務・OSS活用**（`using/`）\n"
-"  - `using-oss.md`：OSSを使う\n"
-"  - `finding-oss.md`：OSSの探し方\n"
-"  - `oss-inventory.md`：社内導入済みOSSリスト\n"
-"  - `evaluation.md`：OSSの評価方法\n"
-"  - `supplier-procurement.md`：サプライヤーからのOSS入手手順\n"
-"  - `usage-faq.md`：OSS利用FAQ"
+"- **Practice and OSS Utilization** (`using/`)\n"
+"  - `using-oss.md`: Using Open Source\n"
+"  - `finding-oss.md`: Finding Open Source Software\n"
+"  - `oss-inventory.md`: Approved Internal OSS Inventory\n"
+"  - `evaluation.md`: Evaluating Open Source Software\n"
+"  - `supplier-procurement.md`: Procuring OSS from Suppliers\n"
+"  - `usage-faq.md`: OSS Usage FAQ"
 msgstr ""
 
 #. type: 標題
 #: README.md:16
-msgid "## ライセンスについて"
+msgid "## License"
 msgstr ""
 
 #. type: 段落
 #: README.md:17
-msgid "本キットに含まれるテキストおよびドキュメントは、 **[CC0 1.0 Universal (パブリックドメイン提供)](https://creativecommons.org/publicdomain/zero/1.0/)** の下で提供されています。"
+msgid "The text and documents contained in this kit are provided under **[CC0 1.0 Universal (Public Domain Dedication)](https://creativecommons.org/publicdomain/zero/1.0/)**."
 msgstr ""
 
 #. type: 清單
 #: README.md:18
 msgid ""
-"- **著作権の放棄**：著作権法上の権利を放棄しており、営利・非営利を問わず、許可なく複製、改変、再配布が可能です。\n"
-"- **クレジット表記不要**：原作者のクレジット（帰属）を表示する必要はありません。自社のブランドやロゴを用いた社内公式ドキュメントとして、自由に書き換えてご利用ください。"
+"- **Waiver of copyright**: Rights under copyright law are waived, so the content may be reproduced, modified, and redistributed without permission, whether for commercial or non-commercial purposes.\n"
+"- **No attribution required**: There is no need to credit (attribute) the original authors. Feel free to rewrite the content and use it as an official internal document under your own brand and logo."
 msgstr ""
 
 #. type: 標題
 #: README.md:19
-msgid "## 免責事項（ご利用上の注意）"
+msgid "## Disclaimer (Notes on Use)"
 msgstr ""
 
 #. type: 段落
 #: README.md:20
-msgid "本キットはCC0ライセンスにより著作権的な制約なくご利用いただけますが、以下の点にご留意ください。"
+msgid "This kit may be used without copyright restrictions thanks to the CC0 license, but please keep the following in mind."
 msgstr ""
 
 #. type: 清單
 #: README.md:21
 msgid ""
-"- **法務確認の必要性**：本キットに含まれるポリシーおよびライセンス解説は一般的な雛形です。実際の運用にあたっては、必ず自社の法務・知財部門または専門家の確認を受けてください。\n"
-"- **無保証**：本キットは「現状のまま」提供され、商品性、特定目的への適合性、非侵害の保証を含むいかなる明示的または黙示的な保証も行いません。本キットの利用に起因していかなる損害が生じた場合も、提供者は責任を負いません。"
+"- **Legal review is necessary**: The policy and license explanations in this kit are generic templates. Before putting them into practice, always have them reviewed by your own legal or intellectual property department, or by an expert.\n"
+"- **No warranty**: This kit is provided \"as is\", without any express or implied warranty, including warranties of merchantability, fitness for a particular purpose, and non-infringement. The providers accept no liability for any damages arising from the use of this kit."
 msgstr ""
 
 #. type: 標題
 #: README.md:22
-msgid "## コントリビューションガイドライン（暫定）"
+msgid "## Contribution Guidelines (Provisional)"
 msgstr ""
 
 #. type: 段落
 #: README.md:23
-msgid "運用しながら随時アップデートしますが、当面は以下を目安とします。"
+msgid "These will be updated as we go, but for the time being please use the following as a guide."
 msgstr ""
 
 #. type: 清單
 #: README.md:24
 msgid ""
-"- 大きな構造変更や方針変更は、まずIssuesで相談しましょう。\n"
-"  - 例：ディレクトリ構成の変更、テンプレートの大幅な書き換え、運用ルールの変更 等\n"
-"  - 改善提案は背景・期待する効果を明記してください。\n"
-"- 小さな修正（誤字脱字、軽微な表現調整）はそのままPull Request(以下、PR)して構いません。\n"
-"- PRのタイトル・説明には、できるだけ「なぜそうするのか」を簡潔に記載してください。\n"
-"  - コミットタイトルに [add], [fix], [update] などのタグを先頭に付けることを推奨します。\n"
-"- PR対応\n"
-"  - 1名以上のレビューを経てマージすることとします。\n"
-"  - テストやリンターなど、自動レビューが成功していることを確認することとします。"
+"- For large structural or policy changes, please start a discussion in Issues first.\n"
+"  - Examples: changes to the directory layout, substantial rewrites of a template, changes to operational rules, and so on.\n"
+"  - When proposing an improvement, state the background and the effect you expect.\n"
+"- Small fixes (typos, minor wording adjustments) can be sent straight as a Pull Request (hereafter \"PR\").\n"
+"- In the title and description of a PR, please state as concisely as possible *why* the change is being made.\n"
+"  - Prefixing commit titles with tags such as [add], [fix], or [update] is recommended.\n"
+"- Handling PRs\n"
+"  - A PR is merged after review by at least one person.\n"
+"  - Automated reviews such as tests and linters must be passing."
 msgstr ""
 
 #. type: 標題
 #: README.md:25
-msgid "## 対応目安（SLA: Service Level Agreement）"
+msgid "## Response Targets (SLA: Service Level Agreement)"
 msgstr ""
 
 #. type: 段落
 #: README.md:26
-msgid "運営側は、以下の方針を目安として、Issue / Pull Requestへの対応を行います。"
+msgid "The maintainers handle Issues and Pull Requests using the following as a guide."
 msgstr ""
 
 #. type: 標題
 #: README.md:27
-msgid "### 対応時間の目安"
+msgid "### Response Time Targets"
 msgstr ""
 
 #. type: 清單
 #: README.md:28
 msgid ""
-"- Issue への一次対応\n"
-"  - 原則として **1〜2週間以内** にコメントまたはラベル付与を行うこととします。\n"
-"- Pull Request のレビュー\n"
-"  - 原則として **2週間以内** にレビューまたは進捗コメントを行うこととします。"
+"- First response to an Issue\n"
+"  - As a rule, a comment or a label **within one to two weeks**.\n"
+"- Review of a Pull Request\n"
+"  - As a rule, a review or a progress comment **within two weeks**."
 msgstr ""
 
 #. type: 段落
 #: README.md:29
-msgid "上記はあくまで目安であり、時期や状況により遅れる可能性があります。"
+msgid "The above are targets only and may slip depending on the season and circumstances."
 msgstr ""
 
 #. type: 標題
 #: README.md:30
-msgid "### 対応範囲の考え方"
+msgid "### Scope of Response"
 msgstr ""
 
 #. type: 段落
 #: README.md:31
-msgid "運営側は、主に以下のような項目を対応対象とします。"
+msgid "The maintainers primarily handle items such as the following."
 msgstr ""
 
 #. type: 清單
 #: README.md:32
 msgid ""
-"- テンプレートの内容や構成に関する変更・改善\n"
-"- 用語の統一や表現の整理\n"
-"- OSPOスターターキットの全体方針・位置づけに関する調整"
+"- Changes and improvements to the content or structure of the templates\n"
+"- Unifying terminology and tidying up wording\n"
+"- Adjustments to the overall direction and positioning of the OSPO Starter Kit"
 msgstr ""
 
 #. type: 段落
 #: README.md:33
-msgid "一方、以下の内容は原則として **運営側のSLA対象外** とします。"
+msgid "Conversely, the following are, as a rule, **outside the maintainers' SLA**."
 msgstr ""
 
 #. type: 清單
 #: README.md:34
 msgid ""
-"- 各組織ごとの固有事情に踏み込んだ個別コンサルティング\n"
-"- 本リポジトリ外のシステム設定やネットワーク、認証周りのトラブルシュート\n"
-"- OSPO以外の全社制度・ガバナンス設計そのものの承認・決裁\n"
-"- その他、テンプレートの内容に関連のない事柄"
+"- Individual consulting that goes into circumstances specific to a single organization\n"
+"- Troubleshooting of system settings, networks, or authentication outside this repository\n"
+"- Approval or authorization of company-wide systems and governance design other than the OSPO itself\n"
+"- Anything else unrelated to the content of the templates"
 msgstr ""
 
 #. type: 標題
 #: README.md:35
-msgid "### 営業日・対応時間の前提"
+msgid "### Assumptions About Business Days and Hours"
 msgstr ""
 
 #. type: 清單
 #: README.md:36
 msgid ""
-"- 営業日は **平日（日本時間）** を前提とします。\n"
-"- 繁忙期やイベント対応期間などは、上記の目安より遅れる場合があります。"
+"- Business days are assumed to be **weekdays (Japan time)**.\n"
+"- During busy periods or while running events, responses may take longer than the targets above."
 msgstr ""
 
 #. type: 標題
 #: README.md:37
-msgid "### SLA の位置づけ"
+msgid "### Status of This SLA"
 msgstr ""
 
 #. type: 清單
 #: README.md:38
 msgid ""
-"- ここで示す内容は、あくまで「運営側として目指す対応の目安」であり、必ずしも法的拘束力のあるサービス保証を行うものではありません。\n"
-"- 実際の運用状況やリソースに応じて、SLAの内容は見直し・更新する可能性があります。"
+"- What is described here is only \"the response the maintainers aim for\"; it is not necessarily a legally binding service guarantee.\n"
+"- The content of the SLA may be reviewed and updated according to actual operations and available resources."
 msgstr ""
 
 #. type: 標題
 #: README.md:39
-msgid "## 発行元・お問い合わせ"
+msgid "## Publisher and Contact"
 msgstr ""
 
 #. type: 段落
 #: README.md:40
-msgid "本キットの内容に関するご質問は以下のメールアドレス宛にご連絡ください。"
+msgid "For questions about the content of this kit, please contact the email address below."
 msgstr ""
 
 #. type: 段落
 #: README.md:41
-msgid "発行元：独立行政法人情報処理推進機構（IPA）"
+msgid "Publisher: Information-technology Promotion Agency, Japan (IPA)"
 msgstr ""
 
 #. type: 段落
 #: README.md:42
-msgid "連絡先：IPA デジタル&AIシステムズ・デザインセンター（DADC） disc-info@ipa.go.jp"
+msgid "Contact: IPA Digital & AI Systems Design Center (DADC) disc-info@ipa.go.jp"
 msgstr ""
 
 #. type: 標題
 #: README.md:43
-msgid "## 制作チーム・謝辞"
+msgid "## Production Team and Acknowledgements"
 msgstr ""
 
 #. type: 段落
 #: README.md:44
-msgid "本キットの企画・作成にあたり、以下のメンバーが中心となって貢献しました。所属は初版（ドラフト版）公開時点のものです。"
+msgid "The following members contributed as the core team in planning and creating this kit. Affiliations are those at the time the first (draft) edition was published."
 msgstr ""
 
 #. type: 清單
 #: README.md:45
 msgid ""
-"- 企画：今村 かずき（IPAデジタル基盤センター デジタルエンジニアリング部 ソフトウェアエンジニアリンググループ）\n"
-"- 執筆：服部 佑樹（IPA専門委員・ギットハブ・ジャパン合同会社） / 渡邊 歩（IPA専門委員・株式会社日立ソリューションズ） / 福地 弘行（IPAデジタル基盤センター デジタルエンジニアリング部 ソフトウェアエンジニアリンググループ）\n"
-"- レビュー：大内 佳子（三菱電機株式会社） / 大和田 清志（株式会社ソシオネクスト）"
+"- Planning: 今村 かずき (Software Engineering Group, Digital Engineering Department, IPA Digital Infrastructure Center)\n"
+"- Writing: 服部 佑樹 (IPA Expert Member, GitHub Japan G.K.) / 渡邊 歩 (IPA Expert Member, Hitachi Solutions, Ltd.) / 福地 弘行 (Software Engineering Group, Digital Engineering Department, IPA Digital Infrastructure Center)\n"
+"- Review: 大内 佳子 (Mitsubishi Electric Corporation) / 大和田 清志 (Socionext Inc.)"
 msgstr ""
 
 #. type: 段落
 #: README.md:46
-msgid "また、フィードバックをいただいたOSPOレベル1構築ワークショップ参加チームの皆様に感謝いたします。"
+msgid "We also thank everyone on the teams that took part in the OSPO Level 1 workshop for their feedback."
 msgstr ""

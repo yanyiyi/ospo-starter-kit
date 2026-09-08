@@ -72,6 +72,8 @@ Evaluate new open source software against this checklist prior to adoption:
 
 ### Scenarios Requiring Care
 
+The following are some specific scenarios to watch for:
+
 - **Development Environments**
   Ensure tools or libraries used in build pipelines do not inadvertently bundle into final production deliverables.
 

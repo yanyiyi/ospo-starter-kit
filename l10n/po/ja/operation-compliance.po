@@ -5,7 +5,7 @@ msgstr ""
 "POT-Creation-Date: 2026-09-08\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: zh_Hant\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +16,7 @@ msgstr ""
 #. type: 標題
 #: operation-templates/compliance/license-compliance.md:1
 msgid "# Open Source License Compliance"
-msgstr "# 開放原始碼授權合規"
+msgstr "# オープンソースライセンスコンプライアンス"
 
 #. type: 註解
 #: operation-templates/compliance/license-compliance.md:2
@@ -40,76 +40,76 @@ msgid ""
 msgstr ""
 "<!--\n"
 "########################################################################################\n"
-"給 OSPO 承辦人：本範本的使用方式\n"
+"OSPO担当者向け：本テンプレートの使い方\n"
 "\n"
-"1. 將本文中的 [公司名稱] 等佔位符替換為自家公司資訊\n"
-"2. 用客製化檢核清單確認沒有遺漏\n"
-"3. 參考文末的客製化指南，依自家公司狀況增補內容\n"
+"1. 本文中の [会社名] 等のPlaceholderを自社情報に置き換える\n"
+"2. カスタマイズチェックリストで漏れがないか確認する\n"
+"3. 末尾のカスタマイズガイドを参考に、自社の状況に合わせて加筆する\n"
 "\n"
-"只做佔位符替換也可以當作公司內部文件使用。\n"
-"依指南增補內容後，可以做出更具實效性的版本。\n"
+"Placeholder置換だけでも社内ドキュメントとして利用可能です。\n"
+"ガイドに沿った加筆により、さらに実効性の高い内容に仕上がります。\n"
 "########################################################################################\n"
 "-->"
 
 #. type: 段落
 #: operation-templates/compliance/license-compliance.md:3
 msgid "Open source license compliance means maintaining organizational visibility over \"what OSS is used, where, under what license terms, and how,\" ensuring continuous adherence to those licensing conditions across the entire software development lifecycle."
-msgstr "開放原始碼授權合規指的是，組織要掌握「使用了哪些 OSS、用在哪裡、依什麼授權條件、以什麼方式使用」，並持續遵循這些授權條件。這不是一次性的確認，而是必須貫穿軟體生命週期持續進行。"
+msgstr "オープンソースライセンスコンプライアンスとは、「どのOSSを、どこで、どのライセンス条件のもとで、どうやって使っているか」を組織として把握し、そのライセンス条件に準拠し続けることです。これは一度きりの確認ではなく、ソフトウェアのライフサイクルを通じて継続的に行うことが求められます。"
 
 #. type: 段落
 #: operation-templates/compliance/license-compliance.md:4
 msgid "In open source software utilization, compliance represents a critical operational requirement. That open source permits free usage does not imply the absence of legal terms or obligations. Robust compliance management prevents licensing non-compliance and intellectual property issues, enabling sustainable open source adoption."
-msgstr "在使用開放原始碼軟體時，合規是企業面臨最重要的課題之一。開放原始碼雖然允許自由使用，但並不表示沒有法律條件與義務。透過適切的合規管理，可以避免不符合授權條件與智慧財產權的問題，實現可持續的開放原始碼運用。"
+msgstr "オープンソースソフトウェアの利用において、コンプライアンスは企業が直面する最も重要な課題の一つです。オープンソースは自由な利用が許諾されているからといって、法的な条件や義務が存在しないわけではありません。適切なコンプライアンス管理により、ライセンス条件への不適合や知的財産権の問題を回避し、持続可能なオープンソース活用が実現できます。"
 
 #. type: 段落
 #: operation-templates/compliance/license-compliance.md:5
 msgid "Open source compliance at [Company Name] covers the following essential domains:"
-msgstr "[公司名稱] 的開放原始碼合規涵蓋以下重要領域。"
+msgstr "[会社名]におけるオープンソースコンプライアンスは、以下の重要な領域をカバーしています。"
 
 #. type: 標題
 #: operation-templates/compliance/license-compliance.md:6
 msgid "## Fundamentals of License Management"
-msgstr "## 授權管理的基礎"
+msgstr "## ライセンス管理の基礎"
 
 #. type: 段落
 #: operation-templates/compliance/license-compliance.md:7
 msgid "Every open source software component carries a license; understanding and adhering to its terms represents the foundation of all open source activities. Core licensing concepts, enterprise considerations, and compliance workflows are detailed in **[What Is a License?](../compliance/what-is-a-license.md)**."
-msgstr "開放原始碼軟體一定附有授權條款，理解並遵守它是所有開放原始碼運用的起點。授權條款的基本概念、企業使用時的注意事項與遵循流程，在 **[什麼是授權條款](../compliance/what-is-a-license.md)** 中有詳細說明。"
+msgstr "オープンソースソフトウェアには必ずライセンスが付与されており、その理解と遵守がすべてのオープンソース活用の出発点となります。ライセンスの基本概念、企業利用における注意点、遵守プロセスについては **[ライセンスとは](../compliance/what-is-a-license.md)** で詳しく解説しています。"
 
 #. type: 標題
 #: operation-templates/compliance/license-compliance.md:8
 msgid "## License Classification and Selection Guidelines"
-msgstr "## 授權條件的分類與選擇指引"
+msgstr "## ライセンス条件の分類と選択指針"
 
 #. type: 段落
 #: operation-templates/compliance/license-compliance.md:9
 msgid "Numerous open source licenses exist, each specifying distinct rights grants and obligations. Categorizations of license conditions and enterprise adoption guidelines are covered in **[Types of Licenses](../compliance/license-types.md)**."
-msgstr "眾多的開放原始碼授權條款各自訂有不同的權利與義務。授權條件的分級分類與企業可用性，在 **[授權條款的種類](../compliance/license-types.md)** 中有完整說明。"
+msgstr "数多く存在するオープンソースライセンスは、それぞれ異なる権利と義務を定めています。ライセンス条件の段階的な分類と企業での利用可能性については **[ライセンスの種類](../compliance/license-types.md)** で包括的に説明しています。"
 
 #. type: 標題
 #: operation-templates/compliance/license-compliance.md:10
 msgid "## Managing Licenses with High Compliance Requirements"
-msgstr "## 應對需要注意的授權條件"
+msgstr "## 注意が必要なライセンス条件への対応"
 
 #. type: 段落
 #: operation-templates/compliance/license-compliance.md:11
 msgid "Licenses with source code disclosure obligations (e.g., GPL, AGPL, LGPL) carry extensive verification requirements based on distribution models. Specific characteristics and management workflows are explained in **[Licenses with Source Code Disclosure Obligations](../compliance/source-disclosure-licenses.md)**."
-msgstr "有原始碼提供義務的授權條款（GPL、AGPL、LGPL 等），依使用形態會有較多需要確認的事項，是特別需要正確理解的一群授權條款。各自的特性與適切的處理方式，在 **[有原始碼提供義務的授權條款](../compliance/source-disclosure-licenses.md)** 中有詳細解說。"
+msgstr "ソースコード提供義務のあるライセンス（GPL、AGPL、LGPL等）は、利用形態に応じた確認事項が多く、適切な理解が特に重要なライセンス群です。それぞれの特性と適切な対応方法については **[ソースコード提供義務のあるライセンス](../compliance/source-disclosure-licenses.md)** で詳細に解説しています。"
 
 #. type: 標題
 #: operation-templates/compliance/license-compliance.md:12
 msgid "## Cases Requiring Commercial Licensing"
-msgstr "## 需要商用授權的情況"
+msgstr "## 商用ライセンスが必要なケース"
 
 #. type: 段落
 #: operation-templates/compliance/license-compliance.md:13
 msgid "Certain open source software requires commercial license purchases under specific usage conditions. Dual-licensing models, enterprise add-ons, and usage-scale triggers are detailed in **[OSS with Commercial License Options](../compliance/oss-with-commercial-license-options.md)**."
-msgstr "部分開放原始碼軟體在特定使用條件下，需要購買商用授權。雙重授權模式、依使用規模的限制等需要注意的軟體與處理方式，在 **[可選擇商用授權的 OSS](../compliance/oss-with-commercial-license-options.md)** 中有詳細說明。"
+msgstr "一部のオープンソースソフトウェアでは、特定の利用条件下で商用ライセンスの購入が必要になります。デュアルライセンスモデルや利用規模による制限など、注意すべきソフトウェアと対応方法については **[商用ライセンスが選択できるOSS](../compliance/oss-with-commercial-license-options.md)** で詳しく説明しています。"
 
 #. type: 段落
 #: operation-templates/compliance/license-compliance.md:14
 msgid "Managing these domains holistically minimizes legal exposure while maximizing open source value. Refer to corresponding sections for details, and contact the OSPO with questions."
-msgstr "綜合管理這些領域，就能在把法律風險降到最低的同時，最大程度發揮開放原始碼軟體的價值。各領域的細節請參閱對應的小節；若有不清楚之處，歡迎隨時洽詢 OSPO。"
+msgstr "これらの領域を総合的に管理することで、法的リスクを最小化しながら、オープンソースソフトウェアの価値を最大限に活用できます。各領域の詳細については、対応するセクションを参照し、不明な点があればOSPOまでお気軽にご相談ください。"
 
 #. type: 分隔線
 #: operation-templates/compliance/license-compliance.md:15
@@ -143,12 +143,12 @@ msgid ""
 msgstr ""
 "<!--\n"
 "########################################################################################\n"
-"關於客製化檢核清單\n"
+"カスタマイズチェックリストについて\n"
 "\n"
-"本檢核清單完整整理了設計與改善 OSS 管理運作時應考量的項目。\n"
-"應實作的項目與優先順序，會依組織規模、事業內容、OSS 使用形態與成熟度而不同。\n"
-"因此，不需要勾選所有項目。\n"
-"請依自身組織的目的與優先順序，從需要的項目開始分階段採用與實作。\n"
+"本チェックリストは、OSS管理運用を設計・改善する際に検討すべき項目を網羅的に整理したものです。\n"
+"組織の規模、事業内容、OSSの利用形態、成熟度によって、実装すべき項目や優先度は異なります。\n"
+"そのため、すべての項目をチェックする必要はありません。\n"
+"自組織の目的や優先度に応じて、必要な項目から段階的に採用・実装してください。\n"
 "########################################################################################\n"
 "-->"
 
@@ -160,7 +160,7 @@ msgstr ""
 #: operation-templates/compliance/source-disclosure-licenses.md:34
 #: operation-templates/compliance/what-is-a-license.md:40
 msgid "## Customization Checklist"
-msgstr "## 客製化檢核清單"
+msgstr "## カスタマイズチェックリスト"
 
 #. type: 清單
 #: operation-templates/compliance/license-compliance.md:18
@@ -172,12 +172,12 @@ msgid ""
 "- [ ] Established continuous tracking for open source industry/legal trends.\n"
 "- [ ] Drafted policies addressing emerging licensing models."
 msgstr ""
-"- [ ] 已將 [公司名稱] 替換為自家公司名稱\n"
-"- [ ] 已明確合規體制的整體設計與責任分工\n"
-"- [ ] 已訂出各部門的角色與責任\n"
-"- [ ] 已建立不符合合規要求時的上報程序\n"
-"- [ ] 已建置持續關注產業動向的機制\n"
-"- [ ] 已訂出應對新授權模式的方針"
+"- [ ] [会社名] を自社名に置換した\n"
+"- [ ] コンプライアンス体制の全体設計と責任分担を明確化した\n"
+"- [ ] 各部門での役割と責任を策定した\n"
+"- [ ] コンプライアンス不適合時のエスカレーション手順を確立した\n"
+"- [ ] 業界動向の継続的な監視体制を整備した\n"
+"- [ ] 新しいライセンスモデルへの対応方針を策定した"
 
 #. type: 註解
 #: operation-templates/compliance/license-compliance.md:19
@@ -210,23 +210,23 @@ msgid ""
 msgstr ""
 "<!--\n"
 "########################################################################################\n"
-"客製化指南\n"
+"カスタマイズガイド\n"
 "\n"
-"以下說明在佔位符替換之後，依自家公司狀況進行增補與調整的指引。\n"
+"Placeholder置換の次のステップとして、自社の状況に合わせた加筆・調整を行うための指針を以下に示します。\n"
 "########################################################################################\n"
 "\n"
-"■ 合規體制的設計\n"
-"請明確合規體制的整體設計與責任分工。\n"
-"資訊安全評估由資訊安全部門負責、法律判斷由法務部門負責，明確角色界線相當重要。\n"
-"請訂出各部門的角色與責任，並建立發現不符合授權條件時的上報程序。\n"
+"■ コンプライアンス体制の設計\n"
+"コンプライアンス体制の全体設計と責任分担を明確化してください。\n"
+"セキュリティ評価はセキュリティ部門、法的判断は法務部門と、役割境界を明確にすることが重要です。\n"
+"各部門での役割と責任を策定し、ライセンス条件への不適合発見時のエスカレーション手順を確立してください。\n"
 "\n"
-"■ 分階段成熟\n"
-"初期階段先從掌握主要使用 OSS 的授權條款與制定基本政策開始。\n"
-"發展階段則導入 SCA（Software Composition Analysis：軟體組成分析）工具進行自動偵測，並定期對開發者實施教育。\n"
-"成熟階段請以開發團隊能自主進行授權判斷、OSPO 專注於例外案例建議的體制為目標。\n"
+"■ 段階的な成熟\n"
+"初期段階では、主要な利用OSSのライセンス把握と基本ポリシーの策定から始めます。\n"
+"発展段階では、SCA（Software Composition Analysis：ソフトウェア構成分析）ツール導入による自動検出や開発者向け教育の定期実施を行います。\n"
+"成熟段階では、開発チームが自律的にライセンス判断を行い、OSPOは例外的なケースの助言に集中する体制を目指してください。\n"
 "\n"
-"■ 持續改善\n"
-"建議建置能持續掌握產業動向的機制。\n"
+"■ 継続的な改善\n"
+"業界動向を継続的に把握できる体制を整えることを推奨します。\n"
 "\n"
 "########################################################################################\n"
 "########################################################################################\n"
@@ -235,12 +235,12 @@ msgstr ""
 #. type: 標題
 #: operation-templates/compliance/license-faq.md:1
 msgid "# License FAQ"
-msgstr "# 授權條款常見問題"
+msgstr "# ライセンスFAQ"
 
 #. type: 標題
 #: operation-templates/compliance/license-faq.md:3
 msgid "## Frequently Asked Questions About Licenses"
-msgstr "## 授權條款的常見問題"
+msgstr "## ライセンスに関するよくある質問"
 
 #. type: 清單
 #: operation-templates/compliance/license-faq.md:7
@@ -249,9 +249,9 @@ msgid ""
 "- [ ] Documented historical internal case studies and external legal precedents.\n"
 "- [ ] Defined directory structures for managing case studies as ticket volumes grow."
 msgstr ""
-"- [ ] 已以 FAQ 形式加入公司內部常見的授權相關問題\n"
-"- [ ] 已補上過去公司內部案例或外部判例的資訊\n"
-"- [ ] 已考量案例增加後的個別管理目錄結構"
+"- [ ] 社内でよくあるライセンスに関する質問をFAQ形式で追加した\n"
+"- [ ] 過去の社内事例や外部判例の情報を追記した\n"
+"- [ ] 事例が増えた場合の個別管理ディレクトリ構成を検討した"
 
 #. type: 註解
 #: operation-templates/compliance/license-faq.md:8
@@ -279,20 +279,20 @@ msgid ""
 msgstr ""
 "<!--\n"
 "########################################################################################\n"
-"客製化指南\n"
+"カスタマイズガイド\n"
 "\n"
-"以下說明在佔位符替換之後，依自家公司狀況進行增補與調整的指引。\n"
+"Placeholder置換の次のステップとして、自社の状況に合わせた加筆・調整を行うための指針を以下に示します。\n"
 "########################################################################################\n"
 "\n"
-"■ FAQ 的建置方針\n"
+"■ FAQの整備方針\n"
 "\n"
-"為了讓讀者實際上容易查閱，請以簡潔與品質為重點建置 FAQ。\n"
+"FAQは読者が実際に参照しやすいよう、簡潔さと質を重視して整備してください。\n"
 "\n"
-"建置重點：\n"
-" * 授權條款的討論範圍很廣，但厚重龐大的文件往往沒人讀，因此請簡明扼要地整理，力求文件品質\n"
-" * 把細節事項、重要重點，以及正文未能說明完的詳細案例整理到 FAQ 中\n"
-" * 初期階段連案例也一併放進 FAQ，等資訊累積後再另建目錄，依個別案例分別管理\n"
-" * 不只收集公司內部案例，也一併收集與整理外部判例\n"
+"整備のポイント：\n"
+" * ライセンスの議論は多岐にわたる一方で、重厚長大なドキュメントは読まれない傾向があるため、端的にまとめて質の高いドキュメントを心がける\n"
+" * 細かい事項や重要な点、説明しきれなかった詳細な事例をFAQにまとめる\n"
+" * 初期段階では事例もFAQに含め、情報が蓄積されたら別途ディレクトリを作成し個別の事例ごとに管理する\n"
+" * 社内の事例だけでなく外部の判例なども収集・整理する\n"
 "\n"
 "########################################################################################\n"
 "########################################################################################\n"
@@ -301,7 +301,7 @@ msgstr ""
 #. type: 標題
 #: operation-templates/compliance/license-types.md:1
 msgid "# Types of Licenses"
-msgstr "# 授權條款的種類"
+msgstr "# ライセンスの種類"
 
 #. type: 註解
 #: operation-templates/compliance/license-types.md:2
@@ -321,14 +321,14 @@ msgid ""
 msgstr ""
 "<!--\n"
 "########################################################################################\n"
-"給 OSPO 承辦人：本範本的使用方式\n"
+"OSPO担当者向け：本テンプレートの使い方\n"
 "\n"
-"1. 對自家公司使用頻率高的授權條款加上標記或註解\n"
-"2. 用客製化檢核清單確認沒有遺漏\n"
-"3. 參考文末的客製化指南，依自家公司狀況增補內容\n"
+"1. 自社で利用頻度の高いライセンスにマークや注釈を追加する\n"
+"2. カスタマイズチェックリストで漏れがないか確認する\n"
+"3. 末尾のカスタマイズガイドを参考に、自社の状況に合わせて加筆する\n"
 "\n"
-"本頁只列出授權條款清單與官方條文的連結。\n"
-"各授權條款的解釋與條件細節，請依官方條文與法務部門的建議判斷。\n"
+"本ページはライセンスの一覧と公式テキストへのリンクのみを掲載しています。\n"
+"各ライセンスの解釈や条件の詳細は、公式テキストおよび法務部門の助言に基づいて判断してください。\n"
 "########################################################################################\n"
 "-->"
 
@@ -338,8 +338,8 @@ msgid ""
 "This document is a reference guide classifying open source software licenses into five categories based on compliance obligation tiers.\n"
 "Higher category numbers indicate increased obligations during distribution or service delivery:"
 msgstr ""
-"本文件是一份詳細的參考指南，依授權條件的層級把開放原始碼軟體授權條款分成 5 個類別。\n"
-"類別編號愈大，散布或提供服務時所要求的義務就愈多。"
+"本ドキュメントは、オープンソースソフトウェアライセンスをライセンス条件の段階に応じて5つのカテゴリに分類した詳細なリファレンスガイドです。\n"
+"カテゴリの番号が大きくなるほど、配布やサービス提供時に求められる義務が増えていきます。"
 
 #. type: 清單
 #: operation-templates/compliance/license-types.md:4
@@ -350,26 +350,26 @@ msgid ""
 "4. **Category 4 (Source Code Disclosure for Linked/Combined Software)**\n"
 "5. **Category 5 (Source Code Disclosure for Network Service Users)**"
 msgstr ""
-"1. **類別 1（附上著作權標示與授權文件）**\n"
-"2. **類別 2（附上指定資訊）**\n"
-"3. **類別 3（提供 OSS 的原始碼）**\n"
-"4. **類別 4（提供連動軟體的原始碼）**\n"
-"5. **類別 5（向網路服務使用者提供原始碼）**"
+"1. **カテゴリ1（著作権表示とライセンス文書の添付）** \n"
+"2. **カテゴリ2（所定の情報の添付）** \n"
+"3. **カテゴリ3（OSSのソースコード提供）** \n"
+"4. **カテゴリ4（連携するソフトのソースコード提供）** \n"
+"5. **カテゴリ5（ネットワークサービス利用者へのソースコード提供）**"
 
 #. type: 段落
 #: operation-templates/compliance/license-types.md:5
 msgid "Each category provides summaries, details for key licenses, and links to official license texts."
-msgstr "每個類別都包含概要、代表性授權條款的詳細資訊，以及官方授權條文的連結。"
+msgstr "各カテゴリには概要、代表的なライセンスの詳細情報、および公式ライセンステキストへのリンクが含まれています。"
 
 #. type: 標題
 #: operation-templates/compliance/license-types.md:6
 msgid "## License Category Mapping Table"
-msgstr "## 授權條款與類別對照表"
+msgstr "## ライセンスとカテゴリの対応表"
 
 #. type: 段落
 #: operation-templates/compliance/license-types.md:7
 msgid "Maps representative licenses to categories. Category 1 (Attribution) applies universally to all OSS licenses; higher numbers denote cumulative obligations."
-msgstr "以下列出各授權條款所屬的類別。類別 1（著作權標示）是所有 OSS 授權條款共通的條件，類別編號愈大就會產生額外的義務。"
+msgstr "各ライセンスが該当するカテゴリを示します。カテゴリ1（著作権表示）はすべてのOSSライセンスに共通する条件であり、カテゴリ番号が大きいほど追加の義務が生じます。"
 
 #. type: 表格
 #: operation-templates/compliance/license-types.md:8
@@ -389,7 +389,7 @@ msgid ""
 "| GNU Affero General Public License v3.0 | ● | | ● | ● | ● |\n"
 "| Open Software License 3.0 | ● | | ● | ● | ● |"
 msgstr ""
-"| 授權條款 | 類別 1 | 類別 2 | 類別 3 | 類別 4 | 類別 5 |\n"
+"| ライセンス | カテゴリ1 | カテゴリ2 | カテゴリ3 | カテゴリ4 | カテゴリ5 |\n"
 "|---|:---:|:---:|:---:|:---:|:---:|\n"
 "| MIT License | ● | | | | |\n"
 "| BSD 2-Clause License | ● | | | | |\n"
@@ -407,12 +407,12 @@ msgstr ""
 #. type: 標題
 #: operation-templates/compliance/license-types.md:9
 msgid "## Category 1. Retain Copyright Notices and License Text Upon Distribution"
-msgstr "## 類別 1. 散布時附上著作權標示與授權文件"
+msgstr "## カテゴリ1. 配布時に著作権表示とライセンス文書を添付する"
 
 #. type: 段落
 #: operation-templates/compliance/license-types.md:10
 msgid "The most permissive category. Imposes minimal obligations on usage, modification, and redistribution—primarily retaining copyright notices and license text. Allows redistributing modified works under proprietary licenses, making it widely adopted in enterprise software."
-msgstr "這是最基本的授權條件類別。對軟體的使用、修改與再散布的義務最少，主要義務是保留並附上著作權標示（Copyright 標記）與授權條款本文。修改後的產出物也可以用自家公司的獨有授權條款散布，因此在企業環境中被廣泛採用。"
+msgstr "最も基本的なライセンス条件のカテゴリです。ソフトウェアの使用、改変、再配布に対する義務が最小限で、主な義務は著作権表示（Copyright表記）とライセンス文を保持・添付することです。改変した成果物を自社独自のライセンスで配布することも認められており、企業環境で広く採用されています。"
 
 #. type: 段落
 #: operation-templates/compliance/license-types.md:11
@@ -421,7 +421,7 @@ msgstr "這是最基本的授權條件類別。對軟體的使用、修改與再
 #: operation-templates/compliance/license-types.md:29
 #: operation-templates/compliance/license-types.md:35
 msgid "**Key Characteristics:**"
-msgstr "**主要特徵：**"
+msgstr "**主な特徴：**"
 
 #. type: 清單
 #: operation-templates/compliance/license-types.md:12
@@ -432,11 +432,11 @@ msgid ""
 "- High compatibility with other licenses\n"
 "- Widespread enterprise adoption"
 msgstr ""
-"- 可自由使用並內嵌到自家產品\n"
-"- 沒有提供修改後產出物原始碼的義務\n"
-"- 應遵守的規則相對較少，容易運作\n"
-"- 與其他授權條款的相容性高\n"
-"- 在企業環境中廣泛採用"
+"- 利用や自社製品への組み込みが自由\n"
+"- 改変した成果物のソースコード提供義務がない\n"
+"- 守るべきルールが比較的少なく、運用しやすい\n"
+"- 他のライセンスとの高い両立性\n"
+"- 企業環境での広い採用"
 
 #. type: 標題
 #: operation-templates/compliance/license-types.md:13
@@ -445,7 +445,7 @@ msgstr ""
 #: operation-templates/compliance/license-types.md:31
 #: operation-templates/compliance/license-types.md:37
 msgid "### Representative Licenses"
-msgstr "### 代表性授權條款"
+msgstr "### 代表的なライセンス"
 
 #. type: 表格
 #: operation-templates/compliance/license-types.md:14
@@ -457,7 +457,7 @@ msgid ""
 "| BSD 3-Clause License | BSD-3-Clause | [opensource.org/licenses/BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |\n"
 "| ISC License | ISC | [opensource.org/licenses/ISC](https://opensource.org/licenses/ISC) |"
 msgstr ""
-"| 授權條款名稱 | SPDX 識別碼 | 官方條文 |\n"
+"| ライセンス名 | SPDX識別子 | 公式テキスト |\n"
 "|---|---|---|\n"
 "| MIT License | MIT | [opensource.org/licenses/MIT](https://opensource.org/licenses/MIT) |\n"
 "| BSD 2-Clause License | BSD-2-Clause | [opensource.org/licenses/BSD-2-Clause](https://opensource.org/licenses/BSD-2-Clause) |\n"
@@ -467,12 +467,12 @@ msgstr ""
 #. type: 標題
 #: operation-templates/compliance/license-types.md:15
 msgid "## Category 2. Include Designated Information (NOTICE Files, Acknowledgments) Upon Distribution"
-msgstr "## 類別 2. 散布時也要包含指定資訊（致謝或 Notice 檔案等）"
+msgstr "## カテゴリ2. 配布時に所定の情報（謝辞やNoticeファイルなど）も含める"
 
 #. type: 段落
 #: operation-templates/compliance/license-types.md:16
 msgid "Requires retaining copyright notices and license texts, plus including designated supplementary notices (such as NOTICE files or acknowledgments) in distributions. Notably, Apache License 2.0 requires propagating NOTICE file contents, explicitly granting patent licenses and requiring notices of modifications."
-msgstr "這個類別除了附上著作權標示與授權條款本文之外，還需要在散布物中包含 NOTICE 檔案、致謝等授權條款所指定的追加資訊。代表性的 Apache License 2.0 就規定必須把 NOTICE 檔案的內容包含在散布物中，並以明示變更處與明確授予專利授權為特徵。"
+msgstr "著作権表示とライセンス文の添付に加え、NOTICEファイルや謝辞など、ライセンスで指定された追加情報を配布物に含める必要があるカテゴリです。代表的なApache License 2.0では、NOTICEファイルの内容を配布物に含めることが義務付けられており、変更箇所の明示や特許ライセンスの明示的な付与も特徴です。"
 
 #. type: 清單
 #: operation-templates/compliance/license-types.md:18
@@ -482,10 +482,10 @@ msgid ""
 "- Often includes explicit patent grants\n"
 "- No source code disclosure obligations for modified works"
 msgstr ""
-"- 除著作權標示與授權條款本文外，還有提供追加資訊的義務\n"
-"- 需要傳遞 NOTICE 檔案\n"
-"- 有些情況包含明確授予專利授權\n"
-"- 沒有提供修改後產出物原始碼的義務"
+"- 著作権表示・ライセンス文に加え、追加の情報提供義務がある\n"
+"- NOTICEファイルの伝搬が必要\n"
+"- 特許ライセンスの明示的な付与が含まれる場合がある\n"
+"- 改変した成果物のソースコード提供義務はない"
 
 #. type: 表格
 #: operation-templates/compliance/license-types.md:20
@@ -494,19 +494,19 @@ msgid ""
 "|---|---|---|\n"
 "| Apache License 2.0 | Apache-2.0 | [apache.org/licenses/LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0) |"
 msgstr ""
-"| 授權條款名稱 | SPDX 識別碼 | 官方條文 |\n"
+"| ライセンス名 | SPDX識別子 | 公式テキスト |\n"
 "|---|---|---|\n"
 "| Apache License 2.0 | Apache-2.0 | [apache.org/licenses/LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0) |"
 
 #. type: 標題
 #: operation-templates/compliance/license-types.md:21
 msgid "## Category 3. Disclose Source Code for the OSS Component Upon Distribution"
-msgstr "## 類別 3. 散布時也要提供 OSS 的原始碼"
+msgstr "## カテゴリ3. 配布時にOSSのソースコードも提供する"
 
 #. type: 段落
 #: operation-templates/compliance/license-types.md:22
 msgid "Primarily applies to software libraries. Requires disclosing source code for the OSS component itself upon distribution, but does not mandate disclosing source code for proprietary application code linking to the library. Modifies Category 4 copyleft obligations to allow proprietary software linking."
-msgstr "這是主要適用於程式庫的授權條款類別。散布時有義務提供所使用 OSS 元件本身的原始碼，但使用該 OSS 一方的自有程式原始碼並非必須提供。因此，即使從自有軟體以程式庫形式連結使用，也不需要公開自有部分，屬於把類別 4 的義務加以緩和的形式。"
+msgstr "主にライブラリに適用されるライセンスのカテゴリです。配布時に、利用しているOSSコンポーネント自体のソースコードを提供する義務がありますが、そのOSSを利用する側の独自プログラムのソースコードの提供は必須ではありません。このため、独自のソフトウェアからライブラリとしてリンクして利用する場合にも、独自部分をオープンにする必要がなく、カテゴリ4の義務を緩和したものとなっています。"
 
 #. type: 清單
 #: operation-templates/compliance/license-types.md:24
@@ -514,8 +514,8 @@ msgid ""
 "- Source disclosure applies strictly to the OSS component itself (not linking application code)\n"
 "- File-level or library-level copyleft scope"
 msgstr ""
-"- 原始碼提供義務只適用於 OSS 元件本身（不需要提供自有程式的原始碼）\n"
-"- 以檔案為單位或以程式庫為單位的範圍"
+"- ソースコード提供義務はOSSコンポーネント自体のみに適用（独自プログラムのソースコード提供は不要）\n"
+"- ファイルベースまたはライブラリベースのスコープ"
 
 #. type: 表格
 #: operation-templates/compliance/license-types.md:26
@@ -526,7 +526,7 @@ msgid ""
 "| GNU Lesser General Public License v3.0 | LGPL-3.0-only | [gnu.org/licenses/lgpl-3.0.html](https://www.gnu.org/licenses/lgpl-3.0.html) |\n"
 "| Mozilla Public License 2.0 | MPL-2.0 | [mozilla.org/MPL/2.0/](https://www.mozilla.org/en-US/MPL/2.0/) |"
 msgstr ""
-"| 授權條款名稱 | SPDX 識別碼 | 官方條文 |\n"
+"| ライセンス名 | SPDX識別子 | 公式テキスト |\n"
 "|---|---|---|\n"
 "| GNU Lesser General Public License v2.1 | LGPL-2.1-only | [gnu.org/licenses/old-licenses/lgpl-2.1.html](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) |\n"
 "| GNU Lesser General Public License v3.0 | LGPL-3.0-only | [gnu.org/licenses/lgpl-3.0.html](https://www.gnu.org/licenses/lgpl-3.0.html) |\n"
@@ -535,12 +535,12 @@ msgstr ""
 #. type: 標題
 #: operation-templates/compliance/license-types.md:27
 msgid "## Category 4. Disclose Source Code for Software Linked/Combined with the OSS Upon Distribution"
-msgstr "## 類別 4. 散布時也要提供與 OSS 連動軟體的原始碼"
+msgstr "## カテゴリ4. 配布時にOSSと連携するソフトのソースコードも提供する"
 
 #. type: 段落
 #: operation-templates/compliance/license-types.md:28
 msgid "Requires disclosing source code for both the OSS component and any software combined or linked with it upon distribution. Mandates that all derivative and combined works be licensed under identical or compatible license terms. This strong copyleft reciprocity dictates that embedding, linking, or deriving from covered OSS triggers copyleft terms across the combined work."
-msgstr "這個類別除了 OSS 本身的原始碼之外，還有義務提供與該 OSS 連動、結合的軟體原始碼。它要求所有衍生作品與結合作品都以相同或相容的授權條款授權。由於這種「傳染性」，內嵌、連結或衍生自該 OSS 的軟體，其提供都必須依照這份授權條款的條件進行。"
+msgstr "OSS自体のソースコードに加え、そのOSSと連携・結合するソフトウェアのソースコードも提供する義務があるカテゴリです。すべての派生作品と結合作品が同じまたは互換性のあるライセンス条項でライセンスされることが要求されます。この「伝播性」により、対象のOSSを組み込み、リンク、または派生するソフトウェアの提供は、このライセンスの条件に従って行わなければなりません。"
 
 #. type: 清單
 #: operation-templates/compliance/license-types.md:30
@@ -550,10 +550,10 @@ msgid ""
 "- Requires providing corresponding source code upon distribution\n"
 "- Broadly enforces software openness"
 msgstr ""
-"- 涵蓋整個結合作品的廣泛範圍\n"
-"- 所有衍生作品都必須以相同授權條件處理\n"
-"- 散布時需要提供對應的原始碼\n"
-"- 大範圍要求原始碼開放性的條件"
+"- 結合作品全体をカバーする包括的スコープ\n"
+"- すべての派生作品を同じライセンス条件で扱う必要あり\n"
+"- 配布時に対応するソースコードの提供が必要\n"
+"- ソースコードのオープン性を広範囲に義務付ける条件"
 
 #. type: 表格
 #: operation-templates/compliance/license-types.md:32
@@ -563,7 +563,7 @@ msgid ""
 "| GNU General Public License v2.0 | GPL-2.0-only | [gnu.org/licenses/old-licenses/gpl-2.0.html](https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html) |\n"
 "| GNU General Public License v3.0 | GPL-3.0-only | [gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0-standalone.html) |"
 msgstr ""
-"| 授權條款名稱 | SPDX 識別碼 | 官方條文 |\n"
+"| ライセンス名 | SPDX識別子 | 公式テキスト |\n"
 "|---|---|---|\n"
 "| GNU General Public License v2.0 | GPL-2.0-only | [gnu.org/licenses/old-licenses/gpl-2.0.html](https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html) |\n"
 "| GNU General Public License v3.0 | GPL-3.0-only | [gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0-standalone.html) |"
@@ -571,12 +571,12 @@ msgstr ""
 #. type: 標題
 #: operation-templates/compliance/license-types.md:33
 msgid "## Category 5. Disclose Source Code to Users Accessing Services Over a Network"
-msgstr "## 類別 5. 向透過網路存取服務的人提供原始碼"
+msgstr "## カテゴリ5. ネットワークを利用したサービスにアクセスする人にソースコードを提供する"
 
 #. type: 段落
 #: operation-templates/compliance/license-types.md:34
 msgid "Extends Category 4 obligations to software delivered as network services. Even without physical distribution, making software accessible over a network as a service triggers source code disclosure obligations. Demands careful evaluation when operating cloud or SaaS offerings."
-msgstr "這個類別除了散布時的義務之外，透過網路以服務形式提供軟體時也會產生原始碼提供義務。即使不散布軟體，只要讓使用者能以網路服務形式存取，就會產生原始碼提供義務。以 SaaS 或雲端服務形式運作軟體時特別需要注意。"
+msgstr "配布時の義務に加え、ネットワークを通じてサービスとしてソフトウェアを提供する場合にも、ソースコードの提供義務が生じるカテゴリです。ソフトウェアを配布しなくても、ネットワークサービスとして利用者がアクセスできる状態にするだけでソースコード提供義務が発生します。SaaSやクラウドサービスとしてソフトウェアを運用する際には特に注意が必要です。"
 
 #. type: 清單
 #: operation-templates/compliance/license-types.md:36
@@ -586,10 +586,10 @@ msgid ""
 "- Addresses modern cloud and SaaS deployment models\n"
 "- Applies compliance terms without physical binary distribution"
 msgstr ""
-"- 散布與網路使用兩者都會產生義務\n"
-"- 需要在網路服務中提供原始碼\n"
-"- 因應現代雲端與 SaaS 的部署模式\n"
-"- 條件也適用於不伴隨散布的服務提供"
+"- 配布とネットワーク使用の両方によって義務が生じる\n"
+"- ネットワークサービスでのソースコード提供が必要\n"
+"- 現代のクラウド・SaaS展開モデルに対処\n"
+"- 配布を伴わないサービス提供にも条件が適用される"
 
 #. type: 表格
 #: operation-templates/compliance/license-types.md:38
@@ -599,7 +599,7 @@ msgid ""
 "| GNU Affero General Public License v3.0 | AGPL-3.0-only | [gnu.org/licenses/agpl-3.0.html](https://www.gnu.org/licenses/agpl-3.0.en.html) |\n"
 "| Open Software License 3.0 | OSL-3.0 | [opensource.org/license/osl-3-0](https://opensource.org/license/osl-3-0) |"
 msgstr ""
-"| 授權條款名稱 | SPDX 識別碼 | 官方條文 |\n"
+"| ライセンス名 | SPDX識別子 | 公式テキスト |\n"
 "|---|---|---|\n"
 "| GNU Affero General Public License v3.0 | AGPL-3.0-only | [gnu.org/licenses/agpl-3.0.html](https://www.gnu.org/licenses/agpl-3.0.en.html) |\n"
 "| Open Software License 3.0 | OSL-3.0 | [opensource.org/license/osl-3-0](https://opensource.org/license/osl-3-0) |"
@@ -607,12 +607,12 @@ msgstr ""
 #. type: 標題
 #: operation-templates/compliance/license-types.md:39
 msgid "## Key Takeaways"
-msgstr "## 重要重點"
+msgstr "## 重要なポイント"
 
 #. type: 段落
 #: operation-templates/compliance/license-types.md:40
 msgid "Understanding these license categories underpins both consuming and contributing to open source:"
-msgstr "理解這些授權條款類別，對於使用開放原始碼軟體與貢獻開放原始碼都很重要："
+msgstr "これらのライセンスカテゴリを理解することは、オープンソースソフトウェアの使用と貢献の両方において重要です："
 
 #. type: 清單
 #: operation-templates/compliance/license-types.md:41
@@ -623,16 +623,16 @@ msgid ""
 "4. **Category 4 (Combined Work Source Disclosure)** enforces strong copyleft openness, requiring detailed compliance reviews.\n"
 "5. **Category 5 (Network Service Source Disclosure)** extends copyleft obligations to modern cloud/SaaS deployments."
 msgstr ""
-"1. **類別 1（附上著作權標示與授權文件）** 提供最大的彈性，適合意在廣泛被採用的程式庫與工具\n"
-"2. **類別 2（附上指定資訊）** 雖然還要求提供 NOTICE 檔案等追加資訊，但沒有原始碼提供義務\n"
-"3. **類別 3（提供 OSS 的原始碼）** 在程式庫使用上的開放性與商業實用性之間取得平衡\n"
-"4. **類別 4（提供連動軟體的原始碼）** 大範圍確保原始碼的開放性，需要確認的事項較多\n"
-"5. **類別 5（向網路服務使用者提供原始碼）** 即使在現代雲端部署模式下也同樣適用義務"
+"1. **カテゴリ1（著作権表示とライセンス文書の添付）** は最大の柔軟性を提供し、広い採用を意図したライブラリやツールに適している\n"
+"2. **カテゴリ2（所定の情報の添付）** は、NOTICEファイルなど追加の情報提供も求められるが、ソースコード提供義務はない\n"
+"3. **カテゴリ3（OSSのソースコード提供）** は、ライブラリ使用における開放性と商用実用性のバランスを取る\n"
+"4. **カテゴリ4（連携するソフトのソースコード提供）** は、ソースコードのオープン性を広範囲に確保し、確認事項が多い\n"
+"5. **カテゴリ5（ネットワークサービス利用者へのソースコード提供）** は、現代のクラウド展開モデルにおいても義務が適用される"
 
 #. type: 段落
 #: operation-templates/compliance/license-types.md:42
 msgid "Each category satisfies distinct community governance goals."
-msgstr "每個類別各自對應不同的目標與社群。"
+msgstr "各カテゴリは異なる目標とコミュニティに対応しています。"
 
 #. type: 清單
 #: operation-templates/compliance/license-types.md:46
@@ -641,9 +641,9 @@ msgid ""
 "- [ ] Annotated restricted or prohibited licenses based on company policy.\n"
 "- [ ] Highlighted categories particularly relevant to company business models (e.g., Category 5 for SaaS)."
 msgstr ""
-"- [ ] 已對自家公司使用頻率高的授權條款加上標記或註解\n"
-"- [ ] 若自家公司有限制或禁止使用的授權條款，已加上註記\n"
-"- [ ] 已明確標示與自家公司使用形態特別相關的類別（如類別 5 的網路服務等）"
+"- [ ] 自社で利用頻度の高いライセンスにマークや注釈を追加した\n"
+"- [ ] 自社で利用を制限または禁止しているライセンスがあれば注記を追加した\n"
+"- [ ] 自社の利用形態に特に関係するカテゴリ（カテゴリ5のネットワークサービス等）を明示した"
 
 #. type: 註解
 #: operation-templates/compliance/license-types.md:47
@@ -671,19 +671,19 @@ msgid ""
 msgstr ""
 "<!--\n"
 "########################################################################################\n"
-"客製化指南\n"
+"カスタマイズガイド\n"
 "\n"
-"以下說明在佔位符替換之後，依自家公司狀況進行增補與調整的指引。\n"
+"Placeholder置換の次のステップとして、自社の状況に合わせた加筆・調整を行うための指針を以下に示します。\n"
 "########################################################################################\n"
 "\n"
-"■ 針對自家公司的客製化\n"
-"對自家公司經常使用的授權條款，建議另外整理成公司內部文件，記載公司內部的使用實績與注意事項。\n"
-"若要在公司內部文件中記載授權條款的解釋，請依法務部門的建議判斷。\n"
-"請依自家公司的使用形態（公司內部使用／散布／SaaS 提供等），向開發者宣導特別需要注意的類別。\n"
+"■ 自社向けのカスタマイズ\n"
+"自社で頻繁に利用するライセンスには、社内での利用実績や注意点を別途社内文書として整備することを推奨します。\n"
+"ライセンスの解釈について社内文書に記す場合、法務部門の助言に基づいて判断してください。\n"
+"自社の利用形態（社内利用/配布/SaaS提供など）に応じて、特に注意が必要なカテゴリを開発者に周知してください。\n"
 "\n"
-"■ 擴充清單\n"
-"請依需要加入自家公司使用中，或在生態系中可能遇到的授權條款。\n"
-"若要把不符合 OSD 的授權條款（BSL、Elastic License 等）加入作為參考，請附上「未經 OSI 認可」的註記。\n"
+"■ リストの拡張\n"
+"自社で利用している、またはエコシステムで遭遇する可能性のあるライセンスを必要に応じて追加してください。\n"
+"OSD非準拠のライセンス（BSL、Elastic License等）を参考として追加する場合は「OSI承認なし」の注記を付けてください。\n"
 "\n"
 "########################################################################################\n"
 "########################################################################################\n"
@@ -692,7 +692,7 @@ msgstr ""
 #. type: 標題
 #: operation-templates/compliance/oss-with-commercial-license-options.md:1
 msgid "# OSS with Commercial License Options"
-msgstr "# 可選擇商用授權的 OSS"
+msgstr "# 商用ライセンスが選択できるOSS"
 
 #. type: 段落
 #: operation-templates/compliance/oss-with-commercial-license-options.md:3
@@ -700,13 +700,13 @@ msgid ""
 "Open source software (OSS) by definition permits commercial use.\n"
 "However, specific open source licenses establish conditions on redistribution or modification, and vendors may offer commercial licenses for usage scenarios that do not comply with those open source conditions."
 msgstr ""
-"開放原始碼軟體（OSS）依定義是允許包含商業使用在內的使用方式。\n"
-"另一方面，各授權條款各自訂有關於再散布與修改的條件；對於無法滿足這些條件的使用形態，有時會另外提供商用授權。"
+"オープンソースソフトウェア（OSS）は、定義上、商用利用を含む利用が認められています。\n"
+"一方で、ライセンスごとに再配布や改変に関する条件が定められており、それらの条件を満たさない利用形態に対して、別途商用ライセンスが提供されている場合があります。"
 
 #. type: 標題
 #: operation-templates/compliance/oss-with-commercial-license-options.md:4
 msgid "## Why Commercial Licenses Are Offered"
-msgstr "## 為什麼會提供商用授權"
+msgstr "## なぜ商用ライセンスが提供されているか"
 
 #. type: 段落
 #: operation-templates/compliance/oss-with-commercial-license-options.md:5
@@ -714,8 +714,8 @@ msgid ""
 "Offering commercial licenses represents a strategic choice by creators and companies to build sustainable business models.\n"
 "By releasing core functionality as open source while charging licensing fees for enterprise features, support, or proprietary commercial rights, vendors fund ongoing development and maintenance."
 msgstr ""
-"這是開發者或企業為建立可持續商業模式所做的策略選擇。\n"
-"基本功能以開放原始碼形式提供，同時對企業級功能、支援與商業使用收取授權費用，藉此讓持續開發與維護成為可能。"
+"これは開発者や企業が持続可能なビジネスモデルを構築するための戦略的な選択です。\n"
+"基本的な機能はオープンソースとして提供しつつ、エンタープライズ向けの機能やサポート、商用利用に対してライセンス料を設定することで、継続的な開発とメンテナンスを可能にしています。"
 
 #. type: 段落
 #: operation-templates/compliance/oss-with-commercial-license-options.md:6
@@ -723,32 +723,32 @@ msgid ""
 "Using dual-licensed software without adhering to open source license conditions results in non-compliant usage, exposing organizations to legal liabilities, unexpected injunctions, and back-license claims.\n"
 "Preventing these risks requires thorough pre-use verification and structured license management."
 msgstr ""
-"若未確認所適用 OSS 授權條款的條件就使用，結果可能構成不符合授權條件的使用，進而發生法律風險、突然被要求停止使用、被請求額外授權費用等嚴重問題。\n"
-"要避免這些風險並適切運用 OSS，事前確認與適切的授權管理相當重要。"
+"適用されるOSSライセンスの条件を確認せずに利用した場合、結果としてライセンス条件に適合しない利用となり、法的リスク、突然の利用停止要求、追加ライセンス料の請求などの深刻な問題が発生する可能性があります。\n"
+"これらのリスクを回避し、適切にOSSを活用するためには、事前の確認と適切なライセンス管理が重要です。"
 
 #. type: 標題
 #: operation-templates/compliance/oss-with-commercial-license-options.md:7
 msgid "## Scenarios Requiring Commercial Licensing"
-msgstr "## 什麼情況下需要商用授權"
+msgstr "## どのような場合に商用ライセンスが必要か"
 
 #. type: 段落
 #: operation-templates/compliance/oss-with-commercial-license-options.md:8
 msgid "This section outlines primary scenarios where commercial licensing becomes necessary:"
 msgstr ""
-"本小節說明需要商用授權的主要情況。\n"
-"各情況也一併列出應確認的重點。"
+"このセクションでは、商用ライセンスが必要となる主なケースを説明します。\n"
+"各ケースにおいて、確認すべきポイントも併せて示します。"
 
 #. type: 清單
 #: operation-templates/compliance/oss-with-commercial-license-options.md:9
 msgid "- **Dual-Licensing Models**"
-msgstr "- **雙重授權模式**"
+msgstr "- **デュアルライセンスモデル**"
 
 #. type: 段落
 #: operation-templates/compliance/oss-with-commercial-license-options.md:10
 msgid "  Certain open source software employs dual-licensing models—offering the identical codebase under both an open source license (GPL, AGPL, etc.) and a commercial license."
 msgstr ""
-"  有些開放原始碼軟體採用雙重授權模式。\n"
-"  也就是同一套軟體同時以開放原始碼授權條款（GPL、AGPL 等）與商用授權兩種形式提供。"
+"  デュアルライセンスモデルを採用しているオープンソースソフトウェアがあります。\n"
+"  つまり、同じソフトウェアがオープンソースライセンス（GPL、AGPLなど）と商用ライセンスの両方で提供されています。"
 
 #. type: 段落
 #: operation-templates/compliance/oss-with-commercial-license-options.md:11
@@ -756,13 +756,13 @@ msgid ""
 "  Selecting the open source option requires strict compliance with its terms (such as source disclosure obligations).\n"
 "  If business requirements prevent meeting these open source conditions, purchasing a commercial license becomes mandatory."
 msgstr ""
-"  若選擇開放原始碼授權版本，就必須遵守該授權條款的條件（原始碼提供義務等）。\n"
-"  若無法滿足這些條件，就需要購買商用授權。"
+"  オープンソースライセンス版を選択した場合、そのライセンスの条件（ソースコード提供義務など）を遵守する必要があります。\n"
+"  これらの条件を満たせない場合、商用ライセンスの購入が必要になります。"
 
 #. type: 清單
 #: operation-templates/compliance/oss-with-commercial-license-options.md:12
 msgid "- **Non-OSS Licensing Terms Triggered by Usage Scale or Operational Metrics**"
-msgstr "- **含依使用規模等條件的非 OSS 授權形態**"
+msgstr "- **利用規模等に応じた条件を含む、OSS以外のライセンス形態**"
 
 #. type: 段落
 #: operation-templates/compliance/oss-with-commercial-license-options.md:13
@@ -771,14 +771,14 @@ msgid ""
 "  For example, vendors may require separate commercial contracts for companies exceeding revenue thresholds or organizational scale limits.\n"
 "  These licenses do not meet the Open Source Definition (OSD); however, because their source code is publicly accessible, they are easily mistaken for OSS, necessitating careful review of licensing terms prior to adoption."
 msgstr ""
-"  部分軟體雖然公開原始碼，卻採用依使用規模、營收、員工人數等附加額外條件的授權形態。\n"
-"  例如，年營收超過特定金額的企業使用，或達一定規模以上的組織使用時，會被要求另行簽訂商用契約或授權。\n"
-"  這些並不符合 OSD 所訂的 OSS 定義，但因為原始碼是公開的，外觀上容易被誤認為 OSS，使用時確認授權條件相當重要。"
+"  一部のソフトウェアでは、ソースコードが公開されているものの、利用規模や売上高、従業員数などに応じて追加の条件が付されるライセンス形態が採用されています。\n"
+"  例えば、年間売上が特定の金額を超える企業での利用や、一定規模以上の組織での利用について、別途商用契約やライセンスの締結を求めるケースがあります。\n"
+"  これらはOSDの定めるOSSの定義には該当しませんが、ソースコードが公開されているため、外見上OSSと誤解されやすく、利用にあたってはライセンス条件の確認が重要です。"
 
 #. type: 清單
 #: operation-templates/compliance/oss-with-commercial-license-options.md:14
 msgid "- **Commercial Support and Enterprise Add-On Features**"
-msgstr "- **商用支援與企業級附加功能**"
+msgstr "- **商用サポートおよびエンタープライズ向け付加機能**"
 
 #. type: 段落
 #: operation-templates/compliance/oss-with-commercial-license-options.md:15
@@ -787,29 +787,29 @@ msgid ""
 "  Enterprise security features, management consoles, and formal SLAs are typically delivered under commercial contracts.\n"
 "  When enterprise operational requirements demand these capabilities, organizations purchase commercial agreements alongside open source usage."
 msgstr ""
-"  有些 OSS 除了在 OSS 授權條款下可使用的核心功能之外，還另外提供設想大規模運作與企業使用的追加功能或服務。\n"
-"  例如企業級的資訊安全功能、管理功能、技術支援等，有時是依商用契約提供。\n"
-"  當企業的運作需求需要這些附加功能或服務時，除 OSS 之外，通常會有簽訂商用契約的選項。"
+"  OSSの中には、OSSライセンスの下で利用可能な中核機能に加えて、大規模運用や企業利用を想定した追加の機能やサービスを別途提供しているものがあります。\n"
+"  例えば、エンタープライズレベルのセキュリティ機能、管理機能、技術サポートなどは、商用契約に基づいて提供される場合があります。\n"
+"  企業の運用要件に応じてこれらの付加機能やサービスが必要となる場合には、OSSとは別に商用契約を締結する選択肢が用意されていることがあります。"
 
 #. type: 標題
 #: operation-templates/compliance/oss-with-commercial-license-options.md:16
 msgid "## Covered Software [TO BE EDITED]"
-msgstr "## 哪些屬於對象【需編輯】"
+msgstr "## 何が対象となるか【要編集】"
 
 #. type: 標題
 #: operation-templates/compliance/oss-with-commercial-license-options.md:17
 msgid "## OSS Requiring Heightened Vigilance [TO BE EDITED]"
-msgstr "## 使用時需要注意的 OSS【需編輯】"
+msgstr "## 使用にあたり注意が必要なOSS【要編集】"
 
 #. type: 標題
 #: operation-templates/compliance/oss-with-commercial-license-options.md:18
 msgid "### Evaluation Guidelines"
-msgstr "### 確認重點"
+msgstr "### 確認のポイント"
 
 #. type: 段落
 #: operation-templates/compliance/oss-with-commercial-license-options.md:19
 msgid "Verify the following points when evaluating new OSS:"
-msgstr "導入新的 OSS 時，請確認以下幾點。"
+msgstr "新しいOSSを導入する際は、以下の点を確認してください。"
 
 #. type: 清單
 #: operation-templates/compliance/oss-with-commercial-license-options.md:20
@@ -819,21 +819,21 @@ msgid ""
 "3. **Check Organizational Scale Criteria**: Verify whether revenue or employee thresholds trigger non-OSS commercial licensing.\n"
 "4. **Assess Feature Requirements**: Determine whether open source features satisfy project requirements or if enterprise commercial add-ons are necessary."
 msgstr ""
-"1. **確認授權條文**\n"
-"  確認是否為雙重授權，以及所適用的授權條件（OSS 授權條款，或非 OSS 的授權條件）。\n"
-"2. **評估使用形態**\n"
-"  明確區分是內嵌使用、SaaS 提供或內部使用等。\n"
-"3. **確認企業規模要件**\n"
-"  若訂有依營收或員工人數而定的使用條件，請確認該軟體是否並非 OSS，而是以其他授權形態提供。\n"
-"4. **檢視所需功能**\n"
-"  評估在 OSS 授權條款下提供的功能是否已能滿足需求，或是否需要另外提供的企業級附加功能與支援。"
+"1. **ライセンス条項の確認**\n"
+"  デュアルライセンスの有無や、適用されるライセンス条件（OSSライセンス、またはOSS以外のライセンス条件）について確認します。\n"
+"2. **利用形態の評価**\n"
+"  組み込み利用、SaaS提供、内部利用などの分類を明確にします。\n"
+"3. **企業規模要件の確認**\n"
+"  売上高や従業員数に応じた利用条件が定められている場合には、当該ソフトウェアがOSSではなく、別のライセンス形態で提供されていないかを確認します。\n"
+"4. **必要機能の精査**\n"
+"  OSSライセンスの下で提供される機能で要件を満たせるか、または別途提供されるエンタープライズ向けの付加機能やサポートが必要かを評価します。"
 
 #. type: 標題
 #: operation-templates/compliance/oss-with-commercial-license-options.md:21
 #: operation-templates/compliance/source-disclosure-licenses.md:30
 #: operation-templates/compliance/what-is-a-license.md:36
 msgid "## Consult the OSPO When Uncertain"
-msgstr "## 猶豫時請洽詢 OSPO"
+msgstr "## 迷ったらOSPOへ相談を"
 
 #. type: 段落
 #: operation-templates/compliance/oss-with-commercial-license-options.md:22
@@ -842,9 +842,9 @@ msgid ""
 "Refer to \"[What Is an OSPO?](../about/ospo.md)\" for contact details.\n"
 "Proper license management ensures seamless, efficient open source adoption."
 msgstr ""
-"若有不清楚之處，請洽詢 OSPO。\n"
-"承辦人清單請參閱「[什麼是 OSPO](../about/ospo.md)」。\n"
-"透過適切的授權管理，實現順暢而有效率的 OSS 運用。"
+"不明な点がある場合は、OSPOまで相談してください。\n"
+"担当者のリストは「[OSPOとは](../about/ospo.md)」を参照してください。\n"
+"適切なライセンス管理により、円滑で効率的なOSS活用を実現しましょう。"
 
 #. type: 清單
 #: operation-templates/compliance/oss-with-commercial-license-options.md:26
@@ -854,10 +854,10 @@ msgid ""
 "- [ ] Documented licenses requiring special review procedures.\n"
 "- [ ] Created dedicated usage guides for frequently used dual-licensed software."
 msgstr ""
-"- [ ] 已把公司內部已購買商用授權的代表性案例整理成清單\n"
-"- [ ] 已列出禁止使用的 OSS 清單\n"
-"- [ ] 已寫出使用時需要特別注意的授權條款\n"
-"- [ ] 已為經常使用的 OSS 製作專用使用指南"
+"- [ ] 社内で購入済みの商用ライセンスの代表例をリスト化した\n"
+"- [ ] 利用を禁止しているOSSの一覧を記載した\n"
+"- [ ] 利用に特別な注意が必要なライセンスを記載した\n"
+"- [ ] 頻繁に利用されるOSSの専用利用ガイドを作成した"
 
 #. type: 註解
 #: operation-templates/compliance/oss-with-commercial-license-options.md:27
@@ -887,28 +887,28 @@ msgid ""
 msgstr ""
 "<!--\n"
 "########################################################################################\n"
-"客製化指南\n"
+"カスタマイズガイド\n"
 "\n"
-"以下說明在佔位符替換之後，依自家公司狀況進行增補與調整的指引。\n"
+"Placeholder置換の次のステップとして、自社の状況に合わせた加筆・調整を行うための指針を以下に示します。\n"
 "########################################################################################\n"
 "\n"
-"■ 對象軟體的清單化（「哪些屬於對象」小節）\n"
+"■ 対象ソフトウェアのリスト化（「何が対象となるか」セクション）\n"
 "\n"
-"請把自家公司可使用的商用授權軟體代表性案例整理成清單。\n"
+"自社で利用できる商用ライセンスソフトウェアの代表例をリスト化してください。\n"
 "\n"
-"清單化的重點：\n"
-" * 把企業內部已購買授權的軟體與工具的代表性案例整理成清單並呈現\n"
-" 　　　　（不需要涵蓋全部，但呈現主要案例有助於讀者理解）\n"
+"リスト化のポイント：\n"
+" * 企業内で既にライセンスを購入済みのソフトウェアやツールの代表例をリスト化して提示する\n"
+" 　　　　（すべてを網羅する必要はないが、主要な事例を示すことで読者の理解を助ける）\n"
 "\n"
-"■ 明示需要注意的 OSS（「使用時需要注意的 OSS」小節）\n"
+"■ 注意が必要なOSSの明示（「使用にあたり注意が必要なOSS」セクション）\n"
 "\n"
-"為提醒員工注意，請明示需要注意的 OSS。\n"
+"従業員に注意を促すため、注意が必要なOSSを明示してください。\n"
 "\n"
-"記載重點：\n"
-" * 記載使用時需要特別注意的開放原始碼授權條款\n"
-" * 若禁止使用需要特定商用授權的 OSS，請列出清單\n"
-" * 提醒員工：即使是能在網路上自由取得的軟體，也有屬於公司內部禁止的對象\n"
-" * 若該 OSS 的授權條款複雜且使用頻繁，請製作專用使用指南，並以顯眼的形式提供\n"
+"記載のポイント：\n"
+" * 利用に特別な注意が必要なオープンソースライセンスについて記載する\n"
+" * 特定の商用ライセンスが必要なOSSの利用を禁止している場合は一覧を記載\n"
+" * インターネット上で自由に入手できるソフトウェアであっても、社内禁止対象のものがあることを従業員に注意喚起する\n"
+" * 該当OSSのライセンスが複雑かつ頻繁に利用される場合は、専用の利用ガイドを作成し目につきやすい形で提供する\n"
 "\n"
 "########################################################################################\n"
 "########################################################################################\n"
@@ -917,7 +917,7 @@ msgstr ""
 #. type: 標題
 #: operation-templates/compliance/source-disclosure-licenses.md:1
 msgid "# Licenses with Source Code Disclosure Obligations"
-msgstr "# 有原始碼提供義務的授權條款"
+msgstr "# ソースコード提供義務のあるライセンス"
 
 #. type: 段落
 #: operation-templates/compliance/source-disclosure-licenses.md:3
@@ -925,23 +925,23 @@ msgid ""
 "Among open source licenses, those imposing source code disclosure obligations require heightened vigilance.\n"
 "While general concepts are covered in **[What Is a License?](../compliance/what-is-a-license.md)**, this document details the specific characteristics of source disclosure licenses and their business impacts."
 msgstr ""
-"在眾多開放原始碼授權條款中，特別需要注意的是有原始碼提供義務的授權條款。\n"
-"授權條款的一般說明在[什麼是授權條款](../compliance/what-is-a-license.md)中解說，這裡則詳細說明有原始碼提供義務授權條款的特性，以及它對企業的影響。"
+"数あるオープンソースライセンスの中でも、特に注意が必要なのがソースコード提供義務のあるライセンスです。\n"
+"ライセンス全般については[ライセンスとは](../compliance/what-is-a-license.md)で解説していますが、ここではソースコード提供義務のあるライセンスの特性と、それが企業に与える影響について詳しく説明します。"
 
 #. type: 標題
 #: operation-templates/compliance/source-disclosure-licenses.md:4
 msgid "## Why These Licenses Require Heightened Vigilance"
-msgstr "## 為什麼需要注意這些授權條款"
+msgstr "## なぜこれらのライセンスに注意が必要なのか"
 
 #. type: 段落
 #: operation-templates/compliance/source-disclosure-licenses.md:5
 msgid "Licenses with source code disclosure obligations (copyleft licenses) are designed to preserve software freedom permanently."
-msgstr "有原始碼提供義務的授權條款，是為了永久保護開放原始碼軟體的「自由」而設計的授權形態。"
+msgstr "ソースコード提供義務のあるライセンスは、オープンソースソフトウェアの「自由」を永続的に保護するために設計されたライセンス形態です。"
 
 #. type: 段落
 #: operation-templates/compliance/source-disclosure-licenses.md:6
 msgid "Unlike permissive licenses (MIT, BSD), copyleft licenses may mandate that modifications or closely combined works be distributed under identical licensing terms, including source code availability. What constitutes \"close combination\" varies by license and technical mechanism (static linking, dynamic linking, IPC)."
-msgstr "與義務較少的授權條款（MIT、BSD 等）不同，修改採用這些授權條款的軟體，或與其緊密結合而產生的產出物，有時也會被要求以相同授權條件提供原始碼。什麼算是「緊密結合」因授權條款而異，也會因靜態連結、動態連結、行程間通訊等技術結合方式而有不同解釋。"
+msgstr "義務の少ないライセンス（MIT、BSD等）とは異なり、これらのライセンスを持つソフトウェアを修正したり、密接に結合したりした成果物についても、同じライセンス条件でソースコードを提供することが義務付けられる場合があります。何が「密接な結合」に当たるかはライセンスごとに異なり、静的リンク・動的リンク・プロセス間通信といった技術的な結合方法によっても解釈が変わります。"
 
 #. type: 段落
 #: operation-templates/compliance/source-disclosure-licenses.md:7
@@ -949,8 +949,8 @@ msgid ""
 "Because copyleft scope boundaries can be complex, proprietary software combined with copyleft components risks triggering unintended source disclosure obligations.\n"
 "This presents potential impacts on corporate intellectual property strategies and competitive differentiators, demanding careful management."
 msgstr ""
-"由於這種「傳染性」的範圍有時並不明確，即使是我們自行開發的軟體，也有可能在無意間承擔原始碼提供義務。\n"
-"這可能對企業的智慧財產策略與競爭優勢造成重大影響，因此特別需要謹慎處理。"
+"この「伝播性」の範囲が明確でないケースもあるため、私たちの独自開発したソフトウェアであっても、意図せずにソースコードの提供義務を負う可能性があります。\n"
+"これは企業の知的財産戦略や競争優位性に重大な影響を与える可能性があるため、特に慎重な扱いが必要です。"
 
 #. type: 段落
 #: operation-templates/compliance/source-disclosure-licenses.md:8
@@ -959,19 +959,19 @@ msgid ""
 "Under proper understanding and compliance, organizations leverage copyleft software safely.\n"
 "The key lies in evaluating license terms against business deployment models to make informed architectural choices."
 msgstr ""
-"不過，使用這些授權條款本身並不等於風險。\n"
-"只要正確理解並妥善運用，就能以符合授權條件的方式使用優秀的開放原始碼軟體。\n"
-"重點在於理解其特性，並對照我們的商業需求做出適切的判斷。"
+"しかし、これらのライセンスを使用すること自体がリスクとなるわけではありません。\n"
+"適切に理解し、正しく活用すれば、優れたオープンソースソフトウェアをライセンス条件に適合した形で利用できます。\n"
+"重要なのは、その特性を理解し、私たちのビジネス要件と照らし合わせて適切な判断を行うことです。"
 
 #. type: 標題
 #: operation-templates/compliance/source-disclosure-licenses.md:9
 msgid "## Understanding the Business Impacts"
-msgstr "## 會有什麼影響"
+msgstr "## どのような影響があるのか"
 
 #. type: 標題
 #: operation-templates/compliance/source-disclosure-licenses.md:10
 msgid "### Triggering Source Code Disclosure"
-msgstr "### 產生原始碼提供義務"
+msgstr "### ソースコード提供義務の発生"
 
 #. type: 段落
 #: operation-templates/compliance/source-disclosure-licenses.md:11
@@ -979,13 +979,13 @@ msgid ""
 "The defining feature of copyleft licenses is mandatory source code disclosure for derivative works.\n"
 "Modifying or bundling copyleft software into distributed products requires providing corresponding source code under identical license terms."
 msgstr ""
-"有原始碼提供義務授權條款最重要的特徵，是對衍生作品的原始碼提供義務。\n"
-"修改採用這些授權條款的軟體，或散布與其結合的軟體時，必須以相同的授權條件提供所有相關的原始碼。"
+"ソースコード提供義務のあるライセンスの最も重要な特徴は、派生著作物に対するソースコード提供義務です。\n"
+"これらのライセンスのソフトウェアを修正したり、それと組み合わせたソフトウェアを配布したりする場合、関連するソースコードをすべて同じライセンス条件で提供しなければなりません。"
 
 #. type: 標題
 #: operation-templates/compliance/source-disclosure-licenses.md:12
 msgid "### Operational Impacts by Deployment Model"
-msgstr "### 散布形態造成的影響差異"
+msgstr "### 配布形態による影響の違い"
 
 #. type: 清單
 #: operation-templates/compliance/source-disclosure-licenses.md:13
@@ -993,8 +993,8 @@ msgid ""
 "- **Internal Operations Only**\n"
 "    Using copyleft software strictly within internal operations does not constitute external distribution under most copyleft licenses, avoiding source disclosure obligations."
 msgstr ""
-"- **僅內部使用的情況**\n"
-"    只在組織內部使用時，這些授權條款多數不視為散布，因此不會產生原始碼提供義務。"
+"- **内部利用のみの場合**\n"
+"    組織内部でのみ使用する場合、これらのライセンスの多くでは配布とみなされないため、ソースコード提供義務は発生しません。"
 
 #. type: 清單
 #: operation-templates/compliance/source-disclosure-licenses.md:14
@@ -1002,8 +1002,8 @@ msgid ""
 "- **Binary Distribution**\n"
 "    Distributing binaries or embedded software externally triggers requirements to provide corresponding source code."
 msgstr ""
-"- **散布二進位檔的情況**\n"
-"    以執行檔或程式庫形式對外散布時，需要提供對應的原始碼。"
+"- **バイナリ配布の場合**\n"
+"    実行ファイルやライブラリとして外部に配布する場合、対応するソースコードの提供が必要になります。"
 
 #. type: 清單
 #: operation-templates/compliance/source-disclosure-licenses.md:15
@@ -1011,18 +1011,18 @@ msgid ""
 "- **SaaS Delivery**\n"
 "    Network service delivery impacts vary by license. The Affero GPL (AGPL) explicitly defines network access as triggering source code disclosure obligations to service users."
 msgstr ""
-"- **以 SaaS 提供的情況**\n"
-"    以 Web 服務形式提供時的處理方式因授權條款而異。AGPL（Affero GPL）即使是透過網路提供，也會產生原始碼提供義務。"
+"- **SaaS提供の場合**\n"
+"    Webサービスとして提供する場合の扱いは、ライセンスにより異なります。AGPL（Affero GPL）では、ネットワーク経由での提供に対してもソースコード提供義務が生じます。"
 
 #. type: 標題
 #: operation-templates/compliance/source-disclosure-licenses.md:16
 msgid "### Copyleft Scope and Architectural Coupling"
-msgstr "### 授權條款的傳染範圍"
+msgstr "### ライセンスの伝播範囲"
 
 #. type: 段落
 #: operation-templates/compliance/source-disclosure-licenses.md:17
 msgid "Copyleft reciprocity varies by license family and technical coupling:"
-msgstr "原始碼提供義務的「傳染性」，會因授權條款種類與結合方式而不同。"
+msgstr "ソースコード提供義務の「伝播性」は、ライセンスの種類や結合方法によって異なります。"
 
 #. type: 段落
 #: operation-templates/compliance/source-disclosure-licenses.md:18
@@ -1030,8 +1030,8 @@ msgid ""
 "**Strong Copyleft (GPL v2/v3)**\n"
 "Static or dynamic linking combines application components into a single derivative work, extending GPL terms across the combined work."
 msgstr ""
-"**連同結合軟體的原始碼也需要提供的授權條款（GPL v2/v3）**\n"
-"透過靜態連結或動態連結結合而成的整體構成衍生作品，GPL 適用於整體。"
+"**結合されたソフトウェアのソースコード提供も必要なライセンス（GPL v2/v3）**\n"
+"静的リンクや動的リンクにより結合された全体が派生著作物となり、全体にGPLが適用されます。"
 
 #. type: 段落
 #: operation-templates/compliance/source-disclosure-licenses.md:19
@@ -1039,28 +1039,28 @@ msgid ""
 "**Weak / Component Copyleft (LGPL)**\n"
 "Requires disclosing source code for the LGPL library itself, alongside providing object code or build scripts allowing users to relink modified libraries. Proprietary application source code linking to unmodified LGPL libraries remains private, though LGPL compliance obligations still apply."
 msgstr ""
-"**只需提供 OSS 部分原始碼的授權條款（LGPL）**\n"
-"除了有義務提供 LGPL 程式庫本身的原始碼之外，可能還會被要求以使用者能替換程式庫並重新連結的形式（目的碼等）提供。自有應用程式本身的原始碼不需要提供，但即使沒有修改 LGPL 程式庫，上述提供義務仍然會發生。"
+"**OSS部分のみソースコード提供が必要なライセンス（LGPL）**\n"
+"LGPLライブラリ自体のソースコードの提供義務があるほか、利用者がライブラリを差し替えてリンクできる形式（オブジェクトコード等）での提供が求められる場合があります。独自アプリケーション自体のソースコード提供は不要ですが、LGPLライブラリを変更しなくても上記の提供義務は発生します。"
 
 #. type: 段落
 #: operation-templates/compliance/source-disclosure-licenses.md:20
 msgid "For detailed license descriptions, see **[Types of Licenses](../compliance/license-types.md)**."
-msgstr "詳細的授權條款內容請參閱[授權條款的種類](../compliance/license-types.md)。"
+msgstr "詳細なライセンス内容については、[ライセンスの種類](../compliance/license-types.md) を参照してください。"
 
 #. type: 標題
 #: operation-templates/compliance/source-disclosure-licenses.md:21
 msgid "## Usage Guidelines"
-msgstr "## 使用時的注意事項"
+msgstr "## 利用にあたり"
 
 #. type: 標題
 #: operation-templates/compliance/source-disclosure-licenses.md:22
 msgid "### Pre-Adoption Checklist"
-msgstr "### 使用前的確認事項"
+msgstr "### 利用前の確認事項"
 
 #. type: 段落
 #: operation-templates/compliance/source-disclosure-licenses.md:23
 msgid "Evaluate new open source software against this checklist prior to adoption:"
-msgstr "與從外部導入軟體時相同，在導入新的開放原始碼軟體前，請確認以下項目："
+msgstr "外部からソフトウェアを導入する場合と同様に、新しいオープンソースソフトウェアを導入する前に、以下を確認してください："
 
 #. type: 清單
 #: operation-templates/compliance/source-disclosure-licenses.md:24
@@ -1070,20 +1070,20 @@ msgid ""
 "3. **Assess Technical Coupling**: Analyze architectural integration methods (linking, IPC, network APIs).\n"
 "4. **Evaluate Permissive Alternatives**: Determine if permissively licensed alternatives satisfy technical requirements."
 msgstr ""
-"1. **確認授權條款種類** - 在 README 檔案、LICENSE 檔案、套件資訊中確認授權條款\n"
-"2. **評估使用形態** - 只在內部使用、是否伴隨散布、是否用於 SaaS 提供\n"
-"3. **檢視結合方式** - 會以什麼技術手段與既有系統結合\n"
-"4. **檢視替代方案** - 是否有功能相當但義務較少的授權條款選項"
+"1. **ライセンスの種類の特定** - READMEファイル、LICENSEファイル、パッケージ情報でライセンスを確認\n"
+"2. **利用形態の評価** - 内部利用のみか、配布を伴うか、SaaS提供に使用するか\n"
+"3. **結合方法の検討** - どのような技術的手段で既存システムと組み合わせるか\n"
+"4. **代替手段の検討** - 同等機能で義務の少ないライセンスの選択肢があるか"
 
 #. type: 標題
 #: operation-templates/compliance/source-disclosure-licenses.md:25
 msgid "### Scenarios Requiring Care"
-msgstr "### 需要注意的情境"
+msgstr "### 注意すべきシナリオ"
 
 #. type: 段落
 #: operation-templates/compliance/source-disclosure-licenses.md:26
 msgid "The following are some specific scenarios to watch for:"
-msgstr "以下列出幾個具體情境："
+msgstr "以下にいくつかの具体的なシナリオを示します："
 
 #. type: 清單
 #: operation-templates/compliance/source-disclosure-licenses.md:27
@@ -1091,8 +1091,8 @@ msgid ""
 "- **Development Environments**\n"
 "  Ensure tools or libraries used in build pipelines do not inadvertently bundle into final production deliverables."
 msgstr ""
-"- **在開發環境中使用**\n"
-"  即使是開發與測試用途，若最終可能包含在正式環境或散布物中，就需要注意。"
+"- **開発環境での利用**\n"
+"  開発・テスト目的でも、最終的に本番環境や配布物に含まれる可能性がある場合は注意が必要です。"
 
 #. type: 清單
 #: operation-templates/compliance/source-disclosure-licenses.md:28
@@ -1100,8 +1100,8 @@ msgid ""
 "- **Releasing Proprietary Software as Open Source**\n"
 "  Scan proprietary codebases prior to public release to ensure copyleft components are accounted for."
 msgstr ""
-"- **以開放原始碼形式發佈時**\n"
-"  把公司內部開發的軟體以開放原始碼形式發佈時，需要確認其中是否含有非預期授權條款的 OSS。"
+"- **オープンソースとしての公開時**\n"
+"  社内で開発したソフトウェアをオープンソースとして公開する際、意図しないライセンスのOSSが含まれていないかの確認が必要です。"
 
 #. type: 清單
 #: operation-templates/compliance/source-disclosure-licenses.md:29
@@ -1109,8 +1109,8 @@ msgid ""
 "- **M&A and Tech Transfers**\n"
 "  Auditing copyleft compliance is critical during corporate acquisitions or technology transfers, as inherited copyleft obligations pass to acquiring entities."
 msgstr ""
-"- **併購與事業轉讓時**\n"
-"  企業併購或事業轉讓時，需要確認所使用的 OSS 是否全部列出、是否遵守各項授權條件。有原始碼提供義務授權條款的遵守義務也會一併移轉，因此事前稽核相當重要。"
+"- **M&A・事業譲渡時**\n"
+"  企業買収や事業譲渡の際、利用しているOSSがすべてリストされているか、各ライセンス条件を遵守しているかの確認が必要です。ソースコード提供義務のあるライセンスの遵守義務も引き継がれるため、事前の監査が重要です。"
 
 #. type: 段落
 #: operation-templates/compliance/source-disclosure-licenses.md:31
@@ -1119,9 +1119,9 @@ msgid ""
 "When licensing interpretations are unclear, consult the OSPO.\n"
 "Refer to \"[What Is an OSPO?](../about/ospo.md)\" for contact details."
 msgstr ""
-"有原始碼提供義務的授權條款只要正確理解就能運用，但需要謹慎評估。\n"
-"若有不清楚之處或在判斷上猶豫，歡迎隨時洽詢 OSPO。\n"
-"承辦人清單請參閱「[什麼是 OSPO](../about/ospo.md)」。"
+"ソースコード提供義務のあるライセンスは、適切に理解することで活用できるものですが、慎重な検討が求められます。\n"
+"不明な点や判断に迷う場合は、お気軽にOSPOまでご相談ください。\n"
+"担当者のリストは「[OSPOとは](../about/ospo.md)」を参照してください。"
 
 #. type: 清單
 #: operation-templates/compliance/source-disclosure-licenses.md:35
@@ -1136,15 +1136,15 @@ msgid ""
 "- [ ] Published developer guidelines for copyleft software integration.\n"
 "- [ ] Defined policies for Software Composition Analysis (SCA) tool usage."
 msgstr ""
-"- [ ] 已與法務協商並確立公司內部對「衍生作品」「結合」的解釋基準\n"
-"- [ ] 已明確原始碼提供的範圍（哪些屬於對象）\n"
-"- [ ] 已訂出可提供與不可提供原始碼的分類基準\n"
-"- [ ] 已明確公司內部對「散布」的定義（是否包含提供給子公司、關係企業、合作夥伴）\n"
-"- [ ] 已訂出 SaaS 事業中使用 AGPL 授權條款的方針\n"
-"- [ ] 已製作技術結合方式與授權影響的對照表\n"
-"- [ ] 已整理各授權條款詳細解釋的外部連結彙整\n"
-"- [ ] 已訂出開發團隊在使用有原始碼提供義務授權條款時可參照的指南\n"
-"- [ ] 已評估 SCA 工具的使用方針"
+"- [ ] 「派生著作物」「組み合わせ」の社内での解釈基準を法務と協議し確立した\n"
+"- [ ] ソースコード提供の範囲（どこまでが対象か）を明確化した\n"
+"- [ ] 提供可能なソースコードと提供不可能なソースコードの分類基準を策定した\n"
+"- [ ] 社内での「配布」の定義を明確化した（子会社・関連会社・パートナーへの提供を含むか）\n"
+"- [ ] SaaS事業でのAGPLライセンス利用方針を策定した\n"
+"- [ ] 技術的結合方法とライセンス影響の対応表を作成した\n"
+"- [ ] 各ライセンスの詳細解釈に関する外部リンク集を整備した\n"
+"- [ ] ソースコード提供義務のあるライセンスの利用時に開発チームが参照できるガイドラインを策定した\n"
+"- [ ] SCAツールの利用方針を検討した"
 
 #. type: 註解
 #: operation-templates/compliance/source-disclosure-licenses.md:36
@@ -1175,36 +1175,36 @@ msgid ""
 msgstr ""
 "<!--\n"
 "########################################################################################\n"
-"客製化指南\n"
+"カスタマイズガイド\n"
 "\n"
-"以下說明在佔位符替換之後，依自家公司狀況進行增補與調整的指引。\n"
+"Placeholder置換の次のステップとして、自社の状況に合わせた加筆・調整を行うための指針を以下に示します。\n"
 "########################################################################################\n"
 "\n"
-"■ 制定企業方針\n"
-"有原始碼提供義務的授權條款一旦誤用影響很大，因此請制定企業層級的明確方針。\n"
-"重點不是輕易迴避、直接禁止使用，而是基於正確理解在公司內部統一見解。\n"
-"請與法務部門協商並確立公司內部對「衍生作品」「結合」的解釋基準，並訂出原始碼提供的範圍與可否提供的分類基準。\n"
-"調查過去向法務部門提出的類似案例與問題，並與其協作，也相當有效。\n"
+"■ 企業方針の策定\n"
+"ソースコード提供義務のあるライセンスは誤用による影響が大きいため、企業としての明確な方針を策定してください。\n"
+"安易に避けて使用禁止にするのではなく、正しい理解に基づき社内で見解を統一することが重要です。\n"
+"「派生著作物」「組み合わせ」の社内での解釈基準を法務部門と協議して確立し、ソースコード提供の範囲と提供可否の分類基準を策定してください。\n"
+"過去に法務部門へ寄せられた類似の事例や質問を調査し、連携を取ることも有効です。\n"
 "\n"
-"■ 散布的定義\n"
-"請明確公司內部對「散布」的定義。\n"
-"是否包含提供給子公司、關係企業、合作夥伴企業等，請考量具體情境後訂出定義。\n"
-"也請訂出 SaaS 事業中使用 AGPL 授權條款的方針。\n"
-"AGPL 即使是透過網路提供服務也會產生原始碼提供義務，因此需要明確的指南。\n"
+"■ 配布の定義\n"
+"社内での「配布」の定義を明確化してください。\n"
+"子会社、関連会社、パートナー企業への提供も含むか等、具体的なシナリオを考慮して定義を策定します。\n"
+"SaaS事業でのAGPLライセンス利用方針も策定してください。\n"
+"AGPLはネットワーク越しのサービス提供においてもソースコード提供義務が発生するため、明確なガイドラインが必要です。\n"
 "\n"
-"■ 技術結合與授權影響\n"
-"請提供技術結合方式（靜態連結、動態連結等）與授權影響的對照表。\n"
-"訂出開發團隊選擇結合方式時的指南，並考慮把授權考量事項納入架構審查。\n"
+"■ 技術的結合とライセンス影響\n"
+"技術的結合方法（静的リンク、動的リンク等）とライセンス影響の対応表を提供してください。\n"
+"開発チームでの結合方法選択時のガイドラインを策定し、アーキテクチャレビューにおけるライセンス考慮事項の組み込みを検討します。\n"
 "\n"
-"■ 依授權條款分別處理\n"
-"各授權條款的詳細說明與解釋，請依需要提供外部可信解說頁面的連結。\n"
-"也建議製作各授權條款的可用性矩陣，並調查、分享業界其他公司處理類似授權條款的案例。\n"
+"■ ライセンス別の対応\n"
+"各ライセンスの詳細説明や解釈については、必要に応じて外部の信頼できる解説ページへのリンクを提供してください。\n"
+"ライセンス別の利用可能性マトリクスを作成し、業界他社での類似ライセンス扱い事例を調査して共有することも推奨します。\n"
 "\n"
-"■ 建立流程\n"
-"請訂出讓開發團隊在使用有原始碼提供義務授權條款時能自主判斷的指南。\n"
-"評估 SCA 工具的使用方針、對開發者實施授權判定訓練也很重要。\n"
-"請建立判斷猶豫時洽詢 OSPO 的流程。\n"
-"OSPO 不是代替做判斷的組織，而是支援開發團隊做判斷的組織。\n"
+"■ プロセスの確立\n"
+"ソースコード提供義務のあるライセンスの利用時に開発チームが自律的に判断できるガイドラインを策定してください。\n"
+"SCAツールの利用方針の検討、開発者向けライセンス判定トレーニングの実施も重要です。\n"
+"判断に迷う場合のOSPOへの相談フローを整備してください。\n"
+"OSPOは判断を代行する組織ではなく、開発チームの判断を支援する組織です。\n"
 "\n"
 "########################################################################################\n"
 "########################################################################################\n"
@@ -1213,22 +1213,22 @@ msgstr ""
 #. type: 標題
 #: operation-templates/compliance/what-is-a-license.md:1
 msgid "# What Is a License?"
-msgstr "# 什麼是授權條款"
+msgstr "# ライセンスとは"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:3
 msgid "When hearing \"open source software\" (OSS), people often assume it can be used without restrictions. In reality, all OSS components carry licenses, and usage must strictly comply with their terms. This represents a critical aspect requiring careful management in enterprise environments."
-msgstr "聽到開放原始碼軟體（OSS），或許會有「可以無條件使用」的印象，但實際上所有 OSS 都附有授權條款，必須依其條件使用。這是企業使用 OSS 時特別需要謹慎處理的重要面向。"
+msgstr "オープンソースソフトウェア（OSS）と聞くと「条件なしに利用できる」という印象を持つかもしれませんが、実際にはすべてのOSSにライセンスが付与され、その条件に従って利用しなければなりません。これは企業でOSSを利用する際に、特に注意深く扱うべき重要な側面です。"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:4
 msgid "This guide explains foundational open source licensing concepts, classifications, risk factors, and practical compliance workflows to empower actionable decision-making on engineering teams."
-msgstr "以下將從 OSS 授權條款的基本概念、分類、風險，到遵循的實務做法，以能在現場判斷的具體程度加以說明。"
+msgstr "ここでは、OSSライセンスの基本概念から分類、リスク、そして遵守のための実践的なアプローチまでを、現場で判断できるレベルの具体性で解説します。"
 
 #. type: 標題
 #: operation-templates/compliance/what-is-a-license.md:5
 msgid "## Why Licensing Matters"
-msgstr "## 為什麼授權條款很重要"
+msgstr "## なぜライセンスが重要なのか"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:6
@@ -1237,9 +1237,9 @@ msgid ""
 "Conversely, open source software remains copyrighted by its authors, who grant specific freedoms (use, copy, modify, distribute) conditioned upon license terms.\n"
 "Licenses enable developers to specify \"how my code may be used\" and consumers to understand \"what activities are permitted,\" fostering safe software exchange."
 msgstr ""
-"「開放原始碼」與「公眾領域」根本不同。公眾領域的軟體是著作權不存在或已被拋棄，因此不適用授權條款的概念。\n"
-"另一方面，開放原始碼是著作權人保有權利，同時在授予特定自由（使用、重製、修改、散布等）的授權條件下提供。\n"
-"因為有授權條款，開發者能事先掌握「自己的程式碼會被如何使用」，使用者能事先掌握「什麼是被允許的」，雙方才能安心地交流軟體。"
+"「オープンソース」と「パブリックドメイン」は根本的に異なります。パブリックドメインのソフトウェアは著作権が存在しないか放棄されたものであり、ライセンスの概念が適用されません。\n"
+"一方でオープンソースは、著作権者が権利を保持したまま、特定の自由（利用・複製・改変・頒布など）を付与するライセンス条件の下で提供されます。\n"
+"ライセンスがあることで、開発者は「自分のコードがどう使われるか」を、利用者は「何が許されているか」を事前に把握でき、双方が安心してソフトウェアのやり取りを行えるようになります。"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:7
@@ -1248,15 +1248,15 @@ msgid ""
 "In enterprise environments, defining the boundaries of \"distribution\"—such as SaaS delivery, product embedding, and internal sharing across subsidiaries or partners—represents a key practical requirement.\n"
 "Misunderstandings lead to pre-shipment architectural rewrites and delayed product launches."
 msgstr ""
-"一旦忽視這套架構，對企業而言的風險就會變成實際的成本。\n"
-"包括以侵害著作權為由的法律行動、要求停止散布、意料之外的原始碼提供義務、額外授權費用的請求、品牌受損。\n"
-"特別是在企業環境中，以 SaaS 形式提供、隨產品出貨、向公司內部、子公司、合作夥伴橫向擴散等，「散布」的界線劃分是實務上的關鍵。\n"
-"若在誤解的情況下推進，就會導致出貨前夕的設計退回或發佈延期。"
+"この枠組みを無視すると、企業にとってのリスクは現実のコストに変わります。\n"
+"著作権侵害としての法的措置、配布停止の要請、想定外のソースコード提供義務、追加ライセンス料の請求、ブランド毀損。\n"
+"特に企業環境では、SaaSとしての提供、製品同梱、社内・子会社・パートナーへの横展開など、「配布」の線引きが実務上の肝になります。\n"
+"誤解したまま進むと、出荷直前での設計差し戻しやリリース延期につながります。"
 
 #. type: 標題
 #: operation-templates/compliance/what-is-a-license.md:8
 msgid "## The Role of Open Source Licenses"
-msgstr "## 授權條款扮演什麼角色"
+msgstr "## ライセンスが果たす役割とは何か"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:9
@@ -1265,9 +1265,9 @@ msgid ""
 "Under copyright law, original software receives copyright protection automatically upon creation.\n"
 "Licenses grant permission to exercise specific exclusive rights under defined conditions."
 msgstr ""
-"開放原始碼授權條款是軟體作者訂出自己的作品在什麼條件下許可他人使用的文件。\n"
-"依著作權法，具創作性的軟體在被創作出來的當下就產生著作權。\n"
-"授權條款就是把這項排他權利的一部分，在特定條件下許可給他人的機制。"
+"オープンソースライセンスは、ソフトウェアの作成者が自分の作品をどのような条件で他者に利用を許諾するかを定めた文書です。\n"
+"著作権法により、創作性のあるソフトウェアには作成された時点で著作権が発生します。\n"
+"ライセンスは、この排他的権利の一部を、特定の条件下で他者に許諾する仕組みです。"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:10
@@ -1275,18 +1275,18 @@ msgid ""
 "Licenses balance permitted grants against mandatory obligations.\n"
 "Permitted grants include usage, copying, distribution, modification, and commercial exploitation. Mandatory obligations include retaining copyright notices, accompanying license texts, documenting modifications, and disclosing source code. Diverse combinations of these terms produce numerous open source licenses balancing distinct rights and responsibilities."
 msgstr ""
-"授權條款大致分別記載了許可事項與義務事項。\n"
-"許可事項包括使用、重製、散布、修改、商業使用等。義務事項包括保留著作權標示、隨附含著作權標示的授權文件、明示修改處、提供原始碼等。這些要素的組合造就了數量非常多的開放原始碼授權條款，各自提供不同的權利與義務平衡。"
+"ライセンスには大きく分けて許可事項と義務事項が記載されています。\n"
+"許可事項には、使用、複製、配布、修正、商用利用などがあります。義務事項には、著作権表示の保持、著作権表示を含むライセンス文書の同梱、修正箇所の明示、ソースコードの提供などがあります。これらの組み合わせにより、非常に多くのオープンソースライセンスが存在し、それぞれ異なる権利と義務のバランスを提供しています。"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:11
 msgid "The Open Source Initiative (OSI) is the international body certifying open source licenses. OSI-approved licenses guarantee adherence to all 10 criteria of the Open Source Definition (OSD)—including source code access, free redistribution, derivative works permission, non-discrimination against persons/groups or fields of endeavor, and technology neutrality. Many widely used licenses exist outside OSI approval; when adopting software, evaluate both OSI approval status and specific license conditions."
-msgstr "Open Source Initiative（OSI）是負責認證開放原始碼授權條款的國際組織。經 OSI 認證的授權條款，可確保滿足開放原始碼定義（OSD）全部 10 項條款（可取得原始碼、再散布的自由、可製作衍生作品、禁止對特定人士或群體歧視、禁止對使用領域歧視、技術中立等）。另外，也有許多授權條款雖未取得 OSI 認證但被廣泛使用。企業使用開放原始碼時，除了是否經 OSI 認證之外，確認各授權條款的具體條件也很重要。"
+msgstr "Open Source Initiative（OSI）は、オープンソースライセンスの認定を行う国際的な組織です。OSI認定ライセンスは、オープンソースの定義（OSD）の全10箇条（ソースコードへのアクセス、再頒布の自由、派生著作物の作成、特定の人物やグループに対する差別の禁止、利用分野に対する差別の禁止、技術的中立性など）を満たしていることが保証されています。なお、OSI認定を受けていないものの、広く利用されているライセンスも多く存在します。企業でオープンソースを利用する際は、OSI認定の有無に加え、各ライセンスの具体的な条件を確認することが重要です。"
 
 #. type: 標題
 #: operation-templates/compliance/what-is-a-license.md:12
 msgid "## Understanding and Achieving Compliance"
-msgstr "## 如何理解並遵守授權條款"
+msgstr "## どのようにライセンスを理解し遵守するか"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:13
@@ -1295,9 +1295,9 @@ msgid ""
 "Will software run strictly internally, undergo modification, link with other software, be distributed to customers in binary forms, or be offered as a cloud service over network APIs?\n"
 "Ambiguity on deployment models yields opposite legal conclusions for the identical license."
 msgstr ""
-"首先該做的，是把自己專案中的使用形態清楚地講出來。\n"
-"只在公司內部執行？會修改嗎？會與其他軟體連結嗎？最終會散布給客戶嗎？會以 SaaS 形式透過網路提供嗎？\n"
-"這一點若含糊，同一份授權條款也可能導出完全相反的結論。"
+"最初にやるべきことは、自分たちのプロジェクトにおける利用形態をはっきり言語化することです。\n"
+"社内だけで実行するのか、改変するのか、別ソフトとリンクするのか、最終的に顧客へ配布するのか、SaaSとしてネットワーク越しに提供するのか。\n"
+"ここが曖昧だと、同じライセンスでも結論が180度変わります。"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:14
@@ -1307,10 +1307,10 @@ msgid ""
 "While traditional SaaS delivery does not constitute distribution under most licenses, network-copyleft licenses like AGPL trigger compliance obligations upon network interaction.\n"
 "For example, bundling open source JavaScript libraries into web application frontends constitutes static file redistribution, triggering requirements to retain copyright notices, accompany full license texts, and include NOTICE files where applicable."
 msgstr ""
-"在企業裡，「散布」的界線特別錯綜複雜。\n"
-"擴散到公司內部其他部門、子公司、海外據點、合作夥伴環境，看起來像內部使用，但在授權條款上可能構成散布。\n"
-"SaaS 多數情況下不構成散布，但遇到 AGPL 這類會因「透過網路提供」而產生義務的授權條款，情況就不同了。\n"
-"例如，隨 Web 應用前端一起打包的 OSS，一般解釋為構成靜態檔案的再散布，因此可能產生保留原始著作權標示（Copyright 標記）、附上授權條款全文，甚至隨附 NOTICE 檔案等義務。"
+"企業では「配布」の境界が特に錯綜します。\n"
+"社内の別部門・子会社・海外拠点・パートナー環境への展開は内部利用に見えて、ライセンス上は配布に当たる場合があります。\n"
+"SaaSは配布に該当しないことが多いものの、AGPLなどの「ネットワーク越し提供」で義務が生じるライセンスでは話が変わります。\n"
+"例えば、WebアプリのフロントにバンドルするOSSは、静的ファイルの再配布に当たる解釈が一般的で、元の著作権表示（Copyright表記）の保持やライセンス全文の添付、場合によってはNOTICEファイルの同梱といった義務が発生し得ます。"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:15
@@ -1319,9 +1319,9 @@ msgid ""
 "Analyze long license texts by identifying key functional clauses: Rights Grant, Conditions/Obligations, Limitations/Restrictions, Disclaimers/Warranties, Patent Grants, and Trademark Rules.\n"
 "For example, when redistributing code under Apache-2.0, ensure operational pipelines propagate existing NOTICE file contents."
 msgstr ""
-"在實務上，導入前要先確認授權條款本文的所在位置（LICENSE、COPYING、儲存庫根目錄、各檔案標頭、NOTICE），再對照自己要如何使用該軟體（公司內部使用、散布、是否修改等），掌握什麼被許可、什麼構成義務。\n"
-"篇幅長的授權條款，可以先用權利授予（grant／permission）、條件（condition／obligation）、免責（disclaimer／warranty）等關鍵字掌握結構，會比較容易讀懂。\n"
-"例如像 Apache-2.0 這種明確規定專利授權與 NOTICE 處理方式的授權條款，重點在於建立再散布程式碼時不忘附上 NOTICE 的作業習慣。"
+"実務としては、導入前にライセンス本文の所在（LICENSE、COPYING、リポジトリのルート、各ファイルヘッダ、NOTICE）を確認し、自分たちがそのソフトウェアをどう使うか（社内利用か、配布か、改変するかなど）に照らして、何が許可され何が義務となるかを把握します。\n"
+"長文ライセンスは、権利付与（grant/permission）、条件（condition/obligation）、免責（disclaimer/warranty）といったキーワードで構造を先に把握すると読み解きやすくなります。\n"
+"例えば、Apache-2.0 のように特許ライセンスやNOTICEの扱いが明示されているライセンスでは、コードの再配布時にNOTICEの添付を忘れない運用が重要です。"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:16
@@ -1329,19 +1329,19 @@ msgid ""
 "License compliance is a continuous lifecycle process rather than a one-time gateway check. It requires pre-adoption screening, automated CI/CD dependency detection, release artifact audits, and continuous tracking for upstream license changes (e.g., BSD to GPL transitions).\n"
 "Automating detection via Software Composition Analysis (SCA), SBOM generation, dependency lockfiles, and signature verification enables engineering teams to focus manual reviews on architectural boundary assessments and complex policy exceptions."
 msgstr ""
-"授權遵循不是一次性的作業，而是一套流程。\n"
-"新採用前的檢查、開發中新增相依項目時的自動偵測、發佈時的隨附文件確認、運作中對授權條款變更與專案移轉（例如：BSD→GPL 等）的監控。\n"
-"把工具（SCA、SBOM、相依鎖定、簽章驗證）納入管線實現自動化，讓人力集中在界線判斷與例外審查上，是較務實的做法。"
+"ライセンス遵守はスポット作業ではなくプロセスです。\n"
+"新規採用前のチェック、開発中の依存追加時の自動検出、リリース時の同梱確認、運用中のライセンス変更・プロジェクト移行（例：BSD→GPL など）の監視。\n"
+"ツール（SCA、SBOM、依存ロック、署名検証）をパイプラインに組み込んで自動化し、人手は境界判断や例外審査に集中させるのが現実的です。"
 
 #. type: 標題
 #: operation-templates/compliance/what-is-a-license.md:17
 msgid "### Primary License Categories"
-msgstr "### 理解主要的授權條款分類"
+msgstr "### 主要なライセンス分類の理解"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:18
 msgid "Open source licenses are categorized into five obligation tiers:"
-msgstr "開放原始碼授權條款可以依其條件與義務的範圍大致分類。把授權條件整理成義務逐步增加的 5 個層級，會比較容易理解。"
+msgstr "オープンソースライセンスは、その条件や義務の範囲によって大きく分類できます。ライセンス条件は段階的に義務が増していく5段階で整理すると理解しやすくなります。"
 
 #. type: 表格
 #: operation-templates/compliance/what-is-a-license.md:19
@@ -1354,13 +1354,13 @@ msgid ""
 "| **Category 4: Source Code Disclosure for Combined Software** | Requires disclosing source code for software combined or linked with the copyleft OSS component. | GPL |\n"
 "| **Category 5: Source Code Disclosure for Network Service Users** | Triggers source code disclosure obligations upon delivering software as a network service (SaaS). | AGPL |"
 msgstr ""
-"| 條件層級 | 概要 | 代表性授權條款範例 |\n"
+"| 条件の段階 | 概要 | 代表的なライセンスの例 |\n"
 "| -------- | --------- | ----------- |\n"
-"| **類別 1. 附上著作權標示與授權文件** | 主要義務是保留與附上著作權標示與授權條款本文 | MIT、BSD |\n"
-"| **類別 2. 附上指定資訊** | NOTICE 檔案或致謝等追加資訊也要包含在散布物中 | Apache-2.0 |\n"
-"| **類別 3. 提供 OSS 的原始碼** | 需要提供 OSS 部分的原始碼（自有部分不需要） | LGPL、MPL |\n"
-"| **類別 4. 提供連動軟體的原始碼** | 與 OSS 連動、結合的軟體原始碼也需要提供 | GPL |\n"
-"| **類別 5. 向網路服務使用者提供原始碼** | 即使是透過網路提供服務，也會產生原始碼提供義務 | AGPL |"
+"| **カテゴリ1. 著作権表示とライセンス文書の添付** | 著作権表示とライセンス文の保持・添付が主な義務 | MIT、BSD |\n"
+"| **カテゴリ2. 所定の情報の添付** | NOTICEファイルや謝辞等の追加情報も配布物に含める | Apache-2.0 |\n"
+"| **カテゴリ3. OSSのソースコード提供** | OSS部分のソースコード提供が必要（独自部分は不要） | LGPL、MPL |\n"
+"| **カテゴリ4. 連携するソフトのソースコード提供** | OSSと連携・結合するソフトのソースコードも提供が必要 | GPL |\n"
+"| **カテゴリ5. ネットワークサービス利用者へのソースコード提供** | ネットワーク越しのサービス提供でもソースコード提供義務が発生 | AGPL |"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:20
@@ -1368,8 +1368,8 @@ msgid ""
 "**Note 1**: Category 4 requires source code disclosure only for parts reached by copyleft reciprocity.\n"
 "**Note 2**: Under Category 3 LGPL, proprietary application code does not require source disclosure, but developers must provide object code or build mechanisms enabling users to relink modified library binaries."
 msgstr ""
-"**註 1**：類別 4 只需要提供授權條款傳染到的部分的原始碼。\n"
-"**註 2**：類別 3 的 LGPL 情況下，自有程式本身的原始碼不需要提供，但可能要求以使用者能替換程式庫並重新連結的形式（目的碼等）提供。部分授權條款也有需要提供原始碼的情況。"
+"**注1**：カテゴリ4では、ライセンスが伝播した部分のみソースコード提供が必要です。\n"
+"**注2**：カテゴリ3のLGPLの場合、独自プログラム自体のソースコード提供は不要ですが、利用者がライブラリを差し替えてリンクできる形式（オブジェクトコード等）での提供が求められる場合があります。一部ライセンスではソースコードの提供が必要な場合もあります。"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:21
@@ -1378,16 +1378,16 @@ msgid ""
 "Category 5 licenses (AGPL) extend copyleft obligations to SaaS delivery, requiring heightened vigilance from cloud service providers.\n"
 "Category 1 and 2 permissive licenses impose low compliance overhead and minimal review friction."
 msgstr ""
-"屬於類別 4 的授權條款（GPL 等）有義務提供授權條款傳染到部分的原始碼；GPL 尤其涵蓋靜態連結與同一行程內的動態連結，因此對使用形態的設計影響很大。\n"
-"屬於類別 5 的 AGPL 更把 SaaS 提供也納入適用範圍，提供雲端服務的企業需要特別注意。\n"
-"屬於類別 1、2 的授權條款義務相對較少，需要確認的事項有限。"
+"カテゴリ4に該当するライセンス（GPL等）はライセンスが伝播した部分のソースコードを提供する義務があり、特にGPLは静的リンクや同一プロセス内での動的リンクも含むため、利用形態の設計に大きな影響を与えます。\n"
+"カテゴリ5に該当するAGPLはさらにSaaS提供も対象となるため、クラウドサービスを提供する企業には注意が必要です。\n"
+"カテゴリ1・2に該当するライセンスは義務が比較的少なく、確認事項が限定的です。"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:22
 msgid "When projects combine components under multiple licenses, verify license compatibility to ensure terms do not conflict."
 msgstr ""
-"同一個專案中也可能混用多種授權條款。\n"
-"這時，確認授權條款的相容性（compatibility）、掌握不同授權條款的條件之間是否互相矛盾，就相當重要。"
+"一つのプロジェクトで複数のライセンスが混在することもあります。\n"
+"その際は、ライセンスの両立性（compatibility）を確認し、異なるライセンスの条件が互いに矛盾しないかを把握することが重要です。"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:23
@@ -1395,13 +1395,13 @@ msgid ""
 "For detailed summaries, see **[Types of Licenses](../compliance/license-types.md)**; for high-impact copyleft licenses, see **[Licenses with Source Code Disclosure Obligations](../compliance/source-disclosure-licenses.md)**.\n"
 "Aligning architectural assumptions (static vs. dynamic linking, plugin boundaries, SaaS vs. binary distribution) during early design prevents costly rework."
 msgstr ""
-"詳細的授權條款種類與特徵請參閱[授權條款的種類](../compliance/license-types.md)；對實務影響特別大的類別 4、5 授權條款，請參閱[有原始碼提供義務的授權條款](../compliance/source-disclosure-licenses.md)。\n"
-"若能在設計階段就先對齊「靜態／動態連結」「外掛界線」「是 SaaS 還是散布」這些前提，可以減少事後返工。"
+"詳細なライセンスの種類と特徴は [ライセンスの種類](../compliance/license-types.md) を、特に実務インパクトの大きいカテゴリ4・5のライセンスについては [ソースコード提供義務のあるライセンス](../compliance/source-disclosure-licenses.md) を参照してください。\n"
+"設計段階から「静的/動的リンク」「プラグイン境界」「SaaSか配布か」の前提を合わせておくと、後戻りの発生を低減できます。"
 
 #. type: 標題
 #: operation-templates/compliance/what-is-a-license.md:24
 msgid "### Locating and Reading License Terms"
-msgstr "### 授權條款的尋找方式與閱讀方式"
+msgstr "### ライセンスの探し方・読み方"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:25
@@ -1409,43 +1409,43 @@ msgid ""
 "When evaluating software, locate official license texts in repository roots (`LICENSE`, `COPYING`), file headers, and `NOTICE` files.\n"
 "When creating release artifacts, **always retain original copyright notices and license texts**, and **propagate NOTICE file contents** under Apache-2.0."
 msgstr ""
-"在實際專案中最先讓人猶豫的是「（正式的）授權條款條文在哪裡」。\n"
-"一般來說儲存庫根目錄會有 LICENSE / COPYING，個別檔案的標頭也會有簡要標記。\n"
-"若有 NOTICE 檔案，其中會列出著作權人標示與專利、商標相關的注意事項。\n"
-"製作散布物時，重點是**不要忘記附上原始著作權標示與授權條款本文**；使用 Apache-2.0 時則不要忘記**NOTICE 的傳遞**。"
+"実プロジェクトで最初に迷うのは「(正統な)ライセンス条文はどこか」です。\n"
+"一般的にはリポジトリのルートに LICENSE / COPYING があり、個別ファイルのヘッダにも簡易表記があります。\n"
+"NOTICE ファイルがあれば、著作権者表示や特許・商標関連の注意が並びます。\n"
+"配布物を作るときは、**元の著作権表示とライセンス本文の添付を忘れない**こと、Apache-2.0 では**NOTICEの伝搬**を忘れないことが肝心です。"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:26
 msgid "Read structured license documents by jumping directly to relevant sections: Grants, Conditions, Restrictions, Disclaimers, Warranties, Patents, and Trademarks. Focus on sections impacting your specific deployment model, relying on original legal text over unofficial translations."
 msgstr ""
-"篇幅長的授權條款，先掌握章節架構再讀會比較有效率。\n"
-"授予（grant）、條件（condition）、禁止（restriction）、免責（disclaimer）、保證（warranty）、專利（patent）、商標（trademark）。\n"
-"只重點確認與自己使用形態相關的章節，在意的文句則依原文的語感解釋（中譯本僅供參考）。"
+"長文ライセンスは、章立ちを先に掴んでから読むと効率的です。\n"
+"付与（grant）、条件（condition）、禁止（restriction）、免責（disclaimer）、保証（warranty）、特許（patent）、商標（trademark）。\n"
+"自分の利用形態に関係する章だけを重点的に確認し、気になる文言は原文のニュアンスで解釈します（日本語翻案は参考程度に留めましょう）。"
 
 #. type: 標題
 #: operation-templates/compliance/what-is-a-license.md:27
 msgid "### Common Misconceptions"
-msgstr "### 常見的誤解與陷阱"
+msgstr "### よくある誤解と落とし穴"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:28
 msgid "Common enterprise misconceptions include: \"Internal tools are exempt from compliance,\" \"SaaS delivery never triggers GPL obligations,\" \"Hosted on GitHub means freely usable,\" and \"Distributing binary builds avoids license obligations.\""
-msgstr "企業現場常出現的誤解包括：「只在公司內部用所以無關」「SaaS 不是散布，所以不會產生 GPL 的義務」「因為公開在 GitHub 上，所以可以自由使用」「只交付建置產出物就沒問題」等。"
+msgstr "企業現場で頻出する誤解は、「社内だけだから関係ない」「SaaSは配布じゃないからGPLの義務は発生しない」「GitHubに公開されているから自由に使える」「ビルド成果物だけ渡せば大丈夫」などです。"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:29
 msgid "In reality, sharing software with separate legal entities (subsidiaries or contractors) constitutes distribution under most licenses. Under AGPL, delivering SaaS services triggers source code disclosure obligations equivalent to physical distribution. Public code on GitHub remains bound by its license terms. Furthermore, distributing binary builds still requires accompanying copyright notices and full license texts."
-msgstr "實際上，擴散到公司內部其他法人（子公司或關係企業）或合作夥伴企業，在許多授權條款下都構成「散布」。即使是 SaaS，遇到像 AGPL 這種透過網路提供就會產生原始碼提供義務的授權條款，也會被課以與散布相同的義務。此外，公開在 GitHub 上的軟體同樣適用授權條件，並不因為公開就能無條件使用。即使只散布建置產出物，也有需要附上著作權標示與授權條款全文的情況。"
+msgstr "実際には、社内の別法人（子会社や関連会社）やパートナー企業への展開は、多くのライセンスで「配布」に該当します。SaaSであっても、AGPLのようにネットワーク越しの提供でソースコード提供義務が生じるライセンスでは、配布と同等の義務が課されます。また、GitHubで公開されているソフトウェアにもライセンス条件は適用されるため、公開されているからといって無条件に利用できるわけではありません。ビルド成果物のみの配布であっても、著作権表示やライセンス全文の添付が求められるケースがあります。"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:30
 msgid "Addressing these factors during early architectural design represents the most cost-effective compliance approach."
-msgstr "這些判斷與專案的架構及散布形態密切相關，因此在設計階段就先確認是成本最低的做法。"
+msgstr "これらの判断はプロジェクトのアーキテクチャや配布形態と密接に関わるため、設計段階で確認しておくのが最もコストの少ないアプローチです。"
 
 #. type: 標題
 #: operation-templates/compliance/what-is-a-license.md:31
 msgid "### Dual-Licensing and Commercial Options"
-msgstr "### 應對特殊情況"
+msgstr "### 特殊な状況への対応"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:32
@@ -1453,14 +1453,14 @@ msgid ""
 "Certain open source projects offer commercial licenses alongside open source terms (dual-licensing) or enforce commercial licenses above specific usage thresholds.\n"
 "For details, see **[OSS with Commercial License Options](../compliance/oss-with-commercial-license-options.md)**."
 msgstr ""
-"有些開放原始碼軟體在特定條件下需要購買商用授權。\n"
-"這些軟體採用雙重授權模式或依使用規模設限，企業使用時需要特別注意。\n"
-"細節在[可選擇商用授權的 OSS](../compliance/oss-with-commercial-license-options.md)中說明。"
+"オープンソースソフトウェアの中には、特定の条件下で商用ライセンスの購入が必要になるものがあります。\n"
+"これらのソフトウェアは、デュアルライセンスモデルや利用規模による制限を採用しており、企業での利用時には特別な注意が必要です。\n"
+"詳細は[商用ライセンスが選択できるOSS](../compliance/oss-with-commercial-license-options.md)で説明しています。"
 
 #. type: 標題
 #: operation-templates/compliance/what-is-a-license.md:33
 msgid "### Continuous License Governance"
-msgstr "### 持續性的授權管理"
+msgstr "### 継続的なライセンス管理"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:34
@@ -1469,14 +1469,14 @@ msgid ""
 "As dependency trees update, new capabilities merge, and deployment models evolve, compliance baselines shift.\n"
 "Conduct periodic audits to verify continuous alignment with licensing requirements."
 msgstr ""
-"授權管理不是做過一次就結束。\n"
-"隨著相依項目更新、新功能新增、使用形態變更等專案的進展，作為授權遵循判斷依據的狀況也會改變。\n"
-"建議透過定期審查與稽核，持續確認是否符合最新的授權要求。"
+"ライセンス管理は一度行えば完了するものではありません。\n"
+"依存関係の更新、新機能の追加、利用形態の変更など、プロジェクトの進展に伴ってライセンス準拠の判断根拠となる状況も変化します。\n"
+"定期的なレビューと監査により、最新のライセンス要件への適合状況を継続的に確認することが推奨されます。"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:35
 msgid "Large projects incorporating hundreds of dependencies require automated SCA tooling and standardized governance processes rather than manual tracking."
-msgstr "在大型專案中，可能使用數百到數千個開放原始碼元件。要以人工管理這些授權條款相當困難，因此善用專用工具並建立組織性的流程相當有效。"
+msgstr "特に大規模なプロジェクトでは、数百から数千のオープンソースコンポーネントが利用されることがあります。これらすべてのライセンスを手動で管理することは困難であるため、専用ツールの活用と組織的なプロセスの確立が有効です。"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:37
@@ -1485,10 +1485,10 @@ msgid ""
 "Proper understanding and adherence enable organizations to leverage open source with confidence.\n"
 "Contact the OSPO when encountering licensing ambiguities. Refer to \"[What Is an OSPO?](../about/ospo.md)\" for staff contact information."
 msgstr ""
-"開放原始碼授權條款乍看似乎是複雜又麻煩的條件，但實際上是支撐開放原始碼生態系健全發展的重要機制。\n"
-"透過正確理解與遵守，才能有效運用開放原始碼。\n"
-"若有不清楚之處或在授權判斷上猶豫，請及早洽詢 OSPO。\n"
-"承辦人清單請參閱「[什麼是 OSPO](../about/ospo.md)」。"
+"オープンソースライセンスは、一見複雑で面倒な条件のように思えるかもしれませんが、実際にはオープンソースエコシステムの健全な発展を支える重要な仕組みです。\n"
+"適切な理解と遵守により、効果的なオープンソース活用が可能になります。\n"
+"不明な点やライセンス判断に迷う場合は、早めにOSPOまでご相談ください。\n"
+"担当者のリストは「[OSPOとは](../about/ospo.md)」を参照してください。"
 
 #. type: 清單
 #: operation-templates/compliance/what-is-a-license.md:41
@@ -1501,13 +1501,13 @@ msgid ""
 "- [ ] Defined compliance workflows and cross-departmental responsibilities.\n"
 "- [ ] Documented audit cadences and escalation pathways."
 msgstr ""
-"- [ ] 已把公司內部的智慧財產協作單位與案例確認流程整合到本文中\n"
-"- [ ] 已把過去的授權相關問題與事件整理到 FAQ\n"
-"- [ ] 已連同具體案例寫出企業對授權理解的立場\n"
-"- [ ] 已找出企業應關注的授權形態並補上詳細解說\n"
-"- [ ] 已明確寫出授權管理使用的工具\n"
-"- [ ] 已明確授權管理的流程與角色分工\n"
-"- [ ] 已寫出授權管理的執行頻率與上報路徑"
+"- [ ] 社内の知財連携先や事例確認プロセスを本文に統合した\n"
+"- [ ] 過去のライセンスに関する質問やインシデントをFAQにまとめた\n"
+"- [ ] 企業としてのライセンス理解のスタンスを具体的事例とともに記載した\n"
+"- [ ] 企業として注目すべきライセンス形態を特定し詳細解説を追加した\n"
+"- [ ] ライセンス管理に使用するツールを明記した\n"
+"- [ ] ライセンス管理のプロセスと役割分担を明確化した\n"
+"- [ ] ライセンス管理の実施頻度とエスカレーションルートを記載した"
 
 #. type: 註解
 #: operation-templates/compliance/what-is-a-license.md:42
@@ -1542,33 +1542,33 @@ msgid ""
 msgstr ""
 "<!--\n"
 "########################################################################################\n"
-"客製化指南\n"
+"カスタマイズガイド\n"
 "\n"
-"以下說明在佔位符替換之後，依自家公司狀況進行增補與調整的指引。\n"
+"Placeholder置換の次のステップとして、自社の状況に合わせた加筆・調整を行うための指針を以下に示します。\n"
 "########################################################################################\n"
 "\n"
-"■ 內容方針\n"
-"請聚焦在每個人都該理解的重點，細節則以清單形式整理到 FAQ。\n"
-"為減輕讀者負擔，請控制在最低限度的內容；建議先提供最基本的文件，再分階段補齊案例與 FAQ。\n"
-"請不要忘記，授權管理的目的不是「限制」，而是「建立能安心運用開放原始碼的環境」。\n"
+"■ コンテンツの方針\n"
+"誰もが理解すべきポイントに絞り、詳細はFAQにリスト化してください。\n"
+"読み手の負荷を軽減するため最低限の内容に留め、まずは最低限のドキュメントを提供したうえで、事例やFAQを段階的に整備していく方針を推奨します。\n"
+"ライセンス管理の目的は「制限」ではなく「安心してオープンソースを活用できる環境の整備」であることを忘れないようにしましょう。\n"
 "\n"
-"■ 與公司內部流程整合\n"
-"請把既有智慧財產部門的協作單位與案例確認方式整合到本文中。\n"
-"整理過去的授權相關問題與事件，並調查、整理智慧財產部門或法務部門過去收到的問題，能做出更實用的指南。\n"
+"■ 社内プロセスとの統合\n"
+"既存の知財部門の連携先や事例確認方法を本文に統合してください。\n"
+"過去のライセンスに関する質問やインシデントをまとめ、知財部門や法務部門で過去に寄せられた質問を調査・整理することで、より実践的なガイドになります。\n"
 "\n"
-"■ 授權理解的客製化\n"
-"請連同具體案例寫出企業對授權理解的態度。\n"
-"另一方面，含有抽象語感的內容也可以維持抽象的寫法。\n"
-"這種情況下，重點在於引導使用者能在流程中做出判斷。\n"
-"也請善用同業或類似業態的外部案例。\n"
+"■ ライセンス理解のカスタマイズ\n"
+"企業としてのライセンス理解に関する姿勢を具体的事例とともに記載してください。\n"
+"一方で、抽象的なニュアンスを含む内容はそのまま抽象的な記述に留めて記述することもできます。\n"
+"その場合はプロセス内で判断できるように導くことが重要です。\n"
+"同業他社や類似業態の外部事例も活用してください。\n"
 "\n"
-"■ 補強授權條款的閱讀方式\n"
-"請找出企業應關注的授權形態，並補上詳細解說。\n"
-"對特別需要注意的授權條款請加入具體案例，也建議善用外部可信解說的連結。\n"
+"■ ライセンスの読み方の補強\n"
+"企業として注目すべきライセンス形態を特定し、詳細解説を追加してください。\n"
+"特に注意すべきライセンスには具体的事例を交え、外部の信頼できる解説へのリンクも活用することを推奨します。\n"
 "\n"
-"■ 具體化授權管理\n"
-"請明確寫出使用的工具，並明確管理流程與角色分工。\n"
-"也請設定執行頻率並建立上報路徑，建構可實際運作的體制。\n"
+"■ ライセンス管理の具体化\n"
+"使用するツールを明記し、管理プロセスと役割分担を明確化してください。\n"
+"実施頻度の設定やエスカレーションルートの整備も行い、運用可能な体制を構築します。\n"
 "\n"
 "########################################################################################\n"
 "########################################################################################\n"

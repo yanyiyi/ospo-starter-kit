@@ -10,12 +10,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Source-Language: ja\n"
+"X-Source-Language: en\n"
 "X-Generator: ospo-starter-kit l10n/markdown-to-po.py\n"
 
 #. type: 標題
 #: operation-templates/using/evaluation.md:1
-msgid "# OSSの評価方法"
+msgid "# Evaluating Open Source Software"
 msgstr "# OSS 的評估方法"
 
 #. type: 註解
@@ -28,14 +28,14 @@ msgstr "# OSS 的評估方法"
 msgid ""
 "<!--\n"
 "########################################################################################\n"
-"OSPO担当者向け：本テンプレートの使い方\n"
+"For OSPO Staff: How to Use This Template\n"
 "\n"
-"1. 本文中の [会社名] 等のPlaceholderを自社情報に置き換える \n"
-"2. カスタマイズチェックリストで漏れがないか確認する \n"
-"3. 末尾のカスタマイズガイドを参考に、自社の状況に合わせて加筆する\n"
+"1. Replace placeholders in the body text like [Company Name] with your company information.\n"
+"2. Verify completeness using the customization checklist.\n"
+"3. Refer to the customization guide at the end to expand content based on your company's context.\n"
 "\n"
-"Placeholder置換だけでも社内ドキュメントとして利用可能です。\n"
-"ガイドに沿った加筆により、さらに実効性の高い内容に仕上がります。 \n"
+"Simply replacing placeholders allows immediate use as internal documentation.\n"
+"Expanding text according to the guide yields an even more practical document.\n"
 "########################################################################################\n"
 "-->"
 msgstr ""
@@ -55,9 +55,8 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/evaluation.md:3
 msgid ""
-"オープンソースソフトウェアの選択は、プロジェクトに大きな影響を与える重要な判断です。\n"
-"表面的な機能比較だけでは見えないリスクや問題が、後に重大な影響を与える可能性があります。\n"
-"適切でないソフトウェアを選択した結果、開発の後半でセキュリティ脆弱性が発覚する、ライセンス問題で利用継続が困難になる、メンテナンスが停止して代替手段を探さなければならなくなる、といった事態は決して珍しくありません。"
+"Selecting open source software is a critical technical decision with long-term architectural impacts.\n"
+"Superficial feature comparisons often obscure hidden risks that surface later as security vulnerabilities, license non-compliance, or abandoned maintainer support."
 msgstr ""
 "選擇開放原始碼軟體是對專案影響重大的重要判斷。\n"
 "單靠表面的功能比較看不出來的風險與問題，之後可能造成嚴重影響。\n"
@@ -66,9 +65,8 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/evaluation.md:4
 msgid ""
-"このガイドでは、適切で効率的なオープンソース評価の方法を、開発者が実際に使える形で説明します。評価は段階的に進めることで効率性を保ちながら、重要な観点を見落とさないようにします。\n"
-"全体的な指針に関しては「[OSSの探し方](../using/finding-oss.md)」を参照してください。\n"
-"このガイドではその次のステップとして、具体的な評価方法を説明します。"
+"This guide outlines practical evaluation methodologies for software engineers, organizing reviews into distinct phases to ensure thoroughness without creating unnecessary friction.\n"
+"For high-level discovery guidelines, refer to **[Finding Open Source Software](../using/finding-oss.md)**."
 msgstr ""
 "本指南以開發者實際可用的形式，說明適切且有效率的開放原始碼評估方法。評估分階段進行，可以在維持效率的同時不漏掉重要觀點。\n"
 "整體方針請參閱「[OSS 的尋找方式](../using/finding-oss.md)」。\n"
@@ -76,15 +74,14 @@ msgstr ""
 
 #. type: 標題
 #: operation-templates/using/evaluation.md:5
-msgid "## 評価の基本的な流れ"
+msgid "## Phased Evaluation Workflow"
 msgstr "## 評估的基本流程"
 
 #. type: 段落
 #: operation-templates/using/evaluation.md:6
 msgid ""
-"評価は以下の三つの段階に分けて行います。\n"
-"各段階でクリアすべき基準を設定し、次の段階に進むかどうかを判断します。\n"
-"すべての要件を満たす完璧なオープンソースソフトウェアを求めることは現実的ではないため、各段階での判断基準は実用的かつ現実的なものに設定することを推奨します。"
+"Execute candidate evaluations across three sequential phases, establishing clear criteria at each stage to determine whether to proceed.\n"
+"Set realistic, practical pass criteria rather than seeking mythical \"zero-risk\" software."
 msgstr ""
 "評估分成以下三個階段進行。\n"
 "在每個階段設定應通過的基準，並判斷是否進入下一階段。\n"
@@ -92,15 +89,15 @@ msgstr ""
 
 #. type: 標題
 #: operation-templates/using/evaluation.md:7
-msgid "### 第一段階：基本チェック"
+msgid "### Phase 1: Initial Screening"
 msgstr "### 第一階段：基本檢查"
 
 #. type: 段落
 #: operation-templates/using/evaluation.md:8
 msgid ""
-"最初に基本的な適格性を確認して、明らかに不適格な候補を早期に除外します。\n"
-"商用ソフトでも同じですが、オープンソースソフトウェアの場合、ライセンスが商用ライセンスと大きく異なることや、コミュニティプロジェクトで作られていることを考慮する必要があります。\n"
-"この段階では以下の項目を迅速にチェックします。"
+"Filter candidates rapidly to eliminate clearly unsuitable options early.\n"
+"Unlike commercial software evaluation, open source screening accounts for copyleft licensing mechanics and community project governance.\n"
+"Screen candidates against these baseline checks:"
 msgstr ""
 "首先確認基本的適格性，及早排除明顯不適合的候選。\n"
 "雖然商用軟體也是如此，但開放原始碼軟體的情況下，還需要考量其授權條款與商用授權差異很大，以及它是由社群專案開發的。\n"
@@ -109,9 +106,9 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/evaluation.md:9
 msgid ""
-"**ライセンスの確認**\n"
-"LICENSEファイルやREADMEでライセンス種別を確認し、あなたの利用方法（社内利用、配布、SaaS提供）に適合するかを判断してください。\n"
-"GPL系やAGPLなどソースコード提供義務のあるライセンスや、商用ライセンスが必要なソフトウェアの場合は、利用形態に応じて確認すべき条件が多いため、この段階でOSPOに相談することを推奨します。"
+"**License Verification**\n"
+"Inspect `LICENSE` files and `README` documentation to confirm license types and verify compatibility with your deployment model (internal tool, binary distribution, SaaS service).\n"
+"For licenses with source disclosure obligations (GPL, AGPL) or dual-licensing terms, consult the OSPO during initial screening."
 msgstr ""
 "**確認授權條款**\n"
 "請在 LICENSE 檔案或 README 中確認授權條款種類，並判斷它是否符合你的使用方式（公司內部使用、散布、SaaS 提供）。\n"
@@ -120,9 +117,9 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/evaluation.md:10
 msgid ""
-"**基本的な活発性**\n"
-"最近6ヶ月以内に更新があるか、Issueに対する反応があるか、pull requestがマージされているかを確認します。\n"
-"完全に停止しているプロジェクトは、セキュリティリスクや将来性の観点から避けることを推奨します。"
+"**Activity Baseline**\n"
+"Verify whether repositories have commits, issue activity, or merged pull requests within the past six months.\n"
+"Avoid unmaintained projects to minimize security and sustainability risks."
 msgstr ""
 "**基本活躍度**\n"
 "確認最近 6 個月內是否有更新、Issue 是否有回應、pull request 是否被合併。\n"
@@ -131,9 +128,8 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/evaluation.md:11
 msgid ""
-"**最低限の機能要件**\n"
-"READMEやドキュメントを読んで、必要な機能が提供されているかを確認します。\n"
-"この段階では詳細な検証は不要で、基本的な要件を満たしているかの判断で十分です。"
+"**Core Functional Match**\n"
+"Review `README` documentation to verify that candidate libraries satisfy baseline technical requirements. Detailed testing is unnecessary at this stage."
 msgstr ""
 "**最低功能需求**\n"
 "閱讀 README 與文件，確認是否提供所需功能。\n"
@@ -141,14 +137,12 @@ msgstr ""
 
 #. type: 標題
 #: operation-templates/using/evaluation.md:12
-msgid "### 第二段階：技術的評価"
+msgid "### Phase 2: Technical Evaluation"
 msgstr "### 第二階段：技術評估"
 
 #. type: 段落
 #: operation-templates/using/evaluation.md:13
-msgid ""
-"基本チェックを通過した候補について、より詳細な技術的評価を実施します。\n"
-"この段階は、オープンソースソフトウェアに限らず、商用ソフトを導入する場合とほとんど変わりません。"
+msgid "Conduct deep technical evaluation on candidates passing initial screening, following methodologies similar to commercial software reviews."
 msgstr ""
 "對通過基本檢查的候選，進行更詳細的技術評估。\n"
 "這個階段不限於開放原始碼軟體，與導入商用軟體時幾乎沒有差別。"
@@ -156,10 +150,9 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/evaluation.md:14
 msgid ""
-"**実際の動作確認**\n"
-"可能であれば、簡単なテスト環境でソフトウェアを実際に動かしてみてください。\n"
-"インストールの容易さ、設定の複雑さ、基本機能の動作確認、ドキュメント通りに動くかの検証などを行います。\n"
-"理論上は素晴らしく見えても、実際に使ってみると思わぬ困難に直面することがあります。"
+"**Hands-On Verification**\n"
+"Deploy candidate libraries in sandbox environments to test installation effort, configuration complexity, functional behavior, and documentation accuracy.\n"
+"Libraries that appear clean in theory often reveal integration friction during hands-on testing."
 msgstr ""
 "**確認實際運作**\n"
 "若可行，請在簡單的測試環境中實際執行該軟體。\n"
@@ -169,10 +162,8 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/evaluation.md:15
 msgid ""
-"**パフォーマンスと安定性**\n"
-"想定される使用条件での動作を確認します。\n"
-"レスポンス時間、メモリ使用量、CPU負荷などを測定し、要求される性能基準を満たすかを評価してください。\n"
-"また、長時間の稼働やエラー条件での挙動も可能な範囲で確認します。"
+"**Performance and Stability**\n"
+"Measure response latency, memory footprint, and CPU utilization under expected operational workloads. Verify error handling and stability under stress conditions."
 msgstr ""
 "**效能與穩定性**\n"
 "確認在預期使用條件下的運作。\n"
@@ -182,9 +173,8 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/evaluation.md:16
 msgid ""
-"**統合性の検証**\n"
-"既存のシステムやツールチェーンとの統合が適切に行えるかを確認します。\n"
-"APIの互換性、データ形式の対応、認証方式の整合性、デプロイメントプロセスへの組み込み可能性などを評価してください。"
+"**Architectural Compatibility**\n"
+"Verify integration compatibility with existing systems, APIs, authentication protocols, and build pipelines."
 msgstr ""
 "**驗證整合性**\n"
 "確認能否與既有系統及工具鏈適切整合。\n"
@@ -193,10 +183,9 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/evaluation.md:17
 msgid ""
-"**依存関係の分析**\n"
-"ソフトウェアが依存する他のライブラリやツールを確認し、それらのライセンス、セキュリティ脆弱性、メンテナンス状況を評価します。\n"
-"オープンソースソフトウェアの場合、依存するライブラリもオープンソースソフトウェアであることがほとんどであり、それらについても同じように評価する必要があります\n"
-"依存関係が多すぎる場合や、問題のある依存関係がある場合は、リスク要因として考慮する必要があります。"
+"**Dependency Tree Analysis**\n"
+"Inspect transitive dependency trees to evaluate security posture, maintainability, and licensing across nested libraries.\n"
+"Risky dependencies compromise top-level candidates."
 msgstr ""
 "**分析相依性**\n"
 "確認該軟體所依賴的其他程式庫與工具，並評估它們的授權條款、資訊安全弱點與維護狀況。\n"
@@ -205,20 +194,19 @@ msgstr ""
 
 #. type: 標題
 #: operation-templates/using/evaluation.md:18
-msgid "### 第三段階：セキュリティとリスク評価"
+msgid "### Phase 3: Security and Risk Assessment"
 msgstr "### 第三階段：資訊安全與風險評估"
 
 #. type: 段落
 #: operation-templates/using/evaluation.md:19
-msgid "技術的評価に加えて、セキュリティとリスクの観点から総合的に評価します。"
+msgid "Assess candidates across security posture and project governance."
 msgstr "除技術評估外，也從資訊安全與風險的觀點綜合評估。"
 
 #. type: 段落
 #: operation-templates/using/evaluation.md:20
 msgid ""
-"**脆弱性の履歴確認**\n"
-"CVE（Common Vulnerabilities and Exposures）データベースで既知の脆弱性を検索し、それらがどのように対処されたかを確認してください。\n"
-"脆弱性の存在自体よりも、発見から修正までの速度と対応の透明性が重要な評価ポイントです。"
+"**Vulnerability History**\n"
+"Search CVE databases for historical vulnerability records, evaluating maintainer patch velocity and disclosure transparency. Response speed matters more than historical vulnerability counts."
 msgstr ""
 "**確認弱點歷史**\n"
 "請在 CVE（Common Vulnerabilities and Exposures）資料庫中搜尋已知弱點，並確認它們是如何被處理的。\n"
@@ -227,10 +215,8 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/evaluation.md:21
 msgid ""
-"**セキュリティプラクティス**\n"
-"プロジェクトのセキュリティに対する取り組みを評価します。\n"
-"セキュリティポリシーの存在、責任ある脆弱性報告への対応、定期的なセキュリティ監査の実施状況などを確認してください。\n"
-"READMEやドキュメントにセキュリティ関連の情報が記載されているプロジェクトは、セキュリティ意識が高いと評価できます。"
+"**Security Practices**\n"
+"Assess maintainer security practices—such as published security policies (`SECURITY.md`), automated testing, static analysis, and dependency scanning pipelines."
 msgstr ""
 "**資訊安全實踐**\n"
 "評估專案對資訊安全的投入。\n"
@@ -240,9 +226,8 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/evaluation.md:22
 msgid ""
-"**プロジェクトの持続可能性**\n"
-"開発チームの多様性、スポンサー企業の存在、財政的基盤の安定性などを評価します。\n"
-"単一企業や少数の開発者に依存するプロジェクトは、戦略変更や人的リソースの問題により継続性にリスクがあります。"
+"**Project Sustainability**\n"
+"Evaluate developer diversity, corporate sponsorship, and foundation backing. Projects dependent on single individuals or single vendors carry higher abandonment risks."
 msgstr ""
 "**專案的永續性**\n"
 "評估開發團隊的多樣性、是否有贊助企業、財務基礎是否穩定等。\n"
@@ -251,9 +236,8 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/evaluation.md:23
 msgid ""
-"**コミュニティの健全性**\n"
-"GitHubのInsightsやContributors情報を確認し、活発で多様なコミュニティが形成されているかを評価してください。\n"
-"建設的な議論が行われ、新しいコントリビューターを歓迎する文化があるプロジェクトは、長期的な発展が期待できます。"
+"**Community Vitality**\n"
+"Inspect GitHub Insights and contributor trends. Active, welcoming communities indicate long-term viability."
 msgstr ""
 "**社群的健全性**\n"
 "請確認 GitHub 的 Insights 與 Contributors 資訊，評估是否形成活躍且多樣的社群。\n"
@@ -261,19 +245,19 @@ msgstr ""
 
 #. type: 標題
 #: operation-templates/using/evaluation.md:24
-msgid "## 評価時の重要なポイント"
+msgid "## Key Evaluation Factors"
 msgstr "## 評估時的重要重點"
 
 #. type: 標題
 #: operation-templates/using/evaluation.md:25
-msgid "### ライセンスとコンプライアンス"
+msgid "### License Compliance and Architectural Scope"
 msgstr "### 授權與合規"
 
 #. type: 段落
 #: operation-templates/using/evaluation.md:26
 msgid ""
-"ライセンス評価は技術的評価と並んで最も重要な要素です。\n"
-"単純にライセンス種別を確認するだけでなく、プロジェクト全体でのライセンス利用方針との整合性を確認する必要があります。"
+"License evaluation ranks alongside technical evaluation as the most important factor.\n"
+"Beyond simply identifying the license type, confirm that the intended use is consistent with the license policy applied across the project as a whole."
 msgstr ""
 "授權評估與技術評估並列為最重要的環節。\n"
 "不能只是單純確認授權條款種類，還需要確認它與整個專案的授權使用方針是否一致。"
@@ -281,9 +265,9 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/evaluation.md:27
 msgid ""
-"特に、ソースコード提供義務のあるライセンス（GPL、AGPL等）の場合は、その影響範囲を技術的結合方法と合わせて具体的に評価することが重要です。\n"
-"静的リンク、動的リンク、プロセス間通信、ネットワーク通信など、結合方法によってライセンスの影響範囲が変わる可能性があります。\n"
-"詳細については[ソースコード提供義務のあるライセンス](../compliance/source-disclosure-licenses.md)を参照してください。"
+"License evaluation must analyze technical integration mechanisms alongside license categories.\n"
+"For copyleft licenses (GPL, AGPL), evaluate copyleft scope boundaries against architectural coupling—static linking, dynamic linking, IPC, or network APIs.\n"
+"For details, see **[Licenses with Source Code Disclosure Obligations](../compliance/source-disclosure-licenses.md)**."
 msgstr ""
 "特別是有原始碼提供義務的授權條款（GPL、AGPL 等），重點在於連同技術結合方式一起具體評估其影響範圍。\n"
 "靜態連結、動態連結、行程間通訊、網路通訊等，授權條款的影響範圍可能因結合方式而改變。\n"
@@ -291,21 +275,19 @@ msgstr ""
 
 #. type: 段落
 #: operation-templates/using/evaluation.md:28
-msgid "複数のライセンスが混在するプロジェクトや、依存関係を含めたライセンスの組み合わせが複雑になる場合は、法的リスクを慎重に評価する必要があります。"
+msgid "Carefully evaluate legal risks when combining libraries carrying conflicting license terms."
 msgstr "若專案中混用多種授權條款，或含相依項目後授權條款組合變得複雜，就需要謹慎評估法律風險。"
 
 #. type: 標題
 #: operation-templates/using/evaluation.md:29
-msgid "### 文書化とサポート体制"
+msgid "### Documentation and Support Ecosystem"
 msgstr "### 文件化與支援體制"
 
 #. type: 段落
 #: operation-templates/using/evaluation.md:30
 msgid ""
-"**ドキュメンテーションの品質**\n"
-"インストールガイド、API仕様、利用例、トラブルシューティング情報などが充実しているかを確認してください。\n"
-"優れたドキュメンテーションは、導入コストと学習コストを大幅に削減します。\n"
-"実際にドキュメントに従って操作を行い、記載内容の正確性も確認することを推奨します。"
+"**Documentation Quality**\n"
+"Assess API references, setup guides, and code samples. Quality documentation significantly reduces integration and onboarding costs."
 msgstr ""
 "**文件的品質**\n"
 "請確認安裝指南、API 規格、使用範例、疑難排解資訊等是否充實。\n"
@@ -315,9 +297,8 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/evaluation.md:31
 msgid ""
-"**コミュニティサポート**\n"
-"GitHubのIssues、公式フォーラムなどでの質問への回答状況を確認してください。\n"
-"活発なコミュニティサポートがあると、問題解決が迅速になり、学習リソースも豊富になります。"
+"**Community Support**\n"
+"Review responsiveness on GitHub Issues and discussion forums. Active community support accelerates troubleshooting."
 msgstr ""
 "**社群支援**\n"
 "請確認 GitHub 的 Issues、官方論壇等對問題的回覆狀況。\n"
@@ -326,9 +307,8 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/evaluation.md:32
 msgid ""
-"**商用サポートの有無**\n"
-"ミッションクリティカルな用途では、SLA保証や専門的な技術サポートが必要になる場合があります。\n"
-"商用サポートが提供されているかを確認し、必要に応じてサポート内容や価格を調査してください。"
+"**Commercial Support**\n"
+"For mission-critical production workloads, verify whether commercial SLAs, enterprise add-ons, or professional support contracts are available."
 msgstr ""
 "**是否有商用支援**\n"
 "在關鍵任務用途上，有時會需要 SLA 保證或專業的技術支援。\n"
@@ -336,22 +316,17 @@ msgstr ""
 
 #. type: 標題
 #: operation-templates/using/evaluation.md:33
-msgid "## よくある評価の落とし穴"
+msgid "## Evaluation Pitfalls to Avoid"
 msgstr "## 常見的評估陷阱"
 
 #. type: 清單
 #: operation-templates/using/evaluation.md:34
-msgid "1. **人気指標への過度な依存**"
+msgid "1. **Over-Relying on Popularity Metrics**"
 msgstr "1. **過度依賴人氣指標**"
 
 #. type: 段落
 #: operation-templates/using/evaluation.md:35
-msgid ""
-"    「[OSSの探し方](../using/finding-oss.md)」でも述べたように、GitHubスター数やダウンロード数などの人気指標は参考になりますが、これらに過度に依存することは危険です。\n"
-"    人気があっても、あなたの用途に適さない場合や、メンテナンスが困難な複雑すぎるソフトウェアである可能性があります。\n"
-"    なぜそのOSSに注目が集まっているのか、その背景を理解することも重要です。\n"
-"    「多くの人が使っている」という事実は確かに安心材料ですし、バグを含むさまざまな問題が既に発見されている可能性もあります。\n"
-"    しかしあくまでも人気指標は一つの参考情報として扱い、技術的適合性やリスク評価をより重視してください。"
+msgid "    As noted in [Finding Open Source Software](../using/finding-oss.md), repository stars and download counts provide useful indicators but do not guarantee security, code quality, or architectural fit. Treat popularity metrics as secondary data points behind technical evaluation."
 msgstr ""
 "    如「[OSS 的尋找方式](../using/finding-oss.md)」所述，GitHub 星星數或下載數等人氣指標雖可參考，但過度依賴它們相當危險。\n"
 "    即使很受歡迎，也可能不適合你的用途，或是複雜到難以維護的軟體。\n"
@@ -361,43 +336,36 @@ msgstr ""
 
 #. type: 清單
 #: operation-templates/using/evaluation.md:36
-msgid "2. 最新版への盲信"
+msgid "2. **Blindly Adopting \"Latest\" Releases**"
 msgstr "2. 盲信最新版本"
 
 #. type: 段落
 #: operation-templates/using/evaluation.md:37
-msgid ""
-"    最新版が必ずしも最適とは限りません。新機能や改善が含まれている一方で、新しいバグや互換性問題が含まれている可能性もあります。\n"
-"    安定版やLTS（Long Term Support）版の存在を確認し、プロジェクトの要件に応じて適切なバージョンを選択してください。"
+msgid "    Latest releases may introduce unvetted bugs or breaking API changes. Prefer Long-Term Support (LTS) or stable releases for production environments."
 msgstr ""
 "    最新版本未必最好。它一方面包含新功能與改善，另一方面也可能包含新的錯誤與相容性問題。\n"
 "    請確認是否有穩定版或 LTS（Long Term Support）版，並依專案需求選擇合適的版本。"
 
 #. type: 清單
 #: operation-templates/using/evaluation.md:38
-msgid "3. 機能の過剰性"
+msgid "3. **Feature Bloat**"
 msgstr "3. 功能過剩"
 
 #. type: 段落
 #: operation-templates/using/evaluation.md:39
-msgid ""
-"    多機能なソフトウェアは魅力的に見えますが、必要のない機能が多いと学習コストや運用コストが増加します。\n"
-"    要件に対して適切なスコープを持つソフトウェアを選択し、シンプルで理解しやすいものを優先することを推奨します。"
+msgid "    Excessive unneeded capabilities increase attack surfaces and learning overhead. Prefer focused, modular libraries."
 msgstr ""
 "    多功能的軟體看起來很吸引人，但不需要的功能太多會增加學習成本與運作成本。\n"
 "    建議選擇範圍與需求相稱的軟體，優先選用簡潔易懂的。"
 
 #. type: 清單
 #: operation-templates/using/evaluation.md:40
-msgid "4. 継続的評価の必要性"
+msgid "4. **Neglecting Continuous Re-Evaluation**"
 msgstr "4. 持續評估的必要性"
 
 #. type: 段落
 #: operation-templates/using/evaluation.md:41
-msgid ""
-"    ソフトウェアの評価は、導入時に一度行えば完了するものではありません。\n"
-"    技術の進歩、プロジェクトの変化、セキュリティ環境の変化に応じて、定期的に再評価を行う必要があります。\n"
-"    特に重要なソフトウェアについては、継続的な監視と評価の仕組みを確立してください。"
+msgid "    Software evaluation is an ongoing process rather than a one-time gateway. Establish continuous dependency monitoring to re-assess security health and maintainer status over time."
 msgstr ""
 "    軟體的評估不是導入時做過一次就結束。\n"
 "    隨著技術進步、專案變化與資訊安全環境改變，需要定期重新評估。\n"
@@ -405,14 +373,14 @@ msgstr ""
 
 #. type: 標題
 #: operation-templates/using/evaluation.md:42
-msgid "## 評価結果の活用と共有"
+msgid "## Documenting and Sharing Evaluations"
 msgstr "## 評估結果的運用與共享"
 
 #. type: 段落
 #: operation-templates/using/evaluation.md:43
 msgid ""
-"評価プロセスで得られた知見は、個人の学習だけでなく、チームや組織全体の資産として活用すべきです。\n"
-"評価結果を適切に文書化し、同僚との共有、将来の類似プロジェクトでの再利用、組織の評価能力向上に役立ててください。"
+"Insights gained during evaluation should serve not only individual learning but also the team and the organization as a shared asset.\n"
+"Document evaluation results properly so that colleagues can share them, future similar projects can reuse them, and the organization's evaluation capability improves."
 msgstr ""
 "評估過程中獲得的知識，不只該用於個人學習，更該作為團隊與整個組織的資產加以運用。\n"
 "請把評估結果妥善文件化，用於與同事共享、未來類似專案的再利用，以及提升組織的評估能力。"
@@ -420,8 +388,8 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/evaluation.md:44
 msgid ""
-"評価時に発見した問題点や良好な特徴は、具体的に記録しておくことで、後の意思決定の参考になります。\n"
-"また、評価プロセス自体の改善点も記録し、組織全体での評価能力向上に貢献してください。"
+"Recording the specific problems and strengths found during evaluation gives later decisions something concrete to refer back to.\n"
+"Record improvements to the evaluation process itself as well, contributing to the evaluation capability of the organization as a whole."
 msgstr ""
 "評估時發現的問題點與良好特徵，只要具體記錄下來，就能成為之後決策的參考。\n"
 "此外，也請記錄評估流程本身的改善點，為提升整個組織的評估能力做出貢獻。"
@@ -429,8 +397,8 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/evaluation.md:45
 msgid ""
-"複数の候補を評価した場合は、比較表や評価マトリックスを作成して意思決定の根拠を明確にしましょう。\n"
-"これにより、選択理由の説明責任を果たし、将来の見直し時の参考資料としても活用できます。"
+"When several candidates have been evaluated, build a comparison table or evaluation matrix to make the basis for the decision explicit.\n"
+"This discharges accountability for the choice and doubles as reference material when the decision is revisited."
 msgstr ""
 "若評估了多個候選，請製作比較表或評估矩陣，讓決策依據更清楚。\n"
 "這樣既能對選擇理由負起說明責任，也能在未來檢視時作為參考資料。"
@@ -456,12 +424,12 @@ msgstr "---"
 msgid ""
 "<!--\n"
 "########################################################################################\n"
-"カスタマイズチェックリストについて\n"
+"About the Customization Checklist\n"
 "\n"
-"本チェックリストは、OSS管理運用を設計・改善する際に検討すべき項目を網羅的に整理したものです。\n"
-"組織の規模、事業内容、OSSの利用形態、成熟度によって、実装すべき項目や優先度は異なります。\n"
-"そのため、すべての項目をチェックする必要はありません。\n"
-"自組織の目的や優先度に応じて、必要な項目から段階的に採用・実装してください。\n"
+"This checklist comprehensively organizes items to consider when designing or refining OSS operations.\n"
+"Implementation items and priorities vary depending on organizational scale, business model, OSS usage, and maturity.\n"
+"You do not need to check every item.\n"
+"Adopt and implement items incrementally based on organizational goals and priorities.\n"
 "########################################################################################\n"
 "-->"
 msgstr ""
@@ -483,18 +451,18 @@ msgstr ""
 #: operation-templates/using/supplier-procurement.md:81
 #: operation-templates/using/usage-faq.md:6
 #: operation-templates/using/using-oss.md:46
-msgid "## カスタマイズチェックリスト"
+msgid "## Customization Checklist"
 msgstr "## 客製化檢核清單"
 
 #. type: 清單
 #: operation-templates/using/evaluation.md:49
 msgid ""
-"- [ ] ライセンス適合性の判断基準を社内方針に合わせて具体化した\n"
-"- [ ] 活発性の最低基準を明確化した（例：「最近6ヶ月以内の更新必須」など）\n"
-"- [ ] 社内の技術スタックに応じた評価ガイドラインを作成した\n"
-"- [ ] 依存関係分析ツールの導入と活用方法を標準化した\n"
-"- [ ] 商用サポート要否の判断基準を業務重要度別に明確化した\n"
-"- [ ] 定期的な再評価スケジュールとプロセスを確立した"
+"- [ ] Tailored license review criteria to align with corporate risk policies.\n"
+"- [ ] Defined activity thresholds (e.g., \"commits within past 6 months\").\n"
+"- [ ] Created tech-stack-specific evaluation guidelines.\n"
+"- [ ] Standardized dependency analysis tools and scanning workflows.\n"
+"- [ ] Defined criteria requiring commercial support SLAs based on service criticality.\n"
+"- [ ] Established periodic re-evaluation schedules for core dependencies."
 msgstr ""
 "- [ ] 已依公司內部方針具體化授權相容性的判斷基準\n"
 "- [ ] 已明確活躍度的最低基準（例如：「必須最近 6 個月內有更新」等）\n"
@@ -508,44 +476,22 @@ msgstr ""
 msgid ""
 "<!--\n"
 "########################################################################################\n"
-"カスタマイズガイド\n"
+"Customization Guide\n"
 "\n"
-"Placeholder置換の次のステップとして、自社の状況に合わせた加筆・調整を行うための指針を以下に示します。\n"
+"Guidance for expanding and refining content to match your company context following placeholder replacement.\n"
 "########################################################################################\n"
 "\n"
-"■ 基本チェックの基準調整\n"
+"■ Customizing Screening Criteria\n"
 "\n"
-"基本チェックの基準は、企業のリスク許容度に応じて調整が必要です。\n"
+"Set practical initial screening rules that filter out high-risk components without stifling development momentum.\n"
 "\n"
-"調整のポイント：\n"
-" * ライセンス適合性の判断基準を社内の方針に合わせて具体化\n"
-" * 活発性の最低基準を明確化（「最近6ヶ月以内の更新必須」など）\n"
+"■ Addressing Common Pitfalls\n"
 "\n"
-"初期段階では完璧な基準よりも、明らかに問題のあるソフトウェアを除外できる実用的な基準の策定を優先してください。\n"
+"Incorporate internal case studies detailing past evaluation errors (such as adopting unstable releases) to build practical team awareness.\n"
 "\n"
-"■ 評価の落とし穴への対策\n"
+"■ Security Alignment\n"
 "\n"
-"実際の社内経験を基に具体的なガイドラインを作成することが効果的です。\n"
-"\n"
-"ガイドライン作成のポイント：\n"
-" * 過去の失敗事例から学んだ教訓の文書化\n"
-" * バージョン選択の判断基準を用途別に明確化\n"
-" * 定期的な再評価スケジュールとプロセスの確立\n"
-"\n"
-"新入社員や経験の浅い開発者が陥りやすい判断ミスに対する予防策も用意しておくことを推奨します。\n"
-"「OSSの探し方」の内容と合わせて、現実的な評価基準を提供してください。\n"
-"\n"
-"■ セキュリティ評価の社内基準\n"
-"\n"
-"社内のセキュリティポリシーや開発プロセスとの整合性を考慮したカスタマイズが重要です。\n"
-"\n"
-"カスタマイズのポイント：\n"
-" * 社内セキュリティ基準との対応表作成\n"
-" * 脆弱性監視ツールの利用方法記載\n"
-" * プロジェクト健全性評価のためのチェックリスト提供\n"
-"\n"
-"\n"
-"この文書をベースとして、社内の実情に合わせて具体化してください。\n"
+"Align evaluation guidelines with internal security baseline standards, detailing automated SCA tool usage and vulnerability triage protocols.\n"
 "\n"
 "########################################################################################\n"
 "########################################################################################\n"
@@ -598,14 +544,14 @@ msgstr ""
 
 #. type: 標題
 #: operation-templates/using/finding-oss.md:1
-msgid "# OSSの探し方"
+msgid "# Finding Open Source Software"
 msgstr "# OSS 的尋找方式"
 
 #. type: 段落
 #: operation-templates/using/finding-oss.md:3
 msgid ""
-"新しい機能を実装する際、「既存のオープンソースで解決できないか？」と考えることは、現代の開発において当然のアプローチです。\n"
-"しかし、適切でないソフトウェアを選んでしまうと、後からライセンス問題やセキュリティリスクが発覚し、プロジェクト全体に深刻な影響を与える可能性があります。"
+"When implementing new features, asking \"Can existing open source software solve this problem?\" represents standard practice in modern software engineering.\n"
+"However, adopting unsuitable software risks introducing post-integration licensing violations or security vulnerabilities, derailing project timelines."
 msgstr ""
 "實作新功能時，思考「能不能用既有的開放原始碼解決？」在現代開發中是很自然的做法。\n"
 "但如果選到不合適的軟體，之後才發現授權問題或資訊安全風險，就可能對整個專案造成嚴重影響。"
@@ -613,28 +559,28 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/finding-oss.md:4
 msgid ""
-"GitHubだけでも数えきれないほどのリポジトリが存在し、同じ目的を達成できる複数の選択肢が常に存在します。\n"
-"表面的な人気やスター数だけで判断するのではなく、ライセンスの適合性、セキュリティの堅牢性、コミュニティの健全性、長期的な維持可能性などを総合的に評価する必要があります。"
+"With millions of GitHub repositories available, multiple options exist for almost any engineering requirement.\n"
+"Rather than relying blindly on star counts or superficial popularity, teams must evaluate license compatibility, security health, community vitality, and long-term project viability holistically."
 msgstr ""
 "光是 GitHub 上就有數不完的儲存庫，能達成同一目的的選項總是有好幾個。\n"
 "不能只憑表面的人氣或星星數判斷，而需要從授權相容性、資訊安全穩健性、社群健全性、長期可維護性等綜合評估。"
 
 #. type: 段落
 #: operation-templates/using/finding-oss.md:5
-msgid "このガイドでは、適切で効率的なオープンソースソフトウェアの探し方と選び方を、実践的な観点から説明します。"
+msgid "This practical guide outlines structured discovery methodologies for identifying and selecting suitable open source software."
 msgstr "本指南從實務觀點說明如何適切且有效率地尋找與選擇開放原始碼軟體。"
 
 #. type: 標題
 #: operation-templates/using/finding-oss.md:6
-msgid "## 探索の出発点：社内導入済みOSSリストの活用"
+msgid "## Step 1: Search the Approved Internal OSS Inventory"
 msgstr "## 探索的起點：運用公司內部已導入 OSS 清單"
 
 #. type: 段落
 #: operation-templates/using/finding-oss.md:7
 msgid ""
-"新しいオープンソースを探す際の最初のステップとして、社内の導入済みOSSリストの確認を推奨します。\n"
-"このリストに掲載されているソフトウェアは、既にセキュリティ評価、技術的検証を通過しており、導入の判断がスムーズになります。ただし、ライセンスの遵守事項は利用方法（社内利用、外部配布（組込み機器、ソフトウェア製品、受託開発など）、SaaS提供など）によって異なるため、過去に承認された利用方法と今回の利用方法が異なる場合は、改めてライセンス適合性の確認が必要です。\n"
-"多くの場合、新しい要件も既存の導入済みソフトウェアの組み合わせで解決できる可能性があります。"
+"Begin open source discovery by searching the internal approved inventory.\n"
+"Listed components have passed technical screening and security evaluations, accelerating integration approval. Note that because licensing conditions depend on deployment models (internal tool, distributed product, SaaS delivery), verify that your proposed usage aligns with previous approval scopes.\n"
+"Existing components often satisfy new feature requirements directly or through combination."
 msgstr ""
 "尋找新的開放原始碼時，建議第一步先確認公司內部的已導入 OSS 清單。\n"
 "這份清單收錄的軟體已通過資訊安全評估與技術驗證，導入判斷會比較順暢。不過，授權條款的遵守事項會因使用方式（公司內部使用、對外散布（嵌入式裝置、軟體產品、委外開發等）、SaaS 提供等）而不同，因此若過去核准的使用方式與這次的使用方式不同，就需要重新確認授權相容性。\n"
@@ -643,27 +589,27 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/finding-oss.md:8
 msgid ""
-"導入済みOSSリストで要件を満たすソフトウェアが見つからない場合は、類似の目的や技術領域のソフトウェアを確認してください。\n"
-"完全に一致しなくても、部分的に要件を満たすソフトウェアがあれば、それを基点として関連プロジェクトや代替案を探索することで、効率的に候補を絞り込むことができます。"
+"If exact matches are unavailable, search for components in similar domains.\n"
+"Even partial overlaps provide starting points for discovering related libraries or suitable alternatives."
 msgstr ""
 "若在已導入 OSS 清單中找不到滿足需求的軟體，請確認目的或技術領域相近的軟體。\n"
 "即使不完全一致，只要有部分滿足需求的軟體，就能以它為起點探索相關專案或替代方案，有效率地收斂候選範圍。"
 
 #. type: 標題
 #: operation-templates/using/finding-oss.md:9
-msgid "## 効果的な探索方法"
+msgid "## Effective Discovery Techniques"
 msgstr "## 有效的探索方式"
 
 #. type: 標題
 #: operation-templates/using/finding-oss.md:10
-msgid "### 多角的な情報収集"
+msgid "### Multi-Faceted Information Gathering"
 msgstr "### 多角度收集資訊"
 
 #. type: 段落
 #: operation-templates/using/finding-oss.md:11
 msgid ""
-"GitHubでの検索は具体的なキーワード（言語名 + 機能名）から始めて、Awesomeリスト（例：awesome-nodejs）やTopics機能で関連プロジェクトを探索します。\n"
-"同時に、公式パッケージリポジトリ（npm、PyPI、Maven Centralなど）でのダウンロード統計、Stack Overflowでの推奨ツール情報、技術ブログでの実装事例なども重要な情報源として活用します。"
+"Begin GitHub searches using targeted keywords (`language` + `capability`), exploring curated Awesome lists (e.g., `awesome-nodejs`) and GitHub Topics.\n"
+"Cross-reference candidates against package registry download trends (npm, PyPI, Maven Central), Stack Overflow community recommendations, and technical engineering blogs."
 msgstr ""
 "在 GitHub 上的搜尋，先從具體的關鍵字（語言名稱 + 功能名稱）開始，再透過 Awesome 清單（例如：awesome-nodejs）或 Topics 功能探索相關專案。\n"
 "同時，官方套件儲存庫（npm、PyPI、Maven Central 等）的下載統計、Stack Overflow 上推薦的工具資訊、技術部落格的實作案例等，也是重要的資訊來源。"
@@ -671,27 +617,27 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/finding-oss.md:12
 msgid ""
-"技術コミュニティでの議論、特にStack OverflowやRedditでの実用的な評価は、公式ドキュメントでは得られない貴重な情報を提供してくれます。\n"
-"実際の運用でのトラブルシューティング情報や、パフォーマンス特性に関する生の声は、選択の際の重要な判断材料となります。"
+"Community discussions on Stack Overflow or Reddit reveal practical operational realities absent from official documentation.\n"
+"Real-world troubleshooting experiences and performance benchmarks provide vital evaluation context."
 msgstr ""
 "技術社群中的討論，特別是 Stack Overflow 或 Reddit 上的實用評價，能提供官方文件中得不到的寶貴資訊。\n"
 "實際運作中的疑難排解資訊，以及關於效能特性的真實心得，都是選擇時的重要判斷素材。"
 
 #. type: 標題
 #: operation-templates/using/finding-oss.md:13
-msgid "## 評価すべき重要な観点"
+msgid "## Critical Evaluation Criteria"
 msgstr "## 應評估的重要觀點"
 
 #. type: 標題
 #: operation-templates/using/finding-oss.md:14
-msgid "### ライセンス適合性の確認"
+msgid "### License Compatibility Verification"
 msgstr "### 確認授權相容性"
 
 #. type: 段落
 #: operation-templates/using/finding-oss.md:15
 msgid ""
-"ライセンス確認は最も重要でありながら、しばしば見落とされがちな要素です。\n"
-"LICENSEファイルやREADMEでライセンス種別を確認し、あなたの利用方法（社内利用のみ、外部配布、SaaS提供）との適合性を必ず評価してください。"
+"License verification represents a critical evaluation step.\n"
+"Inspect `LICENSE` files and `README` documentation to confirm license types, evaluating compatibility against your deployment model (internal use, binary distribution, SaaS delivery)."
 msgstr ""
 "授權確認是最重要、卻經常被忽略的環節。\n"
 "請在 LICENSE 檔案或 README 中確認授權條款種類，並務必評估它與你的使用方式（僅公司內部使用、對外散布、SaaS 提供）是否相容。"
@@ -699,22 +645,22 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/finding-oss.md:16
 msgid ""
-"特に注意が必要なのは、改変や再配布時にソースコード提供が求められる条件、ネットワーク越しの提供でも提供義務が生じる条件、一定規模や用途を超えると商用ライセンスの購入が必要となる条件などです。これらに限らず、利用形態に応じて適用される義務は多岐にわたるため、各ライセンスの具体的な条件を確認することが重要です。\n"
-"詳細な判断基準については[ライセンスとは](../compliance/what-is-a-license.md)と[ソースコード提供義務のあるライセンス](../compliance/source-disclosure-licenses.md)を参照し、不明な場合はOSPOに相談してください。"
+"Pay close attention to copyleft terms requiring source disclosure upon modification or distribution, network copyleft terms (AGPL), or enterprise commercial licensing thresholds.\n"
+"Review criteria in [What Is a License?](../compliance/what-is-a-license.md) and [Licenses with Source Code Disclosure Obligations](../compliance/source-disclosure-licenses.md), consulting the OSPO when terms are ambiguous."
 msgstr ""
 "特別需要注意的是：修改或再散布時被要求提供原始碼的條件、即使透過網路提供也會產生提供義務的條件、超過一定規模或用途就需要購買商用授權的條件等。義務不限於這些，依使用形態而適用的義務相當多樣，因此確認各授權條款的具體條件相當重要。\n"
 "詳細的判斷基準請參閱[什麼是授權條款](../compliance/what-is-a-license.md)與[有原始碼提供義務的授權條款](../compliance/source-disclosure-licenses.md)；若不清楚請洽詢 OSPO。"
 
 #. type: 標題
 #: operation-templates/using/finding-oss.md:17
-msgid "### プロジェクトの活発性と持続可能性"
+msgid "### Project Activity and Sustainability"
 msgstr "### 專案的活躍度與永續性"
 
 #. type: 段落
 #: operation-templates/using/finding-oss.md:18
 msgid ""
-"優れたオープンソースプロジェクトは、定期的な更新、活発なコミュニティディスカッション、複数の開発者による貢献といった特徴を示します。\n"
-"最近6ヶ月以内の更新があり、Issueに対して数日以内に何らかの反応があるプロジェクトは、健全な開発サイクルを維持していると考えられます。"
+"Healthy open source projects demonstrate regular commits, active discussion, and multi-developer contributions.\n"
+"Projects with commits within the past six months and issue responses within days indicate active maintainer stewardship."
 msgstr ""
 "優秀的開放原始碼專案具有定期更新、社群討論活躍、多位開發者共同貢獻等特徵。\n"
 "最近 6 個月內有更新，且 Issue 在數日內會有某種回應的專案，可以認為維持著健全的開發循環。"
@@ -722,22 +668,22 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/finding-oss.md:19
 msgid ""
-"単一企業や個人に依存するプロジェクトよりも、複数の組織からの支援があるプロジェクトの方が、長期的な維持可能性が高いと評価できます。\n"
-"スポンサー企業の存在、明確なガバナンス構造、商用サポートの有無なども、企業での採用における重要な判断材料です。"
+"Projects backed by multiple organizations or neutral foundations offer higher long-term viability than projects dependent on single individuals or vendors.\n"
+"Corporate sponsorship, clear governance models, and commercial support options indicate enterprise maturity."
 msgstr ""
 "相較於依賴單一企業或個人的專案，獲得多個組織支援的專案可評價為長期可維護性較高。\n"
 "是否有贊助企業、有明確的治理架構、是否有商用支援等，也是企業採用時的重要判斷素材。"
 
 #. type: 標題
 #: operation-templates/using/finding-oss.md:20
-msgid "### セキュリティと信頼性"
+msgid "### Security and Trustworthiness"
 msgstr "### 資訊安全與可靠性"
 
 #. type: 段落
 #: operation-templates/using/finding-oss.md:21
 msgid ""
-"セキュリティ評価では、過去の脆弱性履歴だけでなく、セキュリティインシデントに対する対応の迅速さと透明性を重視します。\n"
-"CVE（Common Vulnerabilities and Exposures）の検索により既知の脆弱性を確認し、それらへの対応速度を評価してください。"
+"Security screening evaluates maintainer responsiveness and disclosure transparency alongside historical bug records.\n"
+"Screen candidate projects against CVE database records to evaluate patch velocity for reported vulnerabilities."
 msgstr ""
 "資訊安全評估不只看過去的弱點歷史，也重視對資訊安全事件的應對速度與透明度。\n"
 "請透過搜尋 CVE（Common Vulnerabilities and Exposures）確認已知弱點，並評估對它們的處理速度。"
@@ -745,23 +691,23 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/finding-oss.md:22
 msgid ""
-"優れたプロジェクトでは、自動化されたテスト、継続的インテグレーション、静的解析ツールの利用、セキュリティスキャンの定期実行、責任ある脆弱性報告への対応などが適切に実装されています。\n"
-"これらの開発プロセスの成熟度は、エンタープライズ利用における重要な品質指標となります。"
+"Mature projects implement automated testing, continuous integration, static code analysis, dependency scanning, and published vulnerability disclosure policies (`SECURITY.md`).\n"
+"These practices signal production-grade engineering quality."
 msgstr ""
 "優秀的專案會妥善實作自動化測試、持續整合、使用靜態分析工具、定期執行資訊安全掃描、回應負責式弱點揭露等。\n"
 "這些開發流程的成熟度，是企業使用時的重要品質指標。"
 
 #. type: 標題
 #: operation-templates/using/finding-oss.md:23
-msgid "## よくある判断ミスと注意点"
+msgid "## Common Evaluation Pitfalls"
 msgstr "## 常見的判斷失誤與注意事項"
 
 #. type: 段落
 #: operation-templates/using/finding-oss.md:24
 msgid ""
-"人気だけで選択することは、陥りやすい判断ミスの一つです。\n"
-"リポジトリのスター数が多くても、あなたの目的に適さない場合や、メンテナンスが困難な複雑すぎるソフトウェアである可能性があります。\n"
-"また、最新版が必ずしも安定版とは限らないため、バージョン選択も慎重に行うことが望ましいです。"
+"Relying solely on popularity indicators represents a frequent mistake.\n"
+"High repository star counts do not guarantee architectural fit, code quality, or maintainability.\n"
+"Furthermore, latest releases are not automatically stable releases; evaluate Long-Term Support (LTS) releases for production workloads."
 msgstr ""
 "只憑人氣選擇是容易犯的判斷失誤之一。\n"
 "儲存庫的星星數再多，也可能不適合你的目的，或是複雜到難以維護的軟體。\n"
@@ -770,17 +716,16 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/finding-oss.md:25
 msgid ""
-"見落としがちなのは依存関係の評価です。選択したソフトウェア自体は問題がなくても、それが依存するライブラリにライセンス問題や脆弱性、メンテナンス停止リスクが潜んでいる場合があります。\n"
-"依存関係全体を含めた評価を怠ると、後から深刻な問題に直面する可能性があります。"
+"Overlooking transitive dependency trees represents another common oversight.\n"
+"A top-level library may appear clean while pulling in deeply nested dependencies carrying copyleft licenses, security vulnerabilities, or abandoned code.\n"
+"Evaluate entire dependency trees thoroughly."
 msgstr ""
 "容易被忽略的是相依性的評估。即使所選軟體本身沒問題，它所依賴的程式庫也可能潛藏授權問題、弱點或停止維護的風險。\n"
 "若疏於進行涵蓋整個相依關係的評估，之後可能面臨嚴重問題。"
 
 #. type: 段落
 #: operation-templates/using/finding-oss.md:26
-msgid ""
-"長期的な影響も重要な考慮事項です。\n"
-"アップデート時の互換性、将来のサポート終了リスク、他のソフトウェアへの移行コストなども、初期選択時に検討しておく必要があります。"
+msgid "Consider long-term operational impacts during selection—evaluating upgrade compatibility, deprecation risks, and migration costs."
 msgstr ""
 "長期影響也是重要的考量事項。\n"
 "更新時的相容性、未來終止支援的風險、轉移到其他軟體的成本等，都需要在初期選擇時就先評估。"
@@ -789,30 +734,30 @@ msgstr ""
 #: operation-templates/using/finding-oss.md:27
 #: operation-templates/using/supplier-procurement.md:73
 #: operation-templates/using/using-oss.md:37
-msgid "## OSPOへの相談タイミング"
+msgid "## When to Consult the OSPO"
 msgstr "## 洽詢 OSPO 的時機"
 
 #. type: 段落
 #: operation-templates/using/finding-oss.md:28
 msgid ""
-"次のような状況では、導入前に担当者やOSPOに相談してください。\n"
-"商用ライセンスが必要かどうか判断がつかない場合、セキュリティ面で不安がある場合（セキュリティ部門へ相談）、社内導入済みOSSリストにないソフトウェアで判断に迷う場合。"
+"Consult the OSPO prior to adoption in the following scenarios:\n"
+"Uncertainty regarding commercial licensing requirements; security concerns (consult Security); or uncertainty regarding unlisted open source components."
 msgstr ""
 "在以下情況下，請在導入前洽詢承辦人或 OSPO。\n"
 "無法判斷是否需要商用授權時、對資訊安全面有疑慮時（請洽詢資訊安全部門）、遇到不在公司內部已導入 OSS 清單中的軟體而難以判斷時。"
 
 #. type: 段落
 #: operation-templates/using/finding-oss.md:29
-msgid "相談時には、以下の情報を整理して提供いただけるとOSPOでの検討がスムーズに進みます。"
+msgid "Provide the following details to accelerate OSPO review:"
 msgstr "洽詢時，若能整理並提供以下資訊，OSPO 的評估會進行得更順暢。"
 
 #. type: 清單
 #: operation-templates/using/finding-oss.md:30
 msgid ""
-"- **利用目的：** 何を解決したいか。目的によって確認すべきポイントが変わるため、できるだけ具体的にお伝えください\n"
-"- **利用方法：** 社内利用のみ／配布／SaaS提供など\n"
-"- **技術的詳細：** 結合方法、依存関係など\n"
-"- **検討した代替案：** 必要に応じて、もしあれば"
+"- **Target Problem**: Specific technical capability required.\n"
+"- **Deployment Model**: Internal tool / binary distribution / SaaS service.\n"
+"- **Technical Integration**: Linking mechanism, dependency coupling.\n"
+"- **Alternatives Evaluated**: Other libraries considered."
 msgstr ""
 "- **使用目的：** 想解決什麼。應確認的重點會因目的而不同，請盡可能具體說明\n"
 "- **使用方式：** 僅公司內部使用／散布／SaaS 提供等\n"
@@ -821,23 +766,25 @@ msgstr ""
 
 #. type: 段落
 #: operation-templates/using/finding-oss.md:31
-msgid "適切なオープンソースソフトウェアの選択は、技術的な検討だけでなく、ライセンス、セキュリティ、コミュニティ、持続可能性など多面的な評価が必要です。このガイドに従って慎重に選択することで、プロジェクトのリスクを最小限に抑えながら、オープンソースの恩恵を最大限に活用できます。"
+msgid ""
+"Selecting suitable open source software requires multi-dimensional evaluation across technical fit, licensing, security, and sustainability.\n"
+"Following this guide minimizes risk while maximizing open source value."
 msgstr "選擇合適的開放原始碼軟體，不只需要技術評估，也需要授權、資訊安全、社群、永續性等多面向的評估。依本指南謹慎選擇，就能在把專案風險壓到最低的同時，最大程度享有開放原始碼的好處。"
 
 #. type: 段落
 #: operation-templates/using/finding-oss.md:32
-msgid "判断に迷う場合や、評価が複雑な場合は、一人で悩まずに気軽にOSPOまでご相談ください。担当者のリストは「[OSPOとは](../about/ospo.md)」を参照してください。"
+msgid "Consult the OSPO with questions. Refer to \"[What Is an OSPO?](../about/ospo.md)\" for staff contacts."
 msgstr "若在判斷上猶豫，或評估較為複雜，請不要一個人苦惱，歡迎隨時洽詢 OSPO。承辦人清單請參閱「[什麼是 OSPO](../about/ospo.md)」。"
 
 #. type: 清單
 #: operation-templates/using/finding-oss.md:36
 msgid ""
-"- [ ] 社内導入済みOSSリストの場所・形式・運用方針を明記した\n"
-"- [ ] 承認プロセスの有無と方針を決定・記載した\n"
-"- [ ] 社内セキュリティ基準との対応表を作成した\n"
-"- [ ] 社内の失敗事例・判断ミス事例を追加した\n"
-"- [ ] 相談から回答までの標準リードタイムを設定した\n"
-"- [ ] 各言語・フレームワークごとの情報源をまとめた"
+"- [ ] Documented location, format, and governance for the Approved Internal Inventory.\n"
+"- [ ] Stated clear approval workflows and delegation policies.\n"
+"- [ ] Created mapping tables linking security criteria to internal standards.\n"
+"- [ ] Incorporated internal case studies detailing past selection mistakes.\n"
+"- [ ] Published standard SLA turnaround times for OSPO reviews.\n"
+"- [ ] Compiled curated discovery indexes for key internal languages and frameworks."
 msgstr ""
 "- [ ] 已明確寫出公司內部已導入 OSS 清單的位置、格式與運作方針\n"
 "- [ ] 已決定並寫出是否設核准流程及其方針\n"
@@ -851,45 +798,23 @@ msgstr ""
 msgid ""
 "<!--\n"
 "########################################################################################\n"
-"カスタマイズガイド\n"
+"Customization Guide\n"
 "\n"
-"Placeholder置換の次のステップとして、自社の状況に合わせた加筆・調整を行うための指針を以下に示します。\n"
+"Guidance for expanding and refining content to match your company context following placeholder replacement.\n"
 "########################################################################################\n"
 "\n"
-"■ 社内導入済みOSSリストの整備\n"
+"■ Maintaining Approved Catalogs\n"
 "\n"
-"社内導入済みOSSリストはこのガイドの要となる部分です。以下の要素を整備してください。\n"
+"Define approval governance clearly—encouraging autonomous team evaluation while reserving consultations for complex copyleft licenses.\n"
+"Keep catalogs updated through regular reviews and explicitly note that catalogs serve as reference guides rather than exclusive lists.\n"
 "\n"
-"整備のポイント：\n"
-" * 承認プロセスを作るか、個人の裁量に任せるかの方針決定（多くの企業では、開発者の自律的判断を基本とし、確認事項の多いライセンスの場合にのみ相談を推奨する方式を採用しています）\n"
-" * リストの場所と形式の明記（社内Wiki・ポータル、管理システムなど）\n"
-" * リストが古くならないための定期的な見直しプロセス確立\n"
+"■ Documenting Internal Lessons Learned\n"
 "\n"
-"初期段階でリストが不十分な場合は、現在の利用状況調査から始めて段階的に充実させていくアプローチが現実的です。\n"
-"「リストにないOSSは使えない」という誤解を生まないよう、リストは参考情報であることを明記してください。\n"
+"Incorporate internal case studies detailing past component selection errors (e.g., refactoring due to unaddressed copyleft terms) to build practical engineering awareness.\n"
 "\n"
-"■ よくある判断ミスの社内事例化\n"
+"■ Consultation SLAs\n"
 "\n"
-"実際の社内事例を基に具体化することで説得力が増します。\n"
-"\n"
-"事例化・具体化のポイント：\n"
-" * 社内失敗事例の共有（例：「A部門ではXを選んだが、ライセンス問題で後からYに変更した」など）\n"
-" * 判断基準の具体化（最終更新日やIssue対応速度を重視など）\n"
-" * 社内でのOSS採用判断基準を明確化（コード量が少ないプロジェクトについては必ずしもOSSを選ぶ必要がない場合もあるため）\n"
-"\n"
-"■ 相談体制の整備\n"
-"\n"
-"OSPOの役割は支援とガイダンスを提供し、企業のOSS利用を最適化することです。\n"
-"サポート業務が過剰にならないよう、以下を考慮して体制を整備してください。\n"
-"\n"
-"整備の考慮事項：\n"
-" * 相談から回答までの標準リードタイムの設定\n"
-" * 緊急対応での迅速対応プロセスの確立\n"
-" * 決定事項のドキュメント化と社内共有方法の標準化\n"
-" * 頻繁に相談されるテーマのFAQ化とナレッジベース構築\n"
-" * コミュニケーションのプロセス化による効率化\n"
-"\n"
-"最終的な技術選択の責任は開発チームにあることを明確に伝えることが重要です。\n"
+"Establish target turnaround SLAs for OSPO inquiries, keeping decision-making authority centered on engineering leads while providing expert OSPO guidance.\n"
 "\n"
 "########################################################################################\n"
 "########################################################################################\n"
@@ -943,21 +868,21 @@ msgstr ""
 
 #. type: 標題
 #: operation-templates/using/oss-inventory.md:1
-msgid "# 社内導入済みOSSリスト"
+msgid "# Approved Internal OSS Inventory"
 msgstr "# 公司內部已導入 OSS 清單"
 
 #. type: 標題
 #: operation-templates/using/oss-inventory.md:3
-msgid "## 導入済みOSSリスト"
+msgid "## Approved Internal OSS Inventory"
 msgstr "## 已導入 OSS 清單"
 
 #. type: 清單
 #: operation-templates/using/oss-inventory.md:7
 msgid ""
-"- [ ] リスト自体を作成・公開するかどうかの方針を決定した\n"
-"- [ ] リストの管理方法を決定した（社内公開管理、コンポーネント台帳システムなど）\n"
-"- [ ] リストの更新・メンテナンスプロセスを確立した\n"
-"- [ ] 社内コンポーネント台帳システムがある場合、そのシステムへの誘導を記載した"
+"- [ ] Formulated policy on publishing an approved internal catalog.\n"
+"- [ ] Established management tools for the inventory (internal wiki, component management system, etc.).\n"
+"- [ ] Established maintenance and update workflows for catalog entries.\n"
+"- [ ] Provided direct links to internal component management systems if available."
 msgstr ""
 "- [ ] 已決定是否製作與公開這份清單的方針\n"
 "- [ ] 已決定清單的管理方式（公司內部公開管理、元件台帳系統等）\n"
@@ -969,18 +894,17 @@ msgstr ""
 msgid ""
 "<!--\n"
 "########################################################################################\n"
-"カスタマイズガイド\n"
+"Customization Guide\n"
 "\n"
-"Placeholder置換の次のステップとして、自社の状況に合わせた加筆・調整を行うための指針を以下に示します。\n"
+"Guidance for expanding and refining content to match your company context following placeholder replacement.\n"
 "########################################################################################\n"
 "\n"
-"■ リスト作成方針の検討\n"
+"■ Inventory Strategy\n"
 "\n"
-"「OSSを使う」における「オープンソース活用の基本的な流れ」のガイドで示したように、このリスト自体を作るかどうかは企業の方針次第です。\n"
-"リストを社内で管理することは、OSS利用のガバナンスを強化し、開発者の利便性を向上させる効果があります。\n"
-"一方で、「リストにないOSSは使えない」という誤解を生むリスクもあります。\n"
-"社内のコンポーネント台帳システムが存在する場合は、そのシステムに誘導することも検討してください。\n"
-"リスト維持管理の負担とメリットのバランスを評価した上で判断してください。\n"
+"Deciding whether to publish an internal catalog depends on corporate strategy.\n"
+"Centralizing an approved inventory strengthens governance and developer velocity, but risks creating a misconception that \"unlisted software cannot be used.\"\n"
+"If an internal component registry or SCA platform exists, link directly to it.\n"
+"Balance maintenance overhead against governance benefits when finalizing strategy.\n"
 "\n"
 "########################################################################################\n"
 "########################################################################################\n"
@@ -1007,100 +931,94 @@ msgstr ""
 
 #. type: 標題
 #: operation-templates/using/supplier-procurement.md:1
-msgid "# サプライヤーからのOSS入手手順"
+msgid "# Procuring OSS from Suppliers"
 msgstr "# 自供應商取得 OSS 的程序"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:3
 msgid ""
-"サプライヤーからソフトウェアを調達する際、そのソフトウェアにオープンソースソフトウェア（OSS）が含まれている場合、適切な管理プロセスが必要です。\n"
-"サプライヤーが利用するOSSの選定やライセンス管理が不適切であると、納品後に重大なコンプライアンス問題やセキュリティリスクが発覚し、プロジェクト全体に深刻な影響を与える可能性があります。"
+"Procuring software containing open source software (OSS) from third-party suppliers requires structured management workflows.\n"
+"Unmanaged supplier OSS usage risks introducing severe post-delivery compliance violations and security vulnerabilities, jeopardizing project success."
 msgstr ""
 "從供應商採購軟體時，若該軟體含有開放原始碼軟體（OSS），就需要適切的管理流程。\n"
 "若供應商對所使用 OSS 的選用與授權管理不當，交付後才發現重大合規問題或資訊安全風險，就可能對整個專案造成嚴重影響。"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:4
-msgid ""
-"このガイドでは、サプライヤーからOSSを含むソフトウェアを入手する際の実践的な手順を説明します。\n"
-"契約段階での取り決めから納品後の検証まで、リスクを最小化しながら効率的に調達を進めるための指針を提供します。"
+msgid "This guide provides practical procedures for procuring software containing OSS from suppliers—covering contract terms through post-delivery verification to minimize operational risk."
 msgstr ""
 "本指南說明從供應商取得含 OSS 軟體時的實務程序。\n"
 "從契約階段的約定到交付後的驗證，提供在把風險降到最低的同時有效率推進採購的指引。"
 
 #. type: 標題
 #: operation-templates/using/supplier-procurement.md:5
-msgid "## サプライヤーからのOSS入手の基本的な流れ"
+msgid "## Supplier Procurement Workflow"
 msgstr "## 自供應商取得 OSS 的基本流程"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:6
-msgid "サプライヤーからOSSを含むソフトウェアを入手する際は、以下の段階的なアプローチが重要です。"
+msgid "Procuring software containing OSS requires a phased approach:"
 msgstr "從供應商取得含 OSS 的軟體時，以下的分階段做法相當重要。"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:7
-msgid "**入手前の準備と取り決め**"
+msgid "**Pre-Procurement Contracting and Alignment**"
 msgstr "**取得前的準備與約定**"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:8
-msgid ""
-"発注段階で、OSS利用に関する方針と手続きを明確にすることが、後のトラブルを防ぐ上で効果的です。\n"
-"曖昧な取り決めのまま開発を進めると、後からライセンス問題が発覚し、大幅な手戻りが発生するリスクがあります。"
+msgid "Establishing clear OSS policies and review workflows during contract negotiations prevents post-delivery licensing surprises and costly rework."
 msgstr ""
 "在下訂階段就明確 OSS 使用的方針與程序，對防止後續糾紛很有效。\n"
 "若在約定含糊的情況下推進開發，之後才發現授權問題，就有大幅返工的風險。"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:9
-msgid "**入手後の検証と対応**"
+msgid "**Post-Delivery Verification and Remediation**"
 msgstr "**取得後的驗證與處理**"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:10
-msgid "納品されたソフトウェアについて、事前の取り決めに従った適切な検証を行い、問題が発見された場合の対応手順を確立しておくことが重要です。"
+msgid "Conducting thorough verification upon delivery in accordance with contract terms ensures rapid remediation of identified issues."
 msgstr "對交付的軟體，依事前約定進行適切驗證，並事先建立發現問題時的處理程序，相當重要。"
 
 #. type: 標題
 #: operation-templates/using/supplier-procurement.md:11
-msgid "## 入手前に決めるべき事項"
+msgid "## Pre-Procurement Alignment Requirements"
 msgstr "## 取得前應決定的事項"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:12
-msgid "サプライヤーとの契約締結前、または開発着手前の段階で、以下の事項を明確にし、合意しておく必要があります。"
+msgid "Establish and record mutual agreement with suppliers on the following items prior to contract execution or development kickoff:"
 msgstr "在與供應商簽約前，或著手開發前的階段，需要明確並取得共識的事項如下。"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:13
-msgid "**利用許可の範囲**"
+msgid "**Scope of Permitted Usage**"
 msgstr "**使用許可的範圍**"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:14
 msgid ""
-"サプライヤーがOSSを利用すること自体は認めつつ、利用するOSSについては事前の確認を基本とすることをお勧めします。\n"
-"その上で、義務の少ないライセンス（MIT、BSD等）のOSSは確認事項が比較的限定的である一方、ソースコード提供義務のあるライセンス（GPL、AGPL等）については、自社製品への影響を慎重に評価するなど、ライセンス種別に応じた審査基準を設けると運用しやすくなります。"
+"While permitting supplier OSS usage, establish pre-use notification requirements as a baseline.\n"
+"Tier review requirements by license risk—permissive licenses (MIT, BSD) require streamlined checks, whereas copyleft licenses (GPL, AGPL) demand rigorous evaluation regarding architectural impacts on proprietary codebases."
 msgstr ""
 "建議在認可供應商使用 OSS 本身的同時，對所使用的 OSS 以事前確認為原則。\n"
 "在此之上，義務較少的授權條款（MIT、BSD 等）OSS 需確認的事項相對有限，而有原始碼提供義務的授權條款（GPL、AGPL 等）則需謹慎評估對自家產品的影響；依授權條款種類訂出審查基準，運作起來會比較順暢。"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:15
-msgid "ライセンスの詳細については[ライセンスとは](../compliance/what-is-a-license.md)と[ソースコード提供義務のあるライセンス](../compliance/source-disclosure-licenses.md)を参照してください。"
+msgid "For license details, see [What Is a License?](../compliance/what-is-a-license.md) and [Licenses with Source Code Disclosure Obligations](../compliance/source-disclosure-licenses.md)."
 msgstr "授權條款的細節請參閱[什麼是授權條款](../compliance/what-is-a-license.md)與[有原始碼提供義務的授權條款](../compliance/source-disclosure-licenses.md)。"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:16
-msgid "**事前相談・承認プロセス**"
+msgid "**Pre-Consultation and Approval Processes**"
 msgstr "**事前諮詢與核准流程**"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:17
-msgid ""
-"サプライヤーが新しいOSSを採用する際の相談・承認プロセスを定義します。\n"
-"以下のような段階的なアプローチが一般的です："
+msgid "Define approval workflows for suppliers adopting new OSS components:"
 msgstr ""
 "定義供應商採用新 OSS 時的諮詢與核准流程。\n"
 "以下這種分階段做法較為常見："
@@ -1108,9 +1026,9 @@ msgstr ""
 #. type: 清單
 #: operation-templates/using/supplier-procurement.md:18
 msgid ""
-"- **事前相談の実施**：サプライヤーが採用を検討しているOSSについて、開発開始前に相談する仕組みを設けます\n"
-"- **判断基準の明示**：どのような条件に注意が必要か、判断の観点を可能な範囲で明確にします\n"
-"- **導入済みOSSリストの参考提供**：社内で既に評価・導入済みのOSSリストがある場合は、参考情報として共有できます。ただし、利用条件はビジネスのユースケースや他のソフトウェアとの組み合わせによって変わるため、サプライヤー側での個別の確認は引き続き必要です"
+"- **Early Notification**: Mandate that suppliers disclose proposed OSS components prior to development.\n"
+"- **Clear Criteria**: Provide explicit guidelines detailing restricted license terms and security standards.\n"
+"- **Reference Catalog Sharing**: Share approved internal OSS inventories as reference guidelines. Note that because license implications depend on specific deployment contexts, suppliers remain responsible for conducting independent compliance reviews."
 msgstr ""
 "- **實施事前諮詢**：建立機制，讓供應商在開發開始前就其考慮採用的 OSS 進行諮詢\n"
 "- **明示判斷基準**：在可行範圍內明確哪些條件需要注意、判斷的觀點是什麼\n"
@@ -1118,19 +1036,17 @@ msgstr ""
 
 #. type: 標題
 #: operation-templates/using/supplier-procurement.md:19
-msgid "### OSSリストの提出要件"
+msgid "### OSS Inventory Submission Requirements"
 msgstr "### OSS 清單的提交要求"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:20
-msgid "**提出タイミング**"
+msgid "**Submission Milestones**"
 msgstr "**提交時機**"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:21
-msgid ""
-"サプライヤーに対して、使用するOSSのリストをいつ提出してもらうかを定めます。\n"
-"一般的なタイミングとしては："
+msgid "Define explicit milestones for suppliers to submit OSS inventories:"
 msgstr ""
 "訂出要請供應商在何時提交所使用 OSS 清單。\n"
 "常見的時機包括："
@@ -1138,9 +1054,9 @@ msgstr ""
 #. type: 清單
 #: operation-templates/using/supplier-procurement.md:22
 msgid ""
-"- **設計レビュー時**：アーキテクチャ設計が確定した段階で、採用予定のOSSリストを提出\n"
-"- **開発途中**：開発の進行に応じて、新たに採用したOSSを随時報告\n"
-"- **納品前**：最終的な成果物に含まれるすべてのOSSの完全なリストを提出"
+"- **Architecture Review Phase**: Submit proposed OSS inventories upon finalizing architecture designs.\n"
+"- **Development Phase**: Report newly added OSS components as development progresses.\n"
+"- **Pre-Delivery Phase**: Submit complete, finalized OSS inventories for all release deliverables."
 msgstr ""
 "- **設計審查時**：在架構設計確定的階段提交預計採用的 OSS 清單\n"
 "- **開發途中**：隨開發進展，隨時回報新採用的 OSS\n"
@@ -1148,32 +1064,30 @@ msgstr ""
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:23
-msgid ""
-"タイミングが遅すぎると問題発見時の対応が困難になり、早すぎると変更が多く管理が煩雑になります。\n"
-"プロジェクトの規模や性質に応じて、適切なバランスを見つけることが重要です。"
+msgid "Setting milestones too late hampers remediation, while requiring reporting too early creates administrative churn; establish milestone cadences appropriate for project scale."
 msgstr ""
 "時機太晚會使發現問題時難以處理，太早則變更頻繁、管理繁瑣。\n"
 "重點在於依專案的規模與性質，找出適當的平衡。"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:24
-msgid "**提出情報の内容**"
+msgid "**Inventory Data Fields**"
 msgstr "**提交資訊的內容**"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:25
-msgid "OSSリストには、少なくとも以下の情報を含めることを求めます："
+msgid "Require suppliers to provide the following data fields in OSS disclosures:"
 msgstr "要求 OSS 清單至少包含以下資訊："
 
 #. type: 清單
 #: operation-templates/using/supplier-procurement.md:26
 msgid ""
-"- OSS名称とバージョン\n"
-"- ライセンス種別\n"
-"- 入手元（リポジトリURL等）\n"
-"- 利用目的と範囲\n"
-"- 改変の有無と内容（改変がある場合）\n"
-"- 依存関係（そのOSSが依存する他のOSS）"
+"- OSS component name and exact version.\n"
+"- License type and SPDX identifier.\n"
+"- Source repository URL.\n"
+"- Usage scope and technical coupling mechanism.\n"
+"- Details of modifications made to the OSS component.\n"
+"- Dependency tree details (transitive dependencies)."
 msgstr ""
 "- OSS 名稱與版本\n"
 "- 授權條款種類\n"
@@ -1184,26 +1098,26 @@ msgstr ""
 
 #. type: 標題
 #: operation-templates/using/supplier-procurement.md:27
-msgid "### ライセンスクリアランスの実施"
+msgid "### Executing License Clearance"
 msgstr "### 執行授權清查"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:28
-msgid "**クリアランスプロセスの明確化**"
+msgid "**Defining Clearance Responsibilities**"
 msgstr "**明確清查流程**"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:29
-msgid "サプライヤーに対して、OSSライセンスクリアランス（ライセンス遵守のための確認プロセス）の実施を求める場合、その範囲と方法を明確にします："
+msgid "Clarify boundaries and expectations for license clearance workflows:"
 msgstr "若要求供應商執行 OSS 授權清查（為遵守授權條款而進行的確認流程），請明確其範圍與方式："
 
 #. type: 清單
 #: operation-templates/using/supplier-procurement.md:30
 msgid ""
-"- **実施主体**：サプライヤー側で実施するか、発注側で実施するか、または双方で実施するか\n"
-"- **実施時期**：開発のどの段階で実施するか\n"
-"- **承認基準**：どのような結果であれば承認されるか\n"
-"- **ツールの利用**：特定のSCAツールの使用を求めるか"
+"- **Responsible Entity**: Specify whether clearance is executed by supplier, buyer, or jointly.\n"
+"- **Milestones**: Specify development phases where clearance must occur.\n"
+"- **Acceptance Criteria**: Define explicit clearance criteria for delivery approval.\n"
+"- **Tooling Mandates**: Specify required Software Composition Analysis (SCA) tooling if applicable."
 msgstr ""
 "- **執行主體**：由供應商端執行、由委託端執行，或雙方都執行\n"
 "- **執行時期**：在開發的哪個階段執行\n"
@@ -1212,39 +1126,37 @@ msgstr ""
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:31
-msgid "**クリアランス結果の提出**"
+msgid "**Submitting Clearance Deliverables**"
 msgstr "**提交清查結果**"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:32
-msgid ""
-"ライセンスクリアランスを実施した場合、その結果をどのような形式で提出してもらうかを定めます。\n"
-"SCAツールの出力レポート、手動確認の場合はチェックリスト形式など、検証可能な形式を指定します。"
+msgid "Define required formats for clearance deliverables—such as automated SCA scan reports or audited compliance checklists."
 msgstr ""
 "若已執行授權清查，請訂出要以何種形式提交結果。\n"
 "請指定可驗證的形式，例如 SCA 工具的輸出報告，或人工確認時的檢核清單形式等。"
 
 #. type: 標題
 #: operation-templates/using/supplier-procurement.md:33
-msgid "### セキュリティ要件"
+msgid "### Security Requirements"
 msgstr "### 資訊安全要求"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:34
-msgid "**脆弱性スキャンの実施**"
+msgid "**Vulnerability Scanning Requirements**"
 msgstr "**執行弱點掃描**"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:35
-msgid "サプライヤーに対して、使用するOSSの既知脆弱性スキャンを求める場合の要件を定めます："
+msgid "Define security scanning requirements for supplier deliverables:"
 msgstr "訂出要求供應商對所使用 OSS 執行已知弱點掃描時的要件："
 
 #. type: 清單
 #: operation-templates/using/supplier-procurement.md:36
 msgid ""
-"- **スキャン実施のタイミング**：開発中、納品前など\n"
-"- **許容される脆弱性レベル**：Critical/Highの脆弱性は不可、Medium以下は要相談など\n"
-"- **脆弱性対応の方針**：発見された脆弱性への対応方法（修正、回避策、代替OSSへの切り替え等）"
+"- **Scanning Cadence**: Require scans during development and prior to final delivery.\n"
+"- **Severity Thresholds**: Prohibit unmitigated Critical/High vulnerabilities; require formal risk reviews for Medium issues.\n"
+"- **Remediation SLA**: Define remediation expectations (patching, workarounds, component replacement)."
 msgstr ""
 "- **執行掃描的時機**：開發中、交付前等\n"
 "- **可容許的弱點等級**：Critical／High 弱點不可接受，Medium 以下需諮詢等\n"
@@ -1252,25 +1164,26 @@ msgstr ""
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:37
-msgid "詳細なOSS評価方法については[OSSの評価方法](../using/evaluation.md)のセキュリティ評価セクションを参照してください。"
-msgstr "詳細的 OSS 評估方法請參閱[OSS 的評估方法](../using/evaluation.md)的資訊安全評估小節。"
+#: operation-templates/using/using-oss.md:36
+msgid "For details, see the security evaluation section in [Evaluating Open Source Software](../using/evaluation.md)."
+msgstr "細節請參閱[OSS 的評估方法](../using/evaluation.md)的資訊安全評估小節。"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:38
-msgid "**セキュリティアップデートへの対応**"
+msgid "**Post-Delivery Vulnerability Response**"
 msgstr "**應對資訊安全更新**"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:39
-msgid "納品後に脆弱性が発見された場合の対応についても、事前に合意しておくことが重要です："
+msgid "Establish post-delivery vulnerability protocols in supplier contracts:"
 msgstr "對交付後才發現弱點時的處理方式，事先取得共識也很重要："
 
 #. type: 清單
 #: operation-templates/using/supplier-procurement.md:40
 msgid ""
-"- 保守期間中のセキュリティアップデート提供の義務\n"
-"- 重大な脆弱性発見時の連絡体制\n"
-"- アップデート提供までの標準的な期間"
+"- Mandatory security update provisions during maintenance windows.\n"
+"- Emergency notification SLA for newly disclosed Critical vulnerabilities.\n"
+"- Standard response SLAs for patch delivery."
 msgstr ""
 "- 維護期間內提供資訊安全更新的義務\n"
 "- 發現重大弱點時的聯絡體制\n"
@@ -1278,19 +1191,17 @@ msgstr ""
 
 #. type: 標題
 #: operation-templates/using/supplier-procurement.md:41
-msgid "### 契約条項の検討"
+msgid "### Contractual Provisions"
 msgstr "### 評估契約條款"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:42
-msgid "**法的な取り決め事項**"
+msgid "**Legal Terms**"
 msgstr "**法律上的約定事項**"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:43
-msgid ""
-"OSS利用に関する法的な取り決めについては、法務部門と連携して慎重に検討する必要があります。\n"
-"以下は一般的な検討項目の例ですが、実際の契約書への記載については必ず法務部門の確認を得てください："
+msgid "Collaborate with Legal to incorporate open source terms into procurement contracts:"
 msgstr ""
 "有關 OSS 使用的法律約定，需要與法務部門協作謹慎評估。\n"
 "以下是一般性評估項目的範例，實際寫入契約書的內容請務必取得法務部門的確認："
@@ -1298,10 +1209,10 @@ msgstr ""
 #. type: 清單
 #: operation-templates/using/supplier-procurement.md:44
 msgid ""
-"- ライセンス条件への不適合が発覚した場合の責任と対応\n"
-"- 納品物に含まれるOSSに起因する知的財産権問題への対応\n"
-"- OSS利用に関する保証と免責の範囲\n"
-"- ソースコード提供義務が生じた場合の取り扱い"
+"- Liability and indemnification for licensing non-compliance.\n"
+"- Intellectual property warranty coverage for embedded open source components.\n"
+"- Warranty scopes and disclaimers for open source software.\n"
+"- Remedies and source code delivery obligations triggered by copyleft terms."
 msgstr ""
 "- 發現不符合授權條件時的責任與處理\n"
 "- 交付物所含 OSS 引起智慧財產權問題時的處理\n"
@@ -1310,35 +1221,35 @@ msgstr ""
 
 #. type: 標題
 #: operation-templates/using/supplier-procurement.md:45
-msgid "## 入手後に行うべき事項"
+msgid "## Post-Delivery Verification Workflows"
 msgstr "## 取得後應進行的事項"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:46
-msgid "サプライヤーからソフトウェアを受領した後は、事前の取り決めに従った検証と、問題発見時の適切な対応が必要です。"
+msgid "Upon receiving supplier deliverables, execute verification checks against contractual agreements:"
 msgstr "自供應商收到軟體後，需要依事前約定進行驗證，並在發現問題時妥善處理。"
 
 #. type: 標題
 #: operation-templates/using/supplier-procurement.md:47
-msgid "### OSSリストの確認"
+msgid "### OSS Inventory Verification"
 msgstr "### 確認 OSS 清單"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:48
-msgid "**提出リストの妥当性チェック**"
+msgid "**Auditing Submitted Disclosures**"
 msgstr "**檢查提交清單的妥當性**"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:49
-msgid "サプライヤーから提出されたOSSリストについて、以下の観点から確認します："
+msgid "Audit supplier OSS disclosures against the following criteria:"
 msgstr "對供應商提交的 OSS 清單，從以下觀點加以確認："
 
 #. type: 清單
 #: operation-templates/using/supplier-procurement.md:50
 msgid ""
-"- **必須情報の記載**：OSS名称、バージョン、ライセンス種別など、求めた情報がすべて記載されているか\n"
-"- **記載内容の整合性**：ライセンス種別の記載が既知の情報（公式リポジトリや[SPDX License List](https://spdx.org/licenses/)など）と矛盾していないか、明らかな誤りがないか\n"
-"- **情報の最新性**：開発中にOSSの追加・更新が行われた場合、最終納品時点の構成が反映されているか（開発途中の古いリストがそのまま提出されていないか）"
+"- **Completeness**: Confirm all required fields (names, versions, licenses) are provided.\n"
+"- **Consistency**: Verify recorded license terms match official records (e.g., [SPDX License List](https://spdx.org/licenses/)).\n"
+"- **Timeliness**: Confirm inventories reflect final release builds rather than outdated drafts."
 msgstr ""
 "- **必填資訊的記載**：OSS 名稱、版本、授權條款種類等所要求的資訊是否全部記載\n"
 "- **記載內容的一致性**：授權條款種類的記載是否與已知資訊（官方儲存庫或 [SPDX License List](https://spdx.org/licenses/) 等）矛盾，是否有明顯錯誤\n"
@@ -1346,20 +1257,17 @@ msgstr ""
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:51
-msgid "これらの確認は、すべてを発注元が独自に検証するという趣旨ではなく、提出されたリストに明らかな不備や矛盾がないかを確認するための観点です。より正確な検証には、次項のツールによる照合が有効です。"
+msgid "These checks verify list completeness and accuracy rather than placing full audit burdens on the buyer. Automated tools enhance verification precision."
 msgstr "這些確認的用意不是要委託端獨自驗證所有內容，而是用來確認提交的清單是否有明顯缺漏或矛盾的觀點。若要更精確的驗證，下一項的工具比對相當有效。"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:52
-msgid "**ツールによる検証**"
+msgid "**Automated Tool Verification**"
 msgstr "**以工具驗證**"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:53
-msgid ""
-"可能であれば、SCAツールやSBOM生成ツールを用いて、サプライヤーから提出されたリストと実際のソフトウェアの内容を照合します。\n"
-"これにより、リストに記載漏れがないか、記載内容に誤りがないかを客観的に確認できます。\n"
-"ツールの導入が難しい場合は、サプライヤー側でツールを用いた検証を実施し、その結果を併せて提出するよう求めることも有効です。"
+msgid "When feasible, use SCA or SBOM tools to audit supplier deliverables against submitted inventories, uncovering omitted components or misidentified licenses. Alternatively, require suppliers to submit automated SCA scan results alongside deliverables."
 msgstr ""
 "若可行，請使用 SCA 工具或 SBOM 產生工具，把供應商提交的清單與實際軟體內容進行比對。\n"
 "這樣就能客觀確認清單是否有漏記、記載內容是否有誤。\n"
@@ -1367,25 +1275,25 @@ msgstr ""
 
 #. type: 標題
 #: operation-templates/using/supplier-procurement.md:54
-msgid "### ライセンスクリアランス結果のチェック"
+msgid "### License Clearance Verification"
 msgstr "### 檢查授權清查結果"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:55
-msgid "**クリアランスプロセスの適切性**"
+msgid "**Reviewing Clearance Rigor**"
 msgstr "**清查流程的妥適性**"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:56
-msgid "サプライヤーが実施したライセンスクリアランスについて、以下を確認します："
+msgid "Review supplier license clearance results for operational rigor:"
 msgstr "對供應商執行的授權清查，確認以下事項："
 
 #. type: 清單
 #: operation-templates/using/supplier-procurement.md:57
 msgid ""
-"- **実施範囲**：すべてのOSSが対象に含まれているか\n"
-"- **確認項目**：ライセンス適合性、依存関係、改変箇所など、必要な項目が確認されているか\n"
-"- **承認基準への適合**：事前に定めた基準を満たしているか"
+"- Confirm all embedded OSS components were audited.\n"
+"- Verify component licenses, technical coupling, and modifications were reviewed.\n"
+"- Confirm deliverables satisfy pre-agreed acceptance criteria."
 msgstr ""
 "- **執行範圍**：是否已涵蓋所有 OSS\n"
 "- **確認項目**：授權相容性、相依性、修改處等必要項目是否已確認\n"
@@ -1393,14 +1301,12 @@ msgstr ""
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:58
-msgid "**ライセンス適合性の判断**"
+msgid "**Verifying License Compatibility**"
 msgstr "**判斷授權相容性**"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:59
-msgid ""
-"個々のOSSについて、そのライセンスが、予定する利用形態（社内利用、配布、SaaS提供等）に適合しているかを確認します。\n"
-"特に以下のようなケースでは注意が必要です："
+msgid "Verify individual OSS component licenses against intended deployment models (internal use, binary distribution, SaaS delivery), paying close attention to:"
 msgstr ""
 "就個別 OSS 確認其授權條款是否符合預定的使用形態（公司內部使用、散布、SaaS 提供等）。\n"
 "特別是以下情況需要注意："
@@ -1408,9 +1314,9 @@ msgstr ""
 #. type: 清單
 #: operation-templates/using/supplier-procurement.md:60
 msgid ""
-"- ソースコード提供義務のあるライセンスのOSSが含まれる場合の影響範囲\n"
-"- 商用ライセンスの購入が必要なOSSが含まれていないか\n"
-"- 互いに競合するライセンスのOSSが混在していないか"
+"- Scope impacts from copyleft licenses (GPL, AGPL).\n"
+"- Dependencies requiring commercial licenses.\n"
+"- Incompatible license combinations within deliverables."
 msgstr ""
 "- 含有原始碼提供義務授權條款 OSS 時的影響範圍\n"
 "- 是否含有需要購買商用授權的 OSS\n"
@@ -1418,37 +1324,36 @@ msgstr ""
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:61
-#: operation-templates/using/using-oss.md:30
-msgid "詳細については[ライセンスとは](../compliance/what-is-a-license.md)と[ソースコード提供義務のあるライセンス](../compliance/source-disclosure-licenses.md)を参照してください。"
+msgid "For details, see [What Is a License?](../compliance/what-is-a-license.md) and [Licenses with Source Code Disclosure Obligations](../compliance/source-disclosure-licenses.md)."
 msgstr "細節請參閱[什麼是授權條款](../compliance/what-is-a-license.md)與[有原始碼提供義務的授權條款](../compliance/source-disclosure-licenses.md)。"
 
 #. type: 標題
 #: operation-templates/using/supplier-procurement.md:62
-msgid "### 問題発見時の対応"
+msgid "### Issue Remediation Protocols"
 msgstr "### 發現問題時的處理"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:63
-msgid "**問題のカテゴリー分類**"
+msgid "**Classifying Issues by Severity**"
 msgstr "**問題的類別分類**"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:64
-msgid "発見された問題を、その重大性と緊急性に応じて分類します："
+msgid "Categorize identified non-compliance issues by severity to drive appropriate response workflows:"
 msgstr "依重大性與緊急性把發現的問題加以分類："
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:65
-msgid "**重大な問題（即座の対応が必要）**"
+msgid "**Critical Issues (Immediate Escalation & Blockers)**"
 msgstr "**重大問題（需要立即處理）**"
 
 #. type: 清單
 #: operation-templates/using/supplier-procurement.md:66
 msgid ""
-"- ソースコード提供義務のあるライセンスのOSSが、義務を果たさない形式で不適切に使用されている\n"
-"- Critical/Highレベルの脆弱性が含まれている\n"
-"- ライセンス条件に適合しない状態にある\n"
-"- 未申告のOSSが大量に含まれている"
+"- Copyleft software deployed in non-compliant architectures without fulfilling source disclosure terms.\n"
+"- Unmitigated Critical/High security vulnerabilities.\n"
+"- Material licensing non-compliance.\n"
+"- Massive unapproved OSS additions."
 msgstr ""
 "- 有原始碼提供義務授權條款的 OSS 以未履行義務的形式被不當使用\n"
 "- 含有 Critical／High 等級的弱點\n"
@@ -1457,15 +1362,15 @@ msgstr ""
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:67
-msgid "**軽微な問題（協議・調整により対応可能）**"
+msgid "**Minor Issues (Remediated via Technical Alignment)**"
 msgstr "**輕微問題（可透過協議與調整處理）**"
 
 #. type: 清單
 #: operation-templates/using/supplier-procurement.md:68
 msgid ""
-"- OSSリストの記載漏れや誤記\n"
-"- Mediumレベル以下の脆弱性\n"
-"- 改変箇所の文書化が不十分"
+"- Minor inventory typos or omitted metadata.\n"
+"- Low/Medium vulnerability findings.\n"
+"- Incomplete modification documentation."
 msgstr ""
 "- OSS 清單的漏記或誤記\n"
 "- Medium 等級以下的弱點\n"
@@ -1473,21 +1378,21 @@ msgstr ""
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:69
-msgid "**対応手順の実行**"
+msgid "**Executing Remediation**"
 msgstr "**執行處理程序**"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:70
-msgid "問題の重大性に応じて、以下のような対応を検討します："
+msgid "Execute remediation based on issue severity:"
 msgstr "依問題的重大性，評估以下處理方式："
 
 #. type: 清單
 #: operation-templates/using/supplier-procurement.md:71
 msgid ""
-"- **サプライヤーへの指摘と説明要求**：問題の内容を明確に伝え、状況の説明を求めます\n"
-"- **是正措置の要求**：具体的な是正内容（OSSの差し替え、脆弱性の修正、ライセンス情報の補完等）と期限を提示します\n"
-"- **代替案の検討**：是正が困難な場合、代替のOSSへの変更や利用方法の変更を協議します\n"
-"- **受入れ判断**：是正措置の実施を確認した上で、最終的な受入れ可否を判断します"
+"- **Issue Notification**: Issue formal remediation requests detailing non-compliance findings.\n"
+"- **Mandatory Remediation**: Require suppliers to replace components, patch vulnerabilities, or supply missing notices within set SLAs.\n"
+"- **Alternative Evaluation**: Discuss architectural refactoring if component replacement is infeasible.\n"
+"- **Final Acceptance**: Re-audit deliverables post-remediation prior to formal acceptance."
 msgstr ""
 "- **向供應商指出問題並要求說明**：明確傳達問題內容，要求說明狀況\n"
 "- **要求更正措施**：提出具體的更正內容（更換 OSS、修正弱點、補齊授權資訊等）與期限\n"
@@ -1496,21 +1401,21 @@ msgstr ""
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:72
-msgid "重大な問題については、法務部門、場合によっては経営層を含めたエスカレーションが必要です。"
+msgid "Escalate critical non-compliance issues to Legal and executive leadership immediately."
 msgstr "重大問題需要上報法務部門，某些情況下也需要上報經營層。"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:74
-msgid "サプライヤーからのOSS入手に関して、以下の状況では早めにOSPOに相談することを推奨します："
+msgid "Consult the OSPO during supplier procurement in the following scenarios:"
 msgstr "關於自供應商取得 OSS，建議在以下情況下及早洽詢 OSPO："
 
 #. type: 清單
 #: operation-templates/using/supplier-procurement.md:75
 msgid ""
-"- **契約条件の策定時**：OSS利用に関する契約条項を検討する段階\n"
-"- **クリアランス結果に懸念事項がある場合**：ライセンスや脆弱性に関して判断が難しい問題が見つかった場合\n"
-"- **重大な問題が発見された場合**：ソースコード提供義務のあるライセンスの不適切な使用、深刻な脆弱性の存在など\n"
-"- **サプライヤーとの見解の相違**：OSS利用の適切性について、サプライヤーと発注側で見解が分かれた場合"
+"- **Drafting Procurement Contracts**: Incorporating open source clauses into supplier master agreements.\n"
+"- **Reviewing Complex Clearance Findings**: Evaluating ambiguous licensing terms or vulnerability risks.\n"
+"- **Critical Non-Compliance Findings**: Handling unapproved copyleft components or severe vulnerabilities.\n"
+"- **Disagreements with Suppliers**: Resolving technical or legal licensing disputes with suppliers."
 msgstr ""
 "- **訂定契約條件時**：評估 OSS 使用相關契約條款的階段\n"
 "- **清查結果有疑慮時**：發現授權或弱點方面難以判斷的問題時\n"
@@ -1519,23 +1424,19 @@ msgstr ""
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:76
-msgid "早期の相談により、問題の拡大を防ぎ、適切な対応策を講じることができます。"
+msgid "Early consultation prevents risk expansion and ensures appropriate remediation."
 msgstr "及早諮詢可以防止問題擴大，並採取適切的應對措施。"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:77
-msgid ""
-"サプライヤーからOSSを含むソフトウェアを入手する際は、事前の適切な取り決めと、納品後の丁寧な検証が重要です。\n"
-"契約段階での明確な方針設定により、後のトラブルを大幅に削減できます。"
+msgid "Establishing clear supplier expectations during contracting coupled with diligent delivery verification minimizes compliance risks."
 msgstr ""
 "從供應商取得含 OSS 的軟體時，事前適切的約定與交付後細緻的驗證相當重要。\n"
 "在契約階段就明確設定方針，可以大幅減少後續的糾紛。"
 
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:78
-msgid ""
-"不明な点や判断に迷う場合は、早めにOSPOまでご相談ください。\n"
-"担当者のリストは「[OSPOとは](../about/ospo.md)」を参照してください。"
+msgid "Contact the OSPO with questions. Refer to \"[What Is an OSPO?](../about/ospo.md)\" for staff contacts."
 msgstr ""
 "若有不清楚之處或在判斷上猶豫，請及早洽詢 OSPO。\n"
 "承辦人清單請參閱「[什麼是 OSPO](../about/ospo.md)」。"
@@ -1543,12 +1444,12 @@ msgstr ""
 #. type: 清單
 #: operation-templates/using/supplier-procurement.md:82
 msgid ""
-"- [ ] サプライヤー向けOSS導入済みリストの提供範囲を決定した\n"
-"- [ ] OSSリスト提出フォーマットを標準化した（Excel/CSV、SBOM等）\n"
-"- [ ] 法務部門と連携したOSS関連契約条項のガイドラインを整備した\n"
-"- [ ] 問題の重大性レベルの定義と判断権限者を明確化した\n"
-"- [ ] エスカレーションパスと連絡先を整備した\n"
-"- [ ] サプライヤーとの定期的なコミュニケーション体制を確立した"
+"- [ ] Defined sharing scope for supplier-facing approved OSS catalogs.\n"
+"- [ ] Standardized OSS inventory submission formats (Excel, CSV, SPDX, CycloneDX).\n"
+"- [ ] Established Legal-approved contract clause guidelines for OSS procurement.\n"
+"- [ ] Defined severity tiers and decision-making authority for procurement non-compliance.\n"
+"- [ ] Established escalation pathways and contacts.\n"
+"- [ ] Established periodic communication cadence with key suppliers."
 msgstr ""
 "- [ ] 已決定提供給供應商的已導入 OSS 清單範圍\n"
 "- [ ] 已標準化 OSS 清單的提交格式（Excel/CSV、SBOM 等）\n"
@@ -1562,65 +1463,22 @@ msgstr ""
 msgid ""
 "<!--\n"
 "########################################################################################\n"
-"カスタマイズガイド\n"
+"Customization Guide\n"
 "\n"
-"Placeholder置換の次のステップとして、自社の状況に合わせた加筆・調整を行うための指針を以下に示します。\n"
+"Guidance for expanding and refining content to match your company context following placeholder replacement.\n"
 "########################################################################################\n"
 "\n"
-"■ サプライヤー向けOSSリストの提供\n"
+"■ Standardizing Inventory Submission Formats\n"
 "\n"
-"サプライヤー向けのOSS導入済みリストを提供する際は以下を考慮してください。\n"
+"Adopting standard Software Bill of Materials (SBOM) formats (SPDX, CycloneDX) streamlines post-delivery analysis. Use spreadsheet formats (Excel/CSV) if automated SBOM pipelines are not yet established.\n"
 "\n"
-"考慮のポイント：\n"
-" * リストの範囲を適切に設定（すべてのOSSか、特定カテゴリーのみか）\n"
-" * リストの更新頻度とメンテナンス体制の確立\n"
-" * サプライヤーがリスト外のOSSを使用したい場合の手続きの明確化\n"
+"■ Contract Clause Guidelines\n"
 "\n"
-"初期段階では主要なOSSのみをリスト化し、段階的に拡充していくアプローチが現実的です。\n"
+"Work with Legal to establish contract review workflows and boilerplate open source clauses for supplier contracts. Include explicit disclaimers that template clauses require Legal review before execution.\n"
 "\n"
-"■ OSSリスト提出フォーマットの標準化\n"
+"■ Procurement Incident Response\n"
 "\n"
-"提出フォーマットを標準化することで、受領後の分析が効率化されます。\n"
-"\n"
-"標準化のポイント：\n"
-" * 標準的なSBOM（Software Bill of Materials）フォーマット（SPDX、CycloneDX等）の採用検討\n"
-" * 標準的なSBOMフォーマットの管理準備ができていな場合は、Excel/CSV形式での取得を検討\n"
-"\n"
-"サプライヤーの技術レベルや規模に応じて、求める情報の詳細度を調整することも検討してください。\n"
-"\n"
-"■ 契約条項のガイドライン\n"
-"\n"
-"企業固有の法的リスクへの対応が必要なため、一般的な指針に留めることを推奨します。\n"
-"\n"
-"整備のポイント：\n"
-" * 法務部門と連携した契約書レビュープロセスの確立\n"
-" * OSS関連の契約条項に関する社内ガイドラインの整備\n"
-" * 過去のトラブル事例に基づく注意事項の文書化\n"
-"\n"
-"契約書のひな型を提供する場合は、「例示であり法務部門の確認が必要」との注意書きを明記してください。\n"
-"法的な拘束力を持つ文書については、OSPO単独での判断を避け、必ず法務部門の関与を求めることが重要です。\n"
-"\n"
-"■ 問題対応プロセスの整備\n"
-"\n"
-"社内の意思決定プロセスと整合させることが重要です。\n"
-"\n"
-"整備のポイント：\n"
-" * 問題の重大性レベルの定義と、各レベルでの判断権限者の明確化\n"
-" * サプライヤーとのコミュニケーションテンプレートの準備\n"
-" * 問題の種類に応じて、標準的な是正期間の設定\n"
-" * エスカレーションパスと連絡先の整備\n"
-"\n"
-"過去に発生した問題とその対応事例を蓄積し、ナレッジベースとして活用することで、将来の問題対応を効率化できます。\n"
-"\n"
-"■ プロセスの段階的な成熟\n"
-"\n"
-"このガイド全体を通じて、以下の点を継続的に改善していくことを推奨します。\n"
-"\n"
-"継続的改善のポイント：\n"
-" * 初期段階では基本的な要件に絞り、運用を通じて徐々に詳細化\n"
-" * サプライヤーからのフィードバックを収集し、実行可能性を高める\n"
-" * 成功事例と失敗事例の両方を文書化し、組織的な学習を促進\n"
-" * 一方的な要求ではなく、サプライヤーの状況も考慮した現実的な要件設定\n"
+"Define decision-making authority for procurement non-compliance, prepare communication templates, and establish standard SLAs for supplier remediation.\n"
 "\n"
 "########################################################################################\n"
 "########################################################################################\n"
@@ -1694,21 +1552,21 @@ msgstr ""
 
 #. type: 標題
 #: operation-templates/using/usage-faq.md:1
-msgid "# OSS利用FAQ"
+msgid "# OSS Usage FAQ"
 msgstr "# OSS 使用常見問題"
 
 #. type: 標題
 #: operation-templates/using/usage-faq.md:3
-msgid "## オープンソースソフトウェアの利用に関するよくある質問"
+msgid "## Frequently Asked Questions About Using Open Source Software"
 msgstr "## 開放原始碼軟體使用的常見問題"
 
 #. type: 清單
 #: operation-templates/using/usage-faq.md:7
 msgid ""
-"- [ ] 社内でよくある質問を収集・追加した\n"
-"- [ ] 具体的な社内事例や外部判例を整理・記載した\n"
-"- [ ] 事例が増えた場合の別ディレクトリ管理方針を決定した\n"
-"- [ ] ドキュメント全体との重複を避け、端的にまとめた"
+"- [ ] Collected and added common internal usage questions.\n"
+"- [ ] Documented internal case studies and relevant legal precedents.\n"
+"- [ ] Established directory guidelines for managing case studies as ticket volume grows.\n"
+"- [ ] Kept the FAQ concise and avoided duplicating the rest of the documentation."
 msgstr ""
 "- [ ] 已收集並加入公司內部的常見問題\n"
 "- [ ] 已整理並寫出具體的公司內部案例或外部判例\n"
@@ -1720,29 +1578,17 @@ msgstr ""
 msgid ""
 "<!--\n"
 "########################################################################################\n"
-"カスタマイズガイド\n"
+"Customization Guide\n"
 "\n"
-"Placeholder置換の次のステップとして、自社の状況に合わせた加筆・調整を行うための指針を以下に示します。\n"
+"Guidance for expanding and refining content to match your company context following placeholder replacement.\n"
 "########################################################################################\n"
 "\n"
-"■ FAQ運用の方針\n"
+"■ FAQ Operational Policy\n"
 "\n"
-"オープンソースの利用に関する議論は非常に多岐にわたります。\n"
-"すべてをドキュメントにまとめることは困難であり、重厚長大なドキュメントは読まれない傾向にあるため、端的にまとめて質の高いドキュメントを目指してください。\n"
-"\n"
-"運用のポイント：\n"
-" * 細かい事項や重要な点、説明しきれなかった詳細な事例をFAQとして集約\n"
-" * 事例がある場合は、初期段階ではFAQに記載\n"
-" * 社内の事例や外部の判例などの情報がまとまった場合は、別途ディレクトリを作成し、個別の事例ごとに管理することを推奨\n"
-"\n"
-"■ FAQ充実のアプローチ\n"
-"\n"
-"FAQを充実させるためのアプローチを参考にしてください。\n"
-"\n"
-"アプローチ例：\n"
-" * OSPOへの相談内容から頻出テーマを抽出してFAQ化\n"
-" * 開発者アンケートで疑問点を収集\n"
-" * 他社の公開事例や判例情報を参考に追加\n"
+"Focus on conciseness and clarity so developers locate answers quickly:\n"
+" * Summarize complex edge cases and detailed case studies in the FAQ.\n"
+" * Include initial case studies directly in the FAQ; migrate to dedicated case-study directories as volume expands.\n"
+" * Extract common inquiry themes from OSPO consultations to expand the FAQ continuously.\n"
 "\n"
 "########################################################################################\n"
 "########################################################################################\n"
@@ -1780,15 +1626,15 @@ msgstr ""
 
 #. type: 標題
 #: operation-templates/using/using-oss.md:1
-msgid "# OSSを使う"
+msgid "# Using Open Source"
 msgstr "# 使用 OSS"
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:3
 msgid ""
-"現代のソフトウェア開発において、オープンソースソフトウェア（OSS）の活用は不可欠です。\n"
-"適切に活用することで、開発のスピードと品質を大幅に向上させることができます。\n"
-"しかし、ライセンスコンプライアンスやセキュリティなど、注意すべき点も多くあります。"
+"In modern software engineering, leveraging open source software (OSS) is indispensable.\n"
+"Proper adoption significantly accelerates development velocity and boosts product quality.\n"
+"However, teams must navigate critical considerations around license compliance and security."
 msgstr ""
 "在現代軟體開發中，運用開放原始碼軟體（OSS）不可或缺。\n"
 "適切運用能大幅提升開發速度與品質。\n"
@@ -1796,34 +1642,32 @@ msgstr ""
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:4
-msgid ""
-"このセクションでは、適切で効率的なオープンソース活用のための実践的なガイドを提供します。\n"
-"探し方から評価、導入、継続的な管理まで、開発者が日常的に必要とする情報を体系的にまとめています。"
+msgid "This section provides a practical guide for effective open source adoption—systematically organizing information engineers need daily across discovery, evaluation, integration, and continuous management."
 msgstr ""
 "本小節提供適切且有效率運用開放原始碼的實務指南。\n"
 "從尋找、評估、導入到持續管理，系統性整理了開發者日常所需的資訊。"
 
 #. type: 標題
 #: operation-templates/using/using-oss.md:5
-msgid "## オープンソース活用の基本的な流れ"
+msgid "## Baseline Open Source Adoption Lifecycle"
 msgstr "## 開放原始碼運用的基本流程"
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:6
-msgid "オープンソースを適切に活用するためには、以下の段階的なアプローチが重要です。"
+msgid "Adopting open source effectively requires a structured, phased approach:"
 msgstr "要適切運用開放原始碼，以下的分階段做法相當重要。"
 
 #. type: 清單
 #: operation-templates/using/using-oss.md:7
-msgid "1. 探索と選択"
+msgid "1. Discovery and Selection"
 msgstr "1. 探索與選擇"
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:8
 msgid ""
-"    オープンソースの新規採用を計画する際、まず[社内導入済みOSSリスト](../using/oss-inventory.md)を確認してください。\n"
-"    このリストには、ライセンス適合性、セキュリティ、技術的品質、コミュニティの健全性、長期的な維持可能性といった観点で評価済みのソフトウェアが掲載されています。\n"
-"    既に評価済みのソフトウェアがあれば、そこから選択することで時間とリスクを大幅に削減できます。ただし、過去の承認時と利用方法が異なる場合は、改めてライセンス適合性の確認が必要です。"
+"    When planning new open source adoption, check the [Approved Internal OSS Inventory](../using/oss-inventory.md) first.\n"
+"    This catalog lists software pre-assessed for license compatibility, security posture, technical quality, community health, and long-term viability.\n"
+"    Selecting pre-approved components significantly reduces lead time and operational risk. Note that if your proposed usage differs from previous approvals, re-verifying license compatibility is required."
 msgstr ""
 "    規劃新採用開放原始碼時，請先確認[公司內部已導入 OSS 清單](../using/oss-inventory.md)。\n"
 "    這份清單收錄了已從授權相容性、資訊安全、技術品質、社群健全性、長期可維護性等觀點評估過的軟體。\n"
@@ -1831,66 +1675,60 @@ msgstr ""
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:9
-msgid ""
-"    適切なソフトウェアがリストにない場合は、[OSSの探し方](../using/finding-oss.md)のガイドに従って、要件に合致する候補を効率的に見つけてください。\n"
-"    GitHubでの検索方法、信頼できる情報源の活用、初期スクリーニングの方法などを詳しく説明しています。"
+msgid "    If suitable software is not listed, follow [Finding Open Source Software](../using/finding-oss.md) to discover candidates matching project requirements, leveraging GitHub search techniques, trusted indexes, and screening protocols."
 msgstr ""
 "    若清單中沒有合適的軟體，請依[OSS 的尋找方式](../using/finding-oss.md)指南，有效率地找出符合需求的候選。\n"
 "    其中詳細說明了在 GitHub 上的搜尋方式、可信資訊來源的運用、初步篩選的方法等。"
 
 #. type: 清單
 #: operation-templates/using/using-oss.md:10
-msgid "2. 評価と検証"
+msgid "2. Evaluation and Verification"
 msgstr "2. 評估與驗證"
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:11
-msgid ""
-"    候補が見つかったら、[OSSの評価方法](../using/evaluation.md)に基づいて総合的に評価してください。\n"
-"    技術的適合性だけでなく、ライセンスの適合性、セキュリティの状況、コミュニティの健全性、長期的な維持可能性などを多角的に検討する必要があります。"
+msgid "    Upon identifying candidates, evaluate them holistically following [Evaluating Open Source Software](../using/evaluation.md)—assessing technical fit, license compatibility, security posture, community vitality, and maintainability."
 msgstr ""
 "    找到候選後，請依[OSS 的評估方法](../using/evaluation.md)進行綜合評估。\n"
 "    不只是技術適用性，也需要從授權相容性、資訊安全狀況、社群健全性、長期可維護性等多個角度評估。"
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:12
-msgid ""
-"    評価は段階的に進めることで効率性を保ちながら、重要な観点を見落とさないようにします。\n"
-"    基本チェック、技術的評価、セキュリティとリスク評価の3段階で、適切に候補を絞り込んでいきます。"
+msgid "    Conduct evaluations in phases to maintain efficiency without overlooking critical risks across three stages: Initial Screening, Technical Evaluation, and Security & Risk Assessment."
 msgstr ""
 "    評估分階段進行，可以在維持效率的同時不漏掉重要觀點。\n"
 "    透過基本檢查、技術評估、資訊安全與風險評估三個階段，適切收斂候選範圍。"
 
 #. type: 清單
 #: operation-templates/using/using-oss.md:13
-msgid "3. ライセンス確認"
+msgid "3. License Verification"
 msgstr "3. 授權確認"
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:14
 msgid ""
-"    ライセンスの確認は最も重要でありながら、しばしば見落とされがちな要素です。\n"
-"    [ライセンスとは](../compliance/what-is-a-license.md)で基本的な理解を深め、特に注意が必要な[ソースコード提供義務のあるライセンス](../compliance/source-disclosure-licenses.md)や[商用ライセンスが選択できるOSS](../compliance/oss-with-commercial-license-options.md)について詳しく学んでください。"
+"    License evaluation is critical yet frequently overlooked.\n"
+"    Build foundational understanding via [What Is a License?](../compliance/what-is-a-license.md), paying special attention to [Licenses with Source Code Disclosure Obligations](../compliance/source-disclosure-licenses.md) and [OSS with Commercial License Options](../compliance/oss-with-commercial-license-options.md)."
 msgstr ""
 "    授權確認是最重要、卻經常被忽略的環節。\n"
 "    請在[什麼是授權條款](../compliance/what-is-a-license.md)加深基本理解，並詳細了解特別需要注意的[有原始碼提供義務的授權條款](../compliance/source-disclosure-licenses.md)與[可選擇商用授權的 OSS](../compliance/oss-with-commercial-license-options.md)。"
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:15
-msgid "    利用形態によってライセンスの影響が大きく変わるため、プロジェクトの要件を明確にした上で適合性を判断することが重要です。"
+msgid "    Because license impact varies dramatically by deployment model, evaluate compatibility against clear project requirements."
 msgstr "    授權條款的影響會因使用形態大幅改變，因此重點在於先明確專案需求，再判斷相容性。"
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:16
-msgid "    主な利用形態には以下のようなものがあります："
+msgid "    Primary deployment models include:"
 msgstr "    主要的使用形態包括以下幾種："
 
 #. type: 清單
 #: operation-templates/using/using-oss.md:17
 msgid ""
-"    - **社内利用のみ：** 自社内での開発・運用に閉じた利用\n"
-"    - **外部配布：** ソフトウェア製品としての販売、組込み機器への搭載、受託開発における顧客への納品など\n"
-"    - **SaaS提供：** ネットワーク越しにサービスとして提供"
+"    - **Internal Operations Only**: Usage restricted strictly to internal development and runtime systems.\n"
+"    - **External Distribution**: Commercial software products, embedded hardware devices, or deliverables for client projects.\n"
+"    - **SaaS Delivery**: Offering capabilities as cloud services over network APIs."
 msgstr ""
 "    - **僅公司內部使用：** 限於公司內部開發與運作的使用\n"
 "    - **對外散布：** 作為軟體產品銷售、搭載於嵌入式裝置、委外開發中交付給客戶等\n"
@@ -1898,62 +1736,58 @@ msgstr ""
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:18
-msgid "    特に外部配布の場合、配布形態によって適用される義務が異なるため、具体的な提供方法を踏まえた確認が必要です。"
+msgid "    Because distribution models trigger distinct compliance obligations, evaluate licenses against specific delivery channels."
 msgstr "    尤其是對外散布的情況，適用的義務會因散布形態而不同，因此需要依具體提供方式加以確認。"
 
 #. type: 清單
 #: operation-templates/using/using-oss.md:19
-msgid "4. 導入と統合"
+msgid "4. Integration and Management"
 msgstr "4. 導入與整合"
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:20
-msgid ""
-"    ライセンス確認が完了したら、実際の導入作業に進みます。\n"
-"    この際、セキュリティのベストプラクティスに従って、信頼できるソースからのダウンロード、ハッシュ値の検証、脆弱性スキャンなどを実施してください。"
+msgid "    Following license clearance, proceed with technical integration using security best practices—downloading from official registries, verifying hashes, and scanning for vulnerabilities."
 msgstr ""
 "    授權確認完成後，就進入實際的導入作業。\n"
 "    此時請依資訊安全最佳實務，從可信來源下載、驗證雜湊值、執行弱點掃描等。"
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:21
-msgid ""
-"    また、導入したオープンソースソフトウェアは、社内のコンポーネント台帳（[社内導入済みOSSリスト](../using/oss-inventory.md)）に登録してください。\n"
-"    これにより、ライセンス管理、セキュリティ監視、依存関係の追跡が効率的に行えるようになります。"
+msgid "    Register adopted open source components in the internal component catalog ([Approved Internal OSS Inventory](../using/oss-inventory.md)) to streamline license tracking, security monitoring, and dependency management."
 msgstr ""
 "    此外，導入的開放原始碼軟體請登錄到公司內部的元件台帳（[公司內部已導入 OSS 清單](../using/oss-inventory.md)）。\n"
 "    這樣才能有效率地進行授權管理、資訊安全監控與相依性追蹤。"
 
 #. type: 標題
 #: operation-templates/using/using-oss.md:22
-msgid "## ライセンス管理の重要性"
+msgid "## Importance of License Compliance"
 msgstr "## 授權管理的重要性"
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:23
-msgid "オープンソースライセンスは、著作権に基づいてソフトウェアの利用条件を定める法的な利用許諾です。「オープンソース」だからといって無制限に利用できるわけではなく、それぞれのライセンスには固有の条件と義務があります。"
+msgid "Open source licenses represent legal copyright permissions granting software usage under specific terms. \"Open source\" does not mean unrestricted usage; every license carries distinct conditions and obligations."
 msgstr "開放原始碼授權條款是依著作權訂出軟體使用條件的法律授權許可。並不是因為「開放原始碼」就能無限制使用，每份授權條款都有其特有的條件與義務。"
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:24
-msgid "ライセンス条件への不適合は法的リスクを伴うだけでなく、プロジェクトの遅延、設計の変更、代替ソフトウェアへの移行など、開発に深刻な影響を与える可能性があります。事前の確認と適切な管理により、これらのリスクを回避できます。"
+msgid "Licensing non-compliance creates legal risks while threatening project schedules through mandatory refactoring, re-architecting, or emergency component replacement. Proactive evaluation and management mitigate these risks."
 msgstr "不符合授權條件不只伴隨法律風險，也可能造成專案延遲、設計變更、轉移到替代軟體等對開發的嚴重影響。透過事前確認與適切管理，就能避免這些風險。"
 
 #. type: 標題
 #: operation-templates/using/using-oss.md:25
-msgid "## 主要なライセンス分類"
+msgid "## Primary License Categories"
 msgstr "## 主要的授權條款分類"
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:26
-msgid "オープンソースライセンスは、条件や義務の範囲によって段階的に分類されます："
+msgid "Open source licenses fall into tiers based on obligation scopes:"
 msgstr "開放原始碼授權條款可依條件與義務的範圍分成幾個層級："
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:27
 msgid ""
-"**義務の少ないライセンス（MIT、BSD等）**\n"
-"義務が比較的少なく、確認事項が限定的です。著作権表示を含むライセンス文書の保持が主な義務で、ソースコードの提供は不要です。"
+"**Permissive Licenses (MIT, BSD, Apache-2.0)**\n"
+"Impose minimal obligations, primarily retaining copyright notices and license text without requiring source code disclosure."
 msgstr ""
 "**義務較少的授權條款（MIT、BSD 等）**\n"
 "義務相對較少，需要確認的事項有限。主要義務是保留含著作權標示的授權文件，不需要提供原始碼。"
@@ -1961,8 +1795,8 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/using-oss.md:28
 msgid ""
-"**ソースコード提供義務のあるライセンス（GPL、AGPL等）**\n"
-"派生物についても同じライセンス条件の適用を求めるため、利用形態の設計と密接に関わります。ライセンスによっては、ネットワーク越しのサービス提供でもソースコード提供義務が生じる場合があるため、SaaSでの利用時には特に注意が必要です。"
+"**Licenses with Source Code Disclosure Obligations (GPL, AGPL)**\n"
+"Enforce copyleft reciprocity on derivative works, directly shaping architecture. Certain licenses (AGPL) trigger source disclosure obligations upon network service delivery, demanding vigilance in SaaS environments."
 msgstr ""
 "**有原始碼提供義務的授權條款（GPL、AGPL 等）**\n"
 "因為要求衍生物也適用相同授權條件，所以與使用形態的設計密切相關。有些授權條款即使是透過網路提供服務也會產生原始碼提供義務，因此在 SaaS 中使用時特別需要注意。"
@@ -1970,39 +1804,44 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/using-oss.md:29
 msgid ""
-"**OSS部分のみソースコード提供が必要なライセンス（LGPL、MPL等）**\n"
-"中間的な位置づけで、動的リンクやモジュール境界で義務が緩和されます。"
+"**Component-Level Source Disclosure Licenses (LGPL, MPL)**\n"
+"Occupy a middle ground, relaxing copyleft disclosure obligations across dynamic linking or module boundaries."
 msgstr ""
 "**只需提供 OSS 部分原始碼的授權條款（LGPL、MPL 等）**\n"
 "屬於中間定位，在動態連結或模組界線上義務會被緩和。"
 
+#. type: 段落
+#: operation-templates/using/using-oss.md:30
+msgid "For details, refer to [What Is a License?](../compliance/what-is-a-license.md) and [Licenses with Source Code Disclosure Obligations](../compliance/source-disclosure-licenses.md)."
+msgstr "細節請參閱[什麼是授權條款](../compliance/what-is-a-license.md)與[有原始碼提供義務的授權條款](../compliance/source-disclosure-licenses.md)。"
+
 #. type: 標題
 #: operation-templates/using/using-oss.md:31
-msgid "## セキュリティの考慮事項"
+msgid "## Security Considerations"
 msgstr "## 資訊安全的考量事項"
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:32
-msgid "オープンソースソフトウェアのセキュリティ管理は、現代の開発において極めて重要な要素です。脆弱性の監視、適切な更新管理、サプライチェーンセキュリティの確保など、多面的なアプローチが必要です。"
+msgid "Managing open source security represents a critical modern engineering requirement, demanding continuous vulnerability monitoring, dependency management, and supply chain security."
 msgstr "開放原始碼軟體的資訊安全管理在現代開發中是極為重要的環節。需要多面向的做法，包括監控弱點、適切的更新管理、確保供應鏈安全等。"
 
 #. type: 標題
 #: operation-templates/using/using-oss.md:33
-msgid "### 導入時のセキュリティチェック"
+msgid "### Pre-Integration Security Screening"
 msgstr "### 導入時的資訊安全檢查"
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:34
-msgid "新しいオープンソースを導入する際は、以下のセキュリティチェックを実施してください："
+msgid "When adopting new open source, perform the following security checks:"
 msgstr "導入新的開放原始碼時，請執行以下資訊安全檢查："
 
 #. type: 清單
 #: operation-templates/using/using-oss.md:35
 msgid ""
-"- **信頼できるソースからのダウンロード**：公式リポジトリや認証されたパッケージマネージャーを利用\n"
-"- **ハッシュ値の検証**：ダウンロードしたファイルの整合性を確認\n"
-"- **既知脆弱性のスキャン**：CVE（Common Vulnerabilities and Exposures）データベースでの確認\n"
-"- **依存関係の分析**：推移的依存関係も含めた包括的なセキュリティ評価"
+"- **Source Trust**: Download exclusively from official registries or verified package managers.\n"
+"- **Checksum Verification**: Confirm file integrity against published hashes.\n"
+"- **Vulnerability Scanning**: Screen dependencies against CVE databases.\n"
+"- **Dependency Analysis**: Evaluate transitive dependency trees for security risks."
 msgstr ""
 "- **從可信來源下載**：使用官方儲存庫或經認證的套件管理器\n"
 "- **驗證雜湊值**：確認下載檔案的完整性\n"
@@ -2010,22 +1849,17 @@ msgstr ""
 "- **分析相依性**：包含遞移相依性的完整資訊安全評估"
 
 #. type: 段落
-#: operation-templates/using/using-oss.md:36
-msgid "詳細については[OSSの評価方法](../using/evaluation.md)のセキュリティ評価セクションを参照してください。"
-msgstr "細節請參閱[OSS 的評估方法](../using/evaluation.md)的資訊安全評估小節。"
-
-#. type: 段落
 #: operation-templates/using/using-oss.md:38
-msgid "以下の状況で、プロジェクト内での判断が難しい場合、作業を進める前にOSPOに相談してください："
+msgid "Consult the OSPO prior to integration when encountering the following scenarios:"
 msgstr "在以下情況下，若專案內難以判斷，請在推進作業前洽詢 OSPO："
 
 #. type: 清單
 #: operation-templates/using/using-oss.md:39
 msgid ""
-"- **ソースコード提供義務や同一ライセンスでの頒布義務、著作権表示・ライセンス文書の添付義務など、利用形態に応じた確認が必要な条件**を含むライセンスの場合\n"
-"- **商用ライセンスが必要**な可能性がある場合\n"
-"- **セキュリティリスクが懸念**される場合（セキュリティ部門へ相談）\n"
-"- **社内導入済みOSSリストにないソフトウェア**の導入"
+"- **Licenses with complex compliance terms** (source code disclosure obligations, copyleft terms, mandatory attribution propagation).\n"
+"- **Components potentially requiring commercial licensing**.\n"
+"- **Security vulnerabilities requiring specialized risk review** (consult Security).\n"
+"- **Adopting software not listed on the Approved Internal OSS Inventory**."
 msgstr ""
 "- 授權條款含有**原始碼提供義務、以相同授權條款散布的義務、附上著作權標示與授權文件的義務等，需要依使用形態加以確認的條件**時\n"
 "- 可能**需要商用授權**時\n"
@@ -2034,28 +1868,28 @@ msgstr ""
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:40
-msgid "プロジェクト内にライセンスやセキュリティの知見がある場合は、自律的に判断を進めていただいて構いません。(*OSPOは判断を代行する組織ではなく、プロジェクトの判断を支援する組織です。*)"
+msgid "If your project team possesses strong open source expertise, you may execute evaluations autonomously. (*The OSPO exists to empower project decision-making, not to act as a bottleneck proxy.*)"
 msgstr "若專案內具備授權或資訊安全的知識，也可以自主推進判斷。（*OSPO 不是代替做判斷的組織，而是支援專案做判斷的組織。*）"
 
 #. type: 標題
 #: operation-templates/using/using-oss.md:41
-msgid "### 効果的な相談のために"
+msgid "### Consultation Checklist"
 msgstr "### 為了有效率的諮詢"
 
 #. type: 段落
 #: operation-templates/using/using-oss.md:42
-msgid "OSPOへの相談時には、以下の情報を準備してください："
+msgid "When consulting the OSPO, provide the following details:"
 msgstr "洽詢 OSPO 時，請準備以下資訊："
 
 #. type: 清單
 #: operation-templates/using/using-oss.md:43
 msgid ""
-"- 対象ソフトウェアの名称、URL、バージョン\n"
-"- 想定するビジネス形態（社内利用のみ、外部配布（組込み機器、ソフトウェア製品、受託開発など）、SaaS提供等）\n"
-"- 改変の有無と内容\n"
-"- プロジェクトの期限と背景事情\n"
-"- 検討した代替案（あれば）\n"
-"- 顧客との契約書や製品の使用許諾契約書（検討段階のものも有用）"
+"- Component name, repository URL, and version.\n"
+"- Intended deployment model (Internal tool, distributed binary, embedded device, SaaS offering).\n"
+"- Details of any source code modifications.\n"
+"- Project timelines and background constraints.\n"
+"- Technical alternatives evaluated.\n"
+"- Relevant customer contracts or EULA drafts (even early drafts are helpful)."
 msgstr ""
 "- 對象軟體的名稱、URL、版本\n"
 "- 預期的商業形態（僅公司內部使用、對外散布（嵌入式裝置、軟體產品、委外開發等）、SaaS 提供等）\n"
@@ -2067,11 +1901,11 @@ msgstr ""
 #. type: 清單
 #: operation-templates/using/using-oss.md:47
 msgid ""
-"- [ ] 社内導入済みOSSリストの場所と運用方針を明記した\n"
-"- [ ] 既存の承認プロセスやツールチェーンとの統合方法を記載した\n"
-"- [ ] 相談用テンプレートや入力フォームを作成・リンクした\n"
-"- [ ] 緊急時の対応プロセスと連絡先を明確化した\n"
-"- [ ] 相談から回答までの標準処理時間を明示した"
+"- [ ] Specified location and governance policy for the Approved Internal OSS Inventory.\n"
+"- [ ] Documented integration procedures with existing approval workflows and CI/CD chains.\n"
+"- [ ] Created and linked OSPO consultation intake templates/forms.\n"
+"- [ ] Clarified emergency escalation pathways and security contacts.\n"
+"- [ ] Published target SLA turnaround times for OSPO consultations."
 msgstr ""
 "- [ ] 已明確寫出公司內部已導入 OSS 清單的位置與運作方針\n"
 "- [ ] 已寫出與既有核准流程及工具鏈的整合方式\n"
@@ -2084,45 +1918,23 @@ msgstr ""
 msgid ""
 "<!--\n"
 "########################################################################################\n"
-"カスタマイズガイド\n"
+"Customization Guide\n"
 "\n"
-"Placeholder置換の次のステップとして、自社の状況に合わせた加筆・調整を行うための指針を以下に示します。\n"
+"Guidance for expanding and refining content to match your company context following placeholder replacement.\n"
 "########################################################################################\n"
 "\n"
-"■ 社内導入済みOSSリストの運用\n"
+"■ Managing Approved Internal Inventories\n"
 "\n"
-"社内導入済みOSSリストを公開する場合、OSPOが以下を継続的に行うことを意味します。\n"
+"Maintaining an approved internal OSS list requires continuous OSPO commitment to update records, handle developer inquiries, and maintain catalog criteria transparently.\n"
+"Balance catalog governance against the risk of creating a misconception that \"unlisted OSS cannot be used.\" Most enterprises encourage autonomous team selection while reserving OSPO consultations for high-risk licenses.\n"
 "\n"
-"継続的な取り組みの例：\n"
-" * リストの定期的な更新とメンテナンス\n"
-" * ユーザーからのフィードバックの収集と対応\n"
-" * リスト化の基準やプロセスの透明化\n"
+"■ Aligning with Existing Engineering Workflows\n"
 "\n"
-"リストの提供はOSS利用の促進とリスク管理に有効ですが、OSPOの負担増や「リストにないOSSは使えない」という誤解を生むリスクもあります。\n"
-"多くの企業では、自己判断でのOSS選定を促し、必要に応じてOSPOに相談する体制が一般的です。\n"
-"社内の実情に合わせたバランスを検討してください。\n"
+"Integrate open source governance into established toolchains, CI/CD pipelines, and escalation paths.\n"
 "\n"
-"■ 既存プロセスとの整合\n"
+"■ Streamlining Consultations\n"
 "\n"
-"基本的な流れについては、社内の既存プロセスとの整合性を図ることが重要です。\n"
-"\n"
-"整合のポイント：\n"
-" * 既存の承認プロセスやツールチェーンとの統合方法を明記\n"
-" * 緊急時や例外対応のエスカレーション経路を確立\n"
-" * 具体的なツールの使用方法やテンプレートの提供も検討\n"
-"\n"
-"■ 相談プロセスの効率化\n"
-"\n"
-"相談しやすい文化の醸成が重要です。\n"
-"「相談をすることにより開発が遅れる」ではなく「早期相談によりリスクを回避できる」という認識を組織全体で共有してください。\n"
-"ただし、OSPOの目標は「すべての判断を代行する」ことではなく「開発チームが自律的に判断できる素養を身につける」ことです。\n"
-"相談体制の整備と同時に、開発者の自律的判断力を高める教育・ガイドラインの充実を進めてください。\n"
-"\n"
-"効率化のポイント：\n"
-" * 相談用のテンプレートや入力フォームの作成\n"
-" * 一般的な質問に対するFAQの充実（相談件数の削減に直結）\n"
-" * 相談から回答までの標準的な処理時間の明示\n"
-" * 義務の少ないライセンスは開発チームの判断に委ね、確認事項の多いライセンスのみOSPOへの相談を推奨する段階的アプローチの検討\n"
+"Foster a culture where early consultation is seen as a risk mitigation enabler rather than a development blocker. Provide clear consultation forms, robust FAQs, and SLA targets to empower autonomous developer decision-making over time.\n"
 "\n"
 "########################################################################################\n"
 "########################################################################################\n"

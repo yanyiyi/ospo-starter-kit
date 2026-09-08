@@ -32,6 +32,7 @@ Adopt and implement items incrementally based on organizational goals and priori
 - [ ] Collected and added common internal usage questions.
 - [ ] Documented internal case studies and relevant legal precedents.
 - [ ] Established directory guidelines for managing case studies as ticket volume grows.
+- [ ] Kept the FAQ concise and avoided duplicating the rest of the documentation.
 
 <!--
 ########################################################################################

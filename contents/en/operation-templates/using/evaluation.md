@@ -79,6 +79,9 @@ Inspect GitHub Insights and contributor trends. Active, welcoming communities in
 
 ### License Compliance and Architectural Scope
 
+License evaluation ranks alongside technical evaluation as the most important factor.
+Beyond simply identifying the license type, confirm that the intended use is consistent with the license policy applied across the project as a whole.
+
 License evaluation must analyze technical integration mechanisms alongside license categories.
 For copyleft licenses (GPL, AGPL), evaluate copyleft scope boundaries against architectural coupling—static linking, dynamic linking, IPC, or network APIs.
 For details, see **[Licenses with Source Code Disclosure Obligations](../compliance/source-disclosure-licenses.md)**.
@@ -100,7 +103,7 @@ For mission-critical production workloads, verify whether commercial SLAs, enter
 
 1. **Over-Relying on Popularity Metrics**
 
-    Repository stars and download counts provide useful indicators but do not guarantee security, code quality, or architectural fit. Treat popularity metrics as secondary data points behind technical evaluation.
+    As noted in [Finding Open Source Software](../using/finding-oss.md), repository stars and download counts provide useful indicators but do not guarantee security, code quality, or architectural fit. Treat popularity metrics as secondary data points behind technical evaluation.
 
 2. **Blindly Adopting "Latest" Releases**
 
@@ -116,7 +119,14 @@ For mission-critical production workloads, verify whether commercial SLAs, enter
 
 ## Documenting and Sharing Evaluations
 
-Document evaluation findings in comparison matrices to capture decision rationales, build institutional knowledge, and streamline future architectural reviews.
+Insights gained during evaluation should serve not only individual learning but also the team and the organization as a shared asset.
+Document evaluation results properly so that colleagues can share them, future similar projects can reuse them, and the organization's evaluation capability improves.
+
+Recording the specific problems and strengths found during evaluation gives later decisions something concrete to refer back to.
+Record improvements to the evaluation process itself as well, contributing to the evaluation capability of the organization as a whole.
+
+When several candidates have been evaluated, build a comparison table or evaluation matrix to make the basis for the decision explicit.
+This discharges accountability for the choice and doubles as reference material when the decision is revisited.
 
 ---
 <!--

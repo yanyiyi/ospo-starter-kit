@@ -5,7 +5,7 @@ msgstr ""
 "POT-Creation-Date: 2026-09-08\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: zh_Hant\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +16,7 @@ msgstr ""
 #. type: 標題
 #: oss-policy-templates/articles/00_preamble.md:1
 msgid "# Article 0. Preamble"
-msgstr "# 第 0 條. 前言"
+msgstr "# 第0条. 前文"
 
 #. type: 標題
 #: oss-policy-templates/articles/00_preamble.md:2
@@ -36,12 +36,12 @@ msgstr "# 第 0 條. 前言"
 #: oss-policy-templates/articles/14_employment_rules_relation.md:2
 #: oss-policy-templates/articles/15_revision_and_enforcement.md:2
 msgid "## Sample Article"
-msgstr "## 條文範例"
+msgstr "## 条文サンプル"
 
 #. type: 段落
 #: oss-policy-templates/articles/00_preamble.md:3
 msgid "Article 0. Preamble"
-msgstr "第 0 條. 前言"
+msgstr "第0条. 前文"
 
 #. type: 段落
 #: oss-policy-templates/articles/00_preamble.md:4
@@ -51,10 +51,10 @@ msgid ""
 "On the other hand, using OSS requires responsible handling, including license compliance, protection of intellectual property rights, and ensuring security and quality.\n"
 "This Policy sets forth the fundamental principles and internal rules regarding OSS, establishing an environment where all Company stakeholders can utilize OSS safely and appropriately, thereby achieving appropriate and responsible conduct."
 msgstr ""
-"［公司名稱］股份有限公司（以下稱「本公司」）就開放原始碼軟體（以下稱「OSS」）的使用【以及對 OSS 社群的貢獻】，訂定本政策作為基本方針。\n"
-"OSS 是支撐軟體開發生產力提升與技術創新的重要資源。本公司希望透過運用 OSS【以及對社群的貢獻】，提升技術能力並持續創造價值。\n"
-"另一方面，使用 OSS 時須以負責任的方式處理，包括遵守授權條款、保護智慧財產權、確保資訊安全與品質等。\n"
-"本政策訂定 OSS 相關的基本原則與公司內部規則，建立讓本公司所有相關人員都能安全且適切運用 OSS 的環境，並落實適切而負責的行為。"
+"株式会社［会社名］（以下「当社」という。）は、オープンソースソフトウェア（以下「OSS」という。）の利用【およびOSSコミュニティへの貢献】に関する基本方針として本ポリシーを定める。\n"
+"OSSは、ソフトウェア開発の生産性向上と技術革新を支える重要な資源である。当社は、OSSの活用【およびコミュニティへのコントリビューション】を通じて、技術力の向上と持続的な価値創出を目指す。\n"
+"一方で、OSSの利用に際しては、ライセンスの遵守、知的財産権の保護、セキュリティおよび品質の確保など、責任ある取り扱いが求められる。\n"
+"本ポリシーによって、OSSに関する基本原則および社内ルールを定め、当社のすべての関係者がOSSを安全かつ適切に活用できる環境を整備し、適切で責任ある行動を実現する。"
 
 #. type: 標題
 #: oss-policy-templates/articles/00_preamble.md:5
@@ -74,12 +74,12 @@ msgstr ""
 #: oss-policy-templates/articles/14_employment_rules_relation.md:5
 #: oss-policy-templates/articles/15_revision_and_enforcement.md:5
 msgid "## Commentary"
-msgstr "## 解說"
+msgstr "## 解説"
 
 #. type: 段落
 #: oss-policy-templates/articles/00_preamble.md:6
 msgid "OSS forms the foundation of modern software development and business, and its utilization brings opportunities for efficiency, standardization, and innovation to enterprises. OSS is developed, improved, and maintained by open communities, and how an organization engages with these communities significantly impacts the success of its OSS utilization. This Preamble functions not merely as a compliance declaration, but as an entry point demonstrating strategic managerial intent, enabling consistent explanations internally and externally while suppressing variations in judgment across departments. By explicitly defining organizational OSS stages—\"Use-centric, Community Contribution, and OSS Release\"—it encourages moving beyond purely consumption-oriented activities and establishes an anchor for long-term decision-making."
-msgstr "OSS 是現代軟體開發與商業活動的基礎，運用 OSS 能為企業帶來效率化、標準化與創新的機會。OSS 是由開放的社群開發、改善與維護的，與社群的互動方式會大幅影響 OSS 運用的成敗。本前言不只是合規宣言，更是展現經營意志與策略意圖的入口，能減少各部門判斷上的落差，使公司對內對外都能有一致的說明。透過在組織層面明確界定「以使用為主／對社群貢獻／發佈 OSS」這幾個 OSS 階段，可以促使組織脫離只偏重使用的活動模式，並提供長期決策的軸線。"
+msgstr "OSSは現代のソフトウェア開発・ビジネスの基盤であり、その利活用は企業にとって効率化・標準化・イノベーションの機会をもたらします。そのOSSはオープンなコミュニティによって、開発・改善・維持されており、コミュニティとの関わり方がOSSの利活用の成否に大きく影響します。本前文は単なるコンプライアンス宣言ではなく、経営意思としての戦略的意図を示す入り口として機能し、部門ごとの判断のばらつきを抑えて社内外に一貫した説明を可能にします。「利用中心・コミュニティへのコントリビューション・OSS公開」というOSSステージを組織として明確にすることで、利用だけに偏った活動からの脱却を促し、長期的な意思決定の軸を示すことができます。"
 
 #. type: 標題
 #: oss-policy-templates/articles/00_preamble.md:7
@@ -99,12 +99,12 @@ msgstr "OSS 是現代軟體開發與商業活動的基礎，運用 OSS 能為企
 #: oss-policy-templates/articles/14_employment_rules_relation.md:7
 #: oss-policy-templates/articles/15_revision_and_enforcement.md:7
 msgid "## Customization Perspectives and Operational Notes"
-msgstr "## 客製化的觀點與運作上的注意事項"
+msgstr "## カスタマイズの観点と運用上の留意事項"
 
 #. type: 段落
 #: oss-policy-templates/articles/00_preamble.md:8
 msgid "Customizing the preamble must account for both the company's OSS stage (Use-centric, Community Contribution, OSS Release) and its business domain."
-msgstr "前言的客製化，重點在於同時考量自家公司的 OSS 階段（以使用為主／對社群貢獻／發佈 OSS）與事業領域。"
+msgstr "前文のカスタマイズは、自社のOSSステージ（利用中心・コミュニティへのコントリビューション・OSS公開）と事業領域の双方を踏まえて行うことが重要です。"
 
 #. type: 清單
 #: oss-policy-templates/articles/00_preamble.md:9
@@ -115,21 +115,21 @@ msgid ""
 "- Describing a development roadmap of \"Use-centric -> Community Contribution -> OSS Release\" clarifies both current status and future vision.\n"
 "- Minimize technical jargon in this Policy, guide users to the OSS Operational Guidelines for details, and reference contact points (OSPO equivalent) and core postures (integrity, transparency, etc.) to foster actionable compliance."
 msgstr ""
-"- 製造業可舉嵌入式軟體、SaaS 業者可舉雲端基礎架構，具體說明 OSS 對自家公司的重要性，能提高公司內部的認同感。\n"
-"- 把「為什麼要使用 OSS」聚焦在 1～2 點（速度、品質、標準化等），並依事業型態（系統整合／SaaS／產品等）用一句話補上責任觀點。\n"
-"- 對社群貢獻的表述強度請配合 OSS 階段調整。初期階段寫成「以貢獻為目標」即可；已有實績的企業則可加上具體的貢獻方針。\n"
-"- 也可以寫出「以使用為主／對社群貢獻／發佈 OSS」的發展路線圖，藉此呈現現況與未來樣貌。\n"
-"- 本政策應盡量減少專業術語，細節引導至 OSS 營運指南；若能提到諮詢對象（相當於 OSPO 的單位）與基本態度（誠信、透明等），會更容易帶動實際行動。"
+"- 製造業なら組込みソフトウェア、SaaSならクラウド基盤というように、自社にとってのOSSの重要性を具体的に示すと社内の納得感が高まります。\n"
+"- 「何のためにOSSを使うか」を1〜2点に絞り（スピード・品質・標準化等）、事業形態（SI/SaaS/製品等）に応じた責任の考え方を一文で補いましょう。\n"
+"- コミュニティへのコントリビューションの表現強度はOSSステージに合わせて調整してください。初期段階なら「貢献を目指す」程度に留め、実績がある企業は具体的な貢献方針を追記しましょう。\n"
+"- 「利用中心・コミュニティへのコントリビューション・OSS公開」という発展ロードマップを記述することで現状と将来像を示すこともできます。\n"
+"- 本ポリシーでは専門用語を抑えて詳細はOSS運用ガイドラインへ誘導し、相談先（OSPO相当）や基本姿勢（誠実・透明等）に触れると行動に繋がりやすくなるでしょう。"
 
 #. type: 標題
 #: oss-policy-templates/articles/01_purpose.md:1
 msgid "# Article 1. Purpose"
-msgstr "# 第 1 條. 目的"
+msgstr "# 第1条. 目的"
 
 #. type: 段落
 #: oss-policy-templates/articles/01_purpose.md:3
 msgid "Article 1. Purpose"
-msgstr "第 1 條. 目的"
+msgstr "第1条. 目的"
 
 #. type: 清單
 #: oss-policy-templates/articles/01_purpose.md:4
@@ -142,23 +142,23 @@ msgid ""
 "  [e. Promoting contribution to and collaboration with the OSS community]\n"
 "  f. Ensuring information security and software quality"
 msgstr ""
-"1. 本政策旨在訂定本公司使用與管理 OSS【以及對 OSS 社群貢獻】的基本事項，以達成下列目的。\n"
-"  a. 遵守 OSS 授權條款\n"
-"  b. 適切保護專利權、著作權及其他智慧財產權，並遵守相關法令與契約義務\n"
-"  c. 適切保護機密資訊、個人資料及其他重要資訊，維護本公司的信譽與品牌價值\n"
-"  d. 透過適切使用 OSS 提升事業價值並強化技術基礎\n"
-"  【e. 促進對 OSS 社群的貢獻與協作】\n"
-"  f. 確保資訊安全與軟體品質"
+"1. 本ポリシーは、当社におけるOSSの利用および管理【ならびにOSSコミュニティへのコントリビューション】に関する基本事項を定めることにより、次の事項を達成することを目的とする。\n"
+"  a. OSSライセンスを遵守すること\n"
+"  b. 特許権、著作権およびその他の知的財産権を適切に保護し、関係法令および契約上の義務を遵守すること\n"
+"  c. 機密情報および個人情報その他の重要情報を適切に保護し、当社の信用およびブランド価値を維持すること\n"
+"  d. OSSの適切な利用を通じた事業価値の向上と技術基盤の強化\n"
+"  【e. OSSコミュニティへのコントリビューションおよび協働を促進すること】\n"
+"  f. 情報セキュリティおよびソフトウェア品質を確保すること"
 
 #. type: 段落
 #: oss-policy-templates/articles/01_purpose.md:6
 msgid "This Article clarifies the overall goals of the Policy and serves as an interpretative foundation for each subsequent article. Non-compliance with licenses directly leads to litigation risks and product shipment halts. Furthermore, confidential information and personal data must be prevented from leaking through OSS activities. Aligning strategic OSS usage with business value positions OSS not merely as a risk avoidance mechanism, but as a driver of business contribution. It also provides the justification for establishing an OSPO and serves to publicly declare a commitment to continuous community engagement."
-msgstr "本條明確界定整份政策的目標，並提供解釋各條文的依據。不符合授權條款會直接導致訴訟風險或產品停止出貨。此外，也必須避免機密資訊與個人資料透過 OSS 活動外洩。將 OSS 的策略性運用與事業價值連結，能讓 OSS 定位為對事業有貢獻的手段，而不只是規避風險的工具。本條同時也是設置 OSPO 的正當性依據，並具有對外宣示持續貢獻社群態度的作用。"
+msgstr "本条はポリシー全体のゴールを明確にし、各条の解釈の拠り所を提供します。ライセンスへの不適合は訴訟リスクや製品出荷停止に直結します。また、機密・個人情報がOSS活動を通じて漏えいしないようにしなくてはなりません。OSSの戦略的活用を事業価値に結びつけることで、単なるリスク回避ではなく事業貢献の手段としてOSSを位置づけます。またOSPO設置を正当化する根拠となり、コミュニティへの継続的な貢献姿勢を対外的に宣言する役割も持ちます。"
 
 #. type: 段落
 #: oss-policy-templates/articles/01_purpose.md:8
 msgid "Adjust the order and phrasing of objectives to align with your strategic priorities, as this article establishes the overall priority ranking for the Policy."
-msgstr "目的的順序與表述可依自家公司的策略重點調整，並具有呈現整份政策優先順序的作用。"
+msgstr "目的の順番や表現は自社の戦略的重点に合わせて調整でき、ポリシー全体の優先順位を示す役割を果たします。"
 
 #. type: 清單
 #: oss-policy-templates/articles/01_purpose.md:9
@@ -168,25 +168,25 @@ msgid ""
 "- Even if community contributions or OSS releases are not planned immediately, keep these objectives as future options and restrict them operationally instead.\n"
 "- Do not mix objectives (Why) with procedures (How); delegate procedural details to the OSS Operational Guidelines."
 msgstr ""
-"- 若重視合規，可把 a 款放在最前面；若要推動創新，可把 d 款往前排，以反映自家公司的優先順序。\n"
-"- 可加入「對客戶的說明責任」「持續營運與弱點應對」等符合自家公司需求的目的。若能以補充說明的方式寫出「提升事業價值」的具體樣貌（降低開發成本、加快上市速度等），現場人員會更容易理解。\n"
-"- 即使短期內不打算對社群貢獻或發佈 OSS，建議仍將這些目的保留為未來的選項，改以運作方式加以限制。\n"
-"- 不要把目的（Why）與手段（How）混在一起，程序細節請交由 OSS 營運指南規定。"
+"- コンプライアンス重視ならa号を先頭に、イノベーション促進ならd号を上位に配置するなど、自社の優先順位を反映させましょう。\n"
+"- 「顧客説明責任」「継続運用・脆弱性対応」など自社に合った目的を追記できます。「事業価値の向上」の具体像（開発コスト削減・市場投入速度向上等）を補足説明として記載すると現場での理解が深まります。\n"
+"- コミュニティへのコントリビューションやOSS公開を当面行わない場合も、将来の選択肢として目的は残しておき、運用で制限する方法をお勧めします。\n"
+"- 目的（Why）と手段（How）を混在させず、手続の詳細はOSS運用ガイドラインへ委ねてください。"
 
 #. type: 標題
 #: oss-policy-templates/articles/02_definitions.md:1
 msgid "# Article 2. Definitions"
-msgstr "# 第 2 條. 用語定義"
+msgstr "# 第2条. 用語の定義"
 
 #. type: 段落
 #: oss-policy-templates/articles/02_definitions.md:3
 msgid "Article 2. Definitions"
-msgstr "第 2 條. 用語定義"
+msgstr "第2条. 用語の定義"
 
 #. type: 段落
 #: oss-policy-templates/articles/02_definitions.md:4
 msgid "The principal terms used in this Policy are defined as follows:"
-msgstr "本政策所使用主要用語的定義如下。"
+msgstr "本ポリシーにおいて使用する主な用語の定義は、次のとおりとする。"
 
 #. type: 清單
 #: oss-policy-templates/articles/02_definitions.md:5
@@ -198,22 +198,22 @@ msgid ""
 "[5. \"CLA\" is an abbreviation for Contributor License Agreement, referring to a contract defining rights ownership and licensing conditions for deliverables submitted through contributions.]\n"
 "6. \"Third-Party Works\" refers to copyrighted works owned by parties other than the Company."
 msgstr ""
-"1. 「OSS」指原始碼已公開，且依授權條款允許使用、修改與散布的軟體。\n"
-"2. 「OSPO」為 Open Source Program Office 的縮寫，指第 4 條所規定的組織。\n"
-"3. 「OSS 專案」指進行 OSS 開發、維護與管理的活動，其運作可能由個人、團體或社群進行。\n"
-"4. 「貢獻」指向 OSS 專案提供原始碼、文件或其他產出物的行為。\n"
-"【5. 「CLA」為 Contributor License Agreement 的縮寫，指就貢獻所產生產出物的權利關係與授權條件等加以約定的契約。】\n"
-"6. 「他人著作」指著作權屬於本公司以外之人的著作。"
+"1. 「OSS」とは、ソースコードが公開され、ライセンス条項に基づき利用、改変および配布が許諾されているソフトウェアをいう。\n"
+"2. 「OSPO」とは、Open Source Program Officeの略称であり、第4条に規定する組織をいう。\n"
+"3. 「OSSプロジェクト」とは、OSSの開発、維持、管理を行う活動をいう。その運営は個人、団体またはコミュニティによって行われる。\n"
+"4. 「コントリビューション」とは、OSSプロジェクトに対して、ソースコード、ドキュメントその他の成果物を提供する行為をいう。\n"
+"【5. 「CLA」とは、Contributor License Agreementの略称であり、コントリビューションに伴う成果物の権利関係や利用許諾条件等を定める契約をいう。】\n"
+"6. 「他者著作物」とは、当社以外の者が著作権を有する著作物をいう。"
 
 #. type: 段落
 #: oss-policy-templates/articles/02_definitions.md:7
 msgid "Discrepancies in term interpretation cause incidents and stall decision-making, making a shared understanding essential. Enabling Legal, Security, and Engineering to use the same terminology with identical meanings accelerates evaluation. Distinguishing between \"Company OSS\" and \"External OSS\" is crucial for organizing proprietary rights to protect versus third-party rights to obey. Defining rights-processing concepts like CLA prevents inadvertent signatures and erroneous operations. Defining OSPO here clarifies the subject of governance provisions from Article 4 onward, serving as a baseline for internal training, FAQs, and checklists."
-msgstr "用語解釋的落差會導致事故或決策停滯，因此形成共同理解不可或缺。當法務、資訊安全與開發都能以相同意義使用相同詞彙，判斷速度就會加快。區分「本公司 OSS」與「外部 OSS」，對於釐清應保護的自家權利與應遵守的他人權利至關重要；而預先定義 CLA 等直接涉及權利處理的概念，可以避免在無意識下簽署或誤操作。在此定義 OSPO，能讓第 4 條之後治理規定的主體更明確；本條定義也可作為公司內部教育、FAQ 與檢核清單的基準。"
+msgstr "用語の解釈のばらつきが事故や意思決定の停滞を招くため、共通理解の形成が不可欠です。法務・セキュリティ・開発が同じ言葉を同じ意味で使えることで判断が速くなります。「当社OSS」と「外部OSS」を区別することは守るべき自社権利と遵守すべき他者権利を整理するうえで不可欠であり、CLAなど権利処理に直結する概念を定義しておくことで無自覚な署名や誤操作を防ぎます。OSPOをここで定義することで第4条以降のガバナンス規定の主語が明確になり、本定義は社内教育・FAQ・チェックリストの基準としても機能します。"
 
 #. type: 段落
 #: oss-policy-templates/articles/02_definitions.md:9
 msgid "If definitions become overly legalistic or technical, teams will stop reading them; strike a balance between clarity and accuracy."
-msgstr "定義若過於專業，現場就不會有人讀，請在淺白與精確之間取得平衡。"
+msgstr "定義が過剰に専門的になると現場で読まれなくなるため、平易さと正確さのバランスを取ってください。"
 
 #. type: 清單
 #: oss-policy-templates/articles/02_definitions.md:10
@@ -224,21 +224,21 @@ msgid ""
 "- You may add terms tailored to your deliverables, but avoid bloating the definitions—prioritize terms directly linked to licensing violations and major issues.\n"
 "- Annotating cross-references to synonymous terms used in existing company regulations is helpful."
 msgstr ""
-"- 若尚未設置 OSPO，可改寫成「承辦部門／委員會」，重點在於明確角色而非名稱。\n"
-"- 貢獻的範圍（只含程式碼，或也包含文件、翻譯、測試）請在程序負擔與管理完整性之間權衡決定。\n"
-"- 建議在 OSS 營運指南中補充說明 CLA 與 DCO（Developer Certificate of Origin）的使用時機差異。\n"
-"- 可依自家公司的產出物增加用語，但不要讓定義過度膨脹，請優先處理容易直接引發授權違規等問題的用語。\n"
-"- 若能註明本條用語與既有公司規範所用同義詞之間的對應關係會更好。"
+"- OSPOが未設置の場合は「担当部門/委員会」に書き換えて、名称より役割を明確にします。\n"
+"- コントリビューションの範囲（コードのみか、文書・翻訳・テストも含むか）は手続負荷と管理の網羅性のバランスで決めてください。\n"
+"- CLAとDCO（Developer Certificate of Origin）の使い分けはOSS運用ガイドラインで補足することを推奨します。\n"
+"- 自社の成果物に合わせて用語を追加できますが、定義を増やしすぎず、ライセンス違反をはじめとする諸問題に直結しやすい用語から優先してください。\n"
+"- 既存の社内規程で使われている同義語との対応関係を注記するとよいでしょう。"
 
 #. type: 標題
 #: oss-policy-templates/articles/03_scope.md:1
 msgid "# Article 3. Scope of Application"
-msgstr "# 第 3 條. 適用範圍"
+msgstr "# 第3条. 適用範囲"
 
 #. type: 段落
 #: oss-policy-templates/articles/03_scope.md:3
 msgid "Article 3. Scope of Application"
-msgstr "第 3 條. 適用範圍"
+msgstr "第3条. 適用範囲"
 
 #. type: 清單
 #: oss-policy-templates/articles/03_scope.md:4
@@ -250,22 +250,22 @@ msgid ""
 "2. Specific procedures, division of responsibilities, and approval requirements for each activity in the preceding paragraph shall be separately defined in the \"OSS Operational Guidelines.\"\n"
 "3. The department (or Employee) supervising the activities in Paragraph 1 shall establish necessary contractual conditions when engaging contractors or joint development partners to ensure compliance with this Policy."
 msgstr ""
-"1. 本政策適用於本公司董監事、員工以及在本公司管理下從事業務的所有人員（以下稱「員工」）因本公司業務所進行的下列活動。\n"
-"  a. 有關 OSS 的取得、使用、修改、內嵌與再散布的活動\n"
-"  b. 有關新 OSS 的規劃、開發、發佈、維護與終止的活動\n"
-"  【c. 對 OSS 專案的貢獻】\n"
-"2. 前項各活動的具體程序、責任分工與是否需要核准，另於「OSS 營運指南」訂定。\n"
-"3. 主管前項活動的部門（或員工），應在契約中對本公司的委外廠商或共同開發企業設定必要條件，以避免違反本政策。"
+"1. 本ポリシーは、当社の役員、従業員および当社の管理下で業務に従事するすべての者（以下「従業員」という。）が、当社の業務に関連して行う以下の活動に適用する。\n"
+"  a. OSSの取得、利用、改変、組込みおよび再配布に関する活動\n"
+"  b. 新規OSSの企画、開発、公開、維持および終了に関する活動\n"
+"  【c. OSSプロジェクトへのコントリビューション】\n"
+"2. 前項の各活動の具体的な手続、責任分担、承認の要否については、別途「OSS運用ガイドライン」に定める。\n"
+"3. 前１項の活動を主管する部門（または従業員）は、当社から業務委託先または共同開発を行う企業に対し、契約において本ポリシーに違反しないよう必要な条件を設定するものとする。"
 
 #. type: 段落
 #: oss-policy-templates/articles/03_scope.md:6
 msgid "Ambiguity around who must comply and what must be guarded creates dual risks: non-compliance or field paralysis. OSS encompasses a broad spectrum—acquisition, use, modification, redistribution, and contribution—and omitting any phase from the lifecycle scope creates gaps. Redistribution is where licensing obligations become strictest, making explicit inclusion in the scope essential. Contractors, dispatched staff, and partner companies are frequently involved, requiring coverage of \"all individuals engaged in business under control.\" Even for personal activities, using company names or resources impacts corporate trust, necessitating governance. Separating specific procedures into the OSS Operational Guidelines balances policy stability with operational flexibility."
-msgstr "若「誰該遵守什麼」不明確，就會同時出現無人遵守與現場過度保守這兩種問題。OSS 涉及取得、使用、修改、再散布與貢獻等廣泛行為，若不明確把整個生命週期納入適用對象，就會出現漏洞。再散布是授權義務最為嚴格的環節，必須在適用範圍中明文寫出。由於委外、派遣與協力廠商也會參與，適用對象需擴及「在管理下從事業務者」；即使是個人活動，只要使用公司名稱或資源就會涉及信譽問題，因此仍需一定程度的管控。把具體程序分離到 OSS 營運指南，可同時兼顧政策的穩定性與運作的彈性。"
+msgstr "誰が何を守るかが曖昧だと、遵守されない・現場が萎縮するという両方の問題が発生します。OSSは取得・利用・改変・再配布・貢献と行為の範囲が広く、ライフサイクル全体を適用対象として明示しないと漏れが生じます。再配布はライセンス義務が最も厳格化する局面であり、適用範囲への明記が不可欠です。委託・派遣・協力会社も関与するため「管理下で業務に従事する者」まで含める必要があり、私的活動であっても会社名や資源を使えば信用問題になるため一定の統制が要ります。具体的な手続きをOSS運用ガイドラインへ分離することでポリシーの安定性と運用の柔軟性を両立させます。"
 
 #. type: 段落
 #: oss-policy-templates/articles/03_scope.md:8
 msgid "Clarifying scope is the starting point for effective execution; clearly specify \"covered persons, covered actions, and exclusions.\""
-msgstr "明確適用範圍是確保實效的起點，請明確界定「適用對象、適用行為、適用除外」這三點。"
+msgstr "適用範囲の明確化は実効性確保の出発点であり、「対象者・対象行為・適用除外」の三点を明確にしてください。"
 
 #. type: 清單
 #: oss-policy-templates/articles/03_scope.md:9
@@ -274,19 +274,19 @@ msgid ""
 "- Define application to contractors in a concrete, actionable manner through contractual terms (SBOM submission, NDA, etc.).\n"
 "- Decide within your regulatory hierarchy whether sponsorship or event participation belongs under the OSS Policy or Public Relations/Marketing rules. If included in this Policy, explicitly define conditions and responsible parties."
 msgstr ""
-"- 「在管理下從事業務的所有人員」的範圍（派遣、委外、實習生等）以及是否適用於集團公司，請依自家公司的治理架構決定，也可以分階段導入。\n"
-"- 對委外廠商的適用，請訂成能具體化為契約條款（提供 SBOM、保密義務等）的形式。\n"
-"- 贊助與活動參與要納入 OSS 政策，或改由公關、行銷規範管理，請依自家公司的規範體系判斷；若要納入本政策，請明確訂出條件與負責人。"
+"- 「管理下で業務に従事するすべての者」の範囲（派遣・業務委託・インターン等）とグループ会社への適用可否は自社のガバナンス構造に応じて決定し、段階導入も可能です。\n"
+"- 委託先への適用は、契約条項（SBOM提供・秘密保持等）として具体化できる形で規定します。\n"
+"- スポンサーシップやイベント参加をOSSポリシーに含めるか広報・マーケティング規程で管理するかを自社の規程体系で判断し、本ポリシーに含めるのであれば、条件と責任者を明確化してください。"
 
 #. type: 標題
 #: oss-policy-templates/articles/04_ospo.md:1
 msgid "# Article 4. OSPO"
-msgstr "# 第 4 條. OSPO"
+msgstr "# 第4条. OSPO"
 
 #. type: 段落
 #: oss-policy-templates/articles/04_ospo.md:3
 msgid "Article 4. OSPO"
-msgstr "第 4 條. OSPO"
+msgstr "第4条. OSPO"
 
 #. type: 清單
 #: oss-policy-templates/articles/04_ospo.md:4
@@ -302,26 +302,26 @@ msgid ""
 "3. The composition and division of authority for the OSPO shall be separately defined in the \"OSS Management Regulations\" or similar rules.\n"
 "4. The OSPO shall collaborate mutually with Legal, Information Security, Human Resources, and other relevant departments, taking into account overlapping areas of authority."
 msgstr ""
-"1. 為實現本政策的前言與目的，本公司設置「OSPO」，作為統籌 OSS 相關策略與治理的組織。\n"
-"2. OSPO 至少承擔下列職責。\n"
-"  a. 就 OSS 使用方針的制定提供建議與資訊\n"
-"  b. 就本公司著作以 OSS 形式發佈時的發佈行為、授權條款選擇與重要變更提供建議與確認\n"
-"  【c. 有關簽訂 CLA 的對外聯絡窗口業務】\n"
-"  d. 就授權違規、資訊外洩、資訊安全事件等的應對提供建議，並協調相關部門\n"
-"  e. 制定與修訂 OSS 相關的公司規範、指南與作業程序書\n"
-"  f. 規劃、執行與推動教育與宣導活動\n"
-"3. OSPO 的組成與權限分工，另於「OSS 管理規範」等文件訂定。\n"
-"4. OSPO 應考量與法務部門、資訊安全部門、人資部門及其他相關部門之間權限的重疊情形，相互協作。"
+"1. 当社は、本ポリシーの前文および目的を実現するため、OSSに関する戦略およびガバナンスを統括する組織として「OSPO」を設置する。\n"
+"2. OSPOは、少なくとも次の役割を担う。\n"
+"  a. OSSの利用方針の策定に関する助言および情報提供\n"
+"  b. 当社著作物をOSSとする場合の、公開、ライセンス選定、重要な変更に関する助言および確認\n"
+"  【c. CLA締結に関する対外的な窓口業務】\n"
+"  d. ライセンス違反、情報漏えい、セキュリティインシデント等への対応に関する助言および関係部門間の調整\n"
+"  e. OSSに関する社内規程、ガイドライン、手順書等の策定および改定\n"
+"  f. 教育・啓発活動の企画・実施および推進\n"
+"3. OSPOの構成および権限分掌は、別途「OSS管理規程」等において定める。\n"
+"4. OSPOは、法務部門、情報セキュリティ部門、人事部門、その他関係部門との権限の重なりを踏まえ、相互に連携するものとする。"
 
 #. type: 段落
 #: oss-policy-templates/articles/04_ospo.md:6
 msgid "OSS sits at the cross-section of legal, security, and engineering disciplines; without a dedicated coordination body, confusion arises. Independent departmental decisions cause inefficiency and inconsistency, delaying initial response during incidents. Declaring the OSPO's establishment acts as the institutional foundation for OSS governance, ensuring organizational sustainability and consistency in OSS activities. Driving cross-company initiatives like SBOM management and tool adoption requires a dedicated entity, and unifying education continually reduces \"unintentional violations.\" Within a three-tier model of Executive, Governance, and Operations, the OSPO plays a pivotal role as the enabler."
-msgstr "OSS 是法務、資訊安全與開發交會的橫向領域，若缺少專責的協調機能就會產生混亂。各部門各自判斷會導致效率不佳與不一致，事件發生時的初期應對也會延遲。宣告設置 OSPO 可作為 OSS 治理的制度基礎，從組織層面確保 OSS 活動的持續性與一致性。要推動 SBOM 建置、工具導入等跨全公司的機制，需要有專責主體；由 OSPO 統籌教育與宣導，也能持續減少「因不知情而違規」的情況。在經營、推動、現場這三層結構中，OSPO 擔任推動者的核心角色。"
+msgstr "OSSは法務・セキュリティ・開発が交差する横断的領域であり、専任の調整機能がないと混乱が生じます。部門ごとの独自判断は非効率と不整合を招き、インシデント発生時の初動も遅れます。OSPOの設置宣言はOSSガバナンスの制度的基盤として機能し、OSS活動の持続性と一貫性を組織として担保します。SBOM整備・ツール導入など全社横断の仕組みを推進するには専任の主体が必要であり、教育・啓発を統括することで「知らなかった違反」を継続的に減らす効果があります。経営・推進・現場という三層構造の中で、OSPOは推進役として中心的な役割を担います。"
 
 #. type: 段落
 #: oss-policy-templates/articles/04_ospo.md:8
 msgid "Organizational structure can vary—dedicated department, part-time committee, or virtual team. What matters is clarifying decision-making authority and responsibility."
-msgstr "專責組織、兼任委員會或虛擬團隊等形式皆可，重點在於決策權限與責任歸屬明確。"
+msgstr "専任組織・兼任委員会・バーチャルチームなど形態は問いません。重要なのは意思決定権限と責任の所在が明確であることです。"
 
 #. type: 清單
 #: oss-policy-templates/articles/04_ospo.md:9
@@ -329,18 +329,18 @@ msgid ""
 "- Choose between an \"advisory/consultative\" or \"approval authority\" model based on organizational speed and culture; advisory models operate effectively.\n"
 "- For functions already handled by existing departments (Legal, Security), design the OSPO's role around \"coordination and advisory\" to leverage existing structures. Define collaboration mechanisms (SLA, regular syncs, ticketing) in the OSS Operational Guidelines."
 msgstr ""
-"- 要採「以諮詢與建議為主」或「具核准權限」，請依自家公司的節奏感與文化決定。即使以諮詢與建議為主，也足以運作。\n"
-"- 若既有其他部門（法務、資訊安全）已承擔某些職能，也可以把 OSPO 的角色限縮在「協調與建議」，設計成活用既有體制的形式。與法務、資訊安全的協作方式（諮詢 SLA、例行會議、工單）請在 OSS 營運指南中具體化。"
+"- 「相談・助言中心」か「承認権限あり」かは、自社のスピード感と文化で決めてください。相談・助言中心でも十分運用できます。\n"
+"- 既存他部門（法務・セキュリティ）が担っている機能はOSPOの役割を「調整・助言」に留め、既存体制を活かす設計も可能です。法務・セキュリティとの連携方法（相談SLA・定例・チケット）はOSS運用ガイドラインで具体化してください。"
 
 #. type: 標題
 #: oss-policy-templates/articles/05_oss_usage.md:1
 msgid "# Article 5. OSS Usage"
-msgstr "# 第 5 條. OSS 的使用"
+msgstr "# 第5条. OSSの利用"
 
 #. type: 段落
 #: oss-policy-templates/articles/05_oss_usage.md:3
 msgid "Article 5. OSS Usage"
-msgstr "第 5 條. OSS 的使用"
+msgstr "第5条. OSSの利用"
 
 #. type: 清單
 #: oss-policy-templates/articles/05_oss_usage.md:4
@@ -355,40 +355,40 @@ msgid ""
 "3. To appropriately manage OSS usage status, Employees shall comply with management methods specified separately, such as maintaining a Software Bill of Materials (SBOM), and supervising departments shall support its execution.\n"
 "4. When using OSS, relevant departments shall comply with all terms specified by the applicable license, including copyright notices in product documentation, disclaimer clauses, accompanying or referencing license texts, as well as source code disclosure and modifications tracking where required."
 msgstr ""
-"1. 本公司於業務中使用 OSS，或將 OSS 用於本公司產品、服務等時，相關部門應依既定程序，事先評估授權條件與風險。\n"
-"2. 相關部門於前項評估中，應確認並討論下列事項。\n"
-"  a. 授權條款的種類、內容與散布時的義務\n"
-"  b. 是否需要提供原始碼、提供方式與範圍，以及對本公司產品的影響\n"
-"  c. 是否存在弱點、程式錯誤等品質問題，以及維護狀況\n"
-"  d. 侵害含專利權等智慧財產權在內之他方權利的可能性，以及與出口管制、隱私及其他法令的關係\n"
-"  e. 對本公司專利權等智慧財產權的影響（是否需要提出本公司專利申請、本公司專利權等權利的行使是否可能受限等）\n"
-"3. 為妥善管理 OSS 的使用狀況，員工應遵循軟體物料清單（SBOM）建置等另行訂定的管理方式，主管部門則應支援其執行。\n"
-"4. 相關部門使用 OSS 時，除依授權條件在產品文件等處標示著作權、記載免責條款、隨附或提及授權文件之外，並應依需要提供原始碼、明示修改處等，遵守該授權條款所訂的所有條件。"
+"1. 当社がOSSを業務において利用する場合、または当社の製品・サービス等に利用する場合、関係部門は所定の手続に従い、事前にライセンス条件およびリスクを評価するものとする。\n"
+"2. 関係部門は、前項の評価において、次の事項を確認し検討する。\n"
+"  a. ライセンスの種類、内容および配布時の義務\n"
+"  b. ソースコードの提供の要否、方法および対象範囲、当社製品への影響\n"
+"  c. 脆弱性やバグなど品質上の問題の有無および保守状況\n"
+"  d. 特許権等の知的財産権を含む他社権利の侵害の可能性、輸出管理、プライバシー、その他の法令との関係\n"
+"  e. 当社特許権等の知的財産権に与える影響（当社特許出願の要否、当社特許権等の当社権利の行使が制限される可能性等。）\n"
+"3. 従業員は、OSSの利用状況を適切に管理するため、ソフトウェア部品表（SBOM）の整備など別途定める管理方法に従い、管掌部門はその実施を支援するものとする。\n"
+"4. 関係部門は、OSSを利用する際、ライセンス条件に従った製品ドキュメント等への著作権表示、免責条項の記載、ライセンス文書の同梱・言及等に加え、必要に応じたソースコードの提供、改変箇所の明示等、当該ライセンスが定める全ての条件を遵守するものとする。"
 
 #. type: 段落
 #: oss-policy-templates/articles/05_oss_usage.md:6
 msgid "License non-compliance directly threatens corporate credibility and commercial operations, making pre-use risk evaluation imperative. Management requirements vary based on distribution models (embedded products, cloud services, outsourced development, internal tools), necessitating standardized pre-evaluations. OSS vulnerabilities directly impact customers and service availability, making continuous security checks and visibility via SBOMs essential. Post-distribution obligations (copyright notices, license text inclusion, source code disclosure) are frequently overlooked, requiring structured compliance verification."
-msgstr "授權違規可能直接導致信譽受損與交易中止，因此使用前的風險管理十分必要。特別是散布形態（內嵌於產品、雲端服務、委外開發、公司內部使用等）不同，管理層級也不同，因此事前評估的標準化不可或缺。OSS 的弱點會直接影響客戶或造成服務中斷，持續的安全確認因此不可或缺，並且需要透過 SBOM 等方式讓使用狀況可視化。此外，出貨時的義務（標示著作權、隨附授權文件、提供原始碼等）容易被忽略，需要建立檢核機制。"
+msgstr "ライセンス違反は信用失墜・取引停止に直結しかねないため、利用前のリスク管理が必要です。特に配布形態（製品組込み・クラウドサービス・受託開発・社内利用等）によって管理レベルが異なるため、事前評価の標準化が欠かせません。OSSにかかる脆弱性は顧客影響やサービス停止に直結するため継続的なセキュリティ確認が不可欠であり、SBOM等による利用状況の可視化が重要です。また、出荷時の義務（著作権表示・ライセンス文書同梱・ソースコード提供等）は見落としが発生しやすいため、チェック体制の整備が必要です。"
 
 #. type: 段落
 #: oss-policy-templates/articles/05_oss_usage.md:8
 msgid "Differentiate control levels between \"internal tool usage\" and \"product integration / external distribution (redistribution)\"; use this distinction as the foundation for designing your governance system."
-msgstr "「公司內部工具使用」與「內嵌於產品、提供給客戶（再散布）」的管理層級不同，請以這個區分為起點設計管理體制。"
+msgstr "「社内ツール利用」と「製品への組み込み・顧客提供（再配布）」では管理レベルが異なるため、この区分を出発点として管理体制を設計してください。"
 
 #. type: 清單
 #: oss-policy-templates/articles/05_oss_usage.md:9
 msgid "- Developing a license classification matrix (e.g., Permitted, Review Required, Prohibited) reduces field ambiguity. Tailor it to account for industry-specific constraints."
-msgstr "- 若能把授權條款分成允許、需確認、禁止使用三個層級並整理成可否對照表，可以減少現場判斷時的猶豫。也請一併考量產業特有的限制加以調整。"
+msgstr "- ライセンスは許容・要確認・使用禁止の3段階程度に分類した可否表を整備すると現場における判断の迷いを減らせます。業界固有の制約も踏まえて調整しましょう。"
 
 #. type: 標題
 #: oss-policy-templates/articles/06_contribution.md:1
 msgid "# Article 6. Contribution to OSS Projects"
-msgstr "# 【第 6 條. 對 OSS 專案的貢獻】"
+msgstr "# 【第6条. OSSプロジェクトへのコントリビューション】"
 
 #. type: 段落
 #: oss-policy-templates/articles/06_contribution.md:3
 msgid "[Article 6. Contribution to OSS Projects"
-msgstr "【第 6 條. 對 OSS 專案的貢獻"
+msgstr "【第6条. OSSプロジェクトへのコントリビューション"
 
 #. type: 清單
 #: oss-policy-templates/articles/06_contribution.md:4
@@ -403,25 +403,25 @@ msgid ""
 "3. If requested by the OSS Project to execute a CLA, the Employee shall follow prescribed procedures.\n"
 "4. The OSPO shall, in consultation with Legal and other relevant departments as needed, summarize considerations for Employees contributing on behalf of the Company to specific OSS Projects and advise relevant departments. Decision-making regarding permission, scope, and conditions for such contributions rests with the contributing department.]"
 msgstr ""
-"1. 員工欲以本公司業務身分開始對特定 OSS 專案進行貢獻時，除遵守前條各事項外，該員工並應事先取得主管（管理職）核准，再依另行訂定的申請程序辦理。但另有概括許可者，不在此限。\n"
-"2. 就前項核准，員工應確認下列事項，OSPO 則應依需要提供支援。\n"
-"  a. 貢獻所含產出物是否屬於本公司的業務成果\n"
-"  b. 未不當揭露本公司的機密資訊、個人資料等\n"
-"  c. 對本公司專利權及其他智慧財產權的影響（包含侵害他方權利的風險、公開後是否需要提出專利申請、本公司專利權等權利的行使是否可能受限等）\n"
-"  d. 該 OSS 專案所訂的授權條件與治理方式\n"
-"  e. 與出口管制法規的關係\n"
-"3. 該 OSS 專案要求簽署 CLA 時，員工應依既定程序辦理。\n"
-"4. OSPO 應依需要與法務部門等協商後，就員工代表本公司對特定 OSS 專案進行貢獻時應考量的事項加以整理，並對相關部門提供建議。該貢獻是否進行、範圍與條件，由進行該貢獻的部門決定。】"
+"1. 従業員が当社の業務として特定のOSSプロジェクトに対しコントリビューションを開始しようとする場合、前条の事項を遵守するほか、当該従業員は、事前に上司（管理職）の承認を得たうえで、別途定める申請手続を実施しなければならない。ただし、別途包括的な許諾がある場合を除く。\n"
+"2. 前項の承認に際し、従業員は次の事項を確認するものとし、OSPOは必要に応じて支援するものとする。\n"
+"  a. コントリビューションに含まれる成果物が当社の業務成果であるか否か\n"
+"  b. 当社の機密情報、個人情報等の不適切な開示がないこと\n"
+"  c. 当社の特許権その他の知的財産権に与える影響（他者権利の侵害リスク、公開に伴う特許出願の要否、当社特許権等の当社権利の行使が制限される可能性等を含む。）\n"
+"  d. 当該OSSプロジェクトが定めるライセンス条件およびガバナンス\n"
+"  e. 輸出管理規制との関係\n"
+"3. 当該OSSプロジェクトからCLAへの署名を求められた場合、従業員は、所定の手続に従うものとする。\n"
+"4. OSPOは、必要に応じて法務部門等と協議のうえ、特定のOSSプロジェクトについて、従業員が当社を代表してコントリビューションを行う場合に考慮すべき事項を整理し、関係部門に対して助言を行う。当該コントリビューションの可否や範囲および条件については、当該コントリビューションを行う部門が意思決定する。】"
 
 #. type: 段落
 #: oss-policy-templates/articles/06_contribution.md:6
 msgid "Contributions involve intellectual property (patents, copyrights) and confidentiality issues, requiring corporate oversight. Agreements like CLAs/DCOs carry legal obligations; individual actions can bind company rights, making pre-approval mechanisms indispensable. Uncoordinated contributions create inefficiency and exposure, whereas strategic open source contributions yield engineering growth, talent retention, and brand enhancement. Maintaining clear evaluation standards balances corporate interest with community engagement."
-msgstr "貢獻會涉及專利權、著作權等智慧財產權以及機密資訊的問題，企業必須加以管控。CLA／DCO 等同意具有法律效果，個人的判斷可能影響公司的權利，因此事前核准機制不可或缺。若沒有方針，現場就會各自參與，造成效率不佳與混亂；另一方面，貢獻 OSS 也有提升技術能力、培育人才、提高企業在社群中的評價等附加效果。要推動組織層級的 OSS 策略，重點在於擁有能適切調和企業利益與社群貢獻的判斷軸線。"
+msgstr "コントリビューションは特許権・著作権等の知的財産権や秘密情報の論点を伴い、企業として統制が必要です。CLA/DCO等の合意は法的効果を持ち、個人の判断が会社の権利に影響しうるため、事前承認の仕組みが不可欠です。方針がないと現場がばらばらに関与し非効率や混乱が生じる一方、OSS貢献には技術力向上・人材育成・コミュニティでの企業評価向上という副次効果もあります。企業利益とコミュニティへの貢献を適切に調整するための判断軸を持つことが、組織としてのOSS戦略を推進するうえで重要です。"
 
 #. type: 段落
 #: oss-policy-templates/articles/06_contribution.md:8
 msgid "Approval overhead can become the single greatest barrier to contribution; carefully balance procedure simplification against appropriate control."
-msgstr "核准程序的負擔可能成為推動貢獻的最大障礙，請謹慎設計，在簡化程序與適切管控之間取得平衡。"
+msgstr "承認手続の負荷はコントリビューション促進の最大の障壁になりえるため、手続の簡素化と適切な統制のバランスを慎重に設計してください。"
 
 #. type: 清單
 #: oss-policy-templates/articles/06_contribution.md:9
@@ -430,19 +430,19 @@ msgid ""
 "- Recommend a two-tier model: initial application followed by blanket authorization for ongoing contributions. Pre-reviewing CLAs for frequently used foundations (Linux Foundation, Apache, etc.) ensures smooth operations.\n"
 "- Align with Article 14 (Employment Rules) to clarify conditions under which contribution counts as official business activity."
 msgstr ""
-"- 依貢獻類型（程式碼、文件、錯誤回報、測試等）區分核准層級，對輕微的貢獻採簡易確認，這種分級設計相當有效。\n"
-"- 建議採兩階段方式：首次採申請制，持續性的貢獻則以概括許可處理。若能事先完成常用 OSS 專案（Linux Foundation、Apache 等）CLA 的法務審查並取得概括核准，實務上會更順暢。\n"
-"- 建議與第 14 條（工作規則）保持一致，明確界定認定為業務活動的條件。"
+"- コントリビューションの種別（コード・文書・バグ報告・テスト等）で承認レベルを分け、軽微なものは簡易確認を適用する段階的な設計が効果的です。\n"
+"- 初回は申請制、継続的なコントリビューションは包括許諾で対応する二段階方式を推奨します。よく利用するOSSプロジェクト（Linux Foundation・Apache等）のCLAは事前に法務レビューを完了させ包括承認を得ておくと実務が円滑になります。\n"
+"- 第14条（就業規則）と整合させ、業務として認める活動の条件を明確にしておくことを推奨します。"
 
 #. type: 標題
 #: oss-policy-templates/articles/07_oss_release.md:1
 msgid "# Article 7. Releasing Company Works as OSS"
-msgstr "# 【第 7 條. 本公司著作以 OSS 形式發佈】"
+msgstr "# 【第7条. 当社著作物のOSSとしての公開】"
 
 #. type: 段落
 #: oss-policy-templates/articles/07_oss_release.md:3
 msgid "[Article 7. Releasing Company Works as OSS"
-msgstr "【第 7 條. 本公司著作以 OSS 形式發佈"
+msgstr "【第7条. 当社著作物のOSSとしての公開"
 
 #. type: 清單
 #: oss-policy-templates/articles/07_oss_release.md:4
@@ -462,30 +462,30 @@ msgid ""
 "  c. Security risks (malware, vulnerabilities), third-party rights infringement, and potential legal violations\n"
 "6. When accepting contributions under the preceding paragraph, the OSPO may (in consultation with Legal) advise on the necessity of executing a CLA or other contracts with contributors and propose necessary actions to relevant departments.]"
 msgstr ""
-"1. 員工欲將與本公司職務相關而製作的軟體作為新的 OSS 發佈時，除遵守第 5 條各事項外，該員工並應事先完成另行訂定的申請程序。\n"
-"2. 辦理前項申請程序時，該專案的負責人（或承辦員工）除遵守前條各事項外，並應確認下列事項，OSPO 則應依需要提供支援。\n"
-"  a. 是否使用他人著作，以及該他人著作的授權條件與欲適用於新 OSS 的授權條件是否相容\n"
-"  b. 擬發佈的軟體中未包含本公司機密資訊、個人資料或其他不得外洩的資訊\n"
-"  c. 擬發佈軟體與專利權、商標權及其他智慧財產權的關係（侵害他方權利的風險、是否需要提出本公司專利申請、本公司專利權等權利的行使是否可能受限等）\n"
-"  d. 對照所使用 OSS 的使用形態，整理其授權條件\n"
-"  e. 支援方針、開發體制與維護計畫\n"
-"3. 新的 OSS 原則上應發佈於本公司具管理權限（或 OSPO 特別指定）的官方儲存庫。發佈時，應在新的 OSS 中適切記載著作權標示與授權條款（含使用條件、免責條款等）。\n"
-"4. 變更本公司已發佈 OSS 的授權條款、變更發佈範圍、移轉儲存庫或停止發佈時，該專案的負責人應事先取得 OSPO 核准。\n"
-"5. 對本公司已發佈並擔任維護者的 OSS，納入第三方著作，或接受第三方提供原始碼、文件或其他著作時，應依另行訂定的基準與程序辦理，該專案的負責人（或承辦員工）並應確認下列事項。\n"
-"  a. 該著作的權利歸屬與授權條件\n"
-"  b. 與整體 OSS 授權條款的相容性\n"
-"  c. 是否存在惡意程式或弱點等資訊安全風險、侵害第三方權利，或其他違法之虞\n"
-"6. 就前項的納入，OSPO 得依需要（與法務部門協商後）就是否需要與提供者簽訂 CLA 或其他契約提供建議，並向相關部門提出必要的處理方案。】"
+"1. 従業員が当社の職務に関連して作成したソフトウェアを新たなOSSとして公開しようとする場合、第5条の事項を遵守するほか、当該従業員は、事前に別途定める申請手続を経なければならない。\n"
+"2. 前項の申請手続きに際し、当該プロジェクトの責任者（または担当する従業員）は前条の事項を遵守するほか、次の事項を確認するものとし、OSPOは必要に応じて支援するものとする。\n"
+"  a. 他者著作物の利用の有無、および当該他者著作物のライセンス条件と、新たなOSSに適用しようとするライセンス条件との整合性\n"
+"  b. 公開対象となるソフトウェア内に、当社の機密情報、個人情報その他漏えいしてはならない情報が含まれていないこと\n"
+"  c. 公開対象となるソフトウェアに関する、特許権、商標権その他の知的財産権との関係（他者権利の侵害リスク、当社特許出願の要否、当社特許権等の当社権利の行使が制限される可能性等）\n"
+"  d. 利用するOSSの利用形態に照らしたライセンス条件の整理\n"
+"  e. サポート方針、開発体制および保守計画\n"
+"3. 新たなOSSは、原則として当社が管理権限を有する（またはOSPOが特に指定した）公式リポジトリ上に公開するものとする。公開にあたっては、新たなOSSに著作権表示およびライセンス（利用条件、免責条項等を含む）を適切に記載するものとする。\n"
+"4. 当社が公開したOSSのライセンス変更、公開範囲の変更、リポジトリの移転または公開停止を行う場合、当該プロジェクトの責任者は事前にOSPOの承認を得なければならない。\n"
+"5. 当社が公開しメンテナーとなっているOSSに対して、第三者著作物を取り込む場合、または、第三者からソースコード、ドキュメントその他の著作物の提供を受ける場合、別途定める基準および手続に従うものとし、当該プロジェクトの責任者（または担当する従業員）は次の事項を確認する。\n"
+"  a. 当該著作物の権利帰属およびライセンス条件\n"
+"  b. OSS全体のライセンスとの整合性\n"
+"  c. マルウェアや脆弱性等のセキュリティリスク、第三者の権利侵害、その他法令違反のおそれの有無\n"
+"6. 前項の受け入れに際し、必要に応じて、OSPOは（法務部門と協議のうえ）、提供者との間でCLAその他の契約締結の要否について助言を行い、必要な対応を関係部門に提案することができる。】"
 
 #. type: 段落
 #: oss-policy-templates/articles/07_oss_release.md:6
 msgid "Once software is released as OSS, retracting information is virtually impossible; leaking proprietary code risks losing competitive edge. Public repositories have high visibility, making accidental inclusion of customer assets, third-party code, or patented technology a major legal liability with high remediation costs. Establishing pre-release reviews standardizes quality independent of individual expertise. Pre-defining emergency protocols (reporting/takedown) mitigates leak damage while empowering strategic releases (standardization, ecosystem building) without sacrificing momentum."
-msgstr "一旦以 OSS 形式發佈，資訊幾乎無法收回，機密資訊外流將帶來失去競爭力的風險。公開儲存庫的可見度很高，客戶資產、他公司程式碼或專利等第三方權利的混入會引發重大法律問題，問題曝光後的處理成本也很高。建立事前申請與確認體制，可以讓發佈前審查的品質不再依賴個人的知識與經驗，而是加以標準化。此外，預先訂好誤發佈時的初期處理（回報、刪除）程序可防止損害擴大；同時，為了讓策略性發佈（標準化、形成生態系等）也能在組織層面推進，需要在完善事前確認的同時，設計出不損及推動力的機制。"
+msgstr "一度、OSSとして公開すると情報の回収が極めて困難であり、機密情報が流出することで競争力が失われるリスクがあります。公開リポジトリは可視性が高く、顧客資産・他社コード・特許など第三者権利の混入は重大な法的問題につながり、問題発覚後の対応コストも大きくなります。事前申請・確認体制を整備することで、公開前レビューの品質を個人の知識・経験に依存させず標準化させるようにしきます。そのほか、誤公開時の初動（報告・削除）手順をあらかじめ定めることで被害拡大を防ぐとともに、戦略的な公開（標準化・エコシステム形成等）も組織として推進できるよう、事前確認を整備しつつ推進力を損なわない仕組みが求められます。"
 
 #. type: 段落
 #: oss-policy-templates/articles/07_oss_release.md:8
 msgid "Calibrate application friction based on the nature of the released OSS. Excessive friction stifles open source initiatives."
-msgstr "申請程序的繁複程度請依所發佈 OSS 的性質設計。過於繁複的程序會削減發佈意願。"
+msgstr "申請手続の重さは公開するOSSの性質に応じて設計してください。過度に重い手続は公開意欲を削ぎます。"
 
 #. type: 清單
 #: oss-policy-templates/articles/07_oss_release.md:9
@@ -495,35 +495,35 @@ msgid ""
 "- Select 1–2 default corporate open source licenses to accelerate evaluation.\n"
 "- Align post-release maintenance responsibilities (vulnerability handling) with Article 11, and emergency takedowns (accidental leaks) with Article 10 incident protocols."
 msgstr ""
-"- 明文寫出公開原始碼的目的（生態系、標準化等），讓判斷不至於搖擺，並區分可公開範圍（工具程式等）與不公開範圍（差異化領域等）。\n"
-"- 把確認事項（授權相容性、機密資訊混入、智慧財產、出口管制）做成檢核清單以提升效率。若能搭配 SCA 工具自動掃描，可補足人為疏漏。\n"
-"- 事先訂出自家公司的 1～2 種預設授權條款，判斷會更快速。\n"
-"- 發佈後的維護責任（弱點應對）請與第 12 條保持一致，事故（誤發佈）則請與第 11 條的事件應對連動。"
+"- ソースコードの公開目的（エコシステム・標準化等）を明文化して判断をぶらさないようにし、公開可能範囲（ユーティリティ等）と非公開範囲（差別化領域等）を区分します。\n"
+"- 確認事項（ライセンス整合性・機密情報混入・知財・輸出管理）はチェックリスト化して効率化しましょう。SCAツールによる自動スキャンと組み合わせると人的漏れを補完できます。\n"
+"- 自社のデフォルトライセンスを1〜2種類定めておくと判断が迅速になります。\n"
+"- 公開後の保守責任（脆弱性対応）は第12条と整合させ、事故（誤公開）は第11条のインシデント対応と連動させてください。"
 
 #. type: 標題
 #: oss-policy-templates/articles/08_personal_oss_activity.md:1
 msgid "# Article 8. Employees' Personal OSS Activities"
-msgstr "# 第 8 條. 員工的個人 OSS 活動"
+msgstr "# 第8条. 従業員の私的OSS活動"
 
 #. type: 段落
 #: oss-policy-templates/articles/08_personal_oss_activity.md:3
 msgid "Article 8. Employees' Personal OSS Activities"
-msgstr "第 8 條. 員工的個人 OSS 活動"
+msgstr "第8条. 従業員の私的OSS活動"
 
 #. type: 清單
 #: oss-policy-templates/articles/08_personal_oss_activity.md:4
 msgid "1. When an Employee develops, releases, or contributes to OSS projects in a personal capacity not directly related to Company duties, the Employee shall not use Company copyrighted works or internal information, nor violate internal regulations. Furthermore, Employees shall not use the Company name and must take sufficient care to ensure such actions are not mistaken for official Company business."
-msgstr "1. 員工以與本公司業務無直接關係的個人身分開發、發佈 OSS，或對 OSS 專案進行貢獻時，不得使用本公司著作或公司內部資訊，亦不得違反各項公司規範。此外，不得使用本公司名稱，並應充分注意避免使該等行為被誤解為本公司的業務行為。"
+msgstr "1. 従業員が、当社の業務とは直接関係しない私的な立場でOSSを開発・公開したり、またはOSSプロジェクトにコントリビューションを行ったりする場合、当社著作物や社内情報を利用してはならず、また各社内規定に反してはならない。さらに、当社の名称を使用してはならず、それらの行為が当社の業務行為と誤解されないように十分注意することとする。"
 
 #. type: 段落
 #: oss-policy-templates/articles/08_personal_oss_activity.md:6
 msgid "Personal OSS activity benefits companies through skill development and community networking, but requires boundaries to prevent leakage of confidential assets, corporate credit, or company resources. Open source communities disseminate information quickly, making recovery after a leak difficult. Confidentiality obligations remain legally binding during personal time; departure or career transition periods carry heightened risks of unintentional leakage. Using company equipment or work hours creates labor, cost, and IP ownership issues, while unauthorized use of corporate names/trademarks risks misrepresentation as official views. Balanced rules guide safe engagement rather than total prohibition."
-msgstr "員工的個人 OSS 活動在提升技術能力、建立與社群連結方面對企業同樣有益，但仍需劃清界線，避免混入機密、信譽與公司資源。OSS 社群開放且資訊容易擴散，一旦外洩就很難收回。保密義務在個人活動中同樣不會免除，屬於法律義務；特別要注意即將離職或轉職者無意間造成資訊外流的風險較高。使用公司設備與時間會牽涉勞務、費用與權利歸屬問題，未經授權使用公司名稱或商標則會使人誤認為公司官方立場。重點不在於過度禁止活動，而是需要平衡的運作方式。"
+msgstr "従業員の私的OSS活動は技術力向上・コミュニティとの繋がりという面で企業にとっても有益ですが、機密・信用・会社資源の混入を防ぐ線引きが必要です。OSSコミュニティはオープンで情報が拡散しやすく、情報漏えい時の回収が困難です。守秘義務は私的活動においても免除されない法的義務であり、特に退職予定者・転職者による意図しない情報流出リスクは高まりやすい点に注意が必要です。会社設備・時間の利用は労務・費用・権利帰属問題につながり、会社名・商標の無断使用は公式見解との誤認を招きます。活動を過度に禁止するのではなく、バランスある運用が求められます。"
 
 #. type: 段落
 #: oss-policy-templates/articles/08_personal_oss_activity.md:8
 msgid "Adopt a \"Permitted in principle + Narrowly defined prohibitions\" structure to prevent unnecessary risk aversion."
-msgstr "採「原則自由＋以有限列舉方式訂出禁止事項」的設計，最能避免現場過度保守。"
+msgstr "「原則自由＋禁止事項の限定列挙」という設計が過剰萎縮を防ぐうえで最も効果的です。"
 
 #. type: 清單
 #: oss-policy-templates/articles/08_personal_oss_activity.md:9
@@ -531,33 +531,33 @@ msgid ""
 "- Keep restrictions to a minimal necessary scope. Provide sample disclaimer phrasing (e.g., \"Views expressed are personal and do not represent my employer\") in the OSS Operational Guidelines so employees can participate with confidence.\n"
 "- Allowing personal activities during working hours depends on employment regulations and corporate culture. Verify alignment with non-compete clauses and limit restrictions strictly to necessary cases."
 msgstr ""
-"- 限制項目請控制在必要的最小範圍。若能在 OSS 營運指南中提供標示與公司關係的例句（如「本文為個人見解，不代表所屬組織」），員工參與活動時會更安心。\n"
-"- 是否在一定範圍內容許上班時間進行個人活動，取決於工作規則與公司文化。請一併確認與競業禁止條款的一致性，並僅對真正必要的情況設限。"
+"- 制限項目は必要最小限に留めましょう。会社との関係表示（「個人の見解であり所属組織を代表するものではない」等）の例文をOSS運用ガイドラインで示すと従業員が安心して活動できます。\n"
+"- 業務時間中の私的活動を一定の範囲で許容するかは就業規則と文化に依存します。競業避止義務条項との整合も確認のうえ、真に必要なケースにのみ制限を限定しましょう。"
 
 #. type: 標題
 #: oss-policy-templates/articles/09_trademark_and_brand.md:1
 msgid "# Article 9. Handling of Trademarks and Branding"
-msgstr "# 第 9 條. 商標與品牌的處理"
+msgstr "# 第9条. 商標およびブランドの取扱い"
 
 #. type: 段落
 #: oss-policy-templates/articles/09_trademark_and_brand.md:3
 msgid "Article 9. Handling of Trademarks and Branding"
-msgstr "第 9 條. 商標與品牌的處理"
+msgstr "第9条. 商標およびブランドの取扱い"
 
 #. type: 清單
 #: oss-policy-templates/articles/09_trademark_and_brand.md:4
 msgid "1. When displaying the Company name, logo, or other trademarks (hereinafter referred to as \"Company Trademarks\") in OSS activities, Employees shall comply with separately established Trademark Usage Policies."
-msgstr "1. 在 OSS 活動中標示本公司商號、標誌或其他商標（以下稱「本公司商標」）時，應依另行訂定的商標使用政策辦理。"
+msgstr "1. 当社の商号、ロゴその他の商標（以下「当社商標」という。）をOSS活動において表示する場合、別途定める商標使用ポリシーに従うものとする。"
 
 #. type: 段落
 #: oss-policy-templates/articles/09_trademark_and_brand.md:6
 msgid "Misuse of company names or logos creates false impressions of official endorsement, impacting corporate trust. Because OSS activities are public, trademark management for internal OSS influences community governance and brand integrity. Trademark governance involves Legal, PR, and IP teams alongside Engineering, making explicit inclusion in policy essential."
-msgstr "誤用公司名稱與標誌會造成「誤認為官方參與」，引發信譽問題。OSS 活動的公開範圍廣，容易直接影響評價，因此自家 OSS 的商標策略會同時影響社群運作與品牌兩方面。商標的處理有時不只涉及技術部門，也涉及公關、法務與智慧財產部門，因此以政策明文規定有其意義。"
+msgstr "会社名・ロゴの誤用は「公式関与の誤認」となり信用問題を招きます。OSS活動は公開範囲が広く評判へ直結しやすいため、自社OSSの商標戦略はコミュニティ運営とブランドの両面に影響します。商標の取り扱いは技術部門だけでなく広報・法務部門・知財部門等も関与する場合があるため、ポリシーとして明文化することに意義があります。"
 
 #. type: 段落
 #: oss-policy-templates/articles/09_trademark_and_brand.md:8
 msgid "If existing trademark policies do not cover open source use cases, add supplementary rules. Organize reference links to prevent duplicate rules."
-msgstr "若既有的商標使用政策未涵蓋 OSS 特有的使用情境，就需要補充增訂。為避免雙軌規則，請整理清楚彼此的引用關係。"
+msgstr "既存の商標使用ポリシーがOSS固有のユースケースをカバーしていない場合は補足追加が必要です。二重ルールを避けるため参照関係を整理してください。"
 
 #. type: 清單
 #: oss-policy-templates/articles/09_trademark_and_brand.md:9
@@ -567,20 +567,20 @@ msgid ""
 "- For third-party OSS logos/names, enforce compliance with \"refer to each project's trademark guidelines\" and maintain a directory of major project guidelines on an internal wiki.\n"
 "- Align trademark corrective workflows (takedown requests, branding fixes) with Article 10 incident procedures."
 msgstr ""
-"- 請訂出本公司所發佈 OSS 的商標註冊方針（是否註冊的判斷基準與判斷負責人）；考量成本，多數做法是只針對主要專案申請商標註冊。\n"
-"- GitHub 組織名稱、儲存庫名稱、標誌刊載等，請在 OSS 營運指南中說明。\n"
-"- 使用 OSS 專案的標誌與名稱時，應遵守「參照各專案的商標指引」原則，並在公司內部 Wiki 等處建立主要 OSS 專案商標指引的連結彙整。\n"
-"- 發生誤用時的更正流程（要求刪除、修正程序等），請與第 10 條的事件應對連動。"
+"- 当社が公開するOSSの商標登録方針（要否の判断基準・判断責任者）を定め、コストを踏まえて商標登録するのは主要プロジェクトに限定する運用が多いようです。\n"
+"- GitHub組織名・リポジトリ名・ロゴ掲載などをOSS運用ガイドラインで示します。\n"
+"- OSSプロジェクトのロゴ・名称の利用は「各プロジェクトの商標ガイドライン参照」を遵守し、主要なOSSプロジェクトの商標ガイドラインへのリンク集を社内Wiki等に整備しましょう。\n"
+"- 誤用発生時の是正フロー（削除依頼・修正手順等）は第10条のインシデント対応と連動させます。"
 
 #. type: 標題
 #: oss-policy-templates/articles/10_license_violation_incident.md:1
 msgid "# Article 10. Response to License Violations and Incidents"
-msgstr "# 第 10 條. 授權違規與事件的應對"
+msgstr "# 第10条. ライセンス違反およびインシデントへの対応"
 
 #. type: 段落
 #: oss-policy-templates/articles/10_license_violation_incident.md:3
 msgid "Article 10. Response to License Violations and Incidents"
-msgstr "第 10 條. 授權違規與事件的應對"
+msgstr "第10条. ライセンス違反およびインシデントへの対応"
 
 #. type: 清單
 #: oss-policy-templates/articles/10_license_violation_incident.md:4
@@ -588,18 +588,18 @@ msgid ""
 "1. When an Employee discovers a suspected license violation or other incident (including inquiries from external parties), the Employee shall promptly report it to the OSPO.\n"
 "2. Upon receiving the report under the preceding paragraph, the OSPO shall collaborate with relevant departments to investigate facts and promptly implement necessary corrective measures."
 msgstr ""
-"1. 包含來自外部的洽詢在內，發現疑似授權違規或其他事件時，員工應立即向 OSPO 報告。\n"
-"2. 接獲前項報告時，OSPO 應與相關部門協作調查事實關係，並立即採取必要的更正措施。"
+"1. 外部からの問い合わせを含め、ライセンス違反の疑いやその他のインシデントを発見した場合、従業員は速やかにOSPOへ報告しなければならない。\n"
+"2. 前項の報告を受けた場合、OSPOは関係部門と連携して事実関係を調査し、速やかに必要な是正措置を講じるものとする。"
 
 #. type: 段落
 #: oss-policy-templates/articles/10_license_violation_incident.md:6
 msgid "Delays in incident response compound legal liabilities and reputational damage, making clear initial response procedures vital. If reporting channels are ambiguous, issues risk being ignored; establishing a mandatory duty to report even at the \"suspected stage\" via defined channels is critical. OSPO and Legal guidance enables selection of appropriate remediation (halt distribution, refactor, contact copyright holders), while swift escalation to executive management ensures proper customer communication. Documenting incidents and corrective actions forms the foundation for preventing recurrence and building institutional knowledge."
-msgstr "應對愈延遲，法律與信譽上的損害就愈擴大，因此必須明確初期處理程序。若報告對象不明確，就有被擱置的風險，因此重點在於建立「即使只是疑似階段」也應立即報告的義務與明確的報告路徑。在 OSPO 與法務的支援下，才能適切選擇更正措施（停止、修正、聯絡權利人等）；迅速向經營層報告，也直接關係到對客戶的說明應對。事件與更正措施的紀錄，是防止再發生與累積組織知識的基礎。"
+msgstr "対応が遅れるほど法的・信用上の損害が拡大するため、初動手順の明確化が必要です。報告先が不明確だと放置されるリスクがあるため、「疑い段階」でも速やかに報告させる義務と明確な報告ルートの確立が重要です。OSPO・法務の支援で是正措置（停止・修正・権利者連絡等）を適切に選択でき、経営層への迅速な報告は顧客への説明対応にも直結します。インシデントと是正措置の記録は再発防止と組織的な知見蓄積の基盤となります。"
 
 #. type: 段落
 #: oss-policy-templates/articles/10_license_violation_incident.md:8
 msgid "Integrating this workflow into existing security/quality incident response systems unifies contact channels, lowering operational costs and improving procedural effectiveness."
-msgstr "整合進既有的資訊安全、品質事件流程並統一聯絡窗口，能同時兼顧程序的實效性與降低運作成本。"
+msgstr "既存のセキュリティ・品質インシデントフローに統合して窓口を一本化することが、手続の実効性と運用コスト削減の両立につながります。"
 
 #. type: 清單
 #: oss-policy-templates/articles/10_license_violation_incident.md:9
@@ -608,19 +608,19 @@ msgid ""
 "- Reflect contractual notice obligations and deadlines for customer-facing deliverables in response workflows.\n"
 "- Provide post-incident review templates (root cause analysis, remediation, training) to avoid building workflows from scratch. Link with Article 12 reporting to foster organizational learning."
 msgstr ""
-"- 請明確報告對象與方式（專用信箱、工單系統等），降低報告的門檻。若能在 OSS 營運指南中另外記載疑似違規的具體案例（漏標示等），會更容易判斷是否要報告。\n"
-"- 提供給客戶的產出物，請把契約上的通知義務與期限反映到程序中。\n"
-"- 請準備防止再發生的範本（原因分析、改善、教育），建立不必每次從零開始的機制。並請與第 13 條的紀錄連動，帶動組織學習。"
+"- 報告先と手段（専用メール・チケットシステム等）を明確にして報告のハードルを下げてください。違反疑いの具体例（表示漏れ等）を別途OSS運用ガイドラインに記載すると報告判断が容易になります。\n"
+"- 顧客提供物は契約上の通知義務・期限を手順に反映しておいてください。\n"
+"- 再発防止テンプレート（原因分析・改善・教育）を用意して毎回ゼロから作らない仕組みにしましょう。第13条の記録と連動させて組織学習に繋げてください。"
 
 #. type: 標題
 #: oss-policy-templates/articles/11_security_and_vulnerability.md:1
 msgid "# Article 11. Security and Vulnerability Management"
-msgstr "# 第 11 條. 資訊安全與弱點應對"
+msgstr "# 第11条. セキュリティおよび脆弱性対応"
 
 #. type: 段落
 #: oss-policy-templates/articles/11_security_and_vulnerability.md:3
 msgid "Article 11. Security and Vulnerability Management"
-msgstr "第 11 條. 資訊安全與弱點應對"
+msgstr "第11条. セキュリティおよび脆弱性対応"
 
 #. type: 清單
 #: oss-policy-templates/articles/11_security_and_vulnerability.md:4
@@ -629,19 +629,19 @@ msgid ""
 "[2. Project leads for OSS maintained by the Company shall clearly document vulnerability reporting contacts and basic response policies in accordance with Company security incident procedures (or standards defined by OSPO and Security).]\n"
 "3. The timing and content of vulnerability disclosures shall be determined by the Security department, considering user protection, legal compliance, and community conventions."
 msgstr ""
-"1. OSPO 接獲【本公司擔任維護者的 OSS 或】本公司所使用 OSS 的弱點資訊時，應通知相關部門，並支援評估、更正措施與對外公布等應對作業。\n"
-"【2. 本公司擔任維護者的各 OSS 專案負責人，應依本公司的資訊安全事件應對程序（或 OSPO 與資訊安全部門另行訂定的基準），在文件中明確標示弱點回報的聯絡方式與基本應對方針。】\n"
-"3. 弱點資訊的公布時機與內容，由資訊安全部門依使用者保護、法令遵循與社群慣例決定。"
+"1. OSPOは、【当社がメンテナーとなっているOSSまたは】当社が利用しているOSSに関する脆弱性情報を受領した場合、関係部門に連絡し、評価、是正措置、対外公表等の対応を支援する。\n"
+"【2. 当社がメンテナーとなっているOSSの各プロジェクトの責任者は、当社の情報セキュリティインシデント対応手順（またはOSPOおよびセキュリティ部門が別途定める基準）に従い、脆弱性報告の連絡先および基本的な対応方針をドキュメントに明示するものとする。】\n"
+"3. 脆弱性情報の公表タイミングや内容は、利用者保護、法令遵守およびコミュニティ慣行を踏まえてセキュリティ部門が決定する。"
 
 #. type: 段落
 #: oss-policy-templates/articles/11_security_and_vulnerability.md:6
 msgid "OSS vulnerabilities directly jeopardize customer security and service uptime, necessitating explicit roles and workflows. Continuous threat monitoring (CVEs) and impact assessment are critical, as missing vulnerabilities poses severe risk. Determining blast radius requires Software Bill of Materials (SBOM) visibility to drive rapid initial response. When maintaining public OSS, transparent disclosure, reporting to regulatory bodies, and releasing patches build market trust—requiring coordinated action between OSPO and Security. Vulnerability disclosure timing demands specialized judgment balancing user safety against exploit risks, requiring pre-established decision-making protocols."
-msgstr "OSS 弱點會直接影響客戶或造成服務中斷，因此必須明確角色與程序。這需要持續蒐集弱點資訊（CVE 等）並判斷影響，是容易出現疏漏的領域。要確定影響範圍，透過 SBOM 等方式掌握使用狀況不可或缺，這也左右初期應對的速度。若公司本身有發佈 OSS，資訊公開、向適當專業機構通報以及提供修正版本會影響外部信任，因此 OSPO 與資訊安全部門協作的應對體制不可或缺。弱點資訊的公布時機需要在使用者保護與攻擊風險之間權衡，屬於專業判斷，必須事先建立決策程序。"
+msgstr "OSS脆弱性は顧客影響やサービス停止に直結するため、役割と手順の明確化が必要です。継続的な脆弱性情報収集（CVE等）と影響判断が求められ、見落としが起きやすい領域です。影響範囲の特定にはSBOM等による利用状況の把握が不可欠で初動速度を左右します。自社がOSSを公開している場合は情報公開および然るべき専門機関への報告と修正版提供が外部からの信頼を左右するため、OSPOとセキュリティ部門が連携した対応体制が不可欠です。脆弱性情報の公表タイミングは利用者保護と攻撃リスクのバランスを要する専門的判断であり、あらかじめ意思決定の手順を整備しておく必要があります。"
 
 #. type: 段落
 #: oss-policy-templates/articles/11_security_and_vulnerability.md:8
 msgid "Public disclosure obligations differ based on whether vulnerability reports target Company-released OSS or external OSS dependencies. Define your organizational stance before establishing procedures."
-msgstr "弱點資訊是關於本公司 OSS 或外部 OSS，會改變弱點資訊公開責任的範圍。請先明確自家公司的位置，再建立程序。"
+msgstr "脆弱性情報が当社OSSに関するものか外部OSSに関するものかによって脆弱性情報の公開責任の範囲が変わります。自社のポジションを明確にしたうえで手順を整備してください。"
 
 #. type: 清單
 #: oss-policy-templates/articles/11_security_and_vulnerability.md:9
@@ -651,20 +651,20 @@ msgid ""
 "- If releasing OSS, standardize a `SECURITY.md` template across all projects. Set shared security team inboxes as report destinations.\n"
 "- Establish procedures aligned with Coordinated Vulnerability Disclosure (CVD) practices, and archive response logs under Article 12 records for audit and review."
 msgstr ""
-"- 請整合進 CSIRT／PSIRT 等既有流程，避免雙重管理。採用 CVSS 等標準的嚴重程度評估基準，並訂出對應嚴重程度的處理時程（例如：Critical 須於 X 小時內開始評估）。\n"
-"- 標準化影響判定的基準（嚴重程度、可達性、有無替代方案等），並準備緩解措施目錄（變更設定、停用功能等），加快初期應對。\n"
-"- 若公司有發佈 OSS，請標準化 SECURITY.md 範本並套用到所有專案。回報對象建議使用資訊安全團隊的共用信箱。\n"
-"- 請訂出符合協同弱點揭露（CVD）流程的應對程序，並將處理歷程留存於第 13 條的紀錄中，供稽核與檢視之用。"
+"- CSIRT/PSIRT等の既存プロセスに統合して二重管理を避けましょう。CVSSなど標準的な重大度評価基準を採用し、重大度に応じた対応タイムライン（例：CriticalはX時間以内に評価開始）を定めてください。\n"
+"- 影響判定の基準（重大度・到達可能性・代替有無等）を標準化し、回避策カタログ（設定変更・機能停止等）を用意して初動を速くします。\n"
+"- 当社がOSSを公開している場合はSECURITY.mdのテンプレートを標準化して全プロジェクトに適用しましょう。報告先はセキュリティチームの共有アドレスを推奨します。\n"
+"- 協調的脆弱性開示（CVD）プロセスに準拠した対応手順を定め、対応履歴は第13条の記録に残して監査・振り返りに活用してください。"
 
 #. type: 標題
 #: oss-policy-templates/articles/12_records_and_reporting.md:1
 msgid "# Article 12. Records and Reporting"
-msgstr "# 第 12 條. 紀錄與報告"
+msgstr "# 第12条. 記録および報告"
 
 #. type: 段落
 #: oss-policy-templates/articles/12_records_and_reporting.md:3
 msgid "Article 12. Records and Reporting"
-msgstr "第 12 條. 紀錄與報告"
+msgstr "第12条. 記録および報告"
 
 #. type: 清單
 #: oss-policy-templates/articles/12_records_and_reporting.md:4
@@ -676,22 +676,22 @@ msgid ""
 "  d. Summary of license violations, incidents, and corrective measures\n"
 "2. The OSPO shall report on Company OSS activities and risk posture to executive management at least once a year."
 msgstr ""
-"1. OSPO 應就下列事項製作紀錄，並保存適當期間。\n"
-"  a. 本公司所使用【及發佈】OSS 的清單、授權條款、【發佈狀況】與主要歷程\n"
-"  b. OSS 的主要使用狀況與授權評估結果\n"
-"  【c. CLA 的簽訂以及著作權、專利權相關的主要協議】\n"
-"  d. 授權違規、事件與更正措施的概要\n"
-"2. OSPO 應至少每年一次向經營層報告本公司的 OSS 活動與風險狀況。"
+"1. OSPOは、次の事項について記録を作成し、適切な期間保存する。\n"
+"  a. 当社が利用【及び公開】しているOSSの一覧、ライセンス、【公開状況】および主要な履歴\n"
+"  b. OSSの主要な利用状況およびライセンス評価結果\n"
+"  【c. CLA締結および著作権・特許権に関する主要な合意】\n"
+"  d. ライセンス違反、インシデントおよび是正措置の概要\n"
+"2. OSPOは、少なくとも年1回、経営層に対して当社のOSS活動およびリスク状況を報告する。"
 
 #. type: 段落
 #: oss-policy-templates/articles/12_records_and_reporting.md:6
 msgid "Without tracking utilized components, maintaining license compliance or vulnerability management is impossible; accurate record-keeping is essential. Visualizing OSS inventory establishes accountability for customer audits and due diligence. Retaining records of executed CLAs and strategic decisions tracks rights ownership, proving indispensable in legal disputes. Incident and remediation logs drive recurrence prevention and internal knowledge building, while annual executive reporting enables leadership to assess OSS health and make informed risk-investment decisions."
-msgstr "若不知道自己使用了什麼，就無法遵守授權條款，也無法應對弱點，因此需要紀錄。將 OSS 使用狀況可視化，才能因應對客戶與稽核的說明責任。留存 CLA 等協議與重要決策，才能追溯權利關係，這在法律爭議時是不可或缺的證據。事件與更正措施的紀錄是防止再發生與累積公司內部知識的基礎；透過年度報告，經營層能掌握 OSS 活動狀況，並就風險做出適切的投資判斷。"
+msgstr "何を使っているかわからないと、ライセンス遵守も脆弱性対応もできないため記録が必要です。OSSの利用状況を可視化することで顧客・監査への説明責任に備えられます。CLA等の合意や重要決定を残すことで権利関係の追跡が可能となり、法的紛争時の証拠として不可欠です。インシデントと是正措置の記録は再発防止と社内知見蓄積の基盤となり、年次報告で経営層がOSS活動の状況を把握してリスクへの投資判断を適切に行うことができます。"
 
 #. type: 段落
 #: oss-policy-templates/articles/12_records_and_reporting.md:8
 msgid "Adopt a phased expansion starting with critical products before scaling company-wide. Begin with a minimal record-keeping dataset (OSS name, version, license, distribution flag)."
-msgstr "從重要產品著手、再逐步擴展到全公司的做法較為務實。OSS 使用狀況的紀錄項目，請從最小集合（OSS 名稱、授權條款、是否散布等）開始。"
+msgstr "重要プロダクトから着手して段階的に全社へ拡大するアプローチが現実的です。OSSの利用状況に関する記録項目は最小セット（OSS名・ライセンス・配布有無等）から始めてください。"
 
 #. type: 清單
 #: oss-policy-templates/articles/12_records_and_reporting.md:9
@@ -701,35 +701,35 @@ msgid ""
 "- Maintain incident record templates covering factual timelines, root cause analysis, corrective actions, and prevention plans as standard fields.\n"
 "- Define retention periods, access controls, and maintenance ownership to avoid reliance on specific individuals."
 msgstr ""
-"- 請以減少人工輸入為目標，善用儲存庫管理工具（GitHub 等）的資訊，並與 SBOM 連動實現自動化，以確保持續性。\n"
-"- CLA 等已簽署文件請與契約管理系統整合，集中管理，並與法務部門的文件管理連動。\n"
-"- 請建立事件紀錄範本，把事實經過、原因分析、更正措施與防止再發生對策列為標準項目留存。\n"
-"- 請訂出保存期間、存取權限與更新責任，避免工作只依賴特定個人。"
+"- 手入力を減らし、リポジトリ管理ツール（GitHub等）の情報活用やSBOMと連動した自動化で継続性を確保することを目指しましょう。\n"
+"- CLA等の署名済み文書は契約管理システムと連携して一元管理し、法務部門の文書管理とも連携しましょう。\n"
+"- インシデント記録のテンプレートを整備して、事実経過・原因分析・是正措置・再発防止策を標準項目として残します。\n"
+"- 保存期間・アクセス権・更新責任を決めて属人化を防いでください。"
 
 #. type: 標題
 #: oss-policy-templates/articles/13_education_and_awareness.md:1
 msgid "# Article 13. Education and Awareness"
-msgstr "# 第 13 條. 教育與宣導"
+msgstr "# 第13条. 教育および啓発"
 
 #. type: 段落
 #: oss-policy-templates/articles/13_education_and_awareness.md:3
 msgid "Article 13. Education and Awareness"
-msgstr "第 13 條. 教育與宣導"
+msgstr "第13条. 教育および啓発"
 
 #. type: 清單
 #: oss-policy-templates/articles/13_education_and_awareness.md:4
 msgid "1. Employees using OSS shall complete relevant training covering basic OSS knowledge, license compliance, information security, and this Policy."
-msgstr "1. 使用 OSS 的員工應接受 OSS 基礎知識、授權遵循、資訊安全與本政策等相關教育。"
+msgstr "1. OSSを利用する従業員は、OSSに関する基礎知識、ライセンス遵守、情報セキュリティおよび本ポリシー等の関連する教育を受講する。"
 
 #. type: 段落
 #: oss-policy-templates/articles/13_education_and_awareness.md:6
 msgid "OSS violations stem primarily from lack of awareness; education represents the most effective preventive control. Given the diversity of open source licenses, baseline literacy is required for operational compliance. Because required knowledge varies by role (vulnerability response, distribution obligations, IP ownership), role-tailored training programs yield high efficacy. Policies fail unless communicated; continuous awareness raising builds organizational OSS literacy, enabling speed alongside governance."
-msgstr "OSS 違規常肇因於「不知情」，教育是最有效的預防手段。授權條款種類繁多，若沒有最起碼的共同理解就無法運作。弱點應對、出貨義務、權利歸屬等所需知識依角色而異，因此依職務類別設計教育課程相當有效。政策若未經宣導就無法發揮作用，持續的宣導不可或缺；提升組織的 OSS 素養，才能兼顧速度與管控。"
+msgstr "OSS違反は「知らなかった」が原因になりやすく、教育が最大の予防策です。ライセンスの種類が多く最低限の共通理解がないと運用できません。脆弱性対応・出荷義務・権利帰属など役割別に必要な知識が異なるため、職種別の教育プログラムが有効です。ポリシーは周知されなければ機能しないため継続的な啓発が不可欠であり、組織のOSSリテラシーを高めることでスピードと統制の両立を図ることができます。"
 
 #. type: 段落
 #: oss-policy-templates/articles/13_education_and_awareness.md:8
 msgid "Design separate tracks for general employee foundational training and developer practical training."
-msgstr "請把面向全公司的基礎訓練與面向開發者的實務訓練分開設計。"
+msgstr "全社向けの基礎研修と開発者向けの実践的研修を分けて設計しましょう。"
 
 #. type: 清單
 #: oss-policy-templates/articles/13_education_and_awareness.md:9
@@ -739,35 +739,35 @@ msgid ""
 "- Enhance retention by teaching through concrete failure examples and DOs/DON'Ts case studies.\n"
 "- Link attendance rates with Article 12 record-keeping to drive continuous program improvement."
 msgstr ""
-"- 以數位學習（e-learning）為基礎，再對有意願者提供更深入的訓練，是較有效率的做法。與外部講師或 OSS 社群合作也很有效。\n"
-"- 依對象設計課程深度，例如：開發者提供授權遵循實務與工具使用方式，管理職提供風險管理與決策觀點，法務提供 OSS 授權條款的法律解釋，採購與委外管理人員提供 OSS 申報與 SBOM 要求的做法。\n"
-"- 以事故案例與可行／不可行的實例具體教學，能加深理解。\n"
-"- 請將受訓率等資料與第 13 條的紀錄連動，持續進行改善。"
+"- e-learningを基盤として希望者向けにより詳細な研修を提供するのが効率的です。外部講師やOSSコミュニティとの連携も有効です。\n"
+"- 対象者別のカリキュラムとして、開発者にはライセンス遵守の実務とツール使用法を、管理職にはリスク管理と意思決定の観点を、法務にはOSSライセンスの法的解釈を、調達・外注管理担当にはOSS申告・SBOM要求の方法を提供するなど、役割に応じた深度で設計しましょう。\n"
+"- 事故例やOK/NG事例で具体的に教えることで理解が深まります。\n"
+"- 受講率等を第13条の記録と連動させて継続的な改善を行ってください。"
 
 #. type: 標題
 #: oss-policy-templates/articles/14_employment_rules_relation.md:1
 msgid "# Article 14. Relation to Employment Regulations"
-msgstr "# 第 14 條. 與工作規則等的關係"
+msgstr "# 第14条. 就業規則等との関係"
 
 #. type: 段落
 #: oss-policy-templates/articles/14_employment_rules_relation.md:3
 msgid "Article 14. Relation to Employment Regulations"
-msgstr "第 14 條. 與工作規則等的關係"
+msgstr "第14条. 就業規則等との関係"
 
 #. type: 清單
 #: oss-policy-templates/articles/14_employment_rules_relation.md:4
 msgid "1. The positioning of OSS activities, working hours, performance evaluations, and side activities (moonlighting) shall comply with Employment Regulations and HR policies. The OSPO shall consult with HR and Legal to establish necessary interpretations or supplementary rules."
-msgstr "1. OSS 活動的定位，以及與工作時間、考核、兼職的關係等，應依工作規則及其他人事相關規範辦理；OSPO 應與人資部門及法務部門商議後，研議必要的解釋或補充規則。"
+msgstr "1. OSS活動の位置付け、業務時間・評価・副業との関係等については、就業規則その他の人事関連規程に従うものとし、OSPOは人事部門および法務部門と相談のうえ必要な解釈または補足ルールを検討する。"
 
 #. type: 段落
 #: oss-policy-templates/articles/14_employment_rules_relation.md:6
 msgid "Ambiguity over whether OSS activity constitutes official duties or personal pursuit leads to labor, evaluation, and side-employment disputes. Community activities include tasks not directly tied to immediate assignments, creating working-hour accounting challenges. Contradictions with Employment Regulations create confusion and stall operations, making prior alignment with HR and Legal vital. Without alignment with appraisal systems, OSS activities deteriorate into formality; fostering a safe environment for open source engagement strengthens talent competitiveness."
-msgstr "若 OSS 活動屬於業務或個人行為不明確，就會引發勞務、考核與兼職上的糾紛。社群活動包含與業務不直接相關的工作，工時如何計算容易成為問題。若與工作規則矛盾，現場就會猶豫而導致運作停滯，因此與人資、法務事先協調相當重要。若未與考核與制度連動，OSS 活動容易流於形式；建立讓員工能安心投入 OSS 活動的環境，也有助於強化組織的競爭力。"
+msgstr "OSS活動が業務か私的かが曖昧だと労務・評価・副業のトラブルにつながります。コミュニティ活動は業務直結でない作業を含み、時間扱いが問題になりやすいです。就業規則と矛盾すると現場が迷い運用が止まるため、人事・法務との事前調整が重要です。評価・制度と連動しないとOSS活動が形骸化しやすく、従業員が安心してOSS活動に取り組める環境整備が組織としての競争力強化にもつながります。"
 
 #. type: 段落
 #: oss-policy-templates/articles/14_employment_rules_relation.md:8
 msgid "Initiate discussions with HR and Legal early to identify and resolve conflicts with primary policies (Employment Regulations, Side Employment Policy, Performance Review System)."
-msgstr "請及早與人資部門、法務部門開始協商，事先確認並消除與主要相關規範（工作規則、兼職規範、考核制度等）之間的矛盾。"
+msgstr "人事部門・法務部門と早期に協議を開始し、主要な関連規程（就業規則・副業規程・評価制度等）との矛盾を事前に確認し、解消するようにしてください。"
 
 #. type: 清單
 #: oss-policy-templates/articles/14_employment_rules_relation.md:9
@@ -775,18 +775,18 @@ msgid ""
 "- Define the scope of activities recognized as official business and align them with working hours. If side-employment policies exist, explicitly outline relations to personal OSS activities (disclosure requirements, permission criteria).\n"
 "- Recognizing that total initial alignment is difficult, adopt an iterative approach to refine rules during actual operations."
 msgstr ""
-"- 定義認定為業務的活動範圍，並與工作時間規定保持一致。若已有兼職規範，請依需要明訂其與 OSS 活動的關係（是否需申報、許可條件）。\n"
-"- 一開始就要求完全一致並不容易，請以在運作過程中逐步整理的方針推進。"
+"- 業務として認める活動の範囲を定義して勤務時間と整合させます。副業規程があるなら必要に応じてOSS活動との関係（申告要否・許可条件）を明記してください。\n"
+"- 完全な整合を最初から求めることは難しいため、運用の中で逐次整理していく方針で進めてください。"
 
 #. type: 標題
 #: oss-policy-templates/articles/15_revision_and_enforcement.md:1
 msgid "# Article 15. Revision and Enforcement"
-msgstr "# 第 15 條. 修訂與施行"
+msgstr "# 第15条. 改定および施行"
 
 #. type: 段落
 #: oss-policy-templates/articles/15_revision_and_enforcement.md:3
 msgid "Article 15. Revision and Enforcement"
-msgstr "第 15 條. 修訂與施行"
+msgstr "第15条. 改定および施行"
 
 #. type: 清單
 #: oss-policy-templates/articles/15_revision_and_enforcement.md:4
@@ -794,13 +794,13 @@ msgid ""
 "1. The enactment and revision of this Policy shall be drafted by the OSPO and executed through the Company's prescribed approval procedures.\n"
 "2. This Policy shall take effect on the enforcement date specified by the Company."
 msgstr ""
-"1. 本政策的制定與修訂，依 OSPO 所擬草案，經本公司既定決行程序後辦理。\n"
-"2. 本政策自本公司所訂施行日起生效。"
+"1. 本ポリシーの制定および改定は、OSPOが作成した案に基づき、当社の所定の決裁手続を経て行う。\n"
+"2. 本ポリシーは、当社が定める施行日から効力を生ずる。"
 
 #. type: 段落
 #: oss-policy-templates/articles/15_revision_and_enforcement.md:6
 msgid "Technology, legal frameworks, and community norms surrounding OSS evolve rapidly, necessitating periodic policy reviews. Explicitly defining a revision process where the OSPO drafts proposals for executive approval balances domain expertise with formal organizational authority. Specifying the enforcement date establishes a clear legal start point, while defining non-retroactivity rules manages impact on legacy software projects."
-msgstr "圍繞 OSS 的技術、法律與社群慣例變化很快，政策需要定期檢視。明訂由 OSPO 起草、再經既定決行程序的修訂流程，可建立兼顧專業性與組織正當性的持續改善機制。明示施行日是明確政策生效時點的基本規定；有關溯及適用的規定，則是管理其對既有 OSS 活動影響所必需。"
+msgstr "OSSを取り巻く技術・法律・コミュニティ慣行は変化が早く、ポリシーの定期的な見直しが必要です。OSPOが起案しつつ所定の決裁を経る改定手続を明示することで、専門性と組織的正統性を両立させた継続的改善の仕組みが確立されます。施行日の明示はポリシーの効力の開始時点を明確にする基本的な規定であり、遡及適用に関する規定は既存のOSS活動への影響を管理するために必要です。"
 
 #. type: 清單
 #: oss-policy-templates/articles/15_revision_and_enforcement.md:8
@@ -809,6 +809,6 @@ msgid ""
 "- Conduct an inventory of existing OSS usage prior to enforcement to identify non-compliant components, establishing a realistic remediation schedule that avoids overwhelming development teams.\n"
 "- Clarify criteria for grandfathering legacy projects while leaving room to update legal interpretations as open source standards evolve."
 msgstr ""
-"- 請在 OSS 營運指南中明訂修訂頻率（建議至少每年檢視一次）與觸發修訂的事由（法規修訂、重大事件、組織變更等），並訂出修訂歷程的紀錄方式與宣導方式。\n"
-"- 施行前請先盤點既有的 OSS 活動，找出需要更正的項目，並以不對現場造成過度負擔的時程處理。\n"
-"- 請明確不適用溯及規定的情形基準，並保留可更新解釋的空間，以便跟上制度變更。"
+"- 改定の頻度（少なくとも年1回の見直しを推奨）と引き金となる事柄（法改正・重大インシデント・組織変更等）をOSS運用ガイドラインに明記してください。改定履歴の記録と周知方法も定めましょう。\n"
+"- 施行前に既存のOSS活動の棚卸しを実施して是正が必要な項目を特定し、現場に過度な負担をかけないスケジュールで対応してください。\n"
+"- 遡及適用の対象外となるケースの基準を明確にし、解釈を更新できる余地を残して制度変更に追随できるようにしましょう。"

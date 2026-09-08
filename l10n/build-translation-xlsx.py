@@ -18,7 +18,8 @@ from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
 
 import mdblocks
-from l10n_files import BASE, COMPONENTS, component_files, label_for, path_for
+from l10n_files import (BASE, COMPONENTS, MSGID, SPINE, TARGET, component_files,
+                        label_for, path_for)
 
 OUT = os.path.join(BASE, "l10n", "ospo-starter-kit-zh-TW-translations.xlsx")
 
@@ -31,19 +32,19 @@ GREY_FILL = PatternFill("solid", fgColor=GREY)
 WRAP_TOP = Alignment(wrap_text=True, vertical="top")
 WRAP_CENTER = Alignment(wrap_text=True, vertical="center")
 
-HEADERS = ["頁面", "區塊", "類型", "日文（原文）", "英文（參考）",
+HEADERS = ["頁面", "區塊", "類型", "英文（原文）", "日文（參考）",
            "中文（機器初稿）", "中文（校對後）", "狀態", "備註"]
 WIDTHS = [30, 6, 12, 58, 58, 58, 58, 10, 28]
 
 
-def align(ja, other):
+def align(spine, other):
     """英文版結構偶爾與日文不同，依區塊類型序列對位，對不上的留空。"""
     if other is None:
-        return [""] * len(ja)
-    if len(ja) == len(other):
+        return [""] * len(spine)
+    if len(spine) == len(other):
         return [b.text for b in other]
-    out = [""] * len(ja)
-    matcher = difflib.SequenceMatcher(a=[b.kind for b in ja],
+    out = [""] * len(spine)
+    matcher = difflib.SequenceMatcher(a=[b.kind for b in spine],
                                      b=[b.kind for b in other], autojunk=False)
     for tag, i1, i2, j1, j2 in matcher.get_opcodes():
         if tag in ("equal", "replace"):
@@ -73,15 +74,16 @@ for cid, sheet, spec in COMPONENTS:
 
     r = 2
     for rel in component_files(spec):
-        ja = read_blocks(path_for(rel, "ja"))
-        en = align(ja, read_blocks(path_for(rel, "en")))
-        zh = align(ja, read_blocks(path_for(rel, "zh_Hant")))
-        for idx, block in enumerate(ja, 1):
+        spine = read_blocks(path_for(rel, SPINE))
+        en = align(spine, read_blocks(path_for(rel, MSGID)))
+        zh = align(spine, read_blocks(path_for(rel, TARGET)))
+        for idx, block in enumerate(spine, 1):
             # 只有「原文與譯文完全相同的程式碼／分隔線」才鎖起來；
             # 程式碼區塊裡的註解有時是要翻的（例如目錄樹的說明）。
             locked = block.kind in mdblocks.NO_TRANSLATE and zh[idx - 1] == block.text
-            vals = [label_for(rel), idx, block.kind, block.text, en[idx - 1],
-                    zh[idx - 1], None, "—" if locked else "待校", None]
+            note = None if en[idx - 1] else "英文版無對應區塊，不進 Weblate"
+            vals = [label_for(rel), idx, block.kind, en[idx - 1], block.text,
+                    zh[idx - 1], None, "—" if locked else "待校", note]
             for ci, v in enumerate(vals, 1):
                 c = ws.cell(row=r, column=ci, value=v)
                 c.font = BODY_FONT; c.alignment = WRAP_TOP
@@ -118,8 +120,9 @@ for col, w in zip("ABCDEFG", [34, 16, 14, 14, 46, 20, 12]):
 
 grand = sum(n for _, n in totals)
 put(1, 1, "OSPO 入門套件 正體中文（zh-TW）翻譯校對表", T); info.row_dimensions[1].height = 20
-put(3, 1, f"`contents/ja/` 的 37 頁日文文件（含 README），切成 {grand} 個區塊（標題／段落／清單／表格／引用／註解／程式碼）。"
-          "中文欄已填入機器翻譯初稿，待母語者校對。", wrap=True); info.row_dimensions[3].height = 42
+put(3, 1, f"37 頁文件（含 README）切成 {grand} 個區塊（標題／段落／清單／表格／引用／註解／程式碼）。"
+          "原始語言是英文，日文是 IPA 權威原文供對照，中文欄已填入初稿待母語者校對。", wrap=True)
+info.row_dimensions[3].height = 42
 put(4, 1, "匯入 Google 試算表：檔案 → 匯入 → 上傳此檔 → 選「插入新的試算表」，各分頁會自動成為獨立工作表。", wrap=True)
 info.row_dimensions[4].height = 32
 put(5, 1, "偏好 Weblate 的話用 l10n/po/ 的 PO 檔，內容與本表相同（`檔名:序號` 對得起來）。", wrap=True)
@@ -127,11 +130,11 @@ put(5, 1, "偏好 Weblate 的話用 l10n/po/ 的 PO 檔，內容與本表相同�
 put(7, 1, "欄位說明", H)
 put(8, 1, "欄位", B); put(8, 2, "說明", B); put(8, 5, "如何處理", B)
 FIELDS = [
-    ("頁面", "來源檔案（相對於 contents/ja/），用來定位。", "唯讀"),
+    ("頁面", "來源檔案（相對於 contents/），用來定位。", "唯讀"),
     ("區塊", "該檔案中的第幾個區塊。與 contents/zh-TW/ 的同名檔案、PO 的 `檔名:序號` 一一對應。", "唯讀"),
     ("類型", "標題／段落／清單／表格／引用／註解／程式碼／分隔線。", "唯讀"),
-    ("日文（原文）", "翻譯來源，保留原始 Markdown 語法。", "唯讀"),
-    ("英文（參考）", "既有的英文版（contents/en/）。可看出哪些詞刻意保留英文。README 沒有英文版，該欄留空。", "唯讀"),
+    ("英文（原文）", "原始語言（contents/en/），也是 PO 的 msgid。少數區塊英文版沒有，該欄留空。", "唯讀"),
+    ("日文（參考）", "IPA 的日文原文（contents/ja/），決定區塊順序。英文版語意有疑慮時以它為準。", "唯讀"),
     ("中文（機器初稿）", "目前 contents/zh-TW/ 實際使用的譯文。", "唯讀，保留供比對"),
     ("中文（校對後）", "只在你要改動時填寫；維持原譯就留空。", "★ 請填這欄"),
     ("狀態", "待譯 / 待校 / OK / 已修改 / —（下拉選單）。", "★ 請更新"),
