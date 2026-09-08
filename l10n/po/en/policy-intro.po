@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OSPO Starter Kit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-08\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Source-Language: ja\n"
+"X-Generator: ospo-starter-kit l10n/markdown-to-po.py\n"
+
+#. type: 標題
+#: oss-policy-templates/introduction.md:1
+msgid "# はじめに ─ この文書の使い方"
+msgstr "# Introduction ─ How to Use This Document"
+
+#. type: 標題
+#: oss-policy-templates/introduction.md:2
+msgid "## 本文書について"
+msgstr "## About This Document"
+
+#. type: 段落
+#: oss-policy-templates/introduction.md:3
+msgid ""
+"本文書は、社内OSSポリシー（全社規定）を策定する際に参考となる条文サンプルと、その背景・カスタマイズ指針をまとめたテンプレートです。\n"
+"本文書はあくまで「たたき台」であり、各社の組織形態・事業内容・既存規程に合わせて修正・調整したうえで正式なポリシーとして採用してください。"
+msgstr ""
+"This document is a template containing sample policy clauses, background rationales, and customization guidelines to assist in formulating an internal company-wide OSS Policy.\n"
+"This document serves as a starting draft; customize and adapt it to align with your organization's structure, business domain, and existing regulations prior to formal adoption."
+
+#. type: 標題
+#: oss-policy-templates/introduction.md:4
+msgid "## 文書の見方"
+msgstr "## Structure of This Document"
+
+#. type: 段落
+#: oss-policy-templates/introduction.md:5
+msgid "各条文は以下の3つのセクションで構成されています。"
+msgstr "Each article consists of the following three sections:"
+
+#. type: 清單
+#: oss-policy-templates/introduction.md:6
+msgid ""
+"- **条文サンプル**：条文の本文テキスト案です。第○条→第○項→号（a. b. c. …）の階層で記載しています。この文言をベースに自社向けに修正してご利用ください。\n"
+"なお、OSSの利用に特化する場合は「【】」でくくられた箇所を省くことで対応できます。\n"
+"- **解説**：その条文を設ける目的・背景・リスクを説明します。策定の根拠として経営層や関係部門への説明資料としても活用できます。\n"
+"- **カスタマイズの観点と運用上の留意事項**：自社の規模・事業形態・既存規程に合わせて調整する際のポイントを示します。追加・削除・統合すべき事項のヒントが含まれています。"
+msgstr ""
+"- **Sample Article**: Draft text of the article. Structured hierarchically: Article -> Paragraph -> Sub-item (a, b, c...). Use this wording as a baseline for your customized policy. Note: If your policy focuses solely on OSS usage (excluding contributions/releases), you can omit bracketed text marked with `【 】`.\n"
+"- **Commentary**: Explains the purpose, background, and risk management rationale behind the article. Use this section when presenting justification to executive management or key stakeholders.\n"
+"- **Customization Perspectives and Operational Notes**: Provides actionable insights for tailoring the policy to your company's scale, business model, and existing rules. Contains tips on items to add, remove, or consolidate."
+
+#. type: 標題
+#: oss-policy-templates/introduction.md:7
+msgid "## 条文サンプルの使い方"
+msgstr "## How to Apply Sample Articles"
+
+#. type: 清單
+#: oss-policy-templates/introduction.md:8
+msgid ""
+"- **ステップ1**：各条文の「条文サンプル」を読み、自社のOSS活動の実態・方針と照らし合わせてください。\n"
+"- **ステップ2**：「カスタマイズの観点と運用上の留意事項」を参考に、不要な項・号の削除や文言の調整を行ってください。\n"
+"- **ステップ3**：条文中の「株式会社［会社名］」「別途定める」などのプレースホルダーを自社の実情に合わせて置き換えてください。\n"
+"- **ステップ4**：既存の就業規則・情報セキュリティポリシー・職務著作規程などとの整合性を法務・人事部門と確認してください。\n"
+"- **ステップ5**：本ポリシー中の「OSPO」はOSPOの役割を担う担当部門名（OSS委員会、法務部門・情報システム部門等）に置き替えてください。"
+msgstr ""
+"- **Step 1**: Read the \"Sample Article\" for each article and compare it against your company's current OSS practices and strategic goals.\n"
+"- **Step 2**: Refer to \"Customization Perspectives and Operational Notes\" to delete unnecessary paragraphs/items or adjust phrasing.\n"
+"- **Step 3**: Replace placeholders like \"[Company Name] Co., Ltd.\" or \"separately specified\" with your company's actual information.\n"
+"- **Step 4**: Verify alignment with existing internal regulations (Employment Regulations, Information Security Policy, Work-for-Hire Rules) in consultation with Legal and HR.\n"
+"- **Step 5**: Replace references to \"OSPO\" in this Policy with your actual designated governing body (e.g., OSS Committee, Legal Dept, IT Dept)."
+
+#. type: 標題
+#: oss-policy-templates/introduction.md:9
+msgid "## ディレクトリ構成"
+msgstr "## Directory Structure"
+
+#. type: 程式碼
+#: oss-policy-templates/introduction.md:10
+#, no-wrap
+msgid ""
+"```text\n"
+"oss-policy-templates/\n"
+"├── introduction.md          # 本ファイル（使い方・条文構成一覧）\n"
+"└── articles/                # 各条文ファイル\n"
+"    ├── 00_preamble.md\n"
+"    ├── 01_purpose.md\n"
+"    ├── 02_definitions.md\n"
+"    ├── 03_scope.md\n"
+"    ├── 04_ospo.md\n"
+"    ├── 05_oss_usage.md\n"
+"    ├── 06_contribution.md\n"
+"    ├── 07_oss_release.md\n"
+"    ├── 08_personal_oss_activity.md\n"
+"    ├── 09_trademark_and_brand.md\n"
+"    ├── 10_license_violation_incident.md\n"
+"    ├── 11_security_and_vulnerability.md\n"
+"    ├── 12_records_and_reporting.md\n"
+"    ├── 13_education_and_awareness.md\n"
+"    ├── 14_employment_rules_relation.md\n"
+"    └── 15_revision_and_enforcement.md\n"
+"```"
+msgstr ""
+"```text\n"
+"oss-policy-templates/\n"
+"├── introduction.md          # This file (Usage and Article List)\n"
+"└── articles/                # Individual Article Files\n"
+"    ├── 00_preamble.md\n"
+"    ├── 01_purpose.md\n"
+"    ├── 02_definitions.md\n"
+"    ├── 03_scope.md\n"
+"    ├── 04_ospo.md\n"
+"    ├── 05_oss_usage.md\n"
+"    ├── 06_contribution.md\n"
+"    ├── 07_oss_release.md\n"
+"    ├── 08_personal_oss_activity.md\n"
+"    ├── 09_trademark_and_brand.md\n"
+"    ├── 10_license_violation_incident.md\n"
+"    ├── 11_security_and_vulnerability.md\n"
+"    ├── 12_records_and_reporting.md\n"
+"    ├── 13_education_and_awareness.md\n"
+"    ├── 14_employment_rules_relation.md\n"
+"    └── 15_revision_and_enforcement.md\n"
+"```"
+
+#. type: 段落
+#: oss-policy-templates/introduction.md:11
+msgid "`articles/` 配下のファイル名の先頭2桁の数字は条文番号（第0条〜第15条）と対応しています。"
+msgstr "The leading two-digit number in file names under `articles/` corresponds to the article number (Article 0 to Article 15)."
+
+#. type: 標題
+#: oss-policy-templates/introduction.md:12
+msgid "## 条文構成一覧"
+msgstr "## Summary of Articles"
+
+#. type: 清單
+#: oss-policy-templates/introduction.md:13
+msgid ""
+"- 第0条 前文\n"
+"- 第1条 目的\n"
+"- 第2条 用語の定義\n"
+"- 第3条 適用範囲\n"
+"- 第4条 OSPO\n"
+"- 第5条 OSSの利用\n"
+"- 第6条 OSSプロジェクトへのコントリビューション\n"
+"- 第7条 当社著作物のOSSとしての公開\n"
+"- 第8条 従業員の私的OSS活動\n"
+"- 第9条 商標およびブランドの取扱い\n"
+"- 第10条 ライセンス違反およびインシデントへの対応\n"
+"- 第11条 セキュリティおよび脆弱性対応\n"
+"- 第12条 記録および報告\n"
+"- 第13条 教育および啓発\n"
+"- 第14条 就業規則等との関係\n"
+"- 第15条 改定および施行"
+msgstr ""
+"- Article 0. Preamble\n"
+"- Article 1. Purpose\n"
+"- Article 2. Definitions\n"
+"- Article 3. Scope of Application\n"
+"- Article 4. OSPO\n"
+"- Article 5. OSS Usage\n"
+"- Article 6. Contribution to OSS Projects\n"
+"- Article 7. Releasing Company Works as OSS\n"
+"- Article 8. Employees' Personal OSS Activities\n"
+"- Article 9. Handling of Trademarks and Branding\n"
+"- Article 10. Response to License Violations and Incidents\n"
+"- Article 11. Security and Vulnerability Management\n"
+"- Article 12. Records and Reporting\n"
+"- Article 13. Education and Awareness\n"
+"- Article 14. Relation to Employment Regulations\n"
+"- Article 15. Revision and Enforcement"

@@ -1,0 +1,386 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OSPO Starter Kit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-08\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Source-Language: ja\n"
+"X-Generator: ospo-starter-kit l10n/markdown-to-po.py\n"
+
+#. type: 標題
+#: README.md:1
+msgid "# OSPOスターターキット　ドラフト版"
+msgstr "# OSPO 入門套件　草案版"
+
+#. type: 段落
+#: README.md:2
+msgid "本キットは、組織においてオープンソースプログラムオフィス（OSPO）を設立し、オープンソースの戦略的な活用と適切なガバナンス体制を構築するためのテンプレート集です。"
+msgstr "本套件是一套範本集，協助組織設立開放原始碼專案辦公室（OSPO），建立開放原始碼的策略性運用與適當的治理體制。"
+
+#. type: 標題
+#: README.md:3
+msgid "## ⚠️ 開発ステータスと今後の予定"
+msgstr "## ⚠️ 開發狀態與後續計畫"
+
+#. type: 段落
+#: README.md:4
+msgid ""
+"本キットは現在 **「ドラフト版（未完成）」** です。一部の内容は検討中または作成途中であり、今後大幅に更新される可能性があります。アップデートの状況については、[Releases\n"
+"](https://github.com/japan-opensource-hub/ospo-starter-kit/releases)を参照してください。"
+msgstr ""
+"本套件目前為 **「草案版（未完成）」**。部分內容仍在評估中或製作途中，未來可能大幅更新。關於更新狀況，請參閱 [Releases\n"
+"](https://github.com/japan-opensource-hub/ospo-starter-kit/releases)。"
+
+#. type: 標題
+#: README.md:5
+msgid "## 同梱ファイル一覧と概要"
+msgstr "## 隨附檔案一覽與概要"
+
+#. type: 段落
+#: README.md:6
+msgid "本キットには以下のドキュメントが含まれています。"
+msgstr "本套件包含以下文件。"
+
+#. type: 標題
+#: README.md:7
+msgid "### A. OSSポリシー（全社規定）テンプレート（`oss-policy-templates/`）"
+msgstr "### A. OSS 政策（全公司規範）範本（`oss-policy-templates/`）"
+
+#. type: 段落
+#: README.md:8
+msgid "社内OSSポリシー（全社規定）を策定する際に参考となる条文サンプルと、その背景・カスタマイズ指針をまとめたテンプレートです。各条文は「条文サンプル」「解説」「カスタマイズの観点と運用上の留意事項」の3セクションで構成されています。"
+msgstr "這是一套範本，彙整了制定公司內部 OSS 政策（全公司規範）時可供參考的條文範例，以及其背景與客製化指引。每一條條文由「條文範例」「解說」「客製化的觀點與運作上的注意事項」三個小節構成。"
+
+#. type: 清單
+#: README.md:9
+msgid ""
+"- `introduction.md`：はじめに ─ この文書の使い方\n"
+"- `articles/00_preamble.md`：第0条前文\n"
+"- `articles/01_purpose.md`：第1条目的\n"
+"- `articles/02_definitions.md`：第2条用語の定義\n"
+"- `articles/03_scope.md`：第3条適用範囲\n"
+"- `articles/04_ospo.md`：第4条OSPO\n"
+"- `articles/05_oss_usage.md`：第5条OSSの利用\n"
+"- `articles/06_contribution.md`：第6条OSSプロジェクトへのコントリビューション\n"
+"- `articles/07_oss_release.md`：第7条当社著作物のOSSとしての公開\n"
+"- `articles/08_personal_oss_activity.md`：第8条従業員の私的OSS活動\n"
+"- `articles/09_trademark_and_brand.md`：第9条商標およびブランドの取扱い\n"
+"- `articles/10_license_violation_incident.md`：第10条ライセンス違反およびインシデントへの対応\n"
+"- `articles/11_security_and_vulnerability.md`：第11条セキュリティおよび脆弱性対応\n"
+"- `articles/12_records_and_reporting.md`：第12条記録および報告\n"
+"- `articles/13_education_and_awareness.md`：第13条教育および啓発\n"
+"- `articles/14_employment_rules_relation.md`：第14条就業規則等との関係\n"
+"- `articles/15_revision_and_enforcement.md`：第15条改定および施行"
+msgstr ""
+"- `introduction.md`：前言 ─ 本文件的使用方式\n"
+"- `articles/00_preamble.md`：第 0 條 前言\n"
+"- `articles/01_purpose.md`：第 1 條 目的\n"
+"- `articles/02_definitions.md`：第 2 條 用語定義\n"
+"- `articles/03_scope.md`：第 3 條 適用範圍\n"
+"- `articles/04_ospo.md`：第 4 條 OSPO\n"
+"- `articles/05_oss_usage.md`：第 5 條 OSS 的使用\n"
+"- `articles/06_contribution.md`：第 6 條 對 OSS 專案的貢獻\n"
+"- `articles/07_oss_release.md`：第 7 條 本公司著作以 OSS 形式發佈\n"
+"- `articles/08_personal_oss_activity.md`：第 8 條 員工的個人 OSS 活動\n"
+"- `articles/09_trademark_and_brand.md`：第 9 條 商標與品牌的處理\n"
+"- `articles/10_license_violation_incident.md`：第 10 條 授權違規與事件的應對\n"
+"- `articles/11_security_and_vulnerability.md`：第 11 條 資訊安全與弱點應對\n"
+"- `articles/12_records_and_reporting.md`：第 12 條 紀錄與報告\n"
+"- `articles/13_education_and_awareness.md`：第 13 條 教育與宣導\n"
+"- `articles/14_employment_rules_relation.md`：第 14 條 與工作規則等的關係\n"
+"- `articles/15_revision_and_enforcement.md`：第 15 條 修訂與施行"
+
+#. type: 標題
+#: README.md:10
+msgid "### B. 運用テンプレート（`operation-templates/`）"
+msgstr "### B. 營運範本（`operation-templates/`）"
+
+#. type: 段落
+#: README.md:11
+msgid "社内ポータルサイト（WikiやSharePoint等）に掲載し、担当者に周知するためのドキュメントテンプレートです。各テンプレートに「カスタマイズチェックリスト」「カスタマイズガイド（コメント内）」を記載しています。"
+msgstr "這是一套文件範本，用於刊載在公司內部入口網站（Wiki 或 SharePoint 等），向承辦人宣導。每份範本都附有「客製化檢核清單」與「客製化指南（寫在註解中）」。"
+
+#. type: 段落
+#: README.md:12
+msgid "テンプレートの導入・カスタマイズ手順については、`how-to-use-templates-for-ospo.md`（OSPO担当者向け）および `how-to-use-guide-for-users.md`（利用者向け）を参照してください。"
+msgstr "關於範本的導入與客製化程序，請參閱 `how-to-use-templates-for-ospo.md`（給 OSPO 承辦人）與 `how-to-use-guide-for-users.md`（給使用者）。"
+
+#. type: 清單
+#: README.md:13
+msgid ""
+"- **基礎・組織**（`about/`）\n"
+"  - `opensource-guide.md`：オープンソースガイド（入り口）\n"
+"  - `about-opensource.md`：オープンソースについて\n"
+"  - `benefits.md`：オープンソースの利点\n"
+"  - `ospo.md`：OSPOとは\n"
+"  - `innersource.md`：インナーソースとは\n"
+"  - `glossary.md`：用語集"
+msgstr ""
+"- **基礎與組織**（`about/`）\n"
+"  - `opensource-guide.md`：開放原始碼指南（入口）\n"
+"  - `about-opensource.md`：關於開放原始碼\n"
+"  - `benefits.md`：開放原始碼的效益\n"
+"  - `ospo.md`：什麼是 OSPO\n"
+"  - `innersource.md`：什麼是內源\n"
+"  - `glossary.md`：詞彙表"
+
+#. type: 清單
+#: README.md:14
+msgid ""
+"- **ライセンスコンプライアンス**（`compliance/`）\n"
+"  - `license-compliance.md`：オープンソースライセンスコンプライアンス\n"
+"  - `what-is-a-license.md`：ライセンスとは\n"
+"  - `license-types.md`：ライセンスの種類\n"
+"  - `source-disclosure-licenses.md`：ソースコード提供義務のあるライセンス\n"
+"  - `oss-with-commercial-license-options.md`：商用ライセンスが選択できるOSS\n"
+"  - `license-faq.md`：ライセンスFAQ"
+msgstr ""
+"- **授權合規**（`compliance/`）\n"
+"  - `license-compliance.md`：開放原始碼授權合規\n"
+"  - `what-is-a-license.md`：什麼是授權條款\n"
+"  - `license-types.md`：授權條款的種類\n"
+"  - `source-disclosure-licenses.md`：有原始碼提供義務的授權條款\n"
+"  - `oss-with-commercial-license-options.md`：可選擇商用授權的 OSS\n"
+"  - `license-faq.md`：授權條款常見問題"
+
+#. type: 清單
+#: README.md:15
+msgid ""
+"- **実務・OSS活用**（`using/`）\n"
+"  - `using-oss.md`：OSSを使う\n"
+"  - `finding-oss.md`：OSSの探し方\n"
+"  - `oss-inventory.md`：社内導入済みOSSリスト\n"
+"  - `evaluation.md`：OSSの評価方法\n"
+"  - `supplier-procurement.md`：サプライヤーからのOSS入手手順\n"
+"  - `usage-faq.md`：OSS利用FAQ"
+msgstr ""
+"- **實務與 OSS 運用**（`using/`）\n"
+"  - `using-oss.md`：使用 OSS\n"
+"  - `finding-oss.md`：OSS 的尋找方式\n"
+"  - `oss-inventory.md`：公司內部已導入 OSS 清單\n"
+"  - `evaluation.md`：OSS 的評估方法\n"
+"  - `supplier-procurement.md`：自供應商取得 OSS 的程序\n"
+"  - `usage-faq.md`：OSS 使用常見問題"
+
+#. type: 標題
+#: README.md:16
+msgid "## ライセンスについて"
+msgstr "## 關於授權"
+
+#. type: 段落
+#: README.md:17
+msgid "本キットに含まれるテキストおよびドキュメントは、 **[CC0 1.0 Universal (パブリックドメイン提供)](https://creativecommons.org/publicdomain/zero/1.0/)** の下で提供されています。"
+msgstr "本套件所含的文字與文件，以 **[CC0 1.0 Universal（提供至公眾領域）](https://creativecommons.org/publicdomain/zero/1.0/)** 提供。"
+
+#. type: 清單
+#: README.md:18
+msgid ""
+"- **著作権の放棄**：著作権法上の権利を放棄しており、営利・非営利を問わず、許可なく複製、改変、再配布が可能です。\n"
+"- **クレジット表記不要**：原作者のクレジット（帰属）を表示する必要はありません。自社のブランドやロゴを用いた社内公式ドキュメントとして、自由に書き換えてご利用ください。"
+msgstr ""
+"- **拋棄著作權**：已拋棄著作權法上的權利，無論營利或非營利，都可以未經許可重製、修改與再散布。\n"
+"- **不需標示出處**：不需要標示原作者的姓名（歸屬）。歡迎自由改寫，作為使用自家品牌與標誌的公司內部正式文件使用。"
+
+#. type: 標題
+#: README.md:19
+msgid "## 免責事項（ご利用上の注意）"
+msgstr "## 免責聲明（使用上的注意事項）"
+
+#. type: 段落
+#: README.md:20
+msgid "本キットはCC0ライセンスにより著作権的な制約なくご利用いただけますが、以下の点にご留意ください。"
+msgstr "本套件依 CC0 授權，可在無著作權限制的情況下使用，但請留意以下幾點。"
+
+#. type: 清單
+#: README.md:21
+msgid ""
+"- **法務確認の必要性**：本キットに含まれるポリシーおよびライセンス解説は一般的な雛形です。実際の運用にあたっては、必ず自社の法務・知財部門または専門家の確認を受けてください。\n"
+"- **無保証**：本キットは「現状のまま」提供され、商品性、特定目的への適合性、非侵害の保証を含むいかなる明示的または黙示的な保証も行いません。本キットの利用に起因していかなる損害が生じた場合も、提供者は責任を負いません。"
+msgstr ""
+"- **需要法務確認**：本套件所含的政策與授權解說均為一般性範本。實際運作時，請務必取得自家公司法務、智慧財產部門或專家的確認。\n"
+"- **不提供任何保證**：本套件以「現狀」提供，不提供任何明示或默示的保證，包括可商用性、特定目的適用性與不侵權的保證。因使用本套件而產生任何損害時，提供者不負任何責任。"
+
+#. type: 標題
+#: README.md:22
+msgid "## コントリビューションガイドライン（暫定）"
+msgstr "## 貢獻指南（暫行）"
+
+#. type: 段落
+#: README.md:23
+msgid "運用しながら随時アップデートしますが、当面は以下を目安とします。"
+msgstr "本指南會在運作過程中隨時更新，目前暫以下列內容為準。"
+
+#. type: 清單
+#: README.md:24
+msgid ""
+"- 大きな構造変更や方針変更は、まずIssuesで相談しましょう。\n"
+"  - 例：ディレクトリ構成の変更、テンプレートの大幅な書き換え、運用ルールの変更 等\n"
+"  - 改善提案は背景・期待する効果を明記してください。\n"
+"- 小さな修正（誤字脱字、軽微な表現調整）はそのままPull Request(以下、PR)して構いません。\n"
+"- PRのタイトル・説明には、できるだけ「なぜそうするのか」を簡潔に記載してください。\n"
+"  - コミットタイトルに [add], [fix], [update] などのタグを先頭に付けることを推奨します。\n"
+"- PR対応\n"
+"  - 1名以上のレビューを経てマージすることとします。\n"
+"  - テストやリンターなど、自動レビューが成功していることを確認することとします。"
+msgstr ""
+"- 較大的結構變更或方針變更，請先在 Issues 討論。\n"
+"  - 例如：目錄結構的變更、範本的大幅改寫、運作規則的變更等\n"
+"  - 改善建議請明確寫出背景與期待的效果。\n"
+"- 小幅修正（錯字、輕微的措辭調整）可直接提出 Pull Request（以下稱 PR）。\n"
+"- PR 的標題與說明中，請盡可能簡潔寫出「為什麼要這樣做」。\n"
+"  - 建議在提交標題開頭加上 [add]、[fix]、[update] 等標籤。\n"
+"- PR 處理\n"
+"  - 須經一位以上審查後才合併。\n"
+"  - 須確認測試與 linter 等自動審查已通過。"
+
+#. type: 標題
+#: README.md:25
+msgid "## 対応目安（SLA: Service Level Agreement）"
+msgstr "## 處理時間目標（SLA: Service Level Agreement）"
+
+#. type: 段落
+#: README.md:26
+msgid "運営側は、以下の方針を目安として、Issue / Pull Requestへの対応を行います。"
+msgstr "維運方以下列方針為目標，處理 Issue 與 Pull Request。"
+
+#. type: 標題
+#: README.md:27
+msgid "### 対応時間の目安"
+msgstr "### 處理時間的目標"
+
+#. type: 清單
+#: README.md:28
+msgid ""
+"- Issue への一次対応\n"
+"  - 原則として **1〜2週間以内** にコメントまたはラベル付与を行うこととします。\n"
+"- Pull Request のレビュー\n"
+"  - 原則として **2週間以内** にレビューまたは進捗コメントを行うこととします。"
+msgstr ""
+"- Issue 的初次回應\n"
+"  - 原則上於 **1～2 週內** 留言或加上標籤。\n"
+"- Pull Request 的審查\n"
+"  - 原則上於 **2 週內** 進行審查或留下進度留言。"
+
+#. type: 段落
+#: README.md:29
+msgid "上記はあくまで目安であり、時期や状況により遅れる可能性があります。"
+msgstr "以上僅為目標，可能因時期與狀況而延遲。"
+
+#. type: 標題
+#: README.md:30
+msgid "### 対応範囲の考え方"
+msgstr "### 處理範圍的原則"
+
+#. type: 段落
+#: README.md:31
+msgid "運営側は、主に以下のような項目を対応対象とします。"
+msgstr "維運方主要以下列項目為處理對象。"
+
+#. type: 清單
+#: README.md:32
+msgid ""
+"- テンプレートの内容や構成に関する変更・改善\n"
+"- 用語の統一や表現の整理\n"
+"- OSPOスターターキットの全体方針・位置づけに関する調整"
+msgstr ""
+"- 範本內容或結構的變更與改善\n"
+"- 用語統一或措辭整理\n"
+"- OSPO 入門套件整體方針與定位的調整"
+
+#. type: 段落
+#: README.md:33
+msgid "一方、以下の内容は原則として **運営側のSLA対象外** とします。"
+msgstr "另一方面，下列內容原則上 **不在維運方的 SLA 範圍內**。"
+
+#. type: 清單
+#: README.md:34
+msgid ""
+"- 各組織ごとの固有事情に踏み込んだ個別コンサルティング\n"
+"- 本リポジトリ外のシステム設定やネットワーク、認証周りのトラブルシュート\n"
+"- OSPO以外の全社制度・ガバナンス設計そのものの承認・決裁\n"
+"- その他、テンプレートの内容に関連のない事柄"
+msgstr ""
+"- 深入各組織特有情況的個別諮詢顧問服務\n"
+"- 本儲存庫以外的系統設定、網路、認證相關的疑難排解\n"
+"- OSPO 以外的全公司制度與治理設計本身的核准與決行\n"
+"- 其他與範本內容無關的事項"
+
+#. type: 標題
+#: README.md:35
+msgid "### 営業日・対応時間の前提"
+msgstr "### 工作日與處理時間的前提"
+
+#. type: 清單
+#: README.md:36
+msgid ""
+"- 営業日は **平日（日本時間）** を前提とします。\n"
+"- 繁忙期やイベント対応期間などは、上記の目安より遅れる場合があります。"
+msgstr ""
+"- 工作日以 **平日（日本時間）** 為前提。\n"
+"- 在忙季或活動應對期間，可能比上述目標延遲。"
+
+#. type: 標題
+#: README.md:37
+msgid "### SLA の位置づけ"
+msgstr "### SLA 的定位"
+
+#. type: 清單
+#: README.md:38
+msgid ""
+"- ここで示す内容は、あくまで「運営側として目指す対応の目安」であり、必ずしも法的拘束力のあるサービス保証を行うものではありません。\n"
+"- 実際の運用状況やリソースに応じて、SLAの内容は見直し・更新する可能性があります。"
+msgstr ""
+"- 此處所示內容僅為「維運方所欲達成的處理目標」，並非必然具法律拘束力的服務保證。\n"
+"- SLA 的內容可能依實際運作狀況與資源而檢視、更新。"
+
+#. type: 標題
+#: README.md:39
+msgid "## 発行元・お問い合わせ"
+msgstr "## 發行單位與聯絡方式"
+
+#. type: 段落
+#: README.md:40
+msgid "本キットの内容に関するご質問は以下のメールアドレス宛にご連絡ください。"
+msgstr "關於本套件內容的問題，請寄至以下電子郵件地址。"
+
+#. type: 段落
+#: README.md:41
+msgid "発行元：独立行政法人情報処理推進機構（IPA）"
+msgstr "發行單位：獨立行政法人資訊處理推進機構（IPA）"
+
+#. type: 段落
+#: README.md:42
+msgid "連絡先：IPA デジタル&AIシステムズ・デザインセンター（DADC） disc-info@ipa.go.jp"
+msgstr "聯絡方式：IPA 數位與 AI 系統設計中心（DADC） disc-info@ipa.go.jp"
+
+#. type: 標題
+#: README.md:43
+msgid "## 制作チーム・謝辞"
+msgstr "## 製作團隊與致謝"
+
+#. type: 段落
+#: README.md:44
+msgid "本キットの企画・作成にあたり、以下のメンバーが中心となって貢献しました。所属は初版（ドラフト版）公開時点のものです。"
+msgstr "本套件的規劃與製作，主要由以下成員貢獻。所屬單位為初版（草案版）公開時的資訊。"
+
+#. type: 清單
+#: README.md:45
+msgid ""
+"- 企画：今村 かずき（IPAデジタル基盤センター デジタルエンジニアリング部 ソフトウェアエンジニアリンググループ）\n"
+"- 執筆：服部 佑樹（IPA専門委員・ギットハブ・ジャパン合同会社） / 渡邊 歩（IPA専門委員・株式会社日立ソリューションズ） / 福地 弘行（IPAデジタル基盤センター デジタルエンジニアリング部 ソフトウェアエンジニアリンググループ）\n"
+"- レビュー：大内 佳子（三菱電機株式会社） / 大和田 清志（株式会社ソシオネクスト）"
+msgstr ""
+"- 規劃：今村 かずき（IPA 數位基盤中心 數位工程部 軟體工程小組）\n"
+"- 撰稿：服部 佑樹（IPA 專門委員、GitHub Japan 合同會社） / 渡邊 歩（IPA 專門委員、Hitachi Solutions 股份有限公司） / 福地 弘行（IPA 數位基盤中心 數位工程部 軟體工程小組）\n"
+"- 審查：大内 佳子（三菱電機股份有限公司） / 大和田 清志（Socionext 股份有限公司）"
+
+#. type: 段落
+#: README.md:46
+msgid "また、フィードバックをいただいたOSPOレベル1構築ワークショップ参加チームの皆様に感謝いたします。"
+msgstr "此外，也感謝提供回饋的 OSPO Level 1 建置工作坊各參與團隊。"

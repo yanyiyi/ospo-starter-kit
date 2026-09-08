@@ -1,0 +1,451 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OSPO Starter Kit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-08\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Source-Language: ja\n"
+"X-Generator: ospo-starter-kit l10n/markdown-to-po.py\n"
+
+#. type: 標題
+#: operation-templates/how-to-use-templates-for-ospo.md:1
+msgid "# OSPO担当者向け・テンプレートの使い方"
+msgstr "# 給 OSPO 承辦人・範本的使用方式"
+
+#. type: 標題
+#: operation-templates/how-to-use-templates-for-ospo.md:2
+msgid "## 前提（ポリシーとの構造）"
+msgstr "## 前提（與政策的結構關係）"
+
+#. type: 段落
+#: operation-templates/how-to-use-templates-for-ospo.md:3
+msgid ""
+"ポリシー（全社規程）は「何を守るか／誰が対象か／何を目的とするか」を定義し、具体的な手続は運用ガイドへ委任しています。\n"
+"本テンプレート（この運用ドキュメント群）は、運用ガイドの実装物として整合させるようにカスタマイズします。"
+msgstr ""
+"政策（全公司規範）定義的是「要遵守什麼／適用對象是誰／目的為何」，具體程序則委由營運指南規定。\n"
+"本範本（這一組營運文件）作為營運指南的實作內容，客製化時應與政策保持一致。"
+
+#. type: 標題
+#: operation-templates/how-to-use-templates-for-ospo.md:4
+msgid "## はじめ方のスタンス"
+msgstr "## 起步時的心態"
+
+#. type: 段落
+#: operation-templates/how-to-use-templates-for-ospo.md:5
+msgid ""
+"現時点で分からなくてもOKです。分からない点を明確にし、社内で誰に協力してもらうべきか、何を準備すべきかを明らかにしましょう。\n"
+"完全版を目指して止まるより、まずは最小構成で公開し、運用しながら改善する方針を推奨します（段階的リリース）。"
+msgstr ""
+"現階段還不清楚也沒關係。請先釐清不清楚的地方，弄明白該請公司內部哪些人協助、需要準備什麼。\n"
+"與其為了追求完整版而停滯不前，建議先以最小架構發佈，邊運作邊改善（分階段發佈）。"
+
+#. type: 標題
+#: operation-templates/how-to-use-templates-for-ospo.md:6
+msgid "## OSPOがまず決めるべき「目的」"
+msgstr "## OSPO 首先該決定的「目的」"
+
+#. type: 段落
+#: operation-templates/how-to-use-templates-for-ospo.md:7
+msgid "OSPOのカスタマイズは、目的によって最適解が変わります。まず何を最優先にするかを決めると、以降の判断がブレません。"
+msgstr "OSPO 的客製化會因目的不同而有不同的最佳解。先決定最優先的事項，後續判斷就不會搖擺。"
+
+#. type: 段落
+#: operation-templates/how-to-use-templates-for-ospo.md:8
+msgid "例：コンプライアンス重視／セキュリティ重視／公開・貢献促進"
+msgstr "例如：重視合規／重視資訊安全／推動發佈與貢獻"
+
+#. type: 標題
+#: operation-templates/how-to-use-templates-for-ospo.md:9
+msgid "### 4つの柱で抜けを防ぐ"
+msgstr "### 用四大支柱避免遺漏"
+
+#. type: 段落
+#: operation-templates/how-to-use-templates-for-ospo.md:10
+msgid "カスタマイズ時の論点は、以下の4つに整理できます。迷ったらこの4分類に戻って、抜けと偏りを点検します。"
+msgstr "客製化時的議題可以整理成以下四項。猶豫時就回到這四類，檢查是否有遺漏或偏重。"
+
+#. type: 清單
+#: operation-templates/how-to-use-templates-for-ospo.md:11
+msgid ""
+"- Mission：OSS活動の目的とビジョン\n"
+"- Incentive：ステークホルダーの動機とベネフィット\n"
+"- Compliance：法的・技術的ルールとガバナンス\n"
+"- Engagement：コミュニティとの関わり方（利用・貢献・公開の段階設計）"
+msgstr ""
+"- Mission：OSS 活動的目的與願景\n"
+"- Incentive：利害關係人的動機與效益\n"
+"- Compliance：法律與技術規則以及治理\n"
+"- Engagement：與社群的互動方式（使用、貢獻、發佈的階段設計）"
+
+#. type: 標題
+#: operation-templates/how-to-use-templates-for-ospo.md:12
+msgid "## 優先度をつけたカスタマイズ例"
+msgstr "## 排定優先順序的客製化範例"
+
+#. type: 標題
+#: operation-templates/how-to-use-templates-for-ospo.md:13
+msgid "### A. 運用開始に必要な項目（最初に整備する）"
+msgstr "### A. 開始運作所必需的項目（最先建置）"
+
+#. type: 清單
+#: operation-templates/how-to-use-templates-for-ospo.md:14
+msgid ""
+"- ガイドの入り口となるドキュメントを整備する（[[会社名] オープンソースガイド](./about/opensource-guide.md)）\n"
+"- OSSの基礎・組織ガイドを整備する（[オープンソースについて](./about/about-opensource.md) / [オープンソースの利点](./about/benefits.md)）\n"
+"- [OSSを使う](./using/using-oss.md)（OSS活用の流れ・評価・ライセンス確認・導入まで網羅）\n"
+"- [OSSの探し方](./using/finding-oss.md) / [社内導入済みOSSリスト](./using/oss-inventory.md)\n"
+"- [OSSの評価方法](./using/evaluation.md)\n"
+"- ライセンスを理解する（[オープンソースライセンスコンプライアンス](./compliance/license-compliance.md) / [ライセンスとは](./compliance/what-is-a-license.md) / [ライセンスの種類](./compliance/license-types.md)）\n"
+"- [サプライヤーからのOSS入手手順](./using/supplier-procurement.md)※委託・共同開発がある組織は特に優先\n"
+"- 　困ったら調べる・相談する（[OSS利用FAQ](./using/usage-faq.md) / [用語集](./about/glossary.md) / [OSPOとは](./about/ospo.md)）\n"
+"- インシデント／脆弱性の報告・初動\n"
+"  - ポリシーで報告・対応の枠組みが求められるため、最優先候補\n"
+"- 出荷・提供前に確認する（製品・サービスとして配布/提供する組織は早期に必須）"
+msgstr ""
+"- 建置作為指南入口的文件（[[公司名稱] 開放原始碼指南](./about/opensource-guide.md)）\n"
+"- 建置 OSS 基礎與組織指南（[關於開放原始碼](./about/about-opensource.md) / [開放原始碼的效益](./about/benefits.md)）\n"
+"- [使用 OSS](./using/using-oss.md)（涵蓋 OSS 運用流程、評估、授權確認到導入）\n"
+"- [OSS 的尋找方式](./using/finding-oss.md) / [公司內部已導入 OSS 清單](./using/oss-inventory.md)\n"
+"- [OSS 的評估方法](./using/evaluation.md)\n"
+"- 理解授權條款（[開放原始碼授權合規](./compliance/license-compliance.md) / [什麼是授權條款](./compliance/what-is-a-license.md) / [授權條款的種類](./compliance/license-types.md)）\n"
+"- [自供應商取得 OSS 的程序](./using/supplier-procurement.md)※有委外或共同開發的組織尤其應優先\n"
+"- 　遇到問題時查詢與諮詢（[OSS 使用常見問題](./using/usage-faq.md) / [詞彙表](./about/glossary.md) / [什麼是 OSPO](./about/ospo.md)）\n"
+"- 事件／弱點的回報與初期處理\n"
+"  - 政策要求建立回報與應對架構，因此屬最優先候選\n"
+"- 出貨、提供前的確認（以產品或服務形式散布、提供的組織必須及早建置）"
+
+#. type: 標題
+#: operation-templates/how-to-use-templates-for-ospo.md:15
+msgid "### B. 余裕がある、または、将来段階的に目指す（運用が回り始めてから）"
+msgstr "### B. 有餘力時，或未來分階段推進（運作上軌道之後）"
+
+#. type: 清單
+#: operation-templates/how-to-use-templates-for-ospo.md:16
+msgid ""
+"- 注意が必要なケース（[ソースコード提供義務のあるライセンス](./compliance/source-disclosure-licenses.md) / [商用ライセンスが選択できるOSS](./compliance/oss-with-commercial-license-options.md)）\n"
+"  - → 問題が顕在化してから対応することも可能だが、SaaS提供や配布が多い組織では早期の整備を推奨（例：製品同梱・顧客提供・アプリ配布が多い場合）\n"
+"- [ライセンスFAQ](./compliance/license-faq.md) / NOTICEファイル\n"
+"  - → 運用が回り始めてから詳細化\n"
+"- [インナーソースとは](./about/innersource.md)\n"
+"  - → 社内OSS活動を促進するフェーズになってから検討\n"
+"- OSSを公開する手順\n"
+"  - → 自社OSSを公開しないなら後回し／公開するなら早期に必要\n"
+"- 外部OSSへのコントリビューション手順\n"
+"  - → 業務として貢献するフェーズになってから整備（包括許諾などで負荷を下げる）\n"
+"- 私的OSS活動ガイド\n"
+"  - → 社員の活動が活発化してから詳細化（守秘・名義・資源の境界を中心に）"
+msgstr ""
+"- 需要注意的情況（[有原始碼提供義務的授權條款](./compliance/source-disclosure-licenses.md) / [可選擇商用授權的 OSS](./compliance/oss-with-commercial-license-options.md)）\n"
+"  - → 也可以等問題浮現後再處理，但以 SaaS 提供或散布較多的組織建議及早建置（例如：產品隨附、提供給客戶、應用程式散布較多的情況）\n"
+"- [授權條款常見問題](./compliance/license-faq.md) / NOTICE 檔案\n"
+"  - → 等運作上軌道後再細化\n"
+"- [什麼是內源](./about/innersource.md)\n"
+"  - → 進入推動公司內部 OSS 活動的階段後再考量\n"
+"- 發佈 OSS 的程序\n"
+"  - → 若不發佈自家 OSS 可以延後；若要發佈則須及早準備\n"
+"- 對外部 OSS 貢獻的程序\n"
+"  - → 進入以業務身分貢獻的階段後再建置（以概括許可等方式降低負擔）\n"
+"- 個人 OSS 活動指南\n"
+"  - → 員工活動變得活躍後再細化（重點在保密、名義與資源的界線）"
+
+#. type: 標題
+#: operation-templates/how-to-use-templates-for-ospo.md:17
+msgid "## ステークホルダーへのメッセージの設計"
+msgstr "## 對利害關係人訊息的設計"
+
+#. type: 段落
+#: operation-templates/how-to-use-templates-for-ospo.md:18
+msgid ""
+"テンプレートの導入・定着には、誰が「Yes」と言う必要があるか、どんな懸念（例：ライセンス、セキュリティ）を持つかを先に整理し、相手に響くメッセージを準備します。\n"
+"展開後はフィードバックを集め、FAQやガイドへ還流して改善サイクルを回します。"
+msgstr ""
+"要導入並讓範本落地，請先整理清楚需要誰說「Yes」、對方會有哪些顧慮（例如授權條款、資訊安全），再準備能打動對方的訊息。\n"
+"推展之後請收集回饋，回流到 FAQ 與指南，讓改善循環持續運轉。"
+
+#. type: 標題
+#: operation-templates/how-to-use-guide-for-users.md:1
+msgid "# 利用者向け・ガイドの使い方"
+msgstr "# 給使用者・指南的使用方式"
+
+#. type: 標題
+#: operation-templates/how-to-use-guide-for-users.md:2
+msgid "## まずここから読む"
+msgstr "## 先從這裡開始讀"
+
+#. type: 清單
+#: operation-templates/how-to-use-guide-for-users.md:3
+msgid ""
+"- 社内におけるオープンソース活用の入り口\n"
+"  - → [[会社名] オープンソースガイド](./about/opensource-guide.md)"
+msgstr ""
+"- 公司內部開放原始碼運用的入口\n"
+"  - → [[公司名稱] 開放原始碼指南](./about/opensource-guide.md)"
+
+#. type: 標題
+#: operation-templates/how-to-use-guide-for-users.md:4
+msgid "## OSSについて理解する"
+msgstr "## 認識 OSS"
+
+#. type: 清單
+#: operation-templates/how-to-use-guide-for-users.md:5
+msgid ""
+"- OSSとは何か、なぜ使うのか\n"
+"  - → [オープンソースについて](./about/about-opensource.md)\n"
+"- OSSを使うことのメリット\n"
+"  - → [オープンソースの利点](./about/benefits.md)\n"
+"- 社内でOSS活動を推進する組織（OSPO）\n"
+"  - → [OSPOとは](./about/ospo.md)\n"
+"- 社内でオープンソースの手法を活かす（インナーソース）\n"
+"  - → [インナーソースとは](./about/innersource.md)"
+msgstr ""
+"- 什麼是 OSS、為什麼要使用\n"
+"  - → [關於開放原始碼](./about/about-opensource.md)\n"
+"- 使用 OSS 的好處\n"
+"  - → [開放原始碼的效益](./about/benefits.md)\n"
+"- 在公司內部推動 OSS 活動的組織（OSPO）\n"
+"  - → [什麼是 OSPO](./about/ospo.md)\n"
+"- 在公司內部活用開放原始碼的做法（內源）\n"
+"  - → [什麼是內源](./about/innersource.md)"
+
+#. type: 標題
+#: operation-templates/how-to-use-guide-for-users.md:6
+msgid "## OSS活用フローの実践ガイド"
+msgstr "## OSS 運用流程實務指南"
+
+#. type: 清單
+#: operation-templates/how-to-use-guide-for-users.md:7
+msgid ""
+"- OSS活用の流れ・評価・ライセンス確認・導入まで網羅した実践ガイド\n"
+"  - → [OSSを使う](./using/using-oss.md)"
+msgstr ""
+"- 涵蓋 OSS 運用流程、評估、授權確認到導入的實務指南\n"
+"  - → [使用 OSS](./using/using-oss.md)"
+
+#. type: 標題
+#: operation-templates/how-to-use-guide-for-users.md:8
+msgid "## OSSを探す"
+msgstr "## 尋找 OSS"
+
+#. type: 清單
+#: operation-templates/how-to-use-guide-for-users.md:9
+msgid ""
+"- 既存OSSで解決できないか\n"
+"- どこから探すか\n"
+"- [社内導入済みOSSリスト](./using/oss-inventory.md)／推奨OSS\n"
+"  - → [OSSの探し方](./using/finding-oss.md)"
+msgstr ""
+"- 能否用既有的 OSS 解決\n"
+"- 從哪裡尋找\n"
+"- [公司內部已導入 OSS 清單](./using/oss-inventory.md)／推薦的 OSS\n"
+"  - → [OSS 的尋找方式](./using/finding-oss.md)"
+
+#. type: 標題
+#: operation-templates/how-to-use-guide-for-users.md:10
+msgid "## OSSを評価する"
+msgstr "## 評估 OSS"
+
+#. type: 清單
+#: operation-templates/how-to-use-guide-for-users.md:11
+msgid ""
+"- 技術的に使えるか\n"
+"- ライセンス的に問題ないか（ざっくり）\n"
+"- 脆弱性と保守状況（更新頻度・対応姿勢）\n"
+"- 依存関係（間接依存）\n"
+"  - → [OSSの評価方法](./using/evaluation.md)"
+msgstr ""
+"- 技術上是否可用\n"
+"- 授權條款上是否有問題（粗略判斷）\n"
+"- 弱點與維護狀況（更新頻率、應對態度）\n"
+"- 相依性（間接相依）\n"
+"  - → [OSS 的評估方法](./using/evaluation.md)"
+
+#. type: 標題
+#: operation-templates/how-to-use-guide-for-users.md:12
+msgid "## ライセンスの基本を理解する"
+msgstr "## 理解授權條款的基本觀念"
+
+#. type: 清單
+#: operation-templates/how-to-use-guide-for-users.md:13
+msgid ""
+"- OSSには条件がある\n"
+"- 配布・SaaS・社内利用の違い\n"
+"- 利用形態（社内利用／配布／SaaS）\n"
+"- ライセンスコンプライアンスの全体像\n"
+"  - → [オープンソースライセンスコンプライアンス](./compliance/license-compliance.md)\n"
+"- ライセンスとは何か\n"
+"  - → [ライセンスとは](./compliance/what-is-a-license.md)\n"
+"- ライセンスの種類と分類\n"
+"  - → [ライセンスの種類](./compliance/license-types.md)"
+msgstr ""
+"- OSS 附帶條件\n"
+"- 散布、SaaS、公司內部使用的差異\n"
+"- 使用形態（公司內部使用／散布／SaaS）\n"
+"- 授權合規的整體樣貌\n"
+"  - → [開放原始碼授權合規](./compliance/license-compliance.md)\n"
+"- 什麼是授權條款\n"
+"  - → [什麼是授權條款](./compliance/what-is-a-license.md)\n"
+"- 授權條款的種類與分類\n"
+"  - → [授權條款的種類](./compliance/license-types.md)"
+
+#. type: 標題
+#: operation-templates/how-to-use-guide-for-users.md:14
+msgid "## 注意が必要なケース"
+msgstr "## 需要注意的情況"
+
+#. type: 清單
+#: operation-templates/how-to-use-guide-for-users.md:15
+msgid ""
+"- ソース公開義務が発生するケース\n"
+"- 商用契約が必要になるケース\n"
+"- \"OSSに見えるがOSSではない\"\n"
+"- → [ソースコード提供義務のあるライセンス](./compliance/source-disclosure-licenses.md) / [商用ライセンスが選択できるOSS](./compliance/oss-with-commercial-license-options.md)"
+msgstr ""
+"- 會產生原始碼公開義務的情況\n"
+"- 需要商用契約的情況\n"
+"- 「看起來像 OSS，但其實不是 OSS」\n"
+"- → [有原始碼提供義務的授權條款](./compliance/source-disclosure-licenses.md) / [可選擇商用授權的 OSS](./compliance/oss-with-commercial-license-options.md)"
+
+#. type: 標題
+#: operation-templates/how-to-use-guide-for-users.md:16
+msgid "## 開発・調達でOSSを使う"
+msgstr "## 在開發與採購中使用 OSS"
+
+#. type: 清單
+#: operation-templates/how-to-use-guide-for-users.md:17
+msgid ""
+"- 自社開発\n"
+"- サプライヤーからの納品\n"
+"- 委託・共同開発では、契約段階でOSSの取り決め（OSSリスト提出、SBOM、是正対応等）\n"
+"- 利用しているOSSの情報（一覧・評価結果・判断結果）の記録\n"
+"- 他社製品／SDK／ミドルウェア等を購入して自社製品に組み込み販売する場合\n"
+"  - 調達品にOSSが含まれないか確認（OSS情報提出・確認の対象）\n"
+"  - → [サプライヤーからのOSS入手手順](./using/supplier-procurement.md)"
+msgstr ""
+"- 自行開發\n"
+"- 供應商交付\n"
+"- 委外與共同開發時，在契約階段就 OSS 相關事項做出約定（提交 OSS 清單、SBOM、更正處理等）\n"
+"- 記錄所使用 OSS 的資訊（清單、評估結果、判斷結果）\n"
+"- 購買其他公司產品／SDK／中介軟體等，內嵌到自家產品後銷售的情況\n"
+"  - 確認採購品中是否含有 OSS（屬於提交與確認 OSS 資訊的對象）\n"
+"  - → [自供應商取得 OSS 的程序](./using/supplier-procurement.md)"
+
+#. type: 標題
+#: operation-templates/how-to-use-guide-for-users.md:18
+msgid "## 出荷・提供前に確認する"
+msgstr "## 出貨、提供前的確認"
+
+#. type: 清單
+#: operation-templates/how-to-use-guide-for-users.md:19
+msgid ""
+"- ライセンス遵守\n"
+"- 添付物（LICENSE / NOTICE）\n"
+"- 成果物の確定\n"
+"- 出荷物に含まれるOSS一覧、評価結果・判断結果の記録\n"
+"- 必要に応じたソース提供・改変明示\n"
+"- ライセンス違反・情報漏えい・脆弱性などの疑いがある場合\n"
+"- 成果物の真正性・来歴を担保する（署名、SBOM、プロビナンス等）\n"
+"- 契約条件の確認\n"
+"  - （例：EULA/契約上の制限とOSS条件の整合、LGPL等で必要となり得る利用者側の権利確保、OSSライセンス条項の優先適用が妨げられないことの確認）"
+msgstr ""
+"- 遵守授權條款\n"
+"- 隨附文件（LICENSE / NOTICE）\n"
+"- 確定產出物\n"
+"- 記錄出貨物所含 OSS 清單、評估結果與判斷結果\n"
+"- 依需要提供原始碼、明示修改處\n"
+"- 疑似有授權違規、資訊外洩、弱點等情況時\n"
+"- 確保產出物的真實性與來歷（簽章、SBOM、來源證明等）\n"
+"- 確認契約條件\n"
+"  - （例如：EULA／契約上的限制與 OSS 條件是否相容、LGPL 等可能要求確保使用者一方的權利、確認 OSS 授權條款的優先適用未受妨礙）"
+
+#. type: 標題
+#: operation-templates/how-to-use-guide-for-users.md:20
+msgid "## 出荷後（運用・保守で対応する）"
+msgstr "## 出貨後（於運作與維護階段處理）"
+
+#. type: 清單
+#: operation-templates/how-to-use-guide-for-users.md:21
+msgid ""
+"- ソースコード提供要求への対応（要求受付窓口、提供手順、提供物の範囲）\n"
+"- 脆弱性・バグ対応（影響評価→修正/回避→周知→再発防止の流れ）\n"
+"- 出荷後に判明したOSS混入・ライセンス問題の是正（必要に応じてアップデートや通知）\n"
+"- 依存関係更新／SBOM更新などの継続的メンテナンス"
+msgstr ""
+"- 應對原始碼提供要求（要求受理窗口、提供程序、提供範圍）\n"
+"- 弱點與程式錯誤應對（影響評估→修正／緩解→宣導→防止再發生的流程）\n"
+"- 更正出貨後才發現的 OSS 混入與授權問題（依需要進行更新或通知）\n"
+"- 更新相依性、更新 SBOM 等持續性維護"
+
+#. type: 標題
+#: operation-templates/how-to-use-guide-for-users.md:22
+msgid "## 困ったら調べる・相談する"
+msgstr "## 遇到問題時查詢與諮詢"
+
+#. type: 清單
+#: operation-templates/how-to-use-guide-for-users.md:23
+msgid ""
+"- [OSS利用FAQ](./using/usage-faq.md)\n"
+"- [ライセンスFAQ](./compliance/license-faq.md)\n"
+"- [用語集](./about/glossary.md)\n"
+"- [OSPOとは](./about/ospo.md)\n"
+"- 外部OSSへのコントリビューションやCLA署名が関わる場合"
+msgstr ""
+"- [OSS 使用常見問題](./using/usage-faq.md)\n"
+"- [授權條款常見問題](./compliance/license-faq.md)\n"
+"- [詞彙表](./about/glossary.md)\n"
+"- [什麼是 OSPO](./about/ospo.md)\n"
+"- 涉及對外部 OSS 貢獻或簽署 CLA 的情況"
+
+#. type: 標題
+#: operation-templates/how-to-use-guide-for-users.md:24
+msgid "## OSSを公開する手順"
+msgstr "## 發佈 OSS 的程序"
+
+#. type: 清單
+#: operation-templates/how-to-use-guide-for-users.md:25
+msgid ""
+"- 公開申請／確認事項／公式リポジトリ／変更管理\n"
+"  - → オープンソースのリリース　※2026年4月時点未整備"
+msgstr ""
+"- 發佈申請／確認事項／官方儲存庫／變更管理\n"
+"  - → 開放原始碼的發佈　※截至 2026 年 4 月尚未建置"
+
+#. type: 標題
+#: operation-templates/how-to-use-guide-for-users.md:26
+msgid "## 外部OSSへのコントリビューション手順"
+msgstr "## 對外部 OSS 貢獻的程序"
+
+#. type: 清單
+#: operation-templates/how-to-use-guide-for-users.md:27
+msgid ""
+"- 事前承認／確認事項／CLA・DCO対応／包括許諾\n"
+"  - → オープンソースへの貢献　※2026年4月時点未整備"
+msgstr ""
+"- 事前核准／確認事項／CLA 與 DCO 處理／概括許可\n"
+"  - → 對開放原始碼的貢獻　※截至 2026 年 4 月尚未建置"
+
+#. type: 標題
+#: operation-templates/how-to-use-guide-for-users.md:28
+msgid "## 私的OSS活動ガイド"
+msgstr "## 個人 OSS 活動指南"
+
+#. type: 清單
+#: operation-templates/how-to-use-guide-for-users.md:29
+msgid "- 守秘／会社資源／名義・所属表示テンプレ"
+msgstr "- 保密／公司資源／名義與所屬標示範本"
+
+#. type: 標題
+#: operation-templates/how-to-use-guide-for-users.md:30
+msgid "## インシデント／脆弱性の報告・初動"
+msgstr "## 事件／弱點的回報與初期處理"
+
+#. type: 清單
+#: operation-templates/how-to-use-guide-for-users.md:31
+msgid "- ライセンス違反・情報漏えい・脆弱性などの疑いがある場合も含む"
+msgstr "- 包含疑似有授權違規、資訊外洩、弱點等情況"
