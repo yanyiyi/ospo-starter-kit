@@ -1,0 +1,184 @@
+# 正體中文在地化文體指南
+
+這份文件是 OSPO 入門套件（OSPO Starter Kit）正體中文（`zh-TW`，台灣用語）翻譯的基準。
+內容以 `contents/ja/` 的日文原文為翻譯來源，`contents/en/` 的英文版為參考；初版由機器產出，
+待母語者校對。新增或修改譯文時請以本文的術語表與規則為準。行文慣例大致依循
+[Mozilla 正體中文風格指南](https://mozilla-l10n.github.io/styleguides/zh-TW/)。
+
+譯文位置：
+
+| 層次 | 檔案 |
+|------|------|
+| OSS 政策（全公司規範）範本 | `contents/zh-TW/oss-policy-templates/` |
+| 營運範本 | `contents/zh-TW/operation-templates/` |
+| 專案說明 | `README.zh-TW.md` |
+
+三者共用同一套術語。改動任一處的用詞時，其他兩處要一起改，否則同一個詞會在政策條文與
+營運文件裡長得不一樣。
+
+## 絕對不動的東西
+
+只轉換語言與文體，內容一個字都不改。以下一律保留原文：
+
+- 程式碼區塊、指令、選項旗標、設定檔範例
+- 檔案路徑與檔名（`articles/01_purpose.md`、`how-to-use-guide-for-users.md`）、URL
+- 授權識別碼（`Apache-2.0`、`MIT`、`GPL-3.0-only`）、`SPDX-License-Identifier`、`purl`
+- 規格與法規縮寫：SBOM、CycloneDX、SPDX、OSPO、OSI、FSF、CVE、CVSS、EU CRA、NIST、IPA
+- 專有名詞：GitHub、GitLab、OpenChain、Linux Foundation、TODO Group、CC0
+- 佔位符：`[公司名稱]`、`[部門名稱]` 這類方括號標記——括號內的名稱要一併中文化，但方括號本身
+  與「整份文件用同一個佔位符」的一致性不能破壞，否則使用者做全域取代時會漏掉
+- 條文編號與項次代號（`1.`、`a.`、`b.`）：**順序與代號不可調換**，政策條文之間會互相引用
+- 選用條文的全形方括號 `【】`：日文原文用它標示「可自由增刪的段落」，中文沿用 `【】`
+  （英文版轉成 `[]`，中文不跟隨）
+
+授權識別碼錯一個字、條號少一個字元，讀者引用政策時就會指錯條文。有疑慮時保留原文。
+
+## 排版慣例
+
+- 標點一律全形：，。：；？！（）、「」。內層引號用『』，刪節號用「…」。
+- 中文與英文、數字之間空一個半形空格：「共 3 份範本」「符合 OSS 授權條款」。
+  全形標點前後不加空格。
+- 語氣簡潔，是書面語但不生硬。標題與清單項目用短語，說明文字用完整句子。
+- 政策條文（「條文範例」小節）用規範性語氣：「應」「得」「不得」「須」，不用「請」「要記得」。
+  解說與客製化建議則用一般說明語氣，可以用「請」「建議」。
+- 不要堆疊「讓我們」「請注意，」這類開場，也不要為了對齊日文語序而寫出翻譯腔的長句。
+  日文的「〜しなければならない」直譯成「必須要做〜」會很冗，寫成「應〜」即可。
+- HTML 註解（`<!-- -->`）裡的客製化指引也要翻譯：那是給 OSPO 承辦人看的內容。
+  註解裡的 `#####` 分隔線與 `■` 小標記照原樣保留。
+- Markdown 語法保留：標題的 `#` 數量、清單符號、`- [ ]` 檢核方塊、表格的 `|` 與對齊標記、
+  圖片與連結語法都照原樣。表格內的 `\|` 轉義也要留。
+- 內部連結不要加語言前綴：`../about/ospo.md` 保持原樣。`contents/zh-TW/` 的目錄結構與
+  `contents/ja/` 完全相同，相對路徑因此可以直接沿用。
+
+## 術語表
+
+同一個概念在不同檔案寫成不同的詞，搜尋就會失效，讀起來也像機器翻的。以下是初版翻譯定下的
+標準，新字串沿用：
+
+| 日文 | English | zh-TW |
+|------|---------|-------|
+| オープンソース | open source | 開放原始碼（不用「開源程式碼」） |
+| オープンソースソフトウェア／OSS | OSS | OSS（首次出現寫「開放原始碼軟體（OSS）」） |
+| インナーソース | InnerSource | 內源（首次出現寫「內源（InnerSource）」） |
+| ライセンス | license | 授權條款（短語境可用「授權」） |
+| ライセンスコンプライアンス | license compliance | 授權合規 |
+| コンプライアンス | compliance | 合規 |
+| ガバナンス | governance | 治理 |
+| ポリシー | policy | 政策 |
+| 全社規定 | company-wide rules | 全公司規範 |
+| 条文 | article | 條文 |
+| 前文 | preamble | 前言 |
+| 適用範囲 | scope | 適用範圍 |
+| 用語の定義 | definitions | 用語定義 |
+| テンプレート | template | 範本（不用「模板」） |
+| カスタマイズ | customization | 客製化 |
+| チェックリスト | checklist | 檢核清單 |
+| Placeholder | placeholder | 佔位符 |
+| ドキュメント | document | 文件 |
+| コンポーネント | component | 元件 |
+| 依存関係 | dependency | 相依性（清單語境用「相依項目」） |
+| リポジトリ | repository | 儲存庫 |
+| ソースコード | source code | 原始碼 |
+| 脆弱性 | vulnerability | 弱點 |
+| セキュリティ | security | 資訊安全（形容詞語境用「安全」） |
+| インシデント | incident | 事件 |
+| 知的財産権 | intellectual property | 智慧財產權 |
+| 著作権 | copyright | 著作權 |
+| 商標 | trademark | 商標 |
+| 特許 | patent | 專利 |
+| 配布／頒布 | distribution | 散布 |
+| 再配布 | redistribution | 再散布 |
+| 改変 | modification | 修改 |
+| 派生物 | derivative work | 衍生作品 |
+| ソースコード開示義務 | source disclosure obligation | 原始碼開示義務 |
+| パーミッシブ | permissive | 寬鬆式 |
+| デュアルライセンス | dual license | 雙重授權 |
+| コントリビューション | contribution | 貢獻 |
+| コントリビューター | contributor | 貢獻者 |
+| コミュニティ | community | 社群 |
+| エコシステム | ecosystem | 生態系 |
+| プロジェクト | project | 專案 |
+| メンテナー | maintainer | 維護者 |
+| 公開／リリース | release | 發佈 |
+| 従業員 | employee | 員工 |
+| 就業規則 | employment rules | 工作規則 |
+| 当社 | the Company | 本公司 |
+| 部門 | department | 部門 |
+| 責任者 | person in charge | 負責人 |
+| 承認 | approval | 核准 |
+| 申請 | application | 申請 |
+| 相談 | consultation | 諮詢 |
+| 窓口 | point of contact | 聯絡窗口 |
+| 評価 | evaluation | 評估 |
+| 監査 | audit | 稽核 |
+| レビュー | review | 審查（`code review` 用「程式碼審查」） |
+| 記録および報告 | records and reporting | 紀錄與報告 |
+| 教育・啓発 | education and awareness | 教育與宣導 |
+| 改定および施行 | revision and enforcement | 修訂與施行 |
+| 運用 | operation | 營運（`operation-templates` → 營運範本） |
+| 利点／ベネフィット | benefit | 效益 |
+| リスク | risk | 風險 |
+| サプライヤー | supplier | 供應商 |
+| 調達 | procurement | 採購 |
+| 用語集 | glossary | 詞彙表 |
+| FAQ | FAQ | 常見問題（FAQ） |
+| 免責事項 | disclaimer | 免責聲明 |
+| パブリックドメイン | public domain | 公眾領域 |
+| スターターキット | starter kit | 入門套件 |
+| フォーク | fork | fork（保留英文） |
+| プルリクエスト | pull request | Pull Request（保留英文） |
+| Copyleft | copyleft | Copyleft（保留英文，技術名詞） |
+
+保留英文的情況：規格與法規縮寫、`Copyleft`、以及 Git／GitHub 的操作名詞（`fork`、
+`Pull Request`、`Issue`、`commit`）。這些詞讀者會直接在工具介面上看到英文。
+
+不要自創詞。找不到通用譯法時，用既有的說法把意思講清楚，不要造新詞；日文漢字詞也不要
+直接照抄（「検討」→「評估／討論」，不寫「檢討」；「対応」看語境譯「應對／處理／支援」，
+不寫「對應」）。
+
+## 台灣用語對照
+
+日中同形詞是最容易漏掉的地雷。以下是本套件常見的幾組：
+
+| 中國大陸／日文漢字直譯 | 台灣用語 |
+|------------------------|----------|
+| 软件／ソフト | 軟體 |
+| 硬件 | 硬體 |
+| 信息 | 資訊 |
+| 数据／データ | 資料 |
+| 网络 | 網路 |
+| 服务器 | 伺服器 |
+| 代码 | 程式碼 |
+| 程序 | 程式 |
+| 项目 | 專案 |
+| 模板 | 範本 |
+| 缺省／默认 | 預設 |
+| 检讨（日文「検討」） | 評估、討論 |
+| 対応 | 應對、處理、支援 |
+| 質量 | 品質 |
+| 優化 | 最佳化 |
+| 社区 | 社群 |
+| 開源 | 開放原始碼 |
+| 元数据／メタデータ | 後設資料 |
+| 憑證（credential） | 認證資訊（`憑證` 保留給 certificate） |
+
+## 契約邊界
+
+只有給人讀的 Markdown 內容會翻譯。以下維持原樣，這是機器契約：
+
+- 目錄名稱與檔名（`contents/zh-TW/` 底下的路徑與 `ja`／`en` 完全一致）
+- Markdown 語法本身、HTML 註解的 `<!--` `-->` 標記
+- 授權識別碼、URL、電子郵件地址
+
+`contents/zh-TW/` 的檔案集合必須與 `contents/ja/` 完全相同：不要新增或刪除檔案，
+也不要合併、拆分或重排任何區塊。翻譯檔（`l10n/po/` 的 PO 與 `l10n/` 的 xlsx）都以
+「檔名 + 區塊序號」對位，增刪區塊會讓整份校對表錯行。校對流程與 Weblate 設定見
+[`../l10n/README.md`](../l10n/README.md)。
+
+## 校對強度
+
+只調整文體，語意、結構、資訊 100% 保留。如果一份檔案改動的比例過高，先確認自己是不是
+在改內容而不是潤稿；變成重寫就該停下來。
+
+政策條文範本會被使用者直接抄進公司規範，法律語意的偏差比文體生硬嚴重得多。條文小節
+（「條文範例」）有疑慮時，選擇貼近原文的譯法，並在翻譯表的「備註」欄註明。
