@@ -71,7 +71,7 @@ msgstr ""
 
 #. type: 程式碼
 #: oss-policy-templates/introduction.md:10
-#, no-wrap
+#, no-wrap, ignore-same
 msgid ""
 "```text\n"
 "oss-policy-templates/\n"

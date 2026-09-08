@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""哪些檔案屬於哪個元件（component）。三個 l10n 腳本共用。
+"""哪些檔案屬於哪個組件（Weblate component）。三個 l10n 腳本共用。
 
-一個元件 = Weblate 的一個 component = 一個 .pot + 每語言一個 .po，
+一個組件 = Weblate 的一個 component = 一個 .pot + 每語言一個 .po，
 分組方式與翻譯校對表 xlsx 的分頁一致。
 """
 
@@ -11,7 +11,7 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LANGS = {"en": "en", "zh_Hant": "zh-TW"}          # PO 語言碼 → contents/ 目錄名
 SOURCE = "ja"                                      # msgid 的來源語言
 
-# (元件 id, xlsx 分頁名, 來源目錄或檔案)
+# (組件 id, xlsx 分頁名, 來源目錄或檔案)
 COMPONENTS = [
     ("policy-articles", "政策-條文", "oss-policy-templates/articles"),
     ("policy-intro", "政策-根目錄", ["oss-policy-templates/introduction.md"]),
@@ -27,7 +27,7 @@ README = {"ja": "README.md", "en": None, "zh_Hant": "README.zh-TW.md"}
 
 
 def component_files(spec):
-    """回傳該元件的相對路徑 list（相對於 contents/<lang>/）。"""
+    """回傳該組件的相對路徑 list（相對於 contents/<lang>/）。"""
     if spec is None:
         return [None]                              # README 特例
     if isinstance(spec, list):

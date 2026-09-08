@@ -2,9 +2,9 @@
 """由 contents/ 產生可匯入 Weblate 的 gettext PO 檔。
 
 msgid 是日文原文（contents/ja/），msgstr 是譯文：
-  l10n/po/<元件>.pot          範本（msgstr 全空）
-  l10n/po/zh_Hant/<元件>.po   正體中文，取自 contents/zh-TW/
-  l10n/po/en/<元件>.po        英文，取自 contents/en/（給 Weblate 當次要語言對照）
+  l10n/po/<組件>.pot          範本（msgstr 全空）
+  l10n/po/zh_Hant/<組件>.po   正體中文，取自 contents/zh-TW/
+  l10n/po/en/<組件>.po        英文，取自 contents/en/（給 Weblate 當次要語言對照）
 
 用法：python3 l10n/markdown-to-po.py
 """
@@ -85,7 +85,10 @@ def collect(spec):
                     "msgid": block.text,
                     "comments": [f"type: {block.kind}"],
                     "refs": [ref],
-                    "flags": ["no-wrap"] if block.kind in mdblocks.NO_TRANSLATE else [],
+                    # no-wrap：不要重排；ignore-same：程式碼與分隔線多數照抄原文，
+                    # 不要讓 Weblate 報「未修改的翻譯」
+                    "flags": (["no-wrap", "ignore-same"]
+                              if block.kind in mdblocks.NO_TRANSLATE else []),
                     "translations": {l: others[l][i] for l in LANGS},
                 }
                 index[block.text] = entry

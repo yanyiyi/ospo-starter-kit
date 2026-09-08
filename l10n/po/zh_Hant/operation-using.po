@@ -442,7 +442,7 @@ msgstr ""
 #: operation-templates/using/supplier-procurement.md:79
 #: operation-templates/using/usage-faq.md:4
 #: operation-templates/using/using-oss.md:44
-#, no-wrap
+#, no-wrap, ignore-same
 msgid "---"
 msgstr "---"
 

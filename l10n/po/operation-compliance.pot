@@ -106,7 +106,7 @@ msgstr ""
 #: operation-templates/compliance/oss-with-commercial-license-options.md:23
 #: operation-templates/compliance/source-disclosure-licenses.md:32
 #: operation-templates/compliance/what-is-a-license.md:38
-#, no-wrap
+#, no-wrap, ignore-same
 msgid "---"
 msgstr ""
 

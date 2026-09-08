@@ -217,7 +217,7 @@ msgstr ""
 #: operation-templates/about/innersource.md:35
 #: operation-templates/about/opensource-guide.md:7
 #: operation-templates/about/ospo.md:22
-#, no-wrap
+#, no-wrap, ignore-same
 msgid "---"
 msgstr "---"
 
