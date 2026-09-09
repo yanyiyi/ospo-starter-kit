@@ -3,15 +3,17 @@ msgstr ""
 "Project-Id-Version: OSPO Starter Kit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-08\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"Last-Translator: yanyiyi <oabb1388@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://"
+"translate.codeberg.org/projects/ospo-starter-kit/operation-about/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Source-Language: en\n"
-"X-Generator: ospo-starter-kit l10n/markdown-to-po.py\n"
+"X-Generator: Weblate 2026.8.1\n"
+"PO-Revision-Date: 2026-09-09 06:27+0000\n"
 
 #. type: 標題
 #: operation-templates/about/about-opensource.md:1
@@ -58,8 +60,9 @@ msgid ""
 "Today, virtually no enterprise operates without using open source software.\n"
 "[Company Name] is no exception; most of the [primary utilization areas (e.g., web browsers, server software, development tools, cloud services, mobile applications)] we rely on daily operate using open source software."
 msgstr ""
-"在今天，可以說幾乎沒有任何企業能完全不使用開放原始碼軟體來運作。\n"
-"[公司名稱] 也不例外，我們日常使用的 [主要使用領域（例如：網頁瀏覽器、伺服器軟體、開發工具、雲端服務、行動應用程式）] 大部分都是靠開放原始碼軟體運作的。"
+"如今，可說幾乎沒有任何企業是在完全不使用開放原始碼軟體的情況下營運的。\n"
+"[公司名稱] 也不例外；包含日常使用的 [主要應用領域（例如：網頁瀏覽器、伺服器軟"
+"體、開發工具、雲端服務及行動應用程式）]，大部分都是運用開放原始碼軟體來運作。"
 
 #. type: 段落
 #: operation-templates/about/about-opensource.md:4
@@ -86,7 +89,7 @@ msgstr ""
 #. type: 標題
 #: operation-templates/about/about-opensource.md:6
 msgid "## What Is the Essence of Open Source?"
-msgstr "## 開放原始碼的本質是什麼"
+msgstr "## 開放原始碼的本質是什麼？"
 
 #. type: 段落
 #: operation-templates/about/about-opensource.md:7
@@ -114,7 +117,10 @@ msgstr ""
 "開放原始碼軟體的品質，由其開發專案的健全性與透明度來確保。\n"
 "被許多人盯著看的程式碼，比較容易發現程式錯誤與弱點，也比較容易被迅速修正。\n"
 "此外，因為會在多樣環境中使用，各種條件下的運作都會被驗證，穩健性因此提升。\n"
-"這正是開放原始碼的強項，也就是所謂「只要有足夠多的眼睛，所有的錯誤都會浮現（Linus 定律）」（出處：Raymond, Eric S. (1999). The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary. O'Reilly Media, Inc.）。"
+"這正是開放原始碼的強項，也就是所謂「只要有足夠多的眼睛，所有的錯誤都會浮現（"
+"Linus 定律）」（出處：Raymond, Eric S. (1999). *The Cathedral and the "
+"Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary*. "
+"O'Reilly Media, Inc.）。"
 
 #. type: 段落
 #: operation-templates/about/about-opensource.md:10
@@ -158,8 +164,9 @@ msgid ""
 "Enterprises leverage open source in diverse ways: consuming existing OSS directly, customizing code to internal requirements, publishing proprietary software as open source, or contributing back to upstream projects.\n"
 "Each option presents distinct benefits and considerations requiring strategic evaluation."
 msgstr ""
-"企業運用開放原始碼的方式相當多樣。\n"
-"可以直接使用既有的開放原始碼軟體、依自家需求加以修改、把自行開發的軟體以開放原始碼形式發佈、對開放原始碼專案貢獻等，選項很多。\n"
+"企業運用開放原始碼的方式相當多樣。可以直接使用既有的開放原始碼軟體、依自家需"
+"求加以修改、把自行開發的軟體以開放原始碼形式發佈、對開放原始碼專案貢獻等，選"
+"項很多。\n"
 "每種方式都有其效益與應考量之處，需要適切的策略判斷。"
 
 #. type: 段落
@@ -595,9 +602,9 @@ msgid ""
 "- [ ] Replaced placeholders like [primary technology used] and [Major OSS Project Name] with concrete information.\n"
 "- [ ] Stated the connection between corporate mission/vision/strategy and OSS activities in the introduction."
 msgstr ""
-"- [ ] 已將所有 [公司名稱] 替換為自家公司名稱\n"
-"- [ ] 已將 [主要使用技術]、[主要 OSS 專案名稱] 等佔位符全部替換為具體資訊\n"
-"- [ ] 已在導言部分明確寫出自家公司的使命、願景、策略與 OSS 活動的關聯"
+"- [ ] 已將所有 [公司名稱] 替換為自家公司名稱。\n"
+"- [ ] 已將 [主要使用技術]、[主要 OSS 專案名稱] 等佔位符全部替換為具體資訊。\n"
+"- [ ] 已在導言部分明確寫出自家公司的使命、願景、策略與 OSS 活動的關聯。"
 
 #. type: 段落
 #: operation-templates/about/benefits.md:40
@@ -758,7 +765,7 @@ msgstr ""
 #. type: 標題
 #: operation-templates/about/innersource.md:1
 msgid "# What Is InnerSource?"
-msgstr "# 什麼是內源"
+msgstr "# 什麼是內源？"
 
 #. type: 段落
 #: operation-templates/about/innersource.md:3
@@ -1229,7 +1236,7 @@ msgstr ""
 #. type: 標題
 #: operation-templates/about/ospo.md:1
 msgid "# What Is an OSPO?"
-msgstr "# 什麼是 OSPO"
+msgstr "# 什麼是 OSPO？"
 
 #. type: 段落
 #: operation-templates/about/ospo.md:3
@@ -1294,12 +1301,12 @@ msgid ""
 "| **Department Contact** | [Department Name] |\n"
 "| **Mailing List** | [Email Address] |"
 msgstr ""
-"| 項目                   | 詳細                                 |\n"
-"|------------------------|--------------------------------------|\n"
-"| **主要聯絡窗口**          | [職稱（例如：OSPO 負責人（技術策略室主管））] |\n"
-"| **承辦人電子郵件**      | [電子郵件地址] |\n"
-"| **Slack／Teams 頻道**      | [頻道名稱] |\n"
-"| **內部入口網站**        | [URL] |\n"
+"| 項目| 詳細|\n"
+"|---|---|\n"
+"| **主要聯絡窗口**| [職稱（例如：OSPO 負責人（技術策略室主管））] |\n"
+"| **承辦人電子郵件**| [電子郵件地址] |\n"
+"| **Slack／Teams 頻道**| [頻道名稱] |\n"
+"| **內部入口網站**| [URL] |\n"
 "| **聯絡單位**| [部門名稱] |\n"
 "| **郵件論壇** | [電子郵件地址] |"
 
@@ -1320,14 +1327,14 @@ msgid ""
 "| Community Relations | [Name] | [Contact] |\n"
 "| [Additional Field] | [Name] | [Contact] |"
 msgstr ""
-"| 專業領域         | 承辦人            | 聯絡方式                   |\n"
-"|------------------|-------------------|---------------------------|\n"
-"| 授權管理     | [承辦人姓名]     | [聯絡方式]      |\n"
-"| 資訊安全   | [承辦人姓名] | [聯絡方式]   |\n"
-"| 技術評估           | [承辦人姓名]  | [聯絡方式]       |\n"
-"| 合規   | [承辦人姓名]  | [聯絡方式] |\n"
-"| 社群協作   | [承辦人姓名] | [聯絡方式]        |\n"
-"| [其他專業領域]   | [承辦人姓名] | [聯絡方式]        |"
+"| 專業領域| 承辦人| 聯絡方式|\n"
+"|---|---|---|\n"
+"| 授權管理| [承辦人姓名]| [聯絡方式]|\n"
+"| 資訊安全| [承辦人姓名] | [聯絡方式]|\n"
+"| 技術評估| [承辦人姓名]| [聯絡方式]|\n"
+"| 合規| [承辦人姓名]| [聯絡方式] |\n"
+"| 社群協作| [承辦人姓名] | [聯絡方式]|\n"
+"| [其他專業領域]| [承辦人姓名] | [聯絡方式]|"
 
 #. type: 標題
 #: operation-templates/about/ospo.md:13
