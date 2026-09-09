@@ -3,15 +3,18 @@ msgstr ""
 "Project-Id-Version: OSPO Starter Kit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-08\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"Last-Translator: yanyiyi <oabb1388@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://"
+"translate.codeberg.org/projects/ospo-starter-kit/operation-compliance/"
+"zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Source-Language: en\n"
-"X-Generator: ospo-starter-kit l10n/markdown-to-po.py\n"
+"X-Generator: Weblate 2026.8.1\n"
+"PO-Revision-Date: 2026-09-09 06:27+0000\n"
 
 #. type: 標題
 #: operation-templates/compliance/license-compliance.md:1
@@ -819,14 +822,13 @@ msgid ""
 "3. **Check Organizational Scale Criteria**: Verify whether revenue or employee thresholds trigger non-OSS commercial licensing.\n"
 "4. **Assess Feature Requirements**: Determine whether open source features satisfy project requirements or if enterprise commercial add-ons are necessary."
 msgstr ""
-"1. **確認授權條文**\n"
-"  確認是否為雙重授權，以及所適用的授權條件（OSS 授權條款，或非 OSS 的授權條件）。\n"
-"2. **評估使用形態**\n"
-"  明確區分是內嵌使用、SaaS 提供或內部使用等。\n"
-"3. **確認企業規模要件**\n"
-"  若訂有依營收或員工人數而定的使用條件，請確認該軟體是否並非 OSS，而是以其他授權形態提供。\n"
-"4. **檢視所需功能**\n"
-"  評估在 OSS 授權條款下提供的功能是否已能滿足需求，或是否需要另外提供的企業級附加功能與支援。"
+"1. **確認授權條文**：確認是否為雙重授權，以及所適用的授權條件（OSS 授權條款，"
+"或非 OSS 的授權條件）。\n"
+"2. **評估使用形態**：明確區分是內嵌使用、SaaS 提供或內部使用等。\n"
+"3. **確認企業規模要件**：若訂有依營收或員工人數而定的使用條件，請確認該軟體是"
+"否並非 OSS，而是以其他授權形態提供。\n"
+"4. **檢視所需功能**：評估在 OSS 授權條款下提供的功能是否已能滿足需求，或是否"
+"需要另外提供的企業級附加功能與支援。"
 
 #. type: 標題
 #: operation-templates/compliance/oss-with-commercial-license-options.md:21
@@ -1213,7 +1215,7 @@ msgstr ""
 #. type: 標題
 #: operation-templates/compliance/what-is-a-license.md:1
 msgid "# What Is a License?"
-msgstr "# 什麼是授權條款"
+msgstr "# 什麼是授權條款？"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:3
