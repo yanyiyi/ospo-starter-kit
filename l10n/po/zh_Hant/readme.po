@@ -21,7 +21,7 @@ msgstr "# OSPO 入門套件　草案版"
 #. type: 段落
 #: README.md:2
 msgid "This kit is a collection of templates for establishing an Open Source Program Office (OSPO) in an organization and for building the strategic use of open source together with an appropriate governance structure."
-msgstr "本套件是一套範本集，協助組織設立開放原始碼專案辦公室（OSPO），建立開放原始碼的策略性運用與適當的治理體制。"
+msgstr "本套件是一套範本集，協助組織設立開放原始碼專案辦公室 (OSPO)，建立開放原始碼的策略性運用與適當的治理體制。"
 
 #. type: 標題
 #: README.md:3
@@ -50,7 +50,7 @@ msgstr "本套件包含以下文件。"
 #. type: 標題
 #: README.md:7
 msgid "### A. OSS Policy (Company-Wide Rules) Templates (`oss-policy-templates/`)"
-msgstr "### A. OSS 政策（全公司規範）範本（`oss-policy-templates/`）"
+msgstr "### A. OSS 政策（全公司規範）範本 (`oss-policy-templates/`)"
 
 #. type: 段落
 #: README.md:8
@@ -99,7 +99,7 @@ msgstr ""
 #. type: 標題
 #: README.md:10
 msgid "### B. Operation Templates (`operation-templates/`)"
-msgstr "### B. 營運範本（`operation-templates/`）"
+msgstr "### B. 營運範本 (`operation-templates/`)"
 
 #. type: 段落
 #: README.md:11
@@ -122,7 +122,7 @@ msgid ""
 "  - `innersource.md`: What Is InnerSource?\n"
 "  - `glossary.md`: Glossary"
 msgstr ""
-"- **基礎與組織**（`about/`）\n"
+"- **基礎與組織** (`about/`)\n"
 "  - `opensource-guide.md`：開放原始碼指南（入口）\n"
 "  - `about-opensource.md`：關於開放原始碼\n"
 "  - `benefits.md`：開放原始碼的效益\n"
@@ -141,7 +141,7 @@ msgid ""
 "  - `oss-with-commercial-license-options.md`: OSS with Commercial License Options\n"
 "  - `license-faq.md`: License FAQ"
 msgstr ""
-"- **授權合規**（`compliance/`）\n"
+"- **授權合規** (`compliance/`)\n"
 "  - `license-compliance.md`：開放原始碼授權合規\n"
 "  - `what-is-a-license.md`：什麼是授權條款\n"
 "  - `license-types.md`：授權條款的種類\n"
@@ -160,7 +160,7 @@ msgid ""
 "  - `supplier-procurement.md`: Procuring OSS from Suppliers\n"
 "  - `usage-faq.md`: OSS Usage FAQ"
 msgstr ""
-"- **實務與 OSS 運用**（`using/`）\n"
+"- **實務與 OSS 運用** (`using/`)\n"
 "  - `using-oss.md`：使用 OSS\n"
 "  - `finding-oss.md`：OSS 的尋找方式\n"
 "  - `oss-inventory.md`：公司內部已導入 OSS 清單\n"
@@ -242,7 +242,7 @@ msgstr ""
 #. type: 標題
 #: README.md:25
 msgid "## Response Targets (SLA: Service Level Agreement)"
-msgstr "## 處理時間目標（SLA: Service Level Agreement）"
+msgstr "## 處理時間目標 (SLA: Service Level Agreement)"
 
 #. type: 段落
 #: README.md:26
@@ -352,12 +352,12 @@ msgstr "關於本套件內容的問題，請寄至以下電子郵件地址。"
 #. type: 段落
 #: README.md:41
 msgid "Publisher: Information-technology Promotion Agency, Japan (IPA)"
-msgstr "發行單位：獨立行政法人資訊處理推進機構（IPA）"
+msgstr "發行單位：獨立行政法人資訊處理推進機構 (IPA)"
 
 #. type: 段落
 #: README.md:42
 msgid "Contact: IPA Digital & AI Systems Design Center (DADC) disc-info@ipa.go.jp"
-msgstr "聯絡方式：IPA 數位與 AI 系統設計中心（DADC） disc-info@ipa.go.jp"
+msgstr "聯絡方式：IPA 數位與 AI 系統設計中心 (DADC) disc-info@ipa.go.jp"
 
 #. type: 標題
 #: README.md:43

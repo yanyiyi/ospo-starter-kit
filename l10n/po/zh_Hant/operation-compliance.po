@@ -703,7 +703,7 @@ msgid ""
 "Open source software (OSS) by definition permits commercial use.\n"
 "However, specific open source licenses establish conditions on redistribution or modification, and vendors may offer commercial licenses for usage scenarios that do not comply with those open source conditions."
 msgstr ""
-"開放原始碼軟體（OSS）依定義是允許包含商業使用在內的使用方式。\n"
+"開放原始碼軟體 (OSS) 依定義是允許包含商業使用在內的使用方式。\n"
 "另一方面，各授權條款各自訂有關於再散布與修改的條件；對於無法滿足這些條件的使用形態，有時會另外提供商用授權。"
 
 #. type: 標題
@@ -1014,7 +1014,7 @@ msgid ""
 "    Network service delivery impacts vary by license. The Affero GPL (AGPL) explicitly defines network access as triggering source code disclosure obligations to service users."
 msgstr ""
 "- **以 SaaS 提供的情況**\n"
-"    以 Web 服務形式提供時的處理方式因授權條款而異。AGPL（Affero GPL）即使是透過網路提供，也會產生原始碼提供義務。"
+"    以 Web 服務形式提供時的處理方式因授權條款而異。AGPL (Affero GPL) 即使是透過網路提供，也會產生原始碼提供義務。"
 
 #. type: 標題
 #: operation-templates/compliance/source-disclosure-licenses.md:16
@@ -1032,7 +1032,7 @@ msgid ""
 "**Strong Copyleft (GPL v2/v3)**\n"
 "Static or dynamic linking combines application components into a single derivative work, extending GPL terms across the combined work."
 msgstr ""
-"**連同結合軟體的原始碼也需要提供的授權條款（GPL v2/v3）**\n"
+"**連同結合軟體的原始碼也需要提供的授權條款 (GPL v2/v3)**\n"
 "透過靜態連結或動態連結結合而成的整體構成衍生作品，GPL 適用於整體。"
 
 #. type: 段落
@@ -1041,7 +1041,7 @@ msgid ""
 "**Weak / Component Copyleft (LGPL)**\n"
 "Requires disclosing source code for the LGPL library itself, alongside providing object code or build scripts allowing users to relink modified libraries. Proprietary application source code linking to unmodified LGPL libraries remains private, though LGPL compliance obligations still apply."
 msgstr ""
-"**只需提供 OSS 部分原始碼的授權條款（LGPL）**\n"
+"**只需提供 OSS 部分原始碼的授權條款 (LGPL)**\n"
 "除了有義務提供 LGPL 程式庫本身的原始碼之外，可能還會被要求以使用者能替換程式庫並重新連結的形式（目的碼等）提供。自有應用程式本身的原始碼不需要提供，但即使沒有修改 LGPL 程式庫，上述提供義務仍然會發生。"
 
 #. type: 段落
@@ -1220,7 +1220,7 @@ msgstr "# 什麼是授權條款？"
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:3
 msgid "When hearing \"open source software\" (OSS), people often assume it can be used without restrictions. In reality, all OSS components carry licenses, and usage must strictly comply with their terms. This represents a critical aspect requiring careful management in enterprise environments."
-msgstr "聽到開放原始碼軟體（OSS），或許會有「可以無條件使用」的印象，但實際上所有 OSS 都附有授權條款，必須依其條件使用。這是企業使用 OSS 時特別需要謹慎處理的重要面向。"
+msgstr "聽到開放原始碼軟體 (OSS)，或許會有「可以無條件使用」的印象，但實際上所有 OSS 都附有授權條款，必須依其條件使用。這是企業使用 OSS 時特別需要謹慎處理的重要面向。"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:4
@@ -1283,7 +1283,7 @@ msgstr ""
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:11
 msgid "The Open Source Initiative (OSI) is the international body certifying open source licenses. OSI-approved licenses guarantee adherence to all 10 criteria of the Open Source Definition (OSD)—including source code access, free redistribution, derivative works permission, non-discrimination against persons/groups or fields of endeavor, and technology neutrality. Many widely used licenses exist outside OSI approval; when adopting software, evaluate both OSI approval status and specific license conditions."
-msgstr "Open Source Initiative（OSI）是負責認證開放原始碼授權條款的國際組織。經 OSI 認證的授權條款，可確保滿足開放原始碼定義（OSD）全部 10 項條款（可取得原始碼、再散布的自由、可製作衍生作品、禁止對特定人士或群體歧視、禁止對使用領域歧視、技術中立等）。另外，也有許多授權條款雖未取得 OSI 認證但被廣泛使用。企業使用開放原始碼時，除了是否經 OSI 認證之外，確認各授權條款的具體條件也很重要。"
+msgstr "Open Source Initiative (OSI) 是負責認證開放原始碼授權條款的國際組織。經 OSI 認證的授權條款，可確保滿足開放原始碼定義 (OSD) 全部 10 項條款（可取得原始碼、再散布的自由、可製作衍生作品、禁止對特定人士或群體歧視、禁止對使用領域歧視、技術中立等）。另外，也有許多授權條款雖未取得 OSI 認證但被廣泛使用。企業使用開放原始碼時，除了是否經 OSI 認證之外，確認各授權條款的具體條件也很重要。"
 
 #. type: 標題
 #: operation-templates/compliance/what-is-a-license.md:12
@@ -1322,7 +1322,7 @@ msgid ""
 "For example, when redistributing code under Apache-2.0, ensure operational pipelines propagate existing NOTICE file contents."
 msgstr ""
 "在實務上，導入前要先確認授權條款本文的所在位置（LICENSE、COPYING、儲存庫根目錄、各檔案標頭、NOTICE），再對照自己要如何使用該軟體（公司內部使用、散布、是否修改等），掌握什麼被許可、什麼構成義務。\n"
-"篇幅長的授權條款，可以先用權利授予（grant／permission）、條件（condition／obligation）、免責（disclaimer／warranty）等關鍵字掌握結構，會比較容易讀懂。\n"
+"篇幅長的授權條款，可以先用權利授予 (grant/permission)、條件 (condition/obligation)、免責 (disclaimer/warranty) 等關鍵字掌握結構，會比較容易讀懂。\n"
 "例如像 Apache-2.0 這種明確規定專利授權與 NOTICE 處理方式的授權條款，重點在於建立再散布程式碼時不忘附上 NOTICE 的作業習慣。"
 
 #. type: 段落
@@ -1389,7 +1389,7 @@ msgstr ""
 msgid "When projects combine components under multiple licenses, verify license compatibility to ensure terms do not conflict."
 msgstr ""
 "同一個專案中也可能混用多種授權條款。\n"
-"這時，確認授權條款的相容性（compatibility）、掌握不同授權條款的條件之間是否互相矛盾，就相當重要。"
+"這時，確認授權條款的相容性 (compatibility)、掌握不同授權條款的條件之間是否互相矛盾，就相當重要。"
 
 #. type: 段落
 #: operation-templates/compliance/what-is-a-license.md:23
@@ -1421,7 +1421,7 @@ msgstr ""
 msgid "Read structured license documents by jumping directly to relevant sections: Grants, Conditions, Restrictions, Disclaimers, Warranties, Patents, and Trademarks. Focus on sections impacting your specific deployment model, relying on original legal text over unofficial translations."
 msgstr ""
 "篇幅長的授權條款，先掌握章節架構再讀會比較有效率。\n"
-"授予（grant）、條件（condition）、禁止（restriction）、免責（disclaimer）、保證（warranty）、專利（patent）、商標（trademark）。\n"
+"授予 (grant)、條件 (condition)、禁止 (restriction)、免責 (disclaimer)、保證 (warranty)、專利 (patent)、商標 (trademark)。\n"
 "只重點確認與自己使用形態相關的章節，在意的文句則依原文的語感解釋（中譯本僅供參考）。"
 
 #. type: 標題

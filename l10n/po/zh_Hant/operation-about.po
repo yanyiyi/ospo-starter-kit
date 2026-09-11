@@ -94,7 +94,7 @@ msgstr "## 開放原始碼的本質是什麼？"
 #. type: 段落
 #: operation-templates/about/about-opensource.md:7
 msgid "Open Source Software (FOSS / OSS) refers to software whose creators grant permission for free use, modification, and distribution. The [Open Source Initiative (OSI)](https://opensource.org/) defines OSS as software licensed under terms meeting the [Open Source Definition (OSD)](https://opensource.org/osd). The OSD outlines 10 requirements, including free redistribution, source code access, and permission for derivative works. While this sounds like \"free software,\" \"free as in price\" (gratis) and \"free as in freedom\" (libre) are distinct concepts."
-msgstr "開放原始碼軟體（英文：Free and Open Source Software，縮寫：OSS）指的是，經其開發者許可可以自由使用、修改與散布的軟體。[Open Source Initiative（OSI）](https://opensource.org/) 將其定義為符合「[開放原始碼定義](https://opensource.org/osd)」（Open Source Definition, OSD）條件的授權條款，以及適用該授權條款的軟體。OSD 訂有再散布的自由、可取得原始碼、允許衍生作品等 10 項要求。這樣聽起來容易被理解為「可以免費使用的軟體」，但「free（免費）」與「free（自由）」是不同的概念。"
+msgstr "開放原始碼軟體（英文：Free and Open Source Software，縮寫：OSS）指的是，經其開發者許可可以自由使用、修改與散布的軟體。[Open Source Initiative (OSI)](https://opensource.org/) 將其定義為符合「[開放原始碼定義](https://opensource.org/osd)」(Open Source Definition, OSD) 條件的授權條款，以及適用該授權條款的軟體。OSD 訂有再散布的自由、可取得原始碼、允許衍生作品等 10 項要求。這樣聽起來容易被理解為「可以免費使用的軟體」，但「free（免費）」與「free（自由）」是不同的概念。"
 
 #. type: 段落
 #: operation-templates/about/about-opensource.md:8
@@ -773,7 +773,7 @@ msgid ""
 "InnerSource refers to the practice of applying open source development methodologies and culture to internal software development.\n"
 "At [Company Name], we refer to this initiative as \"[Internal Name for InnerSource (e.g., InnerSource, Internal Source Code Sharing Initiative)].\""
 msgstr ""
-"內源（InnerSource）指的是把開放原始碼所累積的開發方法與實踐做法，導入公司內部軟體開發的一種取徑。\n"
+"內源 (InnerSource) 指的是把開放原始碼所累積的開發方法與實踐做法，導入公司內部軟體開發的一種取徑。\n"
 "[公司名稱] 把這項作為稱為「[內源的公司內部稱法（例如：內源、原始碼公司內部公開活動）]」。"
 
 #. type: 段落
@@ -797,7 +797,7 @@ msgid ""
 "Open source culture is not just a technical skill; it is an organizational capability shaping workflows and decision-making processes.\n"
 "Simply releasing code publicly does not guarantee open source success. Without core values like **transparency, collaboration, and continuous improvement** deeply rooted in the organization, open source benefits remain unrealized, and public releases may introduce organizational risk."
 msgstr ""
-"開放原始碼文化不只是技術技能，也是牽涉組織工作方式與決策流程的「文化能力（cultural capability）」。\n"
+"開放原始碼文化不只是技術技能，也是牽涉組織工作方式與決策流程的「文化能力 (cultural capability)」。\n"
 "並不是「只要公開程式碼，開放原始碼就會成功」；若**透明、協作、持續改善**這些價值觀沒有在組織中扎根，就無法獲得開放原始碼的真正效益，發佈開放原始碼甚至可能對組織構成風險。"
 
 #. type: 段落
@@ -1045,7 +1045,7 @@ msgstr ""
 #. type: 段落
 #: operation-templates/about/innersource.md:34
 msgid "For case studies and patterns, consult the [InnerSource Commons Foundation](https://innersourcecommons.org/) and [InnerSource Patterns](https://patterns.innersourcecommons.org/)."
-msgstr "關於案例與成功實例，請參閱 [InnerSource Commons Foundation](https://innersourcecommons.org/)；更具體的實踐做法則可參考[內源模式（InnerSource Patterns）](https://patterns.innersourcecommons.org/)。"
+msgstr "關於案例與成功實例，請參閱 [InnerSource Commons Foundation](https://innersourcecommons.org/)；更具體的實踐做法則可參考[內源模式 (InnerSource Patterns)](https://patterns.innersourcecommons.org/)。"
 
 #. type: 清單
 #: operation-templates/about/innersource.md:38
@@ -1241,7 +1241,7 @@ msgstr "# 什麼是 OSPO？"
 #. type: 段落
 #: operation-templates/about/ospo.md:3
 msgid "An Open Source Program Office (OSPO) is an organizational framework designed to drive the strategic utilization of and healthy contribution to open source software (OSS). Organizational structures and focus areas vary across enterprises; at [Company Name], the OSPO functions as **[Company OSPO Positioning and Priority Areas]**."
-msgstr "開放原始碼專案辦公室（英文：Open Source Program Office，OSPO）指的是在組織中推動開放原始碼軟體（OSS）策略性運用與健全貢獻的架構。其組織型態、定位與活動內容因組織而異；在 [公司名稱]，OSPO 的功能定位為 **[自家公司 OSPO 的定位與重點領域]**。"
+msgstr "開放原始碼專案辦公室（英文：Open Source Program Office，OSPO）指的是在組織中推動開放原始碼軟體 (OSS) 策略性運用與健全貢獻的架構。其組織型態、定位與活動內容因組織而異；在 [公司名稱]，OSPO 的功能定位為 **[自家公司 OSPO 的定位與重點領域]**。"
 
 #. type: 段落
 #: operation-templates/about/ospo.md:4
@@ -1268,7 +1268,7 @@ msgstr ""
 #. type: 段落
 #: operation-templates/about/ospo.md:6
 msgid "At [Company Name], the OSPO operates as a **[Operating Model (e.g., Virtual Team (V-Team) Model)]** led by **[Lead Department Name]**, bringing together members from **[Partner Dept 1 (e.g., Legal)]**, **[Partner Dept 2 (e.g., Security)]**, and **[Partner Dept 3 (e.g., Engineering)]**."
-msgstr "在 [公司名稱]，OSPO 以 **[統籌部門名稱]** 為核心，並由 **[相關部門 1（例如：法務部門）]**、**[相關部門 2（例如：資訊安全團隊）]**、**[相關部門 3（例如：工程部門）]** 派員組成，以 **[運作型態（例如：V 團隊（Virtual Team）模式）]** 運作。"
+msgstr "在 [公司名稱]，OSPO 以 **[統籌部門名稱]** 為核心，並由 **[相關部門 1（例如：法務部門）]**、**[相關部門 2（例如：資訊安全團隊）]**、**[相關部門 3（例如：工程部門）]** 派員組成，以 **[運作型態（例如：V 團隊 (Virtual Team) 模式）]** 運作。"
 
 #. type: 段落
 #: operation-templates/about/ospo.md:7

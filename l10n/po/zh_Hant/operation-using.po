@@ -168,7 +168,7 @@ msgstr ""
 "**效能與穩定性**\n"
 "確認在預期使用條件下的運作。\n"
 "請測量回應時間、記憶體使用量、CPU 負載等，評估是否滿足要求的效能基準。\n"
-"此外，也請在可行範圍內確認長時間運行與錯誤條件下的行為。"
+"此外，也請在可行範圍內確認長時間執行與錯誤條件下的行為。"
 
 #. type: 段落
 #: operation-templates/using/evaluation.md:16
@@ -209,7 +209,7 @@ msgid ""
 "Search CVE databases for historical vulnerability records, evaluating maintainer patch velocity and disclosure transparency. Response speed matters more than historical vulnerability counts."
 msgstr ""
 "**確認弱點歷史**\n"
-"請在 CVE（Common Vulnerabilities and Exposures）資料庫中搜尋已知弱點，並確認它們是如何被處理的。\n"
+"請在 CVE (Common Vulnerabilities and Exposures) 資料庫中搜尋已知弱點，並確認它們是如何被處理的。\n"
 "比弱點本身的存在更重要的評估重點，是從發現到修正的速度以及處理的透明度。"
 
 #. type: 段落
@@ -344,7 +344,7 @@ msgstr "2. 盲信最新版本"
 msgid "    Latest releases may introduce unvetted bugs or breaking API changes. Prefer Long-Term Support (LTS) or stable releases for production environments."
 msgstr ""
 "    最新版本未必最好。它一方面包含新功能與改善，另一方面也可能包含新的錯誤與相容性問題。\n"
-"    請確認是否有穩定版或 LTS（Long Term Support）版，並依專案需求選擇合適的版本。"
+"    請確認是否有穩定版或 LTS (Long Term Support) 版，並依專案需求選擇合適的版本。"
 
 #. type: 清單
 #: operation-templates/using/evaluation.md:38
@@ -686,7 +686,7 @@ msgid ""
 "Screen candidate projects against CVE database records to evaluate patch velocity for reported vulnerabilities."
 msgstr ""
 "資訊安全評估不只看過去的弱點歷史，也重視對資訊安全事件的應對速度與透明度。\n"
-"請透過搜尋 CVE（Common Vulnerabilities and Exposures）確認已知弱點，並評估對它們的處理速度。"
+"請透過搜尋 CVE (Common Vulnerabilities and Exposures) 確認已知弱點，並評估對它們的處理速度。"
 
 #. type: 段落
 #: operation-templates/using/finding-oss.md:22
@@ -885,9 +885,9 @@ msgid ""
 "- [ ] Provided direct links to internal component management systems if available."
 msgstr ""
 "- [ ] 已決定是否製作與公開這份清單的方針\n"
-"- [ ] 已決定清單的管理方式（公司內部公開管理、元件台帳系統等）\n"
+"- [ ] 已決定清單的管理方式（公司內部公開管理、元件清冊系統等）\n"
 "- [ ] 已建立清單的更新與維護流程\n"
-"- [ ] 若已有公司內部元件台帳系統，已寫出導向該系統的說明"
+"- [ ] 若已有公司內部元件清冊系統，已寫出導向該系統的說明"
 
 #. type: 註解
 #: operation-templates/using/oss-inventory.md:8
@@ -922,7 +922,7 @@ msgstr ""
 "如「使用 OSS」中「開放原始碼運用的基本流程」指南所述，要不要製作這份清單取決於企業方針。\n"
 "在公司內部管理清單有強化 OSS 使用治理、提升開發者便利性的效果。\n"
 "另一方面，也有造成「清單上沒有的 OSS 就不能使用」這種誤解的風險。\n"
-"若已有公司內部的元件台帳系統，也請考慮導向該系統。\n"
+"若已有公司內部的元件清冊系統，也請考慮導向該系統。\n"
 "請在評估清單維護管理的負擔與好處之間的平衡後再判斷。\n"
 "\n"
 "########################################################################################\n"
@@ -940,7 +940,7 @@ msgid ""
 "Procuring software containing open source software (OSS) from third-party suppliers requires structured management workflows.\n"
 "Unmanaged supplier OSS usage risks introducing severe post-delivery compliance violations and security vulnerabilities, jeopardizing project success."
 msgstr ""
-"從供應商採購軟體時，若該軟體含有開放原始碼軟體（OSS），就需要適切的管理流程。\n"
+"從供應商採購軟體時，若該軟體含有開放原始碼軟體 (OSS)，就需要適切的管理流程。\n"
 "若供應商對所使用 OSS 的選用與授權管理不當，交付後才發現重大合規問題或資訊安全風險，就可能對整個專案造成嚴重影響。"
 
 #. type: 段落
@@ -1363,7 +1363,7 @@ msgstr ""
 #. type: 段落
 #: operation-templates/using/supplier-procurement.md:67
 msgid "**Minor Issues (Remediated via Technical Alignment)**"
-msgstr "**輕微問題（可透過協議與調整處理）**"
+msgstr "**輕微問題（可透過協商與調整處理）**"
 
 #. type: 清單
 #: operation-templates/using/supplier-procurement.md:68
@@ -1396,7 +1396,7 @@ msgid ""
 msgstr ""
 "- **向供應商指出問題並要求說明**：明確傳達問題內容，要求說明狀況\n"
 "- **要求更正措施**：提出具體的更正內容（更換 OSS、修正弱點、補齊授權資訊等）與期限\n"
-"- **評估替代方案**：若難以更正，協議改用替代 OSS 或變更使用方式\n"
+"- **評估替代方案**：若難以更正，協商改用替代 OSS 或變更使用方式\n"
 "- **驗收判斷**：確認更正措施已執行後，判斷最終是否驗收"
 
 #. type: 段落
@@ -1498,7 +1498,7 @@ msgstr ""
 "考量重點：\n"
 " * 適切設定清單的範圍（是所有 OSS，或只有特定類別）\n"
 " * 建立清單的更新頻率與維護機制\n"
-" * 明確供應商想使用清單外 OSS 時的手續\n"
+" * 明確供應商想使用清單外 OSS 時的流程\n"
 "\n"
 "初期階段只把主要的 OSS 列成清單，再分階段擴充，是比較務實的做法。\n"
 "\n"
@@ -1507,7 +1507,7 @@ msgstr ""
 "標準化提交格式可以讓收到後的分析更有效率。\n"
 "\n"
 "標準化重點：\n"
-" * 評估採用標準的 SBOM（Software Bill of Materials）格式（SPDX、CycloneDX 等）\n"
+" * 評估採用標準的 SBOM (Software Bill of Materials) 格式（SPDX、CycloneDX 等）\n"
 " * 若還沒準備好管理標準 SBOM 格式，可考慮以 Excel/CSV 格式取得\n"
 "\n"
 "也可以考慮依供應商的技術水準與規模，調整所要求資訊的詳細程度。\n"
@@ -1636,7 +1636,7 @@ msgid ""
 "Proper adoption significantly accelerates development velocity and boosts product quality.\n"
 "However, teams must navigate critical considerations around license compliance and security."
 msgstr ""
-"在現代軟體開發中，運用開放原始碼軟體（OSS）不可或缺。\n"
+"在現代軟體開發中，運用開放原始碼軟體 (OSS) 不可或缺。\n"
 "適切運用能大幅提升開發速度與品質。\n"
 "但另一方面，授權合規與資訊安全等需要注意的地方也很多。"
 
@@ -1755,7 +1755,7 @@ msgstr ""
 #: operation-templates/using/using-oss.md:21
 msgid "    Register adopted open source components in the internal component catalog ([Approved Internal OSS Inventory](../using/oss-inventory.md)) to streamline license tracking, security monitoring, and dependency management."
 msgstr ""
-"    此外，導入的開放原始碼軟體請登錄到公司內部的元件台帳（[公司內部已導入 OSS 清單](../using/oss-inventory.md)）。\n"
+"    此外，導入的開放原始碼軟體請登錄到公司內部的元件清冊（[公司內部已導入 OSS 清單](../using/oss-inventory.md)）。\n"
 "    這樣才能有效率地進行授權管理、資訊安全監控與相依性追蹤。"
 
 #. type: 標題
@@ -1845,7 +1845,7 @@ msgid ""
 msgstr ""
 "- **從可信來源下載**：使用官方儲存庫或經認證的套件管理器\n"
 "- **驗證雜湊值**：確認下載檔案的完整性\n"
-"- **掃描已知弱點**：在 CVE（Common Vulnerabilities and Exposures）資料庫中確認\n"
+"- **掃描已知弱點**：在 CVE (Common Vulnerabilities and Exposures) 資料庫中確認\n"
 "- **分析相依性**：包含遞移相依性的完整資訊安全評估"
 
 #. type: 段落

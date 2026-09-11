@@ -11,7 +11,7 @@
   - → [關於開放原始碼](./about/about-opensource.md)
 - 使用 OSS 的好處
   - → [開放原始碼的效益](./about/benefits.md)
-- 在公司內部推動 OSS 活動的組織（OSPO）
+- 在公司內部推動 OSS 活動的組織 (OSPO)
   - → [什麼是 OSPO](./about/ospo.md)
 - 在公司內部活用開放原始碼的做法（內源）
   - → [什麼是內源](./about/innersource.md)
@@ -68,7 +68,7 @@
 ## 出貨、提供前的確認
 
 - 遵守授權條款
-- 隨附文件（LICENSE / NOTICE）
+- 隨附文件 (LICENSE / NOTICE)
 - 確定產出物
 - 記錄出貨物所含 OSS 清單、評估結果與判斷結果
 - 依需要提供原始碼、明示修改處

@@ -18,7 +18,7 @@ msgstr ""
 #. type: 標題
 #: oss-policy-templates/articles/00_preamble.md:1
 msgid "# Article 0. Preamble"
-msgstr "# 第 0 條. 前言"
+msgstr "# 第 0 條 前言"
 
 #. type: 標題
 #: oss-policy-templates/articles/00_preamble.md:2
@@ -43,7 +43,7 @@ msgstr "## 條文範例"
 #. type: 段落
 #: oss-policy-templates/articles/00_preamble.md:3
 msgid "Article 0. Preamble"
-msgstr "第 0 條. 前言"
+msgstr "第 0 條 前言"
 
 #. type: 段落
 #: oss-policy-templates/articles/00_preamble.md:4
@@ -126,12 +126,12 @@ msgstr ""
 #. type: 標題
 #: oss-policy-templates/articles/01_purpose.md:1
 msgid "# Article 1. Purpose"
-msgstr "# 第 1 條. 目的"
+msgstr "# 第 1 條 目的"
 
 #. type: 段落
 #: oss-policy-templates/articles/01_purpose.md:3
 msgid "Article 1. Purpose"
-msgstr "第 1 條. 目的"
+msgstr "第 1 條 目的"
 
 #. type: 清單
 #: oss-policy-templates/articles/01_purpose.md:4
@@ -173,17 +173,17 @@ msgstr ""
 "- 若重視合規，可把 a 款放在最前面；若要推動創新，可把 d 款往前排，以反映自家公司的優先順序。\n"
 "- 可加入「對客戶的說明責任」「持續營運與弱點應對」等符合自家公司需求的目的。若能以補充說明的方式寫出「提升事業價值」的具體樣貌（降低開發成本、加快上市速度等），現場人員會更容易理解。\n"
 "- 即使短期內不打算對社群貢獻或發佈 OSS，建議仍將這些目的保留為未來的選項，改以運作方式加以限制。\n"
-"- 不要把目的（Why）與手段（How）混在一起，程序細節請交由 OSS 營運指南規定。"
+"- 不要把目的 (Why) 與手段 (How) 混在一起，程序細節請交由 OSS 營運指南規定。"
 
 #. type: 標題
 #: oss-policy-templates/articles/02_definitions.md:1
 msgid "# Article 2. Definitions"
-msgstr "# 第 2 條. 用語定義"
+msgstr "# 第 2 條 用語定義"
 
 #. type: 段落
 #: oss-policy-templates/articles/02_definitions.md:3
 msgid "Article 2. Definitions"
-msgstr "第 2 條. 用語定義"
+msgstr "第 2 條 用語定義"
 
 #. type: 段落
 #: oss-policy-templates/articles/02_definitions.md:4
@@ -228,19 +228,19 @@ msgid ""
 msgstr ""
 "- 若尚未設置 OSPO，可改寫成「承辦部門／委員會」，重點在於明確角色而非名稱。\n"
 "- 貢獻的範圍（只含程式碼，或也包含文件、翻譯、測試）請在程序負擔與管理完整性之間權衡決定。\n"
-"- 建議在 OSS 營運指南中補充說明 CLA 與 DCO（Developer Certificate of Origin）的使用時機差異。\n"
+"- 建議在 OSS 營運指南中補充說明 CLA 與 DCO (Developer Certificate of Origin) 的使用時機差異。\n"
 "- 可依自家公司的產出物增加用語，但不要讓定義過度膨脹，請優先處理容易直接引發授權違規等問題的用語。\n"
 "- 若能註明本條用語與既有公司規範所用同義詞之間的對應關係會更好。"
 
 #. type: 標題
 #: oss-policy-templates/articles/03_scope.md:1
 msgid "# Article 3. Scope of Application"
-msgstr "# 第 3 條. 適用範圍"
+msgstr "# 第 3 條 適用範圍"
 
 #. type: 段落
 #: oss-policy-templates/articles/03_scope.md:3
 msgid "Article 3. Scope of Application"
-msgstr "第 3 條. 適用範圍"
+msgstr "第 3 條 適用範圍"
 
 #. type: 清單
 #: oss-policy-templates/articles/03_scope.md:4
@@ -285,12 +285,12 @@ msgstr ""
 #. type: 標題
 #: oss-policy-templates/articles/04_ospo.md:1
 msgid "# Article 4. OSPO"
-msgstr "# 第 4 條. OSPO"
+msgstr "# 第 4 條 OSPO"
 
 #. type: 段落
 #: oss-policy-templates/articles/04_ospo.md:3
 msgid "Article 4. OSPO"
-msgstr "第 4 條. OSPO"
+msgstr "第 4 條 OSPO"
 
 #. type: 清單
 #: oss-policy-templates/articles/04_ospo.md:4
@@ -339,12 +339,12 @@ msgstr ""
 #. type: 標題
 #: oss-policy-templates/articles/05_oss_usage.md:1
 msgid "# Article 5. OSS Usage"
-msgstr "# 第 5 條. OSS 的使用"
+msgstr "# 第 5 條 OSS 的使用"
 
 #. type: 段落
 #: oss-policy-templates/articles/05_oss_usage.md:3
 msgid "Article 5. OSS Usage"
-msgstr "第 5 條. OSS 的使用"
+msgstr "第 5 條 OSS 的使用"
 
 #. type: 清單
 #: oss-policy-templates/articles/05_oss_usage.md:4
@@ -366,7 +366,7 @@ msgstr ""
 "  c. 是否存在弱點、程式錯誤等品質問題，以及維護狀況\n"
 "  d. 侵害含專利權等智慧財產權在內之他方權利的可能性，以及與出口管制、隱私及其他法令的關係\n"
 "  e. 對本公司專利權等智慧財產權的影響（是否需要提出本公司專利申請、本公司專利權等權利的行使是否可能受限等）\n"
-"3. 為妥善管理 OSS 的使用狀況，員工應遵循軟體物料清單（SBOM）建置等另行訂定的管理方式，主管部門則應支援其執行。\n"
+"3. 為妥善管理 OSS 的使用狀況，員工應遵循軟體物料清單 (SBOM) 建置等另行訂定的管理方式，主管部門則應支援其執行。\n"
 "4. 相關部門使用 OSS 時，除依授權條件在產品文件等處標示著作權、記載免責條款、隨附或提及授權文件之外，並應依需要提供原始碼、明示修改處等，遵守該授權條款所訂的所有條件。"
 
 #. type: 段落
@@ -387,12 +387,12 @@ msgstr "- 若能把授權條款分成允許、需確認、禁止使用三個層�
 #. type: 標題
 #: oss-policy-templates/articles/06_contribution.md:1
 msgid "# Article 6. Contribution to OSS Projects"
-msgstr "# 【第 6 條. 對 OSS 專案的貢獻】"
+msgstr "# 【第 6 條 對 OSS 專案的貢獻】"
 
 #. type: 段落
 #: oss-policy-templates/articles/06_contribution.md:3
 msgid "[Article 6. Contribution to OSS Projects"
-msgstr "【第 6 條. 對 OSS 專案的貢獻"
+msgstr "【第 6 條 對 OSS 專案的貢獻"
 
 #. type: 清單
 #: oss-policy-templates/articles/06_contribution.md:4
@@ -441,12 +441,12 @@ msgstr ""
 #. type: 標題
 #: oss-policy-templates/articles/07_oss_release.md:1
 msgid "# Article 7. Releasing Company Works as OSS"
-msgstr "# 【第 7 條. 本公司著作以 OSS 形式發佈】"
+msgstr "# 【第 7 條 本公司著作以 OSS 形式發佈】"
 
 #. type: 段落
 #: oss-policy-templates/articles/07_oss_release.md:3
 msgid "[Article 7. Releasing Company Works as OSS"
-msgstr "【第 7 條. 本公司著作以 OSS 形式發佈"
+msgstr "【第 7 條 本公司著作以 OSS 形式發佈"
 
 #. type: 清單
 #: oss-policy-templates/articles/07_oss_release.md:4
@@ -507,12 +507,12 @@ msgstr ""
 #. type: 標題
 #: oss-policy-templates/articles/08_personal_oss_activity.md:1
 msgid "# Article 8. Employees' Personal OSS Activities"
-msgstr "# 第 8 條. 員工的個人 OSS 活動"
+msgstr "# 第 8 條 員工的個人 OSS 活動"
 
 #. type: 段落
 #: oss-policy-templates/articles/08_personal_oss_activity.md:3
 msgid "Article 8. Employees' Personal OSS Activities"
-msgstr "第 8 條. 員工的個人 OSS 活動"
+msgstr "第 8 條 員工的個人 OSS 活動"
 
 #. type: 清單
 #: oss-policy-templates/articles/08_personal_oss_activity.md:4
@@ -541,12 +541,12 @@ msgstr ""
 #. type: 標題
 #: oss-policy-templates/articles/09_trademark_and_brand.md:1
 msgid "# Article 9. Handling of Trademarks and Branding"
-msgstr "# 第 9 條. 商標與品牌的處理"
+msgstr "# 第 9 條 商標與品牌的處理"
 
 #. type: 段落
 #: oss-policy-templates/articles/09_trademark_and_brand.md:3
 msgid "Article 9. Handling of Trademarks and Branding"
-msgstr "第 9 條. 商標與品牌的處理"
+msgstr "第 9 條 商標與品牌的處理"
 
 #. type: 清單
 #: oss-policy-templates/articles/09_trademark_and_brand.md:4
@@ -579,12 +579,12 @@ msgstr ""
 #. type: 標題
 #: oss-policy-templates/articles/10_license_violation_incident.md:1
 msgid "# Article 10. Response to License Violations and Incidents"
-msgstr "# 第 10 條. 授權違規與事件的應對"
+msgstr "# 第 10 條 授權違規與事件的應對"
 
 #. type: 段落
 #: oss-policy-templates/articles/10_license_violation_incident.md:3
 msgid "Article 10. Response to License Violations and Incidents"
-msgstr "第 10 條. 授權違規與事件的應對"
+msgstr "第 10 條 授權違規與事件的應對"
 
 #. type: 清單
 #: oss-policy-templates/articles/10_license_violation_incident.md:4
@@ -619,12 +619,12 @@ msgstr ""
 #. type: 標題
 #: oss-policy-templates/articles/11_security_and_vulnerability.md:1
 msgid "# Article 11. Security and Vulnerability Management"
-msgstr "# 第 11 條. 資訊安全與弱點應對"
+msgstr "# 第 11 條 資訊安全與弱點應對"
 
 #. type: 段落
 #: oss-policy-templates/articles/11_security_and_vulnerability.md:3
 msgid "Article 11. Security and Vulnerability Management"
-msgstr "第 11 條. 資訊安全與弱點應對"
+msgstr "第 11 條 資訊安全與弱點應對"
 
 #. type: 清單
 #: oss-policy-templates/articles/11_security_and_vulnerability.md:4
@@ -658,17 +658,17 @@ msgstr ""
 "- 請整合進 CSIRT／PSIRT 等既有流程，避免雙重管理。採用 CVSS 等標準的嚴重程度評估基準，並訂出對應嚴重程度的處理時程（例如：Critical 須於 X 小時內開始評估）。\n"
 "- 標準化影響判定的基準（嚴重程度、可達性、有無替代方案等），並準備緩解措施目錄（變更設定、停用功能等），加快初期應對。\n"
 "- 若公司有發佈 OSS，請標準化 SECURITY.md 範本並套用到所有專案。回報對象建議使用資訊安全團隊的共用信箱。\n"
-"- 請訂出符合協同弱點揭露（CVD）流程的應對程序，並將處理歷程留存於第 13 條的紀錄中，供稽核與檢視之用。"
+"- 請訂出符合協同弱點揭露 (CVD) 流程的應對程序，並將處理歷程留存於第 13 條的紀錄中，供稽核與檢視之用。"
 
 #. type: 標題
 #: oss-policy-templates/articles/12_records_and_reporting.md:1
 msgid "# Article 12. Records and Reporting"
-msgstr "# 第 12 條. 紀錄與報告"
+msgstr "# 第 12 條 紀錄與報告"
 
 #. type: 段落
 #: oss-policy-templates/articles/12_records_and_reporting.md:3
 msgid "Article 12. Records and Reporting"
-msgstr "第 12 條. 紀錄與報告"
+msgstr "第 12 條 紀錄與報告"
 
 #. type: 清單
 #: oss-policy-templates/articles/12_records_and_reporting.md:4
@@ -713,12 +713,12 @@ msgstr ""
 #. type: 標題
 #: oss-policy-templates/articles/13_education_and_awareness.md:1
 msgid "# Article 13. Education and Awareness"
-msgstr "# 第 13 條. 教育與宣導"
+msgstr "# 第 13 條 教育與宣導"
 
 #. type: 段落
 #: oss-policy-templates/articles/13_education_and_awareness.md:3
 msgid "Article 13. Education and Awareness"
-msgstr "第 13 條. 教育與宣導"
+msgstr "第 13 條 教育與宣導"
 
 #. type: 清單
 #: oss-policy-templates/articles/13_education_and_awareness.md:4
@@ -743,7 +743,7 @@ msgid ""
 "- Enhance retention by teaching through concrete failure examples and DOs/DON'Ts case studies.\n"
 "- Link attendance rates with Article 12 record-keeping to drive continuous program improvement."
 msgstr ""
-"- 以數位學習（e-learning）為基礎，再對有意願者提供更深入的訓練，是較有效率的做法。與外部講師或 OSS 社群合作也很有效。\n"
+"- 以數位學習 (e-learning) 為基礎，再對有意願者提供更深入的訓練，是較有效率的做法。與外部講師或 OSS 社群合作也很有效。\n"
 "- 依對象設計課程深度，例如：開發者提供授權遵循實務與工具使用方式，管理職提供風險管理與決策觀點，法務提供 OSS 授權條款的法律解釋，採購與委外管理人員提供 OSS 申報與 SBOM 要求的做法。\n"
 "- 以事故案例與可行／不可行的實例具體教學，能加深理解。\n"
 "- 請將受訓率等資料與第 13 條的紀錄連動，持續進行改善。"
@@ -751,12 +751,12 @@ msgstr ""
 #. type: 標題
 #: oss-policy-templates/articles/14_employment_rules_relation.md:1
 msgid "# Article 14. Relation to Employment Regulations"
-msgstr "# 第 14 條. 與工作規則等的關係"
+msgstr "# 第 14 條 與工作規則等的關係"
 
 #. type: 段落
 #: oss-policy-templates/articles/14_employment_rules_relation.md:3
 msgid "Article 14. Relation to Employment Regulations"
-msgstr "第 14 條. 與工作規則等的關係"
+msgstr "第 14 條 與工作規則等的關係"
 
 #. type: 清單
 #: oss-policy-templates/articles/14_employment_rules_relation.md:4
@@ -785,12 +785,12 @@ msgstr ""
 #. type: 標題
 #: oss-policy-templates/articles/15_revision_and_enforcement.md:1
 msgid "# Article 15. Revision and Enforcement"
-msgstr "# 第 15 條. 修訂與施行"
+msgstr "# 第 15 條 修訂與施行"
 
 #. type: 段落
 #: oss-policy-templates/articles/15_revision_and_enforcement.md:3
 msgid "Article 15. Revision and Enforcement"
-msgstr "第 15 條. 修訂與施行"
+msgstr "第 15 條 修訂與施行"
 
 #. type: 清單
 #: oss-policy-templates/articles/15_revision_and_enforcement.md:4

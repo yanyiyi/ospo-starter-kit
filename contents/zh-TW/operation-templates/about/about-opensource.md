@@ -26,7 +26,7 @@
 
 ## 開放原始碼的本質是什麼？
 
-開放原始碼軟體（英文：Free and Open Source Software，縮寫：OSS）指的是，經其開發者許可可以自由使用、修改與散布的軟體。[Open Source Initiative（OSI）](https://opensource.org/) 將其定義為符合「[開放原始碼定義](https://opensource.org/osd)」（Open Source Definition, OSD）條件的授權條款，以及適用該授權條款的軟體。OSD 訂有再散布的自由、可取得原始碼、允許衍生作品等 10 項要求。這樣聽起來容易被理解為「可以免費使用的軟體」，但「free（免費）」與「free（自由）」是不同的概念。
+開放原始碼軟體（英文：Free and Open Source Software，縮寫：OSS）指的是，經其開發者許可可以自由使用、修改與散布的軟體。[Open Source Initiative (OSI)](https://opensource.org/) 將其定義為符合「[開放原始碼定義](https://opensource.org/osd)」(Open Source Definition, OSD) 條件的授權條款，以及適用該授權條款的軟體。OSD 訂有再散布的自由、可取得原始碼、允許衍生作品等 10 項要求。這樣聽起來容易被理解為「可以免費使用的軟體」，但「free（免費）」與「free（自由）」是不同的概念。
 
 開放原始碼授權條款就是把這份自由明文化並授權給使用者的機制。
 MIT、Apache、GPL 等各式授權條款並存，各自訂有不同的權利授予與條件，但在賦予自由這一點上是共通的。
